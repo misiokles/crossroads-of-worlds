@@ -1,0 +1,43 @@
+{
+	"daenerys" :
+	{
+		"class" : "archduke",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/daenerys/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/daenerys/spec-large.bmp",
+			"large" : "tenebrae/heroes/daenerys/portrait-large.bmp",
+			"small" : "tenebrae/heroes/daenerys/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Daenerys",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Young Dragons and Alpha Dragons}\r\n\r\nIncreases Speed of any Young Dragons or Alpha Dragons by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Young Dragons",
+				"name" : "Young Dragons"
+			}
+		},
+		"spellbook" :
+		[
+			"haste"
+		],
+		"specialty" : {
+			"creature" : "tenlv3"
+		}		
+	}
+}

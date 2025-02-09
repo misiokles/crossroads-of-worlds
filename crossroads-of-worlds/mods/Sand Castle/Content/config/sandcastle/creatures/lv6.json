@@ -1,0 +1,61 @@
+{
+	"salv6":
+	{
+		"name" :
+		{
+			"plural" : "Cavaliers",
+			"singular" : "Cavalier"
+		},
+		"faction" : "sandcastle",
+		"upgrades": ["salv6up"],
+		"level" : 6,
+		"attack" : 15,
+		"doubleWide" : true,		
+		"defense" : 15,
+		"damage" :
+		{
+			 "min" : 15,
+			 "max" : 25
+		},
+		"growth" : 2,
+		"hitPoints" : 100,
+		"speed" : 7,
+		"fightValue" : 1133,
+		"aiValue" : 1260,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"graphics" :
+		{
+			"animation" : "sandcastle/creatures/battle/lv6.def",
+			"map" : "sandcastle/creatures/map/lv6map.def",
+			"iconSmall" : "sandcastle/creatures/iconsSmall/lv6s.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/lv6b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "CAVAATTK.wav",
+			"defend": "CAVADFND.wav",
+			"killed": "CAVAKILL.wav",
+			"move": "CAVAMOVE.wav",
+			"wince": "CAVAWNCE.wav"
+		},
+		"abilities" :
+		{
+		     "justing" :
+			{
+                "type" : "JOUSTING"
+			}
+		}
+	}
+}
+
+

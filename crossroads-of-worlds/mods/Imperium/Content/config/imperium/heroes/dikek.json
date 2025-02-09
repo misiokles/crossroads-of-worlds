@@ -1,0 +1,43 @@
+{
+	"dikek" :
+	{
+		"class" : "baron",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "imperium/heroes/dikek/spec-small.bmp",
+			"specialtyLarge" : "imperium/heroes/dikek/spec-large.bmp",
+			"large" : "imperium/heroes/dikek/portrait-large.bmp",
+			"small" : "imperium/heroes/dikek/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "itlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "itlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "itlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Dikek",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Imperial Shooters and Imperial Crossbowmans}\r\n\r\nIncreases the Attack and Defence of any Imperial Crossbowmans and Imperial Crossbowmans each level attained after 2th level.",
+				"tooltip" : "Creature Bonus: Imperial Shooters",
+				"name" : "Imperial Shooters"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "itlv2"
+		}		
+	}
+}

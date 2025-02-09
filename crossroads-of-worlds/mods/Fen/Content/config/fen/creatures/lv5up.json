@@ -1,0 +1,96 @@
+{
+	"felv5up":
+	{
+		"name" :
+		{
+			"plural" : "Edifiers",
+			"singular" : "Edifier"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"faction" : "fen",
+        "level" : 5,
+		"attack" : 12,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 12
+		},
+		"growth" : 3,
+		"hitPoints" : 40,
+		"speed" : 7,
+		"shots" : 24,
+		"fightValue" : 1064,
+		"aiValue" : 1185,
+		"cost" :
+		{
+			"gold" : 450
+		},
+		"graphics" :
+		{
+			"animation" : "fen/creatures/battle/lv5up.def",
+			"map" : "fen/creatures/map/lv5upmap.def",
+			"iconSmall" : "fen/creatures/iconsSmall/lv5ups.bmp",
+			"iconLarge" : "fen/creatures/iconsBig/lv5upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+               },
+		"abilities" :
+		{
+			
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+            },
+		      "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+		"immunity" :
+            {
+               "type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 100
+			}
+		}	
+	}
+}
+
+

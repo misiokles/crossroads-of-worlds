@@ -1,0 +1,88 @@
+{
+	"relv5up":
+	{
+		"name" :
+		{
+			"plural" : "Fanatics",
+			"singular" : "Fanatic"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"faction" : "scourge",
+        "level" : 5,
+		"attack" : 12,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 12
+		},
+		"growth" : 3,
+		"hitPoints" : 30,
+		"speed" : 7,
+		"shots" : 24,
+		"fightValue" : 1064,
+		"aiValue" : 1185,
+		"cost" :
+		{
+			"gold" : 450,
+		},
+		"graphics" :
+		{
+			"animation" : "scourge/creatures/battle/lv5up.def",
+			"map" : "scourge/creatures/map/lv5upmap.def",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv5ups.bmp",
+			"iconLarge" : "scourge/creatures/iconsBig/lv5upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "CPRGOGX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+         },
+	"abilities" :
+		{
+			 
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+		"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 50,
+				"addInfo" : [0,2]
+			}
+		}	
+	}
+}
+

@@ -1,0 +1,74 @@
+{
+	"tenlv6up":
+	{
+		"name" :
+		{
+			"plural" : "Heavy Knights",
+			"singular" : "Heavy Knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 5
+		},
+		"faction" : "tenebrae",
+		"upgrades": ["tenlv6up2"],
+		"aiValue" : 1261,
+		"attack" : 16,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1200
+		},
+		"damage" :
+		{
+			 "max" : 25,
+			 "min" : 20
+		},
+		"defense" : 16,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animation" : "tenebrae/creatures/battle/lv6up.def",
+			"map" : "tenebrae/creatures/map/lv6upmap.def",
+			"iconSmall" : "tenebrae/creatures/iconsSmall/lv6ups.bmp",
+			"iconLarge" : "tenebrae/creatures/iconsBig/lv6upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		},
+		"speed" :9,
+		"abilities" :
+		{
+			"fearless" : 
+			{
+				"type" : "FEARLESS"
+			},
+		    "justing" :
+			{
+                  "type" : "JOUSTING",
+			}
+		}	
+	}
+}
+
+
+
+

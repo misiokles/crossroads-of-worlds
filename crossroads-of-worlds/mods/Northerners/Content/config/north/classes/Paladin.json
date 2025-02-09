@@ -1,0 +1,90 @@
+{
+	"ntPaladin" :
+	{
+		"faction" : "north",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "north/battle/CH22.def",
+				"male"   : "north/battle/CH22.def"
+			},
+		},
+		"mapObject" : {
+			"templates" : {
+				
+				"female" : { "animation" : "north/map/AH22_.def" },
+                                "male" : { "animation" : "north/map/AH22_.def" }
+			}
+		},
+		"name" : "Paladin",
+		"affinity" : "might",
+	    "commander" : "ntKnight",
+		"primarySkills" :
+		{
+			"attack"     : 2,
+			"defence"    : 2,
+			"spellpower" : 1,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 40,
+			"defence"    : 20,
+			"spellpower" : 30,
+			"knowledge"  : 10
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 20,
+			"spellpower" : 30,
+			"knowledge"  : 20
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 8,
+			"archery"      : 7,
+			"logistics"    : 8,
+			"scouting"     : 7,
+			"diplomacy"    : 1,
+			"navigation"   : 8,
+			"leadership"   : 5,
+			"wisdom"       : 2,
+			"mysticism"    : 2,
+			"luck"         : 2,
+			"ballistics"   : 7,
+			"eagleEye"     : 1,
+			"necromancy"   : 0,
+			"estates"      : 1,
+			"fireMagic"    : 0,
+			"airMagic"     : 1,
+			"waterMagic"   : 2,
+			"earthMagic"   : 3,
+			"scholar"      : 1,
+			"tactics"      : 6,
+			"artillery"    : 8,
+			"learning"     : 4,
+			"offence"      : 5,
+			"armorer"      : 10,
+			"intelligence" : 1,
+			"sorcery"      : 1,
+			"resistance"   : 5,
+			"firstAid"     : 6
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 4,
+			"rampart"    : 4,
+			"tower"      : 4,
+			"inferno"    : 0,
+			"necropolis" : 4,
+			"dungeon"    : 4,
+			"stronghold" : 4,
+			"fortress"   : 4,
+			"conflux"    : 4,
+			"north" : 6
+		}
+	}
+}

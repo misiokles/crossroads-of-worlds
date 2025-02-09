@@ -1,0 +1,90 @@
+{
+	"ntMentor" :
+	{
+		"faction" : "north",
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "north/battle/CH23.def",
+				"male"   : "north/battle/CH23.def"
+			},
+		},
+		"mapObject" : {
+			"templates" : {
+				
+				"female" : { "animation" : "north/map/AH23_.def" },
+                                "male" : { "animation" : "north/map/AH23_.def" }
+			}
+		},
+		"name" : "Mentor",
+		"affinity" : "magic",
+	    "commander" : "ntKnight",
+		"primarySkills" :
+		{
+			"attack"     : 1,
+			"defence"    : 0,
+			"spellpower" : 2,
+			"knowledge"  : 2
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 10,
+			"spellpower" : 40,
+			"knowledge"  : 20
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 25,
+			"defence"    : 25,
+			"spellpower" : 25,
+			"knowledge"  : 25
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 2,
+			"archery"      : 3,
+			"logistics"    : 3,
+			"scouting"     : 2,
+			"diplomacy"    : 2,
+			"navigation"   : 6,
+			"leadership"   : 1,
+			"wisdom"       : 8,
+			"mysticism"    : 8,
+			"luck"         : 4,
+			"ballistics"   : 8,
+			"eagleEye"     : 10,
+			"necromancy"   : 0,
+			"estates"      : 1,
+			"fireMagic"    : 3,
+			"airMagic"     : 3,
+			"waterMagic"   : 3,
+			"earthMagic"   : 3,
+			"scholar"      : 7,
+			"tactics"      : 1,
+			"artillery"    : 1,
+			"learning"     : 4,
+			"offence"      : 2,
+			"armorer"      : 4,
+			"intelligence" : 7,
+			"sorcery"      : 8,
+			"resistance"   : 0,
+			"firstAid"     : 8
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 4,
+			"rampart"    : 4,
+			"tower"      : 4,
+			"inferno"    : 0,
+			"necropolis" : 4,
+			"dungeon"    : 4,
+			"stronghold" : 4,
+			"fortress"   : 4,
+			"conflux"    : 4,
+			"north" : 6
+		}
+	}
+}

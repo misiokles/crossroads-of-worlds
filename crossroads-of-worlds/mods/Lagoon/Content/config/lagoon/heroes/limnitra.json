@@ -1,0 +1,48 @@
+{
+	"limnitra" :
+	{
+		"class" : "ouRegent",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "lagoon/heroes/limnitra/spec-small.bmp",
+			"specialtyLarge" : "lagoon/heroes/limnitra/spec-large.bmp",
+			"large" : "lagoon/heroes/limnitra/portrait-large.bmp",
+			"small" : "lagoon/heroes/limnitra/portrait-small.bmp"
+		},
+               "army" :
+		[
+			{ "creature" : "lalv1", "min" : 9, "max" : 15 },
+			{ "creature" : "lalv2", "min" :  6, "max" :  9 },
+			{ "creature" : "lalv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Limnitra",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "{Archery}\r\n\r\nReceives a 5% per level bonus to luck skill.",
+				"tooltip" : "Secondary Skill Bonus: Archery",
+				"name" : "Archery"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"archery" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+					}
+			}
+		}
+	}
+}

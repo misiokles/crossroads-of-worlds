@@ -1,0 +1,65 @@
+{
+	"lalv6":
+	{
+		"name" :
+		{
+			"plural" : "Knights",
+			"singular" : "knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "lagoon",
+		"upgrades": ["lalv6up"],
+		"aiValue" : 1261,
+		"attack" : 15,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			 "max" : 20,
+			 "min" : 18
+		},
+		"defense" : 15,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "lagoon/creatures/battle/lv6.def",
+			"map" : "lagoon/creatures/map/lv6map.def",
+			"iconSmall" : "lagoon/creatures/iconsSmall/lv6s.bmp",
+			"iconLarge" : "lagoon/creatures/iconsBig/lv6b.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"fearless" :
+                        {
+				"type" : "FEARLESS",
+			},
+                        "JOUSTING" :
+			{
+				"type" : "JOUSTING"
+			}
+		}
+	}
+}

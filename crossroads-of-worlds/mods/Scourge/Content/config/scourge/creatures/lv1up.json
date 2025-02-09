@@ -1,0 +1,73 @@
+{
+	"relv1up":
+	{
+		"name" :
+		{
+			"plural" : "Sentinels",
+			"singular" : "Sentinel"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "scourge",
+		"upgrades": ["relv1up2"],
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 3
+		},
+		"growth" : 15,
+		"hitPoints" : 10,
+		"speed" : 5,
+		"fightValue" : 128,
+		"aiValue" : 136,
+		"cost" :
+		{
+			"gold" : 75
+		},
+		"graphics" :
+		{
+			"animation" : "scourge/creatures/battle/lv1up.def",
+			"map" : "scourge/creatures/map/lv1upmap.def",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv1ups.bmp",
+			"iconLarge" : "scourge/creatures/iconsBig/lv1upb.bmp",
+            "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+               },
+		"abilities":
+		{
+			
+			"cavalryChargeImmunity" :
+			{
+				"type" : "CHARGE_IMMUNITY"
+			},
+			"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 10,
+				"addInfo" : [0,2]
+			}
+		}	
+	}
+}
+
+

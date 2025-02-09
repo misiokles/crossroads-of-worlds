@@ -1,0 +1,24 @@
+{
+	"core:warMachineFactory" : {
+		"types" : {
+			"armoury" : {
+//                "object1" : {              
+				"name" : "Armoury",
+				"creatures" : [[ "ntSnowyTent" ]],
+				"templates" : {
+					"base" : {
+						"animation" : "north/creatures/dwellings/armoury.def",
+                        "visitableFrom" : [ "+++", "+++", "+++" ], 
+						"mask" : [ "VVVV", "VBBV", "BBBB", "VBAB" ]
+					}
+				},
+					"rmg" : {
+						"zoneLimit"    : 5,
+						"value"        : 498,
+						"rarity"    : 98
+					}
+//				}
+			}
+		}		
+	}
+}

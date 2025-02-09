@@ -1,0 +1,23 @@
+{
+	"tenMilitaryCrossbow":
+        {
+	    "type" : ["HERO"],
+	    "warMachine":"tenMilitaryCrossbow",
+        "class": "SPECIAL",
+        "value": 3500,
+        "slot":"MACH1",
+        "text":
+		{
+			"name": "Military Crossbow",
+			"description": "{Military Crossbow}\r\n\r\nThe latest development of scientists for the destruction of enemy units.",
+			"event": "The universal war machine mortira allows you to attack the walls of fortified enemy units."
+		},
+		"graphics":
+		{
+			"image":   "tenebrae/creatures/iconsSmall/artifacts/cross.bmp",
+			"map"  :   "tenebrae/creatures/map/artifacts/avcnbksm.def"
+		}
+	}
+}
+
+

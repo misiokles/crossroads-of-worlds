@@ -1,0 +1,44 @@
+{
+	"noriksius" :
+	{
+		"class" : "unDignitary",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/noriksius/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/noriksius/spec-large.bmp",
+			"large" : "underworld/heroes/noriksius/portrait-large.bmp",
+			"small" : "underworld/heroes/noriksius/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Noriksius",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Cabronide and Royal Cabronides}\r\n\r\nIncreases Speed of any Cabronide or Royal Cabronide by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Cabronide",
+				"name" : "Cabronides"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "unScorpohand1"
+		}		
+	}
+}

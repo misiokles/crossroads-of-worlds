@@ -1,0 +1,182 @@
+{
+	"underworld" :
+	{
+		"alignment" : "neutral",
+		"boat" : "boatCastle",
+		"nativeTerrain" : "subterra",
+		"name" : "Underworld",
+		"creatureBackground" :
+		{
+			"120px" : "underworld/creature-bg-120px.bmp",
+			"130px" : "underworld/creature-bg-130px.bmp"
+		},
+		"town" :
+		{
+			"mapObject" :
+			{
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "underworld/adventure-map/town/town-capitol.def" },
+					"castle" :  { "animation" : "underworld/adventure-map/town/town-castle.def" },
+					"citadel" : { "animation" : "underworld/adventure-map/town/town-citadel.def" },
+					"fort"    : { "animation" : "underworld/adventure-map/town/town-fort.def" },
+					"village" : { "animation" : "underworld/adventure-map/town/town-village.def" }
+					
+				}
+			},
+
+			"musicTheme" : [ "music/factions/underworld" ],
+			"defaultTavern" : 5,
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 2,
+				"druid"        : 2,
+				"alchemist"    : 5,
+				"wizard"       : 5,
+				"demoniac"     : 5,
+				"heretic"      : 5,
+				"deathknight"  : 5,
+				"necromancer"  : 5,
+				"warlock"      : 5,
+				"overlord"     : 5,
+				"barbarian"    : 5,
+				"battlemage"   : 5,
+				"beastmaster"  : 5,
+				"witch"        : 5,
+				"planeswalker" : 5,
+				"elementalist" : 5,
+                "unPrelate"    : 5,
+                "unDignitary"    : 5
+			},
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"guildSpells" : {
+				"airShield" : 2,
+				"antiMagic" : 10,
+				"berserk" : 5,
+				"bless" : 10,
+				"bloodlust" : 5,
+				"chainLightning" : 10,
+				"clone" : 10,
+				"counterstrike" : 5,
+				"cure" : 5,
+				"disguise" : 2,
+				"dispel" : 10,
+				"disruptingRay" : 6,
+				"earthquake" : 8,
+				"fireShield" : 5,
+				"fireWall" : 4,
+				"fireball" : 2,
+				"forceField" : 4,
+				"forgetfulness" : 8,
+				"fortune" : 4,
+				"frenzy" : 5,
+				"frostRing" : 30,
+				"haste" : 10,
+				"hypnotize" : 4,
+				"iceBolt" : 50,
+				"inferno" : 5,
+				"landMine" : 4,
+				"lightningBolt" : 4,
+				"magicArrow" : 30,
+				"meteorShower" : 10,
+				"mirth" : 8,
+				"misfortune" : 4,
+				"prayer" : 10,
+				"precision" : 4,
+				"protectAir" : 2,
+				"protectEarth" : 4,
+				"protectFire" : 3,
+				"protectWater" : 3,
+				"quicksand" : 4,
+				"removeObstacle" : 4,
+				"resurrection" : 5,
+				"scuttleBoat" : 8,
+				"shield" : 3,
+				"slayer" : 5,
+				"slow" : 5,
+				"sorrow" : 5,
+				"stoneSkin" : 5,
+				"summonBoat" : 5,
+				"teleport" : 10,
+				"townPortal" : 10,
+				"viewAir" : 3,
+				"viewEarth" : 3,
+				"visions" : 2,
+				"waterWalk" : 10,
+				"weakness" : 8
+			},
+			"townBackground": "underworld/town-screen/background.bmp",
+			"guildWindow": "underworld/town-screen/mage-guild.bmp",
+			"buildingsIcons": "underworld/town-hall.def",
+			"hallBackground": "TPTHBKCS",
+            "primaryResource" : "sulfur",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern", "special3" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special2" ] ],
+				[ [ "special1" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1", "dwellingUp2Lvl1" ], [ "dwellingLvl2", "dwellingUpLvl2", "dwellingUp2Lvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6", "dwellingUp2Lvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["unSpearman", "unEliteSpearman", "unRoyalSpearman"],
+				["unCrossbowman", "unEliteCrossbowman", "unRoyalCrossbowman"],
+				["unScorpohand1", "unScorpohand2"],
+				["unMedusasCrusader", "unMedusasKnight"],
+				["unEnoch", "unEcclesiastes"],
+				["unCavalry", "unRoyalCavalry", "unGoldenCavalry"],
+				["unDragon1", "unDragon2" ]
+			],
+			"horde" : [ 2, -1 ],
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "underworld/icons/fort-builded-big.bmp",
+						"small" : "underworld/icons/fort-builded-small.bmp"
+					},
+					"normal" : { "large" : "underworld/icons/fort-big.bmp", "small" : "underworld/icons/fort-small.bmp" }
+				},
+				"village" : {
+					"built" : {
+						"large" : "underworld/icons/hall-builded-big.bmp",
+						"small" : "underworld/icons/hall-builded-small.bmp"
+					},
+					"normal" : { "large" : "underworld/icons/hall-big.bmp", "small" : "underworld/icons/hall-small.bmp" }
+				}
+                        },
+			"mageGuild" : 5,
+			"moatAbility" : "castleMoat",
+			"names" : [
+				"Vridfast",
+				"Shuaxpus",
+				"Clamont",
+				"Plucsa",
+				"Craldence",
+				"Streles",
+				"Flando",
+				"Kront",
+				"Areston",
+				"Eahtin",
+				"Shigas",
+				"Folbridge",
+				"Oflarora",
+				"Pigow",
+				"Vairora",
+				"Docks",
+				"Jago",
+				"Vlarc",
+				"Arkgan",
+				"Isongow"
+			]
+		}
+	}
+}
+

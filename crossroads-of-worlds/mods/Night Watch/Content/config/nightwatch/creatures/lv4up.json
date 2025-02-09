@@ -1,0 +1,74 @@
+{
+	"nwlv4up":
+	{
+		"name" :
+		{
+			"plural" : "Dark Paladins",
+			"singular" : "Dark Paladin"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 15,
+			 "min" : 5
+		},
+		"faction" : "nightwatch",
+		"level" : 4,
+		"attack" : 12,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 7,
+			 "max" : 10
+		},
+		"growth" : 5,
+		"hitPoints" : 40,
+		"speed" : 6,
+		"fightValue" : 480,
+		"aiValue" : 505,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"graphics" :
+		{
+			"animation" : "nightwatch/creatures/battle/lv4up.def",
+			"map" : "nightwatch/creatures/map/lv4up.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv4up.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv4up.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"abilities" :
+		{
+                  "curse" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 40,
+				"addInfo" : [0,2]
+			},
+			"shield" :
+			{
+				"type":"GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"val" :25
+			}
+		},
+		"sound" :
+		{
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+		}
+	}
+}
+
+
+

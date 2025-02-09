@@ -1,0 +1,48 @@
+{
+	"uritar" :
+	{
+		"class" : "duke",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/uritar/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/uritar/spec-large.bmp",
+			"large" : "nightwatch/heroes/uritar/portrait-large.bmp",
+			"small" : "nightwatch/heroes/uritar/portrait-small.bmp"
+		},
+               "army" :
+		[
+			{ "creature" : "nwlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "nwlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "nwlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "resistance", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Uritar",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Resistance}\r\n\r\nReceives a 5% per level bonus to Resistance skill.",
+				"tooltip" : "Secondary Skill Bonus: Resistance",
+				"name" : "Resistance"
+			}
+		},
+	
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"type" : "MAGIC_RESISTANCE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

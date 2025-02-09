@@ -1,0 +1,75 @@
+{
+	"nwlv3":
+	{
+		"name" :
+		{
+			"plural" : "Griffins",
+			"singular" : "Griffin"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 18,
+			 "min" : 18
+		},
+		"faction" : "nightwatch",
+		"upgrades": ["nwlv3up"],
+		"hasDoubleWeek": true,
+		"level" : 3,
+		"attack" : 10,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		},
+		"growth" : 7,
+		"hitPoints" : 35,
+		"speed" : 6,
+		"fightValue" : 323,
+		"aiValue" : 343,
+		"horde" : 3,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"graphics" :
+		{
+			"animation" : "nightwatch/creatures/battle/lv3.def",
+			"map" : "nightwatch/creatures/map/lv3.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv3.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv3.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"abilities":
+		{
+			"extraRetaliation" :
+			{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1
+			},
+		       "flying" :
+			{
+				"type" : "FLYING"
+			
+			}
+		},
+		"sound" :
+		{
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "GRIFMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+		}
+	}
+}
+
+
+

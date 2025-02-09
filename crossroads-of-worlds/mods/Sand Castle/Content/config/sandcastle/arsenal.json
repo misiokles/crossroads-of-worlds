@@ -1,0 +1,24 @@
+{
+	"core:warMachineFactory" : {
+		"types" : {
+			"arsenal" : {
+//                "object1" : {              
+				"name" : "Arsenal",
+				"creatures" : [[ "saSiegeCrossbow" ]],
+				"templates" : {
+					"base" : {
+						"animation" : "sandcastle/creatures/dwellings/arsenal.def",
+                        "visitableFrom" : [ "+++", "+++", "+++" ], 
+						"mask" : [ "VVVV", "VBBV", "BBBB", "VBAB" ]
+					}
+				},
+					"rmg" : {
+						"zoneLimit"    : 5,
+						"value"        : 499,
+						"rarity"    : 99
+					}
+//				}
+			}
+		}		
+	}
+}

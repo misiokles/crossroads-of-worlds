@@ -1,0 +1,60 @@
+{
+	"ntSnowyTent":
+	{
+		"name" :
+		{
+			"plural" : "Snowy First Aid Tent",
+			"singular" : "Snowy First Aid Tent"
+		},
+		"faction" : "north",
+		"level": 0,
+		"aiValue" : 2500,
+		"special" : true,
+		"attack" : 0,
+                "cost" :
+		{
+			"gold" : 750
+		},
+		"defense" : 0,
+		"fightValue" : 2500,
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/wm.def",
+			"iconSmall" : "north/creatures/iconsSmall/wm.bmp",
+			"iconLarge" : "north/creatures/iconsBig/wm.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 0,
+		"hitPoints" : 250,
+		"speed" : 0,
+		"abilities" :
+		{
+			
+			"reduceSpellCost" : 
+			{
+				"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+				"val": 2
+			},
+		      "noRetaliation" :
+			{
+				"type" : "NO_RETALIATION"
+			},
+			"warmachine" :
+			{
+				"type" : "SIEGE_WEAPON"
+			},
+            "Healer":
+			{
+				"type" : "HEALER"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,43 @@
+{
+	"smerik" :
+	{
+		"class" : "duke",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/smerik/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/smerik/spec-large.bmp",
+			"large" : "nightwatch/heroes/smerik/portrait-large.bmp",
+			"small" : "nightwatch/heroes/smerik/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "nwlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "nwlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "nwlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Smerik",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Dark Crusaders and Dark Paladins}\r\n\r\nIncreases the Attack Dark Crusaders and Defence of any Dark Paladins for each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Dark Crusaders",
+				"name" : "Dark Crusaders"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "nwlv4"
+		}		
+	}
+}

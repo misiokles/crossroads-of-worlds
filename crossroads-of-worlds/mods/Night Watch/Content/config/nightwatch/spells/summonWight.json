@@ -1,0 +1,79 @@
+{
+	"summonWight":
+	{
+		"type": "combat",
+		"name": "Wight",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level": 3,
+		"power": 10,
+		"defaultGainChance": 4, 
+		"gainChance":
+		{
+			"necropolis": 12
+		},
+		"flags" : 
+		{
+			"indifferent": true
+        }, 
+		"graphics":
+		{
+			"iconBook":   "nightwatch/spells/wight_iconBook",
+			"iconScroll": "nightwatch/spells/wight_iconScroll",
+			"iconScenarioBonus": "nightwatch/spells/wight_iconScenario",
+			"iconEffect": "nightwatch/spells/wight_iconEffect"
+		},
+		"animation":
+		{
+			"cast": ["AnotherSummon/C12SPF0.def"]
+		},
+		"sounds":
+		{
+			"cast": "SUMNELM"
+		},
+		"targetType": "NO_TARGET",
+		"levels": {
+			"base" : 
+			{
+				"description": "{Summon Wight}\r\n\r\nAllows you to summon Wights. Once cast, any other creature can be summoned.",
+				"range": "X",
+				"cost": 15,
+				"aiValue": 10,
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":false,
+						"id":"wight",
+						"permanent":false,
+						"summonByHealth" : false,
+						"type":"core:summon"
+					}
+				}
+			},
+			"none":
+			{
+				"power": 3
+			},
+			"basic":
+			{
+				"power": 4,
+				"cost" : 15
+			},
+			"advanced":
+			{
+				"power": 5,
+				"cost": 12
+			},
+			"expert":
+			{
+				"power": 6,
+				"cost": 9
+			}
+		}
+	}
+}

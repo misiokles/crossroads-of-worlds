@@ -1,0 +1,54 @@
+{
+	"rauvvaya" :
+	{
+		"class" : "preceptors",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/rauvvaya/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/rauvvaya/spec-large.bmp",
+			"large" : "tenebrae/heroes/rauvvaya/portrait-large.bmp",
+			"small" : "tenebrae/heroes/rauvvaya/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Rauvvaya",
+			"biography" : "undetermined.",
+			"specialty" :
+			{
+				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill.",
+				"tooltip" : "Secondary Skill Bonus: Offence",
+				"name" : "Offence"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "damageTypeMelee",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}

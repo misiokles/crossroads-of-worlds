@@ -1,0 +1,90 @@
+{
+	"redcleric" :
+	{
+		"faction" : "sandcastle",
+		"animation" :
+		{
+			"battle" : 
+			{
+                                "male"   : "sandcastle/battle/CH22.def",
+				"female" : "sandcastle/battle/CH22.def"
+				
+			},
+		},
+		"mapObject" : {
+			"templates" : {
+				"male"   : { "animation" : "sandcastle/map/AH22_.def" },
+				"female" : { "animation" : "sandcastle/map/AH22_.def" }
+			}
+		},		
+		"name" : "Red Cleric",
+		"affinity" : "magic",
+	    "commander" : "salv0",
+		"primarySkills" :
+		{
+			"attack"     : 1,
+			"defence"    : 0,
+			"spellpower" : 2,
+			"knowledge"  : 2
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 10,
+			"spellpower" : 40,
+			"knowledge"  : 20
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 25,
+			"defence"    : 25,
+			"spellpower" : 25,
+			"knowledge"  : 25
+		},
+		"secondarySkills" :
+		{
+			
+			"pathfinding"  : 0,
+			"archery"      : 3,
+			"logistics"    : 6,
+			"scouting"     : 2,
+			"diplomacy"    : 2,
+			"navigation"   : 3,
+			"leadership"   : 1,
+			"wisdom"       : 8,
+			"mysticism"    : 8,
+			"luck"         : 6,
+			"ballistics"   : 5,
+			"eagleEye"     : 2,
+			"necromancy"   : 0,
+			"estates"      : 6,
+			"fireMagic"    : 3,
+			"airMagic"     : 0,
+			"waterMagic"   : 3,
+			"earthMagic"   : 6,
+			"scholar"      : 8,
+			"tactics"      : 4,
+			"artillery"    : 4,
+			"learning"     : 4,
+			"offence"      : 2,
+			"armorer"      : 4,
+			"intelligence" : 6,
+			"sorcery"      : 5,
+			"resistance"   : 1,
+			"firstAid"     : 10
+		},
+		"defaultTavern" : 5,
+		"tavern" :
+		{
+			"castle"     : 4,
+			"rampart"    : 4,
+			"tower"      : 4,
+			"inferno"    : 0,
+			"necropolis" : 4,
+			"dungeon"    : 4,
+			"stronghold" : 4,
+			"fortress"   : 4,
+			"conflux"    : 4
+		}
+	}
+}

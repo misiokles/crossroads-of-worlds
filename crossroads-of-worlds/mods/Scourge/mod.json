@@ -1,0 +1,73 @@
+{
+	"name" : "Scourge",
+	"description" : "",
+	"author": "Zeryss,macron1",
+	"version" : "0.2",
+	"contact": "https://vk.com/public184999722",
+	"modType" : "Town",
+	"factions" :
+	[
+	"config/scourge/town/buildings.json",
+	"config/scourge/town/faction.json",
+	"config/scourge/town/puzzle.json",
+	"config/scourge/town/siege.json",
+	"config/scourge/town/structures.json"
+	],
+        "creatures" :
+        [
+	"config/scourge/creatures/lv1.json",
+	"config/scourge/creatures/lv1up.json",
+	"config/scourge/creatures/lv1up2.json",
+	"config/scourge/creatures/lv2.json",
+	"config/scourge/creatures/lv2up.json",
+	"config/scourge/creatures/lv2up2.json",
+	"config/scourge/creatures/lv3",
+	"config/scourge/creatures/lv3up.json",
+	"config/scourge/creatures/lv4.json",
+	"config/scourge/creatures/lv4sn.json",
+	"config/scourge/creatures/lv4up.json",
+	"config/scourge/creatures/lv5.json",
+	"config/scourge/creatures/lv5up.json",
+	"config/scourge/creatures/lv6.json",
+	"config/scourge/creatures/lv6up.json",
+	"config/scourge/creatures/lv7.json",
+	"config/scourge/creatures/lv7up.json",
+	"config/scourge/creatures/lv7up2.json",
+	"config/scourge/creatures/commander.json",
+	"config/scourge/creatures/reBoltCannon.json"
+        ],
+	"heroClasses" :
+	[
+	"config/scourge/classes/seducer.json",
+	"config/scourge/classes/backslider.json"
+	],
+    "artifacts":
+    [              
+    "config/scourge/artifacts/reBoltCannonArt.json"        
+    ],
+   "heroes" :
+    [
+	"config/scourge/heroes/aderion.json",
+	"config/scourge/heroes/berock.json",
+	"config/scourge/heroes/diranisa.json",
+	"config/scourge/heroes/diran.json",
+	"config/scourge/heroes/eroria.json",
+	"config/scourge/heroes/filatra.json",
+	"config/scourge/heroes/hiposet.json",
+	"config/scourge/heroes/kirot.json",
+	"config/scourge/heroes/lagord.json",
+	"config/scourge/heroes/ludwig.json",
+	"config/scourge/heroes/mifira.json",
+	"config/scourge/heroes/nati.json",
+	"config/scourge/heroes/oldarf.json",
+	"config/scourge/heroes/qity.json",
+	"config/scourge/heroes/satriks.json",
+	"config/scourge/heroes/ustar.json",
+	"config/scourge/heroes/vilgaks.json",
+	"config/scourge/heroes/wildor.json"
+    ],
+    "objects" :
+    [
+    "config/scourge/dwellings.json"
+    ]
+}

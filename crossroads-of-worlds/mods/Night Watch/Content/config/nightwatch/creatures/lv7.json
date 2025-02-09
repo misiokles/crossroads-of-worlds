@@ -1,0 +1,88 @@
+{
+	"nwlv7": {
+		"name" : {
+			"plural" : "Death Heralds",
+			"singular" : "Death Herald"
+		},
+		"faction" : "nightwatch",
+		"level" : 7,
+		"upgrades": ["nwlv7up"],
+		"cost" :
+		{
+			"gold" : 1800,
+			"mercury": 1
+		},
+		"speed" : 10,
+		"hitPoints" : 180,
+		"attack" : 19,
+		"defense" : 17,
+		"damage" :
+		{
+			 "min" : 30,
+			 "max" : 40
+		},
+		"doubleWide" : false,
+		"hasDoubleWeek" : true,
+		"growth" : 1,
+		"aiValue" : 5410,
+		"fightValue" : 6561,
+		"advMapAmount" : 
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"abilities" : {
+			
+			"flies" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"no morale" :
+			{
+				"type" : "NO_MORALE"
+			},
+		"advSlayer":
+			{
+				"type" : "KING",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"immuneToMind" :
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"descreaseMorale" :
+			{
+				"type" : "MORALE",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
+					"val": -1
+			},
+                       "attacksAllAdjacent" :
+                        {
+                      "type":"ATTACKS_ALL_ADJACENT"
+                  }
+		},
+		"graphics" : {
+			"animation" : "nightwatch/creatures/battle/lv7.def",
+			"map" : "nightwatch/creatures/map/lv7.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv7.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv7.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		 "sound" : {
+			"attack" : "nightwatch/reaperatk.wav",
+			"defend" : "nightwatch/reaperdfnd.wav",
+			"killed" : "nightwatch/reaperdie.wav",
+			"move" : "nightwatch/reapermove.wav",
+			"wince" : "nightwatch/reaperhurt.wav"
+		}
+	}
+}

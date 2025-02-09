@@ -1,0 +1,50 @@
+{
+	"allyson" :
+	{
+		"class" : "ntMentor",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/allyson/spec-small.bmp",
+			"specialtyLarge" : "north/heroes/allyson/spec-large.bmp",
+			"large" : "north/heroes/allyson/portrait-large.bmp",
+			"small" : "north/heroes/allyson/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		],
+		"spellbook" :
+		[
+		       "cure"
+		],
+		"texts" :
+		{
+			"name" : "Allyson",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"tooltip" : "+350 Gold per day",
+				"description" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+

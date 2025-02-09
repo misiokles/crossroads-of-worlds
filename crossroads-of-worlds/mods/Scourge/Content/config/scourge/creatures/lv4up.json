@@ -1,0 +1,47 @@
+{
+	"relv4up" : {
+		"abilities" : {
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+            },
+			"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 35,
+				"addInfo" : [0,2]
+			}
+		},		
+		"advMapAmount" : {"max" : 16, "min" : 8},
+		"aiValue" : 475,
+		"attack" : 12,
+		"cost" : { "gold" : 400 },
+		"damage" : {"max" : 10, "min" : 7},
+		"defense" : 12,
+		"faction" : "scourge",
+		"fightValue" : 490,
+		"graphics" : {
+			"animation" : "scourge/creatures/battle/lv4up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "scourge/creatures/iconsBig/lv4upb.png",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv4ups.png",
+			"map" : "scourge/creatures/map/lv4upmap.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+        "doubleWide" : false,
+		"level" : 4,
+		"name" : { "plural" : "Assassins", "singular" : "Assassin" },
+		"sound" : {
+			"attack": "ROGUATTK.wav",
+			"defend": "ROGUDFND.wav",
+			"killed": "ROGUKILL.wav",
+			"move": "ROGUMOVE.wav",
+			"wince": "ROGUWNCE.wav"
+		},
+		"speed" : 6
+	}
+}

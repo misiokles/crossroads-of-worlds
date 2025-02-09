@@ -1,0 +1,191 @@
+{
+	"scourge" : {
+		"name" : "Scourge",
+		"nativeTerrain": "lava",
+		"alignment" : "neutral",
+		"boat" : "boatCastle",
+		"creatureBackground" :
+		{
+			"120px" : "scourge/creature-bg-120px.bmp",
+			"130px" : "scourge/creature-bg-130px.bmp"
+		},
+		"town" :
+		{
+			"mapObject" :
+			{
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"castle" :  { "animation" : "scourge/adventure-map/town/town-castle.def" },
+					"citadel" : { "animation" : "scourge/adventure-map/town/town-citadel.def" },
+					"fort"    : { "animation" : "scourge/adventure-map/town/town-fort.def" },
+					"village" : { "animation" : "scourge/adventure-map/town/town-village.def" },
+					"capitol" : { "animation" : "scourge/adventure-map/town/town-capitol.def" }
+				}
+			},
+
+			"musicTheme" : [ "music/factions/scourge" ],
+			"defaultTavern" : 5,
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 2,
+				"druid"        : 2,
+				"alchemist"    : 5,
+				"wizard"       : 5,
+				"demoniac"     : 5,
+				"heretic"      : 5,
+				"deathknight"  : 5,
+				"necromancer"  : 5,
+				"warlock"      : 5,
+				"overlord"     : 5,
+				"barbarian"    : 5,
+				"battlemage"   : 5,
+				"beastmaster"  : 5,
+				"witch"        : 5,
+				"planeswalker" : 5,
+				"elementalist" : 5,
+                "seducer"      : 5,
+                "backslider"    : 5
+			},
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"guildSpells" :
+			{
+				"bless"          : 2,
+				"bloodlust"      : 5,
+				"cure"           : 4,
+				"curse"          : 3,
+				"dispel"         : 10,
+				"haste"          : 10,
+				"magicArrow"     : 25,
+				"protectAir"     : 5,
+				"protectFire"    : 3,
+				"shield"         : 5,
+				"slow"           : 15,
+				"stoneSkin"      : 2,
+				"summonBoat"     : 5,
+				"viewAir"        : 3,
+				"viewEarth"      : 3,
+				"disguise"       : 2,
+				"disruptingRay"  : 8,
+				"fireWall"       : 3,
+				"fortune"        : 10,
+				"iceBolt"        : 10,
+				"lightningBolt"  : 35,
+				"precision"      : 6,
+				"quicksand"      : 4,
+				"removeObstacle" : 6,
+				"scuttleBoat"    : 4,
+				"visions"        : 2,
+				"weakness"       : 10,
+				"airShield"      : 2,
+				"antiMagic"      : 20,
+				"earthquake"     : 30,
+				"fireball"       : 2,
+				"forceField"     : 4,
+				"forgetfulness"  : 8,
+				"frostRing"      : 10,
+				"hypnotize"      : 2,
+				"landMine"       : 4,
+				"mirth"          : 2,
+				"misfortune"     : 4,
+				"protectEarth"   : 8,
+				"protectWater"   : 2,
+				"teleport"       : 2,
+				"berserk"        : 5,
+				"chainLightning" : 10,
+				"clone"          : 5,
+				"counterstrike"  : 5,
+				"fireShield"     : 5,
+				"frenzy"         : 5,
+				"inferno"        : 5,
+				"meteorShower"   : 5,
+				"prayer"         : 5,
+				"resurrection"   : 5,
+				"slayer"         : 5,
+				"sorrow"         : 20,
+				"townPortal"     : 15,
+				"waterWalk"      : 5,
+				"airElemental"   : 10,
+				"dimensionDoor"  : 5,
+				"earthElemental" : 20,
+				"fireElemental"  : 10,
+				"fly"            : 5,
+				"implosion"      : 20,
+				"magicMirror"    : 10,
+				"sacrifice"      : 10,
+				"waterElemental" : 10
+			},
+			"townBackground": "scourge/town-screen/background.bmp",
+			"guildWindow": "scourge/town-screen/mage-guild.bmp",
+			"buildingsIcons": "scourge/town-hall.def",
+			"hallBackground": "TPTHBKCS.BMP",
+            "primaryResource" : "mercury",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern", "special3" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special1", "shipyard" ] ],
+				[ [ "special2" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1", "dwellingUp2Lvl1" ], [ "dwellingLvl2", "dwellingUpLvl2", "dwellingUp2Lvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUp2Lvl7" ] ]
+			],
+			"creatures" :
+			[
+				["relv1", "relv1up", "relv1up2"],
+				["relv2", "relv2up", "relv2up2"],
+				["relv3", "relv3up"],
+				["relv4", "relv4up"],
+				["relv5", "relv5up"],
+				["relv6", "relv6up"],
+				["relv7", "relv7up", "relv7up2"]
+			],
+			"horde" : [ 2, -1 ],
+			"moatAbility" : "castleMoat",
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "scourge/icons/fort-builded-big.bmp",
+						"small" : "scourge/icons/fort-builded-small.bmp"
+					},
+					"normal" : { "large" : "scourge/icons/fort-big.bmp", "small" : "scourge/icons/fort-small.bmp" }
+				},
+				"village" : {
+					"built" : {
+						"large" : "scourge/icons/hall-builded-big.bmp",
+						"small" : "scourge/icons/hall-builded-small.bmp"
+					},
+					"normal" : { "large" : "scourge/icons/hall-big.bmp", "small" : "scourge/icons/hall-small.bmp" }
+				}
+                        },
+			"mageGuild" : 5,
+			"names" : [
+				"Choiland",
+				"Marough",
+				"Keuta",
+				"Khikledo",
+				"Flabert",
+				"Chona",
+				"Yrarc",
+				"Sandwn",
+				"Ingfast",
+				"Agosstead",
+				"Pliross",
+				"Glicburgh",
+				"Xanard",
+				"Flardon",
+				"Xiamouth",
+				"Vront",
+				"Uslille",
+				"Yreim",
+				"Eleyvale",
+				"Iamery"
+			]
+		}
+	}
+}
+

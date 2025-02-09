@@ -1,0 +1,52 @@
+{
+	"protant" :
+	{
+		"class" : "archduke",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/protant/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/protant/spec-large.bmp",
+			"large" : "tenebrae/heroes/protant/portrait-large.bmp",
+			"small" : "tenebrae/heroes/protant/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "estates", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Protant",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"tooltip" : "Spell Bonus: Weakness",
+				"name" : "Weakness"
+			}
+		},
+		"spellbook" :
+		[
+			"weakness"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+
+
+

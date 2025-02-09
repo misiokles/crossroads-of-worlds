@@ -1,0 +1,123 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"ntPikemanOutpost" : {
+				"name" : "Spearmen Outpost",
+				"creatures" : [[ "ntlv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "north/creatures/dwellings/dw1.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"ntTowerArchers" : {
+				"name" : "Tower of the Archers",
+				"creatures" : [[ "ntlv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "north/creatures/dwellings/dw2.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"ntIceTower" : {
+				"name" : "Ice Tower",
+				"creatures" : [[ "ntlv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "north/creatures/dwellings/dw3.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"ntOutpost" : {
+				"name" : "Outpost",
+				"creatures" : [[ "ntlv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "north/creatures/dwellings/dw4.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"ntTowerSnipers" : {
+				"name" : "Tower of the Snipers",
+				"creatures" : [[ "ntlv4sn" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "north/creatures/dwellings/dw4alt.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"ntTemple" : {
+				"name" : "Temple",
+				"creatures" : [[ "ntlv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "north/creatures/dwellings/dw5.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"ntTrainingGrounds" : {
+				"name" : "Training Grounds",
+				"creatures" : [[ "ntlv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "north/creatures/dwellings/dw6.def",
+						"mask" : [ "VVV", "VBV", "VVA" ]
+					}
+				}
+			},
+			"ntIceCave" : {
+				"name" : "Ice Cave",
+				"creatures" : [[ "ntlv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "north/creatures/dwellings/dw7.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"ntYurt" : {
+				"name" : "Yurt",
+				"creatures" : [[ "ntlv5n" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "north/creatures/dwellings/dw8.def",
+						"mask" : [ "VVV", "VBV", "VAV"]
+					}
+				}
+			},
+			"ntImperial" : {
+				"name" : "Imperial Monastery",
+				"creatures" : [[ "ntNephilim" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "north/creatures/dwellings/dw9.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"ntIcyForge" : {
+				"name" : "Icy Forge",
+				"creatures" : [[ "ntlv6sp" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "north/creatures/dwellings/dw10.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

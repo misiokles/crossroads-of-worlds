@@ -1,0 +1,40 @@
+{
+	"quarax" :
+	{
+		"class" : "opRegent",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "outpost/heroes/arax/spec-small.bmp",
+			"specialtyLarge" : "outpost/heroes/arax/spec-large.bmp",
+			"large" : "outpost/heroes/arax/portrait-large.bmp",
+			"small" : "outpost/heroes/arax/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "qulv1", "min" : 9, "max" : 15 },
+			{ "creature" : "qulv2", "min" :  6, "max" :  9 },
+			{ "creature" : "qulv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Arax",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Soldiers and Sergeant}\r\n\r\nIncreases the Attack and Defence of any Soldiers for Sergeant each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Soldiers",
+				"name" : "Soldiers"
+			}
+		
+		},
+		"specialty" : {
+			"creature" : "qulv4"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"talagoya" :
+	{
+		"class" : "preceptors",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/talagoya/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/talagoya/spec-large.bmp",
+			"large" : "tenebrae/heroes/talagoya/portrait-large.bmp",
+			"small" : "tenebrae/heroes/talagoya/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "sorcery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Talagoya",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		},
+		"spellbook" :
+		[
+			"dispel"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.any",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

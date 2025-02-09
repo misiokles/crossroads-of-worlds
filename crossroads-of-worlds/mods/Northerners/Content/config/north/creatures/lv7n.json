@@ -1,0 +1,86 @@
+{
+	"plMammoth":
+	{
+		"name" :
+		{
+			"plural" : "Mammoths",
+			"singular" : "Mammoth"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "north",
+		"aiValue" : 1168,
+		"attack" : 24,
+		"doubleWide" : true,
+               "cost" :
+		{
+			"gold" : 2500,
+			"gems" : 1
+		},
+		"damage" :
+		{
+			 "max" : 40,
+			 "min" : 35
+		},
+		"defense" : 26,
+		"fightValue" : 1179,
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/Mammoth.def",
+			"map" : "north/creatures/map/Mammoth.def",
+            "animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconSmall" : "north/creatures/iconsSmall/Mammoth.bmp",
+			"iconLarge" : "north/creatures/iconsBig/Mammoth.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 1,
+		"hitPoints" : 250,
+		"level" : 7,
+		"upgrades":
+		[
+			"plWarMammoth"
+		],
+		"sound" :
+		{
+			"attack" : "mmatk.wav",
+			"defend" : "mmblock.wav",
+			"killed" : "mmdie.wav",
+			"move" : "mmwalk.wav",
+			"wince" :  "mmhurt.wav"
+		},
+		"speed" : 11,
+		"abilities" :
+		{
+			"JOUSTING":
+			{
+				"type" : "JOUSTING",
+				
+			},
+			 "immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			},
+			"advSlayer" :
+			{
+				"type" : "KING",
+                "val" : 2,
+                "valueType" : "ADDITIVE_VALUE"				
+			},
+		"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+
+		}
+	}
+}
+
+
+
+
+

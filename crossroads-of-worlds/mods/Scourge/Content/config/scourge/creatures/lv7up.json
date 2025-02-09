@@ -1,0 +1,75 @@
+{
+	"relv7up":
+	{
+		"name" :
+		{
+			"plural" : "Succubus Seducers",
+			"singular" : "Succubus Seducer"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 1,
+			 "max" : 5
+		},
+		"faction" : "scourge",
+        "upgrades": ["relv7up2"],
+		"aiValue" : 8800,
+		"attack" : 23,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 2700,
+			"mercury" : 2
+		},
+		"damage" :
+		{
+			  "min" : 35,
+			  "max" : 45
+		},
+		"defense" : 25,
+		"fightValue" : 6100,
+		"graphics" :
+		{
+			"animation" : "scourge/creatures/battle/lv7up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "scourge/creatures/map/lv7upmap.def",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv7ups.bmp",
+			"iconLarge" : "scourge/creatures/iconsBig/lv7upb.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "ADVLATTK.wav",
+			"defend": "ADVLDFND.wav",
+			"killed": "ADVLKILL.wav",
+			"move": "RGRFMOVE.wav",
+			"wince": "ADVLWNCE.wav"
+			
+		},
+		"speed" : 11,
+		"abilities":
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.hypnotize",
+				"val" : 20
+			},
+		    "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"blockRetaliation" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		}	
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"felv6up":
+	{
+		"name" :
+		{
+			"plural" : "Great Uroxes",
+			"singular" : "Great Urox"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 8
+		},
+		"faction" : "fen",
+		"aiValue" : 1261,
+		"attack" : 16,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1200
+		},
+		"damage" :
+		{
+			 "max" : 25,
+			 "min" : 20
+		},
+		"defense" : 16,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "fen/creatures/battle/lv6up.def",
+			"map" : "fen/creatures/map/lv6upmap",
+			"iconSmall" : "fen/creatures/iconsSmall/lv6ups.bmp",
+			"iconLarge" : "fen/creatures/iconsBig/lv6upb.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack" : "UXatack.wav",
+			"defend" : "UXdefend.wav",
+			"killed" : "UXkill.wav",
+			"move"   : "UXmove.wav",
+			"wince"  : "UXwince.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"deathStare" : 
+			{
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareGorgon",
+				"val" : 10
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+            "JOUSTING" : 
+			{
+				"type": "JOUSTING"
+			},
+		"immunity" :
+            {
+               "type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 100
+			}
+		}	
+	}
+}

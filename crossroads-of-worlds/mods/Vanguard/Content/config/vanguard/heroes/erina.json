@@ -1,0 +1,53 @@
+{
+	"erina" :
+	{
+		"class" : "apPontiff",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "vanguard/heroes/erina/spec-small.bmp",
+			"specialtyLarge" : "vanguard/heroes/erina/spec-large.bmp",
+			"large" : "vanguard/heroes/erina/portrait-large.bmp",
+			"small" : "vanguard/heroes/erina/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "aplv1", "min" : 9, "max" : 15 },
+			{ "creature" : "aplv2", "min" :  6, "max" :  9 },
+			{ "creature" : "aplv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Erina",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill.",
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"name" : "Scouting"
+			}
+		},
+		"spellbook" :
+		[
+			
+		],
+		"specialty": {
+			"bonuses": {
+				"scouting" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SIGHT_RADIUS",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

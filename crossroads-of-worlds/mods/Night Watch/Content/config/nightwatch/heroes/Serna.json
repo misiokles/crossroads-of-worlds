@@ -1,0 +1,49 @@
+{
+	"serna" :
+	{
+		"class" : "duke",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/serna/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/serna/spec-large.bmp",
+			"large" : "nightwatch/heroes/serna/portrait-large.bmp",
+			"small" : "nightwatch/heroes/serna/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "nwlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "nwlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "nwlv3", "min" :  3, "max" :  6 }
+		],
+       "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "logistics", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Serna",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"name" : "Logistics"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+			    }
+			}
+		}
+	}
+}

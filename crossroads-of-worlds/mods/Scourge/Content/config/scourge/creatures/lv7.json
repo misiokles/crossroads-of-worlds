@@ -1,0 +1,81 @@
+{
+	"relv7":
+	{
+		"name" :
+		{
+			"plural" : "Succubus Mistress",
+			"singular" : "Succubus Mistress"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "scourge",
+        "upgrades": ["relv7up"],
+		"aiValue" : 3683,
+		"fightValue" : 3001,
+		"attack" : 19,
+		"defense" : 21,
+		"cost" :
+		{
+			"gold" : 1800,
+			"mercury" : 1
+		},
+		"damage" :
+		{
+			 "min" : 30,
+			 "max" : 40
+		},
+		"speed" : 9,
+		"graphics" :
+		{
+			"animation" : "scourge/creatures/battle/lv7.def",
+			"map" : "scourge/creatures/map/lv7map.def",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv7s.bmp",
+			"iconLarge" : "scourge/creatures/iconsBig/lv7b.bmp",
+			"timeBetweenFidgets" : 3,
+			"animationTime" :
+			{
+				"walk" : 1.23,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 160,
+		"doubleWide" : true,
+		"growth" : 1,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "DEVLATTK.wav",
+			"defend": "DEVLDFND.wav",
+			"killed": "DEVLKILL.wav",
+			"move": "GRIFMOVE.wav",
+			"wince": "DEVLWNCE.wav"
+			
+		},
+		"abilities":
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.hypnotize",
+				"val" : 15
+			},
+		    "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"blockRetaliation" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		}	
+	}
+}
+

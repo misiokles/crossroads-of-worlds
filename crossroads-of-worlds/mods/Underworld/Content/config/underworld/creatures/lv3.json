@@ -1,0 +1,77 @@
+{
+	"unScorpohand1":
+	{
+		"name" :
+		{
+			"plural" : "Cabronides",
+			"singular" : "Crabronide"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 12
+		},
+		"faction" : "underworld",
+		"upgrades": ["unScorpohand2"],
+		"hasDoubleWeek": true,
+		"level" : 3,
+		"attack" : 8,
+		"defense" : 8,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		},
+		"growth" : 7,
+		"hitPoints" : 30,
+		"speed" : 6,
+		"fightValue" : 533,
+		"aiValue" : 483,
+		"horde" : 3,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"graphics" :
+		{
+			"animation" : "underworld/creatures/battle/lv3.def",
+			"map" : "underworld/creatures/map/lv3upmap.def",
+			"iconSmall" : "underworld/creatures/iconsSmall/lv3s.bmp",
+			"iconLarge" : "underworld/creatures/iconsBig/lv3b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"abilities":
+		{
+			"dispellHelpful" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"val" : 100,
+				"addInfo" : [0, 2]
+			},
+			"earthImmunity" : 
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "earth"
+			}
+		},
+		"sound" :
+		{
+			"attack" : "underworld/scorpattack.wav",
+			"defend" : "underworld/scorpdefend.wav",
+			"killed" : "underworld/scorpkill.wav",
+			"move"   : "underworld/scorpmove.wav",
+			"wince"  : "underworld/scorpwince.wav"
+		}
+	}
+}
+
+
+

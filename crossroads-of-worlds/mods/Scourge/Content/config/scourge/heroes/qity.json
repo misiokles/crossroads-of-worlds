@@ -1,0 +1,43 @@
+{
+	"qity" :
+	{
+		"class" : "seducer",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/qity/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/qity/spec-large.bmp",
+			"large" : "scourge/heroes/qity/portrait-large.bmp",
+			"small" : "scourge/heroes/qity/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Qity",
+			"biography" : "She used to be an adept of the order, but a strange craving for forbidden knowledge became her mistake.",
+			"specialty" :
+			{
+				"description" : "{Adherents and Fanatics}\r\n\r\nIncreases Speed of any Adherents or Fanatics by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Adherents",
+				"name" : "Adherents"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "relv5"
+		}		
+	}
+}

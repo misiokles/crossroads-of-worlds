@@ -1,0 +1,40 @@
+{
+	"talabuira" :
+	{
+		"class" : "ouRegent",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "lagoon/heroes/talabuira/spec-small.bmp",
+			"specialtyLarge" : "lagoon/heroes/talabuira/spec-large.bmp",
+			"large" : "lagoon/heroes/talabuira/portrait-large.bmp",
+			"small" : "lagoon/heroes/talabuira/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "lalv1", "min" : 9, "max" : 15 },
+			{ "creature" : "lalv2", "min" :  6, "max" :  9 },
+			{ "creature" : "lalv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Talabuira",
+			"biography" : "",
+			"specialty" :
+			{
+				
+				"description" : "{Boars and Royal Boars}\r\n\r\nIncreases Speed of any Boars or Royal Boars by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Boars",
+				"name" : "Boars"
+			}
+		},
+		"specialty" : {
+			"creature" : "lalv3"
+		}		
+	}
+}

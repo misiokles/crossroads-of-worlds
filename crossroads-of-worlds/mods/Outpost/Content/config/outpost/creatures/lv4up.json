@@ -1,0 +1,41 @@
+{
+	"qulv4up" : {
+		"abilities" : {
+			
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 25
+                        }
+		},		
+		"advMapAmount" : {"max" : 16, "min" : 8},
+		"aiValue" : 445,
+		"attack" : 12,
+		"cost" : { "gold" : 350 },
+		"damage" : {"max" : 10, "min" : 7},
+		"defense" : 12,
+		"faction" : "outpost",
+		"fightValue" : 380,
+		"graphics" : {
+			"animation" : "outpost/creatures/battle/lv4up.def",
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "outpost/creatures/iconsBig/lv4upb.png",
+			"iconSmall" : "outpost/creatures/iconsSmall/lv4ups.png",
+			"map" : "outpost/creatures/map/lv4upmap.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+                "doubleWide" : false,
+		"level" : 4,
+		"name" : { "plural" : "Sergeants", "singular" : "Sergeant" },
+		"sound" : {
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+		},
+		"speed" : 4
+	}
+}

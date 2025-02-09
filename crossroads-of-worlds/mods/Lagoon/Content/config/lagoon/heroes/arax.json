@@ -1,0 +1,40 @@
+{
+	"arax" :
+	{
+		"class" : "ouRegent",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "lagoon/heroes/arax/spec-small.bmp",
+			"specialtyLarge" : "lagoon/heroes/arax/spec-large.bmp",
+			"large" : "lagoon/heroes/arax/portrait-large.bmp",
+			"small" : "lagoon/heroes/arax/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "lalv1", "min" : 9, "max" : 15 },
+			{ "creature" : "lalv2", "min" :  6, "max" :  9 },
+			{ "creature" : "lalv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Arax",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Soldiers and Sergeant}\r\n\r\nIncreases the Attack and Defence of any Soldiers for Sergeant each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Soldiers",
+				"name" : "Soldiers"
+			}
+		
+		},
+		"specialty" : {
+			"creature" : "lalv4"
+		}
+	}
+}

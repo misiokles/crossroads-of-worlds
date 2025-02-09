@@ -1,0 +1,77 @@
+{
+	"name" : "Imperium",
+	"description" : "",
+	"author": "Zeryss acidchalk,macron1",
+	"version" : "0.4",
+	"contact": "https://vk.com/public184999722",
+	"modType" : "Town",
+	"depends" :
+	[
+		"newtown-terrains.fierylandterrain"
+	],
+	"factions" :
+	[
+	"config/imperium/town/buildings.json",
+	"config/imperium/town/faction.json",
+	"config/imperium/town/puzzle.json",
+	"config/imperium/town/siege.json",
+	"config/imperium/town/structures.json"
+	],
+        "creatures" :
+        [
+	"config/imperium/creatures/lv1.json",
+	"config/imperium/creatures/lv1up.json",
+	"config/imperium/creatures/lv1up2.json",
+	"config/imperium/creatures/lv2.json",
+	"config/imperium/creatures/lv2up.json",
+	"config/imperium/creatures/lv2up2.json",
+	"config/imperium/creatures/lv3",
+	"config/imperium/creatures/lv3up.json",
+	"config/imperium/creatures/lv4.json",
+	"config/imperium/creatures/lv4sn.json",
+	"config/imperium/creatures/lv4up.json",
+	"config/imperium/creatures/lv5.json",
+	"config/imperium/creatures/lv5up.json",
+	"config/imperium/creatures/lv6.json",
+	"config/imperium/creatures/lv6up.json",
+	"config/imperium/creatures/lv7.json",
+	"config/imperium/creatures/lv7up.json",
+	"config/imperium/creatures/lv3net.json",
+	"config/imperium/creatures/commander.json",
+	"config/imperium/creatures/itBoltCannon.json"
+        ],
+	"heroClasses" :
+	[
+	"config/imperium/classes/advisor.json",
+	"config/imperium/classes/baron.json"
+	],
+    "artifacts":
+    [              
+    "config/imperium/artifacts/itBoltCannonArt.json"        
+    ],
+    "heroes" :
+    [
+	"config/imperium/heroes/aera.json",
+	"config/imperium/heroes/alisa.json",
+	"config/imperium/heroes/aura.json",
+	"config/imperium/heroes/dikek.json",
+	"config/imperium/heroes/ikki.json",
+	"config/imperium/heroes/karinus.json",
+	"config/imperium/heroes/kvaf.json",
+	"config/imperium/heroes/kvirk.json",
+	"config/imperium/heroes/lustrai.json",
+	"config/imperium/heroes/nepta.json",
+	"config/imperium/heroes/oor.json",
+	"config/imperium/heroes/peglas.json",
+	"config/imperium/heroes/salika.json",
+	"config/imperium/heroes/sashira.json",
+	"config/imperium/heroes/solh.json",
+	"config/imperium/heroes/urrik.json",
+	"config/imperium/heroes/vetlana.json"
+        ],
+        "objects" :
+        [
+        "config/imperium/dwellings.json" 
+
+    ]
+}

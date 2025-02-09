@@ -1,0 +1,99 @@
+{
+	"unEnoch":
+	{
+		"name" :
+		{
+			"plural" : "Enochs",
+			"singular" : "Enoch"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 8
+		},
+		"faction" : "underworld",
+		"upgrades":
+		[
+			"unEcclesiastes"
+		],
+                "level" : 5,
+		"attack" : 12,
+		"defense" : 7,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 12
+		},
+		"growth" : 3,
+		"hitPoints" : 30,
+		"speed" : 6,
+		"shots" : 12,
+		"fightValue" : 924,
+		"aiValue" : 1009,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"graphics" :
+		{
+			"animation" : "underworld/creatures/battle/lv5.def",
+			"map" : "underworld/creatures/map/lv5map.def",
+			"iconSmall" : "underworld/creatures/iconsSmall/lv5s.bmp",
+			"iconLarge" : "underworld/creatures/iconsBig/lv5b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+				 
+			},
+			"missile" :
+			{
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+         },
+		"abilities" :
+		{
+			
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			
+			"earthImmunity" : 
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "earth"
+			},
+            "castDisease" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+                "subtype" : "spell.disease",
+                "val" : 50,
+				"addInfo" : [0, 1]
+			}
+		}	
+	}
+}
+

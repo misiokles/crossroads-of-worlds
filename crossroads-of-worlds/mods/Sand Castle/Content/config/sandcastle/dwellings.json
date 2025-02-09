@@ -1,0 +1,123 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"saPikemanOutpost" : {
+				"name" : "Pikeman Outpost",
+				"creatures" : [[ "salv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "sandcastle/creatures/dwellings/dw1.def",
+						"mask" : [ "VVV", "VVV", "VVA" ]
+					}
+				}
+			},
+			"saArcherOutpost" : {
+				"name" : "Archer Outpost",
+				"creatures" : [[ "salv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "sandcastle/creatures/dwellings/dw2.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+
+					}
+				}
+			},
+			"saNerubianOutpost" : {
+				"name" : "Nerubian Outpost",
+				"creatures" : [[ "salv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "sandcastle/creatures/dwellings/dw3.def",
+						"mask" : [ "VVV", "VVV", "VAA" ]
+					}
+				}
+			},
+			"saCrusaderOutpost" : {
+				"name" : "Crusader Outpost",
+				"creatures" : [[ "salv4cr" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "sandcastle/creatures/dwellings/dw4.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"saMonkOutpost" : {
+				"name" : "Monk Outpost",
+				"creatures" : [[ "salv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "sandcastle/creatures/dwellings/dw5.def",
+						"mask" : [ "VVV", "VBB", "BBA" ]
+					}
+				}
+			},
+			"saCavalierOutpost" : {
+				"name" : "Cavalier Outpost",
+				"creatures" : [[ "salv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "sandcastle/creatures/dwellings/dw6.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"saAngelOutpost" : {
+				"name" : "Angel Outpost",
+				"creatures" : [[ "salv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "sandcastle/creatures/dwellings/dw7.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"saOutpost" : {
+				"name" : "Cavalier Tent",
+				"creatures" : [[ "salv6cr" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "sandcastle/creatures/dwellings/dw8.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"saTemplarOutpost" : {
+				"name" : "Templar Outpost",
+				"creatures" : [[ "salv2cr" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "sandcastle/creatures/dwellings/dw9.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"saShack" : {
+				"name" : "Shack",
+				"creatures" : [[ "salv1n" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "sandcastle/creatures/dwellings/dw10.def",
+						"mask" : [ "VVV", "VVV", "VVA" ]
+					}
+				}
+			},
+			"saSniperOutpost" : {
+				"name" : "Sniper Outpost",
+				"creatures" : [[ "salv4sn" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "sandcastle/creatures/dwellings/dw11.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+
+					}
+				}
+			}
+		}		
+	}
+}

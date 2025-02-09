@@ -1,0 +1,48 @@
+{
+	"mifira" :
+	{
+		"class" : "seducer",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/mifira/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/mifira/spec-large.bmp",
+			"large" : "scourge/heroes/mifira/portrait-large.bmp",
+			"small" : "scourge/heroes/mifira/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Mifira",
+			"biography" : " ",
+			"specialty" :
+			{
+				"description" : "{Mysticism}\r\n\r\nReceives a 5% per level bonus to Mysticism Magic skill.",
+				"tooltip" : "Secondary Skill Bonus: Mysticism",
+				"name" : "Mysticism"
+			}
+		},
+		"spellbook": [ "cure" ],
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

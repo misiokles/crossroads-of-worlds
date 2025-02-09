@@ -1,0 +1,76 @@
+{
+	"relv1up2":
+	{
+		"name" :
+		{
+			"plural" :   "Guards",
+			"singular" : "Guard"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "scourge",
+		"level" : 1,
+		"attack" : 5,
+		"defense" : 6,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 15,
+		"hitPoints" : 12,
+		"speed" : 6,
+		"fightValue" : 148,
+		"aiValue" : 156,
+		"cost" :
+		{
+			"gold" : 90
+		},
+		"graphics" :
+		{
+			"animation" : "scourge/creatures/battle/lv1up2.def",
+			"map" : "scourge/creatures/map/lv1up2map.def",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv1up2s.bmp",
+			"iconLarge" : "scourge/creatures/iconsBig/lv1up2b.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+               },
+		"abilities":
+		{
+			
+			"cavalryChargeImmunity" :
+			{
+				"type" : "CHARGE_IMMUNITY"
+			},
+			"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 15,
+				"addInfo" : [0,2]
+			}
+		}	
+	}
+}
+
+
+
+
+
+

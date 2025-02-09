@@ -1,0 +1,69 @@
+{
+	"lalv6up":
+	{
+		"name" :
+		{
+			"plural" : "Heavy Knights",
+			"singular" : "Heavy Knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "lagoon",
+		"aiValue" : 1261,
+		"attack" : 16,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1200
+		},
+		"damage" :
+		{
+			 "max" : 25,
+			 "min" : 20
+		},
+		"defense" : 16,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "lagoon/creatures/battle/lv6up.def",
+			"map" : "lagoon/creatures/map/lv6upmap.def",
+			"iconSmall" : "lagoon/creatures/iconsSmall/lv6ups.bmp",
+			"iconLarge" : "lagoon/creatures/iconsBig/lv6upb.bmp",
+			
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"fearless" :
+                        {
+				"type" : "FEARLESS",
+			},
+                        "JOUSTING" :
+			{
+				"type" : "JOUSTING"
+			}
+		}
+	}
+}

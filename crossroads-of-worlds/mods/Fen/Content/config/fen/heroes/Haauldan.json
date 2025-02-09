@@ -1,0 +1,50 @@
+{
+	"haauldan" :
+	{
+		"class" : "feChaplain",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "fen/heroes/haauldan/spec-small.bmp",
+			"specialtyLarge" : "fen/heroes/haauldan/spec-large.bmp",
+			"large" : "fen/heroes/haauldan/portrait-large.bmp",
+			"small" : "fen/heroes/haauldan/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "felv1", "min" : 9, "max" : 15 },
+			{ "creature" : "felv2", "min" :  6, "max" :  9 },
+			{ "creature" : "felv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "diplomacy", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Haauldan",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: Haste can cast the Haste spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Haste",
+				"name" : "Haste"
+			}
+		},
+		"spellbook" :
+		[
+			"haste"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

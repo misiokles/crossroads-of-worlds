@@ -1,0 +1,69 @@
+{
+	"nwlv4":
+	{
+		"name" :
+		{
+			"plural" : "Dark Crusaders",
+			"singular" : "Dark Crusader"
+		},
+		"faction" : "nightwatch",
+		"upgrades": ["nwlv4up"],
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 9
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+		"speed" : 6,
+		"fightValue" : 440,
+		"aiValue" : 478,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"graphics" :
+		{
+			"animation" : "nightwatch/creatures/battle/lv4.def",
+			"map" : "nightwatch/creatures/map/lv4.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv4.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv4.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "SWRDATTK.wav",
+			"defend": "SWRDDFND.wav",
+			"killed": "SWRDKILL.wav",
+			"move": "SWRDMOVE.wav",
+			"wince": "SWRDWNCE.wav"
+		},
+		"abilities" :
+		{
+			
+                    "curse" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 25,
+				"addInfo" : [0, 0]
+			},
+			"shield" :
+			{
+				"type":"GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"val" :20
+			}
+		}
+	}
+}
+

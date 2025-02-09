@@ -1,0 +1,56 @@
+{
+	"levk" :
+	{
+		"class" : "archduke",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/levk/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/levk/spec-large.bmp",
+			"large" : "tenebrae/heroes/levk/portrait-large.bmp",
+			"small" : "tenebrae/heroes/levk/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "diplomacy", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Levk",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "Casts Stone Skin with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"tooltip" : "Spell Bonus: Stone Skin",
+				"name" : "Stone Skin"
+			}
+		},
+		"spellbook" :
+		[
+			"stoneSkin"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+

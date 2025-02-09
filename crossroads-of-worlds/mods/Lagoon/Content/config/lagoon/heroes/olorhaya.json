@@ -1,0 +1,58 @@
+{
+	"olorhaya" :
+	{
+		"class" : "ouVicar",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "lagoon/heroes/olorhaya/spec-small.bmp",
+			"specialtyLarge" : "lagoon/heroes/olorhaya/spec-large.bmp",
+			"large" : "lagoon/heroes/olorhaya/portrait-large.bmp",
+			"small" : "lagoon/heroes/olorhaya/portrait-small.bmp"
+		},
+               "army" :
+		[
+			{ "creature" : "lalv1", "min" : 9, "max" : 15 },
+			{ "creature" : "lalv2", "min" :  6, "max" :  9 },
+			{ "creature" : "lalv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Olorhaya",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+			   }
+			}
+		}
+	}
+}
+
+
+
+

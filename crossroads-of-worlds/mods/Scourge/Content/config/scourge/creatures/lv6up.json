@@ -1,0 +1,71 @@
+{
+	"relv6up":
+	{
+		"name" :
+		{
+			"plural" : "Fallen Knights",
+			"singular" : "Fallen Knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "scourge",
+		"aiValue" : 1261,
+		"attack" : 18,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1200
+		},
+		"damage" :
+		{
+			 "min" : 25,
+			 "max" : 25
+		},
+		"defense" : 17,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "scourge/creatures/battle/lv6up.def",
+			"map" : "scourge/creatures/map/lv6upmap.def",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv6ups.bmp",
+			"iconLarge" : "scourge/creatures/iconsBig/lv6upb.bmp",
+			
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 110,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "BGORATTK.wav",
+			"defend": "BGORDFND.wav",
+			"killed": "BGORKILL.wav",
+			"move": "BGORMOVE.wav",
+			"wince": "BGORWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+			
+            "justing" :
+			{
+              "type" : "JOUSTING",
+			},
+			"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 50,
+				"addInfo" : [0,2]
+			}
+		}	
+	}
+}
+
+

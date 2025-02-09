@@ -1,0 +1,44 @@
+{
+	"ferat" :
+	{
+		"class" : "chaplain",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/ferat/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/ferat/spec-large.bmp",
+			"large" : "nightwatch/heroes/ferat/portrait-large.bmp",
+			"small" : "nightwatch/heroes/ferat/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "nwlv5", "min" :  1, "max" : 3 },
+			{ "creature" : "nwlv5", "min" :  1, "max" : 3 },
+			{ "creature" : "nwlv5", "min" :  1, "max" : 3 }
+		],
+        "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Ferat",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Mystics and Twilight Mystics}\r\n\r\nIncreases Speed of any Mystics or Twilight Mystics by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Mystics",
+				"name" : "Mystics"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "nwlv5"
+		}		
+	}
+}

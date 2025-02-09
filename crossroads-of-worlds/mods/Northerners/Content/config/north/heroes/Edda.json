@@ -1,0 +1,47 @@
+{
+	"edda" :
+	{
+		"class" : "ntMentor",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/edda/spec-small.bmp",
+			"specialtyLarge" : "north/heroes/edda/spec-large.bmp",
+			"large" : "north/heroes/edda/portrait-large.bmp",
+			"small" : "north/heroes/edda/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "estates", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Edda",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Gems + 1}\r\n\r\nIncreases kingdom's income by 1 Gems per day",
+				"tooltip" : "+1 Gems each day",
+				"name" : "+1 Gems"
+			}
+		},
+		"spellbook": [ "dispel" ],
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"subtype" : "resource.gems",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}
+

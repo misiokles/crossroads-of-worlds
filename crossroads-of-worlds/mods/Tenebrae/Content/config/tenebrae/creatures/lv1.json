@@ -1,0 +1,78 @@
+{
+	"tenlv1":
+	{
+		"name" :
+		{
+			"plural" : "Spearmans",
+			"singular" : "Spearman"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "tenebrae",
+		"upgrades":
+		[
+			"tenlv1up"
+		],
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 2
+		},
+		"growth" : 15,
+		"hitPoints" : 10,
+		"speed" : 4,
+		"fightValue" : 98,
+		"aiValue" : 96,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"graphics" :
+		{
+			"animation" : "tenebrae/creatures/battle/lv1.def",
+			"map" : "tenebrae/creatures/map/lv1map.def",
+			"iconSmall" : "tenebrae/creatures/iconsSmall/lv1s.bmp",
+			"iconLarge" : "tenebrae/creatures/iconsBig/lv1b.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+               },
+		"abilities":
+		{
+	
+			"cavalryChargeImmunity" :
+            {
+				"type" : "CHARGE_IMMUNITY"
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

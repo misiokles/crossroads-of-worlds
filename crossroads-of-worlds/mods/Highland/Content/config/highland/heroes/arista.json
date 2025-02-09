@@ -1,0 +1,49 @@
+{
+	"arista" :
+	{
+		"class" : "hiForecaster",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "highland/heroes/arista/spec-small.bmp",
+			"specialtyLarge" : "highland/heroes/arista/spec-large.bmp",
+			"large" : "highland/heroes/arista/portrait-large.bmp",
+			"small" : "highland/heroes/arista/portrait-small.bmp"
+		},
+         "army" :
+		[
+			{ "creature" : "hilv1", "min" : 9, "max" : 15 },
+			{ "creature" : "hilv2", "min" :  6, "max" :  9 },
+			{ "creature" : "hilv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		],
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"texts" :
+		{
+			"name" : "Arista",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

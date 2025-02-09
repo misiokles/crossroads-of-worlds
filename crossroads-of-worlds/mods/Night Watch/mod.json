@@ -1,0 +1,75 @@
+{
+	"name" : "Night Watch",
+	"description" : "Night Watch town",
+	"author": "ROFL Team",
+	"version" : "0.4",
+	"contact": "https://vk.com/club161023181",
+	"modType" : "Town",
+	"factions" :
+	[
+	"config/nightwatch/town/buildings.json",
+	"config/nightwatch/town/faction.json",
+	"config/nightwatch/town/puzzle.json",
+	"config/nightwatch/town/siege.json",
+	"config/nightwatch/town/structures.json"
+	],
+        "creatures" :
+        [
+	"config/nightwatch/creatures/lv1.json",
+	"config/nightwatch/creatures/lv1up.json",
+	"config/nightwatch/creatures/lv1up2.json",
+	"config/nightwatch/creatures/lv2.json",
+	"config/nightwatch/creatures/lv2up.json",
+	"config/nightwatch/creatures/lv2up2.json",
+	"config/nightwatch/creatures/lv3.json",
+	"config/nightwatch/creatures/lv3up.json",
+	"config/nightwatch/creatures/lv4.json",
+	"config/nightwatch/creatures/lv4sn.json",
+	"config/nightwatch/creatures/lv4up.json",
+	"config/nightwatch/creatures/lv5.json",
+	"config/nightwatch/creatures/lv5up.json",
+	"config/nightwatch/creatures/lv6.json",
+	"config/nightwatch/creatures/lv6up.json",
+	"config/nightwatch/creatures/lv7.json",
+	"config/nightwatch/creatures/lv7up.json",
+	"config/nightwatch/creatures/lv7alt.json",
+	"config/nightwatch/creatures/nwPlagueCrossbow.json",
+	"config/nightwatch/creatures/commander.json"
+        ],
+	"heroClasses" :
+	[
+	"config/nightwatch/classes/Chaplain.json",
+	"config/nightwatch/classes/Duke.json"
+	],
+    
+    "artifacts":
+    [              
+    "config/nightwatch/artifacts/nwPlagueCrossbowArt.json"        
+    ],
+    "heroes" :
+    [
+	"config/nightwatch/heroes/Anrin.json",
+	"config/nightwatch/heroes/Armek.json",
+	"config/nightwatch/heroes/Burgar.json",
+	"config/nightwatch/heroes/Dana.json",
+	"config/nightwatch/heroes/Erna.json",
+	"config/nightwatch/heroes/Ferat.json",
+	"config/nightwatch/heroes/Gedrik.json",
+	"config/nightwatch/heroes/Geryk.json",
+	"config/nightwatch/heroes/Haret.json",
+	"config/nightwatch/heroes/Iriana.json",
+	"config/nightwatch/heroes/Jirik.json",
+	"config/nightwatch/heroes/Netors.json",
+	"config/nightwatch/heroes/Pariks.json",
+	"config/nightwatch/heroes/Serna.json",
+	"config/nightwatch/heroes/Smerik.json",
+	"config/nightwatch/heroes/Torgval.json",
+	"config/nightwatch/heroes/Uritar.json"
+    ],
+    "objects" :
+    [
+        "config/nightwatch/dwellings.json",
+	"config/nightwatch/banks/abandonedUtopia.json"
+        ]
+}
+

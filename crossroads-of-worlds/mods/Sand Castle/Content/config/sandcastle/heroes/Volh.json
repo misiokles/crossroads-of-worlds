@@ -1,0 +1,51 @@
+{
+	"volh" :
+	{
+		"class" : "redcleric",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "sandcastle/heroes/volh/spec-small.bmp",
+			"specialtyLarge" : "sandcastle/heroes/volh/spec-large.bmp",
+			"large" : "sandcastle/heroes/volh/portrait-large.bmp",
+			"small" : "sandcastle/heroes/volh/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "salv1", "min" :  10, "max" : 15 },
+			{ "creature" : "salv2", "min" :  6, "max" :  9 },
+			{ "creature" : "salv3", "min" :  3, "max" :  6 }
+		],
+		"spellbook": [ "stoneSkin" ],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "firstAid", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Volh",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill.",
+				"tooltip" : "Secondary Skill Bonus: First Aid",
+				"name" : "First Aid"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "spell.firstAid",
+					"type" : "SPECIFIC_SPELL_POWER",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+			    }
+			}
+		}
+	}
+}
+

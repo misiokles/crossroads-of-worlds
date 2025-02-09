@@ -1,0 +1,89 @@
+{
+	"salv2cr":
+	{
+		"name" :
+		{
+			"plural" : "Crusaders Archer",
+			"singular" : "Crusader Archer"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 9,
+			 "min" : 9
+		},
+		"faction" : "sandcastle",
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 3,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 9,
+		"hitPoints" : 10,
+		"speed" : 5,
+		"shots" : 24,
+		"fightValue" : 433,
+		"aiValue" : 4260,
+		"cost" :
+		{
+			"gold" : 350
+		},
+		"graphics" :
+		{
+			"animation" : "sandcastle/creatures/battle/lv2cr.def",
+			"map" : "sandcastle/creatures/map/lv2crmap.def",
+			"iconSmall" : "sandcastle/creatures/iconsSmall/lv2crs.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/lv2crb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "LCRSATTK.wav",
+			"defend": "LCRSDFND.wav",
+			"killed": "LCRSKILL.wav",
+			"move": "LCRSMOVE.wav",
+			"shoot": "LCRSSHOT.wav",
+			"wince": "LCRSWNCE.wav"
+         },
+		"abilities" :
+		{
+			
+		 
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			  },
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+                        }	
+		}	
+	}
+}
+
+
+
+

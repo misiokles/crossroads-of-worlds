@@ -1,0 +1,46 @@
+{
+	"ardula" :
+	{
+		"class" : "ntMentor",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/ardula/spec-small.bmp",
+			"specialtyLarge" : "north/heroes/ardula/spec-large.bmp",
+			"large" : "north/heroes/ardula/portrait-large.bmp",
+			"small" : "north/heroes/ardula/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "learning", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Ardula",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "{Ice Bolt}\r\n\r\nCasts Ice Bolt with increased effectiveness.",
+				"tooltip" : "Spell Bonus: Ice Bolt",
+				"name" : "Ice Bolt"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"subtype" : "spell.iceBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

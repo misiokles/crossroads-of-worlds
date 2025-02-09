@@ -1,0 +1,58 @@
+{
+	"neea" :
+	{
+		"class" : "hiForecaster",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "highland/heroes/neea/spec-small.bmp",
+			"specialtyLarge" : "highland/heroes/neea/spec-large.bmp",
+			"large" : "highland/heroes/neea/portrait-large.bmp",
+			"small" : "highland/heroes/neea/portrait-small.bmp"
+		},
+         "army" :
+		[
+			{ "creature" : "hilv1", "min" : 9, "max" : 15 },
+			{ "creature" : "hilv2", "min" :  6, "max" :  9 },
+			{ "creature" : "hilv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Neea",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		},
+		"spellbook" :
+		[
+			"dispel"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.any",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

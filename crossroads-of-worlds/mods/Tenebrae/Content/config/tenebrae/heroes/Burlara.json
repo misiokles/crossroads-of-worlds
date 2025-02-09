@@ -1,0 +1,50 @@
+{
+	"burlara" :
+	{
+		"class" : "preceptors",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/burlara/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/burlara/spec-large.bmp",
+			"large" : "tenebrae/heroes/burlara/portrait-large.bmp",
+			"small" : "tenebrae/heroes/burlara/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "logistics", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Burlara",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to Logistics skill.",
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"name" : "Logistics"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+
+

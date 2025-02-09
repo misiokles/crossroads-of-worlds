@@ -1,0 +1,69 @@
+{
+	"ntlv1":
+	{
+		"name" :
+		{
+			"plural" : "Sentries",
+			"singular" : "Sentry"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "north",
+		"upgrades": ["ntlv1up"],
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 2
+		},
+		"growth" : 15,
+		"hitPoints" : 10,
+		"speed" : 4,
+		"fightValue" : 85,
+		"aiValue" : 75,
+		"cost" :
+		{
+			"gold" : 40
+		},
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/lv1.def",
+			"map" : "north/creatures/map/lv1map.def",
+			"iconSmall" : "north/creatures/iconsSmall/lv1s.bmp",
+			"iconLarge" : "north/creatures/iconsBig/lv1b.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+               },
+		"abilities":
+		{
+			"immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			}
+		}
+	}
+}
+
+
+
+

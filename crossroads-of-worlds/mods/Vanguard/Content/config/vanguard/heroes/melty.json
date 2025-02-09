@@ -1,0 +1,49 @@
+{
+	"melty" :
+	{
+		"class" : "apPontiff",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "vanguard/heroes/melty/spec-small.bmp",
+			"specialtyLarge" : "vanguard/heroes/melty/spec-large.bmp",
+			"large" : "vanguard/heroes/melty/portrait-large.bmp",
+			"small" : "vanguard/heroes/melty/portrait-small.bmp"
+		},
+              "army" :
+		[
+			{ "creature" : "aplv1", "min" : 9, "max" : 15 },
+			{ "creature" : "aplv2", "min" :  6, "max" :  9 },
+			{ "creature" : "aplv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "learning", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Melty",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: Haste can cast the Prayer spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Prayer",
+				"name" : "Prayer"
+			}
+		},
+		"spellbook" :
+		[
+			"prayer"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"prayer" : {
+					"addInfo" : 0,
+					"subtype" : "spell.prayer",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+			    }
+			}
+		}
+	}
+}

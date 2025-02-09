@@ -1,0 +1,51 @@
+{
+	"iriana" :
+	{
+		"class" : "chaplain",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/iriana/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/iriana/spec-large.bmp",
+			"large" : "nightwatch/heroes/iriana/portrait-large.bmp",
+			"small" : "nightwatch/heroes/iriana/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "nwlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "nwlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "nwlv3", "min" :  3, "max" :  6 }
+		],
+       "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "firstAid", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Iriana",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Hero can cast the Resurrection spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Resurrection",
+				"name" : "Resurrection"
+			}
+		},
+		"spellbook" :
+		[
+			"resurrection"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

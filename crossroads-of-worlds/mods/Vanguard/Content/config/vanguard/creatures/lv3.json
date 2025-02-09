@@ -1,0 +1,80 @@
+{
+	"aplv3":
+	{
+		"name" :
+		{
+			"plural" : "Scorpions",
+			"singular" : "Scorpion"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 16
+		},
+		"faction" : "vanguard",
+		"aiValue" : 346,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 3
+		},
+		"defense" : 8,
+		"fightValue" : 354,
+		"horde" : 3,
+		"graphics" :
+		{
+			"animation" : "vanguard/creatures/battle/lv3.def",
+			"iconLarge" : "vanguard/creatures/iconsBig/lv3b.bmp",
+			"iconSmall" : "vanguard/creatures/iconsSmall/lv3s.bmp",
+			"map" : "vanguard/creatures/map/lv3map.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 7,
+		"hitPoints" : 25,
+		"level" : 3,
+		"upgrades":
+		[
+			"aplv3up"
+		],
+		"sound" :
+		{
+			"attack": "DFLYATTK.wav",
+			"defend": "DFLYDFND.wav",
+			"killed": "DFLYKILL.wav",
+			"move": "BOARMOVE.wav",
+			"wince": "DFLYWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			
+		  "dispellHelpful" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"val" : 50,
+				"addInfo" : [0, 2]
+			},
+			"spellPoison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 50,
+				"addInfo" : [0, 2]			
+			}
+		}
+	}
+}
+

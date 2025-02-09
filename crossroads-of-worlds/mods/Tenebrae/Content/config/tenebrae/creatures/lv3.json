@@ -1,0 +1,78 @@
+{
+	"tenlv3":
+	{
+		"name" :
+		{
+			"plural" : "Young Dragons",
+			"singular" : "Young Dragon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 2,
+			 "min" : 2
+		},
+		"faction" : "tenebrae",
+		"upgrades": ["tenlv3up"],
+		"level" : 3,
+		"attack" : 8,
+		"defense" : 8,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		},
+		"growth" : 7,
+		"hitPoints" : 25,
+		"speed" : 6,
+		"fightValue" : 303,
+		"aiValue" : 300,
+		"horde" : 3,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"graphics" :
+		{
+			"animation" : "tenebrae/creatures/battle/lv3.def",
+			"map" : "tenebrae/creatures/map/lv3map.def",
+			"iconSmall" : "tenebrae/creatures/iconsSmall/lv3s.bmp",
+			"iconLarge" : "tenebrae/creatures/iconsBig/lv3b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "GRIFMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+               },
+		"abilities":
+		{
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"extraRetaliation" :
+			{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1
+			},
+		       "flying" :
+			{
+				"type" : "FLYING"
+			
+			}
+		}
+	}
+}
+
+
+
+

@@ -1,0 +1,23 @@
+{
+	"ntSnowyTent":
+        {
+	"type" : ["HERO"],
+	"warMachine":"ntSnowyTent",
+        "class": "SPECIAL",
+        "value": 750,
+        "slot":"MACH3",
+        "text":
+		{
+			"name": "Snowy First Aid Tent",
+			"description": "{Snowy First Aid Tent}\r\n\r\nThe Snowy First Aid Tent provides healing to yor trops during eacha round of combat.",
+			"event": "The Snowy First Aid Tent provides healing to yor trops during eacha round of combat."
+		},
+		"graphics":
+		{
+			"image": "north/creatures/iconsSmall/artifacts/bow",
+			"map"  :   "north/creatures/map/artifacts/null"
+		}
+	}
+}
+
+

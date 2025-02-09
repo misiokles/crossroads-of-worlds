@@ -1,0 +1,91 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"hiPikemanOutpost" : {
+				"name" : "Pikeman Outpost",
+				"creatures" : [[ "hilv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "highland/creatures/dwellings/dw1.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"hiArcherOutpost" : {
+				"name" : "Archer Outpost",
+				"creatures" : [[ "hilv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "highland/creatures/dwellings/dw2.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"hiBearOutpost" : {
+				"name" : "Bear Outpost",
+				"creatures" : [[ "hilv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "highland/creatures/dwellings/dw3.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"hiSwordsmanOutpost" : {
+				"name" : "Swordsman Outpost",
+				"creatures" : [[ "hilv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "highland/creatures/dwellings/dw4.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"hiMonkOutpost" : {
+				"name" : "Monk Outpost",
+				"creatures" : [[ "hilv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "highland/creatures/dwellings/dw5.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"hiCavalierOutpost" : {
+				"name" : "Cavalier Outpost",
+				"creatures" : [[ "hilv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "highland/creatures/dwellings/dw6.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"hiMountainLairs" : {
+				"name" : "Mountain Lairs",
+				"creatures" : [[ "hilv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "highland/creatures/dwellings/dw7.def",
+						"mask" : [ "VVV", "VBV", "VBA" ]
+					}
+				}
+			},
+			"hiSniperOutpost" : {
+				"name" : "Sniper Outpost",
+				"creatures" : [[ "hilv4sn" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "highland/creatures/dwellings/dw8.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

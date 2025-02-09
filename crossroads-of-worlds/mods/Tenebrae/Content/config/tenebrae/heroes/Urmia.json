@@ -1,0 +1,52 @@
+{
+	"urmia" :
+	{
+		"class" : "preceptors",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/urmia/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/urmia/spec-large.bmp",
+			"large" : "tenebrae/heroes/urmia/portrait-large.bmp",
+			"small" : "tenebrae/heroes/urmia/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Urmia",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Archery}\r\n\r\nReceives a 5% per level bonus to Archery skill.",
+				"tooltip" : "Secondary Skill Bonus: Archery",
+				"name" : "Archery"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"archery" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}
+
+
+
+

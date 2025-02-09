@@ -1,0 +1,74 @@
+{
+	"unGoldenCavalry":
+	{
+		"name" :
+		{
+			"plural" : "Golden Cavaliers",
+			"singular" : "Golden Cavalry"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 4
+		},
+		"faction" : "underworld",
+		"aiValue" : 2327,
+
+		"attack" : 17,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1300
+		},
+		"damage" :
+		{
+			 "max" : 25,
+			 "min" : 25
+		},
+		"defense" : 17,
+		"fightValue" : 2178,
+		"graphics" :
+		{
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "underworld/creatures/battle/lv6up2.def",
+			"map" : "underworld/creatures/map/lv6up2map.def",
+			"iconSmall" : "underworld/creatures/iconsSmall/lv6up2s.bmp",
+			"iconLarge" : "underworld/creatures/iconsBig/lv6up2b.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+			"RECEPTIVE" :
+			{
+				"type" : "RECEPTIVE"
+			},
+            "generalDamageReduction" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"val" : 35
+			},
+		      "JOUSTING" : 
+			{
+				"type": "JOUSTING"
+			},
+		    "earthImmunity" : 
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "earth"
+			}
+		}
+	}
+}

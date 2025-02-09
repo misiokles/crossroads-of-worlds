@@ -1,0 +1,80 @@
+{
+	"aplv7up":
+	{
+		"name" :
+		{
+			"plural" : "Shamirs",
+			"singular" : "Shamir"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 4,
+			 "max" : 8
+		},
+		"faction" : "vanguard",
+		"level" : 7,
+		"attack" : 25,
+		"defense" : 20,
+		"damage" :
+		{
+			 "min" : 50,
+			 "max" : 60
+		},
+		"growth" : 1,
+		"hitPoints" : 300,
+		"speed" : 10,
+		"fightValue" : 4635,
+		"aiValue" : 4000,
+		"cost" :
+		{
+			"gold" : 5000,
+                        "mercury" : 3
+		},
+		"graphics" :
+		{
+			"animation" : "vanguard/creatures/battle/lv7up.def",
+			"map" : "vanguard/creatures/map/lv7Upmap.def",
+			"iconSmall" : "vanguard/creatures/iconsSmall/lv7upSmall.bmp",
+			"iconLarge" : "vanguard/creatures/iconsBig/lv7upLarge.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "CHYDATTK.wav",
+			"defend": "CHYDDFND.wav",
+			"killed": "CHYDKILL.wav",
+			"wince": "CHYDWNCE.wav"
+                },
+		"abilities":
+		{
+		       "teleports" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+            "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"king":
+			{
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+				
+			},
+            "enchanted" : 
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.bloodlust",
+				"val" : 1
+			}
+		}
+	}
+}

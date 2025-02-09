@@ -1,0 +1,59 @@
+{
+	"retrelek" :
+	{
+		"class" : "unPrelate",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/retrelek/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/retrelek/spec-large.bmp",
+			"large" : "underworld/heroes/retrelek/portrait-large.bmp",
+			"small" : "underworld/heroes/retrelek/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Retrelek",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill.",
+				"tooltip" : "Secondary Skill Bonus: Resistance",
+				"name" : "Resistance"
+			}
+		},
+		"spellbook" :
+		[
+			"meteorShower"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"type" : "MAGIC_RESISTANCE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}		
+	}
+}

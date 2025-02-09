@@ -1,0 +1,40 @@
+{
+	"solh" :
+	{
+		"class" : "baron",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "imperium/heroes/solh/spec-small.bmp",
+			"specialtyLarge" : "imperium/heroes/solh/spec-large.bmp",
+			"large" : "imperium/heroes/solh/portrait-large.bmp",
+			"small" : "imperium/heroes/solh/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "itlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "itlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "itlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Solf",
+			"biography" : "",
+			"specialty" :
+			{
+				
+				"description" : "{Hounds and Royal Fire Hounds}\r\n\r\nIncreases Speed of any Hounds or Fire Hounds by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Hounds",
+				"name" : "Hounds"
+			}
+		},
+		"specialty" : {
+			"creature" : "itlv3"
+		}		
+	}
+}

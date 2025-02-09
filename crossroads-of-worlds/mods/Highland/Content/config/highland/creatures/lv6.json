@@ -1,0 +1,61 @@
+{
+	"hilv6":
+	{
+		"name" :
+		{
+			"plural" : "Cavaliers",
+			"singular" : "Cavalier"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "highland",
+		"upgrades": ["hilv6up"],
+		"aiValue" : 1261,
+		"attack" : 15,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			 "min" : 15,
+			 "max" : 25
+		},
+		"defense" : 15,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "highland/creatures/battle/lv6.def",
+			"map" : "highland/creatures/map/lv6map.def",
+			"iconSmall" : "highland/creatures/iconsSmall/lv6s.bmp",
+			"iconLarge" : "highland/creatures/iconsBig/lv6b.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+            "JOUSTING" :
+			{
+				"type" : "JOUSTING"
+			}
+		}
+	}
+}

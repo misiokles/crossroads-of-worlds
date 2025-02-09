@@ -1,0 +1,77 @@
+{
+	"qulv7":
+	{
+		"name" :
+		{
+			"plural" : "Gorynyches",
+			"singular" : "Gorynych"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "outpost",
+                "upgrades": ["qulv7up"],
+		"aiValue" : 4000,
+		"attack" : 20,
+		"cost" :
+		{
+			"gold" : 2500,
+			"crystal" : 1
+		},
+		"damage" :
+		{
+			"max" : 45,
+			"min" : 20
+		},
+		"defense" : 20,
+		"fightValue" : 4635,
+		"graphics" :
+		{
+			"animation" : "outpost/creatures/battle/lv7.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "outpost/creatures/map/lv7map.def",
+			"iconSmall" : "outpost/creatures/iconsSmall/lv7Small.bmp",
+			"iconLarge" : "outpost/creatures/iconsBig/lv7Large.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"sound" :
+		{
+		    "attack": "outpost/GORYATTK.wav",
+             "defend": "outpost/GORYDFND.wav",
+             "killed": "outpost/GORYKILL.wav",
+              "move": "outpost/GORYMOVE.wav",
+             "wince": "outpost/GORYWNCE.wav"
+                     
+		},
+		"speed" : 10,
+		"abilities":
+		{
+			"threeHeads" : 
+			{
+				"type" : "THREE_HEADED_ATTACK"
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+		       "dragon": 
+                        {
+                        "type": "DRAGON_NATURE"
+                        },
+		       "fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		}
+	}
+}

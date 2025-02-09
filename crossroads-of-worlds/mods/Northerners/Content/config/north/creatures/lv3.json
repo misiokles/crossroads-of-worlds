@@ -1,0 +1,74 @@
+{
+	"ntlv3":
+	{
+		"name" :
+		{
+			"plural" : "Snow Cats",
+			"singular" : "Snow Cat"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 30
+		},
+		"faction" : "north",
+		"upgrades": ["ntlv3up"],
+		"hasDoubleWeek": true,
+		"level" : 3,
+		"attack"  : 8,
+		"defense" : 8,
+                "horde" : 3,
+		 "damage" :
+		{
+			 "min" : 4,
+			 "max" : 5
+		},
+		"growth" : 7,
+		"hitPoints" : 25,
+		"speed" : 7,
+		"fightValue" : 320,
+		"aiValue" : 304,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/lv3.def",
+			"map" : "north/creatures/map/lv3map.def",
+			"iconSmall" : "north/creatures/iconsSmall/lv3s.bmp",
+			"iconLarge" : "north/creatures/iconsBig/lv3b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},	
+			"immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			}
+		},
+		"sound" :
+		{
+			"attack": "CatATTK.wav",
+            "move": "CERBMOVE.wav",
+			"defend": "CatDFND.wav",
+			"killed": "CatKILL.wav"
+		}
+	}
+}
+
+
+

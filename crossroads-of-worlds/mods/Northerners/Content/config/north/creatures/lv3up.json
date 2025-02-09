@@ -1,0 +1,76 @@
+{
+	"ntlv3up":
+	{
+		"name" :
+		{
+			"plural" : "Ice Cats",
+			"singular" : "Ice Cat"
+		},
+		"advMapAmount" :
+		{
+			"min" : 16,
+			"max" : 25
+		},
+		"faction" : "north",
+		"level" : 3,
+		"attack" : 9,
+		"defense" : 9,
+		"horde" : 3,
+                "damage" :
+		{
+			 "min" : 4,
+			 "max" : 5
+		},
+		"growth" : 7,
+		"hitPoints" : 25,
+		"speed" : 8,
+		"fightValue" : 366,
+		"aiValue" : 360,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/lv3up.def",
+			"map" : "north/creatures/map/lv3upmap.def",
+			"iconSmall" : "north/creatures/iconsSmall/lv3ups.bmp",
+			"iconLarge" : "north/creatures/iconsBig/lv3upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			}, 	
+			"immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			}
+		},
+		"sound" :
+		{
+			"attack": "CatATTK.wav",
+            "move": "CERBMOVE.wav",
+			"defend": "CatDFND.wav",
+			"killed": "CatKILL.wav"
+		}
+	}
+}
+
+
+

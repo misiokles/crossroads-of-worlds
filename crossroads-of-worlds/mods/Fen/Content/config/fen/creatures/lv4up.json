@@ -1,0 +1,77 @@
+{
+	"felv4up":
+	{
+		"name" :
+		{
+			"plural" : "Royal Triarius",
+			"singular" : "Royal Triarius"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 15,
+			 "min" : 5
+		},
+		"faction" : "fen",
+		"level" : 4,
+		"attack" : 12,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 7,
+			 "max" : 10
+		},
+		"growth" : 5,
+		"hitPoints" : 40,
+		"speed" : 7,
+		"fightValue" : 160,
+		"aiValue" : 164,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"graphics" :
+		{
+			"animation" : "fen/creatures/battle/lv4up.def",
+			"map" : "fen/creatures/map/lv4upmap.def",
+			"iconSmall" : "fen/creatures/iconsSmall/lv4ups.bmp",
+			"iconLarge" : "fen/creatures/iconsBig/lv4ups.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+	   "abilities":
+		{
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			},
+			"extraAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			},
+		"immunity" :
+            {
+               "type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 100
+			}
+		},
+		"sound" :
+		{
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+		}
+	}
+}
+
+
+

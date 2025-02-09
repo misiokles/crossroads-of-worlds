@@ -1,0 +1,44 @@
+{
+	"qukasumi" :
+	{
+		"class" : "duke",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/torgval/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/torgval/spec-large.bmp",
+			"large" : "nightwatch/heroes/torgval/portrait-large.bmp",
+			"small" : "nightwatch/heroes/torgval/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "nwlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "nwlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "nwlv3", "min" :  3, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Torgval",
+			"biography" : "",
+			"specialty" :
+			{
+			"description" : "{Patrolmans and Guards}\r\n\r\nIncreases Speed of any Patrolmans or Guards by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Patrolmans",
+				"name" : "Patrolmans"
+			}
+		},
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		"specialty" : {
+			"creature" : "nwlv1"
+		}		
+	}
+}

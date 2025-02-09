@@ -1,0 +1,51 @@
+{
+	"erlita" :
+	{
+		"class" : "apTrainman",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "vanguard/heroes/erlita/spec-small.bmp",
+			"specialtyLarge" : "vanguard/heroes/erlita/spec-large.bmp",
+			"large" : "vanguard/heroes/erlita/portrait-large.bmp",
+			"small" : "vanguard/heroes/erlita/portrait-small.bmp"
+		},
+               "army" :
+		[
+			{ "creature" : "aplv1", "min" : 9, "max" : 15 },
+			{ "creature" : "aplv2", "min" :  6, "max" :  9 },
+			{ "creature" : "aplv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "resistance", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Erlita",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill.",
+				"tooltip" : "Secondary Skill Bonus: Resistance",
+				"name" : "Resistance"
+			}
+		},
+		"spellbook" :
+		[
+			"meteorShower"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"type" : "MAGIC_RESISTANCE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"aderion" :
+	{
+		"class" : "backslider",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/aderion/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/aderion/spec-large.bmp",
+			"large" : "scourge/heroes/aderion/portrait-large.bmp",
+			"small" : "scourge/heroes/aderion/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+       "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Aderion",
+			"biography" : "Aderion was a royal shion then how a voice from the edge tempted him",
+			"specialty" :
+			{
+				"description" : "{Spies and Assassins}\r\n\r\nIncreases the Attack and Defence of any Spies for Assassins each level attained after 7th level.",
+				"tooltip" : "Creature Bonus: Spies",
+				"name" : "Spies"
+			}
+		
+		},
+		"specialty" : {
+			"creature" : "relv4"
+		}
+	}
+}

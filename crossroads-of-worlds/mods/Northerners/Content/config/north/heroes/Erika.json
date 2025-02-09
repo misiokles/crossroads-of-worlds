@@ -1,0 +1,44 @@
+{
+	"nwerika" :
+	{
+		"class" : "ntMentor",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/erika/spec-small.bmp",
+			"specialtyLarge" : "north/heroes/erika/spec-large.bmp",
+			"large" : "north/heroes/erika/portrait-large.bmp",
+			"small" : "north/heroes/erika/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Erik",
+			"biography" : "",
+		
+			"specialty" :
+			{
+				"description" : "{Votaries and Fanatics}\r\n\r\nIncreases the Attack and Defence of any Votaries or Fanatics for each level attained after 5th level.",
+				"tooltip" : "Creature Bonus: Votaries",
+				"name" : "Votaries"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "ntlv6"
+		}		
+	}
+}

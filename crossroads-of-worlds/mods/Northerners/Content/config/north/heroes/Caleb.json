@@ -1,0 +1,39 @@
+{
+	"korgyn" :
+	{
+		"class" : "ntPaladin",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/caleb/spec-small.bmp",
+			"specialtyLarge" : "north/heroes/caleb/spec-large.bmp",
+			"large" : "north/heroes/caleb/portrait-large.bmp",
+			"small" : "north/heroes/caleb/portrait-small.bmp"
+		},
+          "army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "tactics", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Korgyn",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{KnightsKnights}\r\n\r\nIncreases the Attack and Defence of any Knights for each level attained after 6th level.",
+				"tooltip" : "Creature Bonus: Knights",
+				"name" : "Knights"
+			}
+		},
+		"specialty" : {
+			"creature" : "ntlv6"
+		}		
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"astarta" :
+	{
+		"class" : "archduke",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/astarta/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/astarta/spec-large.bmp",
+			"large" : "tenebrae/heroes/astarta/portrait-large.bmp",
+			"small" : "tenebrae/heroes/astarta/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Astarta",
+			"biography" : "they say that she is a former mercenary and knows how to communicate with property while bringing income to the treasury",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+
+
+

@@ -1,0 +1,52 @@
+{
+	"aeiki" :
+	{
+		"class" : "ntMentor",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/aeiki/spec-small.png",
+			"specialtyLarge" : "north/heroes/aeiki/spec-large.png",
+			"large" : "north/heroes/aeiki/portrait-large.bmp",
+			"small" : "north/heroes/aeiki/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "sorcery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Aeiki",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		},
+		"spellbook" :
+		[
+			"dispel"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.any",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}				
+	}
+}

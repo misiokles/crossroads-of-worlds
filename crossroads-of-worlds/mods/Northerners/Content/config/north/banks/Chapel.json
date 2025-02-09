@@ -1,0 +1,105 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"ntChapel" : 
+			{
+				"name" : "Chapel",
+				"templates" : {
+					"base" : { "animation" : "north/creatures/dwellings/chapel.def", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"mask" : [ "VVVV", "VBBV", "BBBB", "VBAB"], 
+					"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava"] 
+					}
+				},
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rmg" : {
+					"value"		: 2000,
+					"rarity"	: 100
+				},
+				"rewards": [
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 0, "max" : 30 },
+						"guards": [
+							{ "amount": 4, "type" : "ntNephilim" },
+							{ "amount": 4, "type" : "ntNephilim" },
+							{ "amount": 4, "type" : "ntNephilim", "upgradeChance": 50 },
+							{ "amount": 4, "type" : "ntNephilim" },
+							{ "amount": 4, "type" : "ntNephilim" }
+						],
+							"resources": 
+							{
+							
+								"crystal" : 8,
+								"gems" : 8,
+								"gold" : 5000
+							}
+					},
+										
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 30, "max" : 60 },
+						"guards": [
+							{ "amount": 5, "type" : "ntNephilim" },
+							{ "amount": 5, "type" : "ntNephilim" },
+							{ "amount": 5, "type" : "ntNephilim", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "ntNephilim" },
+							{ "amount": 5, "type" : "ntNephilim" }
+						],
+							"resources": 
+							{
+							
+								"crystal" : 10,
+								"gems" : 10,
+								"gold" : 7000
+							}
+					},
+					
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 60, "max" : 90 },
+						"guards": [
+							{ "amount": 7, "type" : "ntNephilim" },
+							{ "amount": 7, "type" : "ntNephilim" },
+							{ "amount": 7, "type" : "ntNephilim", "upgradeChance": 50},
+							{ "amount": 7, "type" : "ntNephilim" },
+							{ "amount": 7, "type" : "ntNephilim" }
+						],
+							"resources": 
+							{
+							
+								"crystal" : 15,
+								"gems" : 15,
+								"gold" : 10000
+							}
+					},
+					
+					{
+						"message" : 34,
+						"appearChance" : { "min" : 90, "max" : 100 },
+						"guards": [
+							{ "amount": 10, "type" : "ntNephilim" },
+							{ "amount": 10, "type" : "ntNephilim" },
+							{ "amount": 10, "type" : "ntNephilim", "upgradeChance": 50 },
+							{ "amount": 10, "type" : "ntNephilim" },
+							{ "amount": 10, "type" : "ntNephilim" }
+						],
+							"resources": 
+							{
+							
+								"crystal" : 10,
+								"gems" : 10,
+								"gold" : 5000
+							}
+						}
+				]
+			}
+		}
+	}
+}

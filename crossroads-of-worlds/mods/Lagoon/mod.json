@@ -1,0 +1,73 @@
+{
+	"name" : "Lagoon",
+	"description" : "Lagoon town",
+	"author": "Zeryss acidchalk",
+	"version" : "0.2",
+	"contact": "https://vk.com/public184999722",
+	"modType" : "Town",
+	"factions" :
+	[
+	"config/lagoon/town/buildings.json",
+	"config/lagoon/town/faction.json",
+	"config/lagoon/town/puzzle.json",
+	"config/lagoon/town/siege.json",
+	"config/lagoon/town/structures.json"
+	],
+        "creatures" :
+    [
+	"config/lagoon/creatures/lv1.json",
+	"config/lagoon/creatures/lv1up.json",
+	"config/lagoon/creatures/lv1up2.json",
+	"config/lagoon/creatures/lv2.json",
+	"config/lagoon/creatures/lv2up.json",
+	"config/lagoon/creatures/lv2up2.json",
+	"config/lagoon/creatures/lv3.json",
+	"config/lagoon/creatures/lv3up.json",
+	"config/lagoon/creatures/lv4.json",
+	"config/lagoon/creatures/lv4sn.json",
+	"config/lagoon/creatures/lv4up.json",
+	"config/lagoon/creatures/lv5.json",
+	"config/lagoon/creatures/lv5up.json",
+	"config/lagoon/creatures/lv6.json",
+	"config/lagoon/creatures/lv6up.json",
+	"config/lagoon/creatures/lv7.json",
+	"config/lagoon/creatures/lv7up.json",
+	"config/lagoon/creatures/quHeavyCrossbow.json",
+	"config/lagoon/creatures/commander.json"
+    ],
+	"heroClasses" :
+	[
+	"config/lagoon/classes/Vicar.json",
+	"config/lagoon/classes/Regent.json"
+	],
+    "artifacts":
+    [              
+    "config/lagoon/artifacts/quHeavyCrossbowArt.json"        
+    ],
+        "heroes" :
+    [
+	"config/lagoon/heroes/alexaksdam.json",
+	"config/lagoon/heroes/arax.json",
+	"config/lagoon/heroes/degda.json",
+	"config/lagoon/heroes/galina.json",
+	"config/lagoon/heroes/hound.json",
+	"config/lagoon/heroes/korza.json",
+	"config/lagoon/heroes/limnitra.json",
+	"config/lagoon/heroes/neodot.json",
+	"config/lagoon/heroes/olorhaya.json",
+	"config/lagoon/heroes/retrak.json",
+	"config/lagoon/heroes/rusha.json",
+	"config/lagoon/heroes/sabalsis.json",
+	"config/lagoon/heroes/talabuira.json",
+	"config/lagoon/heroes/ulsolil.json",
+	"config/lagoon/heroes/verra.json",
+	"config/lagoon/heroes/wrusale.json",
+	"config/lagoon/heroes/zole.json",
+	"config/lagoon/heroes/zoleksil.json"
+    ],
+    "objects" :
+        [
+        "config/lagoon/dwellings.json",
+	    "config/lagoon/banks/waterUtopia.json"
+        ]
+}

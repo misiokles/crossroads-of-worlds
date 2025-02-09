@@ -1,0 +1,106 @@
+{
+	"salv7up":
+	{
+		"name" :
+		{
+			"plural" : "Archangels",
+			"singular" : "Archangel"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 2,
+			 "min" : 1
+		},
+		"faction" : "sandcastle",
+		"level" : 7,
+		"attack" : 30,
+		"defense" : 30,
+		"damage" :
+		{
+			 "min" : 50,
+			 "max" : 50
+		},
+		"growth" : 1,
+		"hitPoints" : 250,
+		"speed" : 18,
+		"fightValue" : 1133,
+		"aiValue" : 1260,
+		 "cost" :
+		{
+			"gold" : 5000,
+			"gems" : 3
+		},
+		"graphics" :
+		{
+			"animation" : "sandcastle/creatures/battle/lv7up.def",
+			"map" : "sandcastle/creatures/map/lv7upmap.def",
+			"iconSmall" : "sandcastle/creatures/iconsSmall/lv7ups.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/lv7upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+	"sound" :
+		{
+			"attack": "AAGLATTK.wav",
+			"defend": "AAGLDFND.wav",
+			"killed": "AAGLKILL.wav",
+			"move": "AAGLMOVE.wav",
+			"wince": "AAGLWNCE.wav"
+		},
+		"abilities" :
+		{
+            "MORALE" :
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"propagator" : "HERO"
+				
+			},
+		   "flying" :
+			{
+				"type" : "FLYING"
+			},
+		 "advSlayer":
+			{
+				"type" : "KING",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"resurrection100hp" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.resurrection",
+				"val" : 100
+			},
+			"resurrects" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.resurrection",
+				"val" : 3
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"hateDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.devil",
+				"val" : 50
+			},
+			"hateArchDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.archDevil",
+				"val" : 50
+			
+			}
+		}
+	}
+}

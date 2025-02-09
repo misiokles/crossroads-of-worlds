@@ -1,0 +1,58 @@
+{
+	"umira" :
+	{
+		"class" : "feCastellan",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "fen/heroes/umira/spec-small.bmp",
+			"specialtyLarge" : "fen/heroes/umira/spec-large.bmp",
+			"large" : "fen/heroes/umira/portrait-large.bmp",
+			"small" : "fen/heroes/umira/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "felv1", "min" : 9, "max" : 15 },
+			{ "creature" : "felv2", "min" :  6, "max" :  9 },
+			{ "creature" : "felv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Umira",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Navigation}\r\n\r\nReceives a 5% per level bonus to Navigation skill.",
+				"tooltip" : "Secondary Skill Bonus: Navigation",
+				"name" : "Navigation"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"navigation" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementSea",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}				
+	}
+}
+
+
+
+

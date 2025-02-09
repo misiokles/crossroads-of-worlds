@@ -1,0 +1,52 @@
+{
+	"tatian" :
+	{
+		"class" : "unPrelate",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/tatian/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/tatian/spec-large.bmp",
+			"large" : "underworld/heroes/tatian/portrait-large.bmp",
+			"small" : "underworld/heroes/tatian/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "estates", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Tatian",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "{Stone Skin}\r\n\r\nCan cast Stone Skin spell with increased effectiveness.",
+				"tooltip" : "Spell Bonus: Stone skin",
+				"name" : "Stone Skin"
+			}
+		},
+		"spellbook" :
+		[
+			"stoneSkin"		
+                ],
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,88 @@
+{
+	"plWarMammoth":
+	{
+		"name" :
+		{
+			"plural" : "War Mammoths",
+			"singular" : "War Mammoth"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "north",
+		"aiValue" : 1168,
+		"attack" : 26,
+		"doubleWide" : true,
+               "cost" :
+		{
+			"gold" : 4000,
+			"gems" : 2
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 40
+		},
+		"defense" : 28,
+		"fightValue" : 1179,
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/war.def",
+			"map" : "north/creatures/map/war.def",
+                        "animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconSmall" : "north/creatures/iconsSmall/war.bmp",
+			"iconLarge" : "north/creatures/iconsBig/war.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 1,
+		"hitPoints" : 300,
+		"level" : 7,
+		"sound" :
+		{
+			"attack" : "mmatk.wav",
+			"defend" : "mmblock.wav",
+			"killed" : "mmdie.wav",
+			"move" : "mmwalk.wav",
+			"wince" :  "mmhurt.wav"
+		},
+		"speed" : 14,
+		"abilities" :
+		{
+			"JOUSTING":
+			{
+				"type" : "JOUSTING",
+				
+			},
+			 "immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			},
+			"snowWalker" :
+			{
+				"type" : "NO_TERRAIN_PENALTY",
+				"subtype" : "terrain.snow",
+				"propagator" : "HERO"
+			},
+			"advSlayer" :
+			{
+				"type" : "KING",
+                "val" : 2,
+                "valueType" : "ADDITIVE_VALUE"				
+			},
+		"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+
+		}
+	}
+}
+
+
+
+
+

@@ -1,0 +1,89 @@
+{
+	"nwlv2":
+	{
+		"name" :
+		{
+			"plural" : "Night Shooters",
+			"singular" : "Night Shooter"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 9,
+			 "min" : 9
+		},
+		"faction" : "nightwatch",
+		"upgrades": ["nwlv2up"],
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 3,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 9,
+		"hitPoints" : 10,
+		"speed" : 5,
+		"shots" : 18,
+		"fightValue" : 203,
+		"aiValue" : 209,
+		"cost" :
+		{
+			"gold" : 100
+		},
+		"graphics" :
+		{
+			"animation" : "nightwatch/creatures/battle/lv2.def",
+			"map" : "nightwatch/creatures/map/lv2.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv2.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv2.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+              },
+		"abilities" :
+		{
+			
+		  
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			 },
+			"spellPoison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 20,
+				"addInfo" : [0,2]				
+			}
+		}	
+	}
+}

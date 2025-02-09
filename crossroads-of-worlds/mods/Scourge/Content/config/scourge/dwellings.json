@@ -1,0 +1,91 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"rePikemanOutpost" : {
+				"name" : "Pikeman Outpost",
+				"creatures" : [[ "relv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "scourge/creatures/dwellings/dw1.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"reArcherOutpost" : {
+				"name" : "Archer Outpost",
+				"creatures" : [[ "relv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "scourge/creatures/dwellings/dw2.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"reWolvesTower" : {
+				"name" : "Wolves Tower",
+				"creatures" : [[ "relv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "scourge/creatures/dwellings/dw3.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"reSwordsmanOutpost" : {
+				"name" : "Swordsman Outpost",
+				"creatures" : [[ "relv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "scourge/creatures/dwellings/dw4.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"reMonkOutpost" : {
+				"name" : "Monk Outpost",
+				"creatures" : [[ "relv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "scourge/creatures/dwellings/dw5.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"reCavalierOutpost" : {
+				"name" : "Cavalier Outpost",
+				"creatures" : [[ "relv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "scourge/creatures/dwellings/dw6.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"reAltar" : {
+				"name" : "Altar",
+				"creatures" : [[ "relv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "scourge/creatures/dwellings/dw7.def",
+						"mask" : [ "VVV", "VBV", "VBA" ]
+					}
+				}
+			},
+			"reSniperOutpost" : {
+				"name" : "Sniper Outpost",
+				"creatures" : [[ "relv4sn" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "scourge/creatures/dwellings/dw8.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

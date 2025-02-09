@@ -1,0 +1,101 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"itPikemanOutpost" : {
+				"name" : "Guard House",
+				"creatures" : [[ "itlv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "imperium/creatures/dwellings/dw1.def",
+						"mask" : [ "VBB", "VBB", "VBA" ]
+					}
+				}
+			},
+			"itArcherOutpost" : {
+				"name" : "Archer's Tower",
+				"creatures" : [[ "itlv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "imperium/creatures/dwellings/dw2.def",
+						"mask" : [ "VBB", "VBB", "VAB" ]
+					}
+				}
+			},
+			"itHoundOutpost" : {
+				"name" : "Hound Tower",
+				"creatures" : [[ "itlv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "imperium/creatures/dwellings/dw3.def",
+						"mask" : [ "VBB", "VBB", "VBA" ]
+					}
+				}
+			},
+			"itBarracks" : {
+				"name" : "Barracks",
+				"creatures" : [[ "itlv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "imperium/creatures/dwellings/dw4.def",
+						"mask" : [ "VBB", "VBB", "VBA" ]
+					}
+				}
+			},
+			"itDarkMonastery" : {
+				"name" : "Dark Monastery",
+				"creatures" : [[ "itlv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "imperium/creatures/dwellings/dw5.def",
+						"mask" : [ "VBV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"itStablings" : {
+				"name" : "Stablings",
+				"creatures" : [[ "itlv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "imperium/creatures/dwellings/dw6.def",
+						"mask" : [ "VVB", "VBB", "VBA" ]
+					}
+				}
+			},
+			"itPortalofDamnation" : {
+				"name" : "Portal of Damnation",
+				"creatures" : [[ "itlv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "imperium/creatures/dwellings/dw7.def",
+						"mask" : [ "VBBV", "VBAV" ]
+					}
+				}
+			},
+			"itSpyOutpost" : {
+				"name" : "Spy Outpost",
+				"creatures" : [[ "itlv3net" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "imperium/creatures/dwellings/dw8.def",
+						"mask" : [ "VBB", "VBB", "VBA" ]
+					}
+				}
+			},
+			"itSniperOutpost" : {
+				"name" : "Sniper Outpost",
+				"creatures" : [[ "itlv4sn" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "imperium/creatures/dwellings/dw9.def",
+						"mask" : [ "VBB", "VBB", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"nepta" :
+	{
+		"class" : "baron",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "imperium/heroes/nepta/spec-small.bmp",
+			"specialtyLarge" : "imperium/heroes/nepta/spec-large.bmp",
+			"large" : "imperium/heroes/nepta/portrait-large.bmp",
+			"small" : "imperium/heroes/nepta/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "itlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "itlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "itlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "logistics", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Nepta",
+			"biography" : "Nepta is a free succubus, who has always been attracted by unknown roads and paths for these reasons, she left the Kreegan military school and joined people in order to calmly explore the world and not waste time studying, in her opinion, useless sciences of war.",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"name" : "Logistics",
+				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to movement points at land."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"subtype" : "heroMovementLand",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MOVEMENT",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"salv3up":
+	{
+		"name" :
+		{
+			"plural" : "Royal Nerubians",
+			"singular" : "Royal Nerubian"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 15
+		},
+		"faction" : "sandcastle",
+		"hasDoubleWeek": true,
+		"aiValue" : 697,
+		"attack" : 9,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 3
+		},
+		"defense" : 9,
+		"fightValue" : 661,
+		"horde" : 3,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "sandcastle/creatures/battle/lv3up.def",
+			"map" : "sandcastle/creatures/map/lv3upmap.def",
+			"iconSmall" : "sandcastle/creatures/iconsSmall/lv3ups.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/lv3upb.bmp",
+			
+			"timeBetweenFidgets" : 1
+        },
+
+		"growth" : 7,
+		"hitPoints" : 30,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "RGRFATTK.wav",
+			"defend": "RGRFDFND.wav",
+			"killed": "RGRFKILL.wav",
+			"move": "PLIZMOVE.wav",
+			"wince": "RGRFWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+		     "immunity" :
+            { 
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype": "earth"
+			}
+        }
+	}
+}

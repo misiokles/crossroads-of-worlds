@@ -1,0 +1,79 @@
+{
+	"fenCrossbow":
+	{
+		"name" :
+		{
+			"plural" : "Crossbow",
+			"singular" : "Crossbow"
+		},
+		"faction" : "fen",
+		"level": 0,
+		"aiValue" : 2500,
+		"special" : true,
+		"attack" : 10,
+         "cost": 
+        {
+              "gold": 3500
+        },
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 10,
+		"fightValue" : 250,
+		"graphics" :
+		{
+			"animation" : "fen/creatures/battle/crossbow.def",
+			"iconSmall" : "fen/creatures/iconsSmall/cross.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" :
+			{
+				"projectile" : "SMBALX.DEF",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 0,
+		"hitPoints" : 250,
+        "shots" : 24,
+		"speed" : 0,
+		"abilities" :
+		{
+        		"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+		    "deathStrike" :
+			{
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 20
+			},
+		      "noRetaliation" :
+			{
+				"type" : "NO_RETALIATION"
+			},
+			"warmachine" :
+			{
+				"type" : "SIEGE_WEAPON"
+			}
+		}
+	}
+}

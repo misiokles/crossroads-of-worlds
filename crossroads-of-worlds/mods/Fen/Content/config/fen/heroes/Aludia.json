@@ -1,0 +1,44 @@
+{
+	"aludia" :
+	{
+		"class" : "feCastellan",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "fen/heroes/aludia/spec-small.bmp",
+			"specialtyLarge" : "fen/heroes/aludia/spec-large.bmp",
+			"large" : "fen/heroes/aludia/portrait-large.bmp",
+			"small" : "fen/heroes/aludia/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "felv1", "min" : 9, "max" : 15 },
+			{ "creature" : "felv2", "min" :  6, "max" :  9 },
+			{ "creature" : "felv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Aludia",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Cockatrices and Royal Cockatrices}\r\n\r\nIncreases Speed of any Cockatrices or Royal Cockatrices by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Cockatrices",
+				"name" : "Cockatrices"
+			}
+		},
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		"specialty" : {
+			"creature" : "felv3"
+		}		
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"lalv3":
+	{
+		"name" :
+		{
+			"plural" : "Turtles",
+			"singular" : "Turtle"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 16
+		},
+		"faction" : "lagoon",
+		"aiValue" : 346,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 3
+		},
+		"defense" : 8,
+		"fightValue" : 354,
+		"horde" : 3,
+		"graphics" :
+		{
+			"animation" : "lagoon/creatures/battle/lv3.def",
+			"iconLarge" : "lagoon/creatures/iconsBig/lv3b.bmp",
+			"iconSmall" : "lagoon/creatures/iconsSmall/lv3s.bmp",
+			"map" : "lagoon/creatures/map/lv3map.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 7,
+		"hitPoints" : 25,
+		"level" : 3,
+		"upgrades":
+		[
+			"lalv3up"
+		],
+		"sound" :
+		{
+			"attack": "BOARATTK.wav",
+			"defend": "BOARDFND.wav",
+			"killed": "BOARKILL.wav",
+			"move": "BOARMOVE.wav",
+			"wince": "BOARWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"shield effect" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"val" : 10
+			}
+		}
+	}
+}
+

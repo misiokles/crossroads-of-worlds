@@ -1,0 +1,56 @@
+{
+	"quolorhaya" :
+	{
+		"class" : "opVicar",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "outpost/heroes/olorhaya/spec-small.bmp",
+			"specialtyLarge" : "outpost/heroes/olorhaya/spec-large.bmp",
+			"large" : "outpost/heroes/olorhaya/portrait-large.bmp",
+			"small" : "outpost/heroes/olorhaya/portrait-small.bmp"
+		},
+               "army" :
+		[
+			{ "creature" : "qulv1", "min" : 9, "max" : 15 },
+			{ "creature" : "qulv2", "min" :  6, "max" :  9 },
+			{ "creature" : "qulv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Olorhaya",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Navigation}\r\n\r\nReceives a 5% per level bonus to Navigation skill.",
+				"tooltip" : "Secondary Skill Bonus: Navigation",
+				"name" : "Navigation"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"navigation" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementSea",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+			   }
+			}
+		}
+	}
+}
+
+

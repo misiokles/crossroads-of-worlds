@@ -1,0 +1,67 @@
+{
+	"tenlv6":
+	{
+		"name" :
+		{
+			"plural" : "Knights",
+			"singular" : "Knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "tenebrae",
+		"upgrades": ["tenlv6up"],
+		"level" : 6,
+		"attack" : 15,
+		"doubleWide" : true,		
+		"defense" : 15,
+		"damage" :
+		{
+			 "min" : 15,
+			 "max" : 25
+		},
+		"growth" : 2,
+		"hitPoints" : 100,
+		"speed" : 7,
+		"fightValue" : 1133,
+		"aiValue" : 1260,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"graphics" :
+		{
+			"animation" : "tenebrae/creatures/battle/lv6.def",
+			"map" : "tenebrae/creatures/map/lv6map.def",
+			"iconSmall" : "tenebrae/creatures/iconsSmall/lv6s.bmp",
+			"iconLarge" : "tenebrae/creatures/iconsBig/lv6b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "CAVAATTK.wav",
+			"defend": "CAVADFND.wav",
+			"killed": "CAVAKILL.wav",
+			"move": "CAVAMOVE.wav",
+			"wince": "CAVAWNCE.wav"
+		},
+		"abilities" :
+		{
+			
+		     "justing" :
+			{
+               "type" : "JOUSTING",
+		    }
+		}	
+	}
+}
+
+

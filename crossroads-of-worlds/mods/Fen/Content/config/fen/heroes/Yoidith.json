@@ -1,0 +1,44 @@
+{
+	"yoidith" :
+	{
+		"class" : "feCastellan",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "fen/heroes/yoidith/spec-small.bmp",
+			"specialtyLarge" : "fen/heroes/yoidith/spec-large.bmp",
+			"large" : "fen/heroes/yoidith/portrait-large.bmp",
+			"small" : "fen/heroes/yoidith/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "felv1", "min" : 9, "max" : 15 },
+			{ "creature" : "felv2", "min" :  6, "max" :  9 },
+			{ "creature" : "felv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "tactics", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Yoidith",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Triarius and Royal Triarius}\r\n\r\nIncreases Speed of any Triarius or Royal Triarius by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Triarius",
+				"name" : "Triarius"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "felv4"
+		}		
+	}
+}

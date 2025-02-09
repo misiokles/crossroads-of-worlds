@@ -1,0 +1,50 @@
+{
+	"keskur" :
+	{
+		"class" : "unPrelate",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/keskur/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/keskur/spec-large.bmp",
+			"large" : "underworld/heroes/keskur/portrait-large.bmp",
+			"small" : "underworld/heroes/keskur/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "estates", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Keskur",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"tooltip" : "Spell Bonus: Weakness",
+				"name" : "Weakness"
+			}
+		},
+		"spellbook" :
+		[
+			"weakness"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

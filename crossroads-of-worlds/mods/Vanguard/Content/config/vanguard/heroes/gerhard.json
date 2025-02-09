@@ -1,0 +1,40 @@
+{
+	"gerhard" :
+	{
+		"class" : "apTrainman",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "vanguard/heroes/gerhard/spec-small.bmp",
+			"specialtyLarge" : "vanguard/heroes/gerhard/spec-large.bmp",
+			"large" : "vanguard/heroes/gerhard/portrait-large.bmp",
+			"small" : "vanguard/heroes/gerhard/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "aplv1", "min" : 9, "max" : 15 },
+			{ "creature" : "aplv2", "min" :  6, "max" :  9 },
+			{ "creature" : "aplv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Gerhard",
+			"biography" : "",
+			"specialty" :
+			{
+				
+				"description" : "{Scorpions and Royal Scorpions}\r\n\r\nIncreases Speed of any Scorpions or Royal Scorpions by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Scorpions",
+				"name" : "Scorpions"
+			}
+		},
+		"specialty" : {
+			"creature" : "aplv3"
+		}		
+	}
+}

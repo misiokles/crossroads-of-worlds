@@ -1,0 +1,79 @@
+{
+	"tenlv6up2":
+	{
+		"name" :
+		{
+			"plural" : "Grand Knights",
+			"singular" : "Grand Knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 4
+		},
+		"faction" : "tenebrae",
+		"aiValue" : 1361,
+		"attack" : 16,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1400
+		},
+		"damage" :
+		{
+			 "min" : 25,
+			 "max" : 25
+		},
+		"defense" : 16,
+		"fightValue" : 1233,
+		"graphics" :
+		{
+			
+			"animation" : "tenebrae/creatures/battle/lv6up2.def",
+			"map" : "tenebrae/creatures/map/lv6up2map.def",
+			"iconSmall" : "tenebrae/creatures/iconsSmall/lv6up2s.bmp",
+			"iconLarge" : "tenebrae/creatures/iconsBig/lv6up2b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		},
+		"speed" :10,
+		"abilities" :
+		{
+			"immuneToArrow" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeRanged",
+				"val" : 30
+			},
+		    "justing" :
+			{
+                "type" : "JOUSTING"
+			},
+            "fearless" : 
+			{
+				"type" : "FEARLESS"
+			}
+		}	
+	}
+}
+
+
+
+

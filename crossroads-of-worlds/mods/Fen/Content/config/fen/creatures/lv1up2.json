@@ -1,0 +1,79 @@
+{
+	"felv1up2":
+	{
+		"name" :
+		{
+			"plural" : "Royal Pikemans",
+			"singular" : "Royal Pikeman"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "fen",
+		"level" : 1,
+		"attack" : 6,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 3
+		},
+		"growth" : 15,
+		"hitPoints" : 10,
+		"speed" : 6,
+		"fightValue" : 118,
+		"aiValue" : 116,
+		"cost" :
+		{
+			"gold" : 75
+		},
+		"graphics" :
+		{
+			"animation" : "fen/creatures/battle/lv1up2.def",
+			"map" : "fen/creatures/map/lv1up2map.def",
+			"iconSmall" : "fen/creatures/iconsSmall/lv1up2s.bmp",
+			"iconLarge" : "fen/creatures/iconsBig/lv1up2b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+        },
+		"abilities":
+		{
+	
+			"cavalryChargeImmunity" :
+                        {
+				"type" : "CHARGE_IMMUNITY"
+			},
+            "RECEPTIVE" :
+			{
+				"type" : "RECEPTIVE"
+			},
+			"immunity" :
+            {
+               "type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 100
+			}
+		}
+	}
+}
+
+
+
+
+
+

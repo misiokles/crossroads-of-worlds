@@ -1,0 +1,72 @@
+{
+	"name" : "Highland",
+	"description" : "Highland town",
+	"author": "Zeryss",
+	"version" : "0.2",
+	"contact": "https://vk.com/public184999722",
+	"modType" : "Town",
+	"factions" :
+	[
+	"config/highland/town/buildings.json",
+	"config/highland/town/faction.json",
+	"config/highland/town/puzzle.json",
+	"config/highland/town/siege.json",
+	"config/highland/town/structures.json"
+	],
+        "creatures" :
+    [
+	"config/highland/creatures/lv1.json",
+	"config/highland/creatures/lv1up.json",
+	"config/highland/creatures/lv1up2.json",
+	"config/highland/creatures/lv2.json",
+	"config/highland/creatures/lv2up.json",
+	"config/highland/creatures/lv2up2.json",
+	"config/highland/creatures/lv3.json",
+	"config/highland/creatures/lv3up.json",
+	"config/highland/creatures/lv4.json",
+	"config/highland/creatures/lv4sn.json",
+	"config/highland/creatures/lv4up.json",
+	"config/highland/creatures/lv5.json",
+	"config/highland/creatures/lv5up.json",
+	"config/highland/creatures/lv6.json",
+	"config/highland/creatures/lv6up.json",
+	"config/highland/creatures/lv7.json",
+	"config/highland/creatures/lv7up.json",
+	"config/highland/creatures/hiHeavyCrossbow.json",
+	"config/highland/creatures/commander.json"
+    ],
+	"heroClasses" :
+	[
+	"config/highland/classes/Forecaster.json",
+	"config/highland/classes/Clansman.json"
+	],
+    "artifacts":
+    [              
+    "config/highland/artifacts/hiHeavyCrossbowArt.json"        
+    ],
+        "heroes" :
+    [
+	"config/highland/heroes/arista.json",
+	"config/highland/heroes/boriat.json",
+	"config/highland/heroes/farata.json",
+	"config/highland/heroes/geina.json",
+	"config/highland/heroes/gulak.json",
+	"config/highland/heroes/hina.json",
+	"config/highland/heroes/kalhida.json",
+	"config/highland/heroes/lostrik.json",
+	"config/highland/heroes/mororot.json",
+	"config/highland/heroes/neea.json",
+	"config/highland/heroes/olta.json",
+	"config/highland/heroes/polart.json",
+	"config/highland/heroes/rilata.json",
+	"config/highland/heroes/sareks.json",
+	"config/highland/heroes/urtos.json",
+	"config/highland/heroes/vegna.json",
+	"config/highland/heroes/welika.json",
+	"config/highland/heroes/zardak.json"
+    ],
+    "objects" :
+        [
+        "config/highland/dwellings.json"
+        ]
+}

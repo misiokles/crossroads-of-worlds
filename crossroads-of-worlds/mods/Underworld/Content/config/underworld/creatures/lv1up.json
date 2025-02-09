@@ -1,0 +1,78 @@
+{
+	"unEliteSpearman":
+	{
+		"name" :
+		{
+			"plural" : "Elite Spearmen",
+			"singular" : "Elite Spearman"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 30
+		},
+		"faction" : "underworld",
+		"upgrades":
+		[
+			"unRoyalSpearman"
+		],
+		"level" : 1,
+		"attack" : 5,
+		"defense" : 6,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 15,
+		"hitPoints" : 10,
+		"speed" : 5,
+		"fightValue" : 118,
+		"aiValue" : 116,
+		"cost" :
+		{
+			"gold" : 75
+		},
+		"graphics" :
+		{
+			"animation" : "underworld/creatures/battle/lv1up.def",
+			"map" : "underworld/creatures/map/lv1upmap.def",
+			"iconSmall" : "underworld/creatures/iconsSmall/lv1ups.bmp",
+			"iconLarge" : "underworld/creatures/iconsBig/lv1upb.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+               },
+		"abilities":
+		{
+	
+			"cavalryChargeImmunity" :
+                        {
+				"type" : "CHARGE_IMMUNITY"
+			},
+			"earthImmunity" : 
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "earth"
+			}
+		}
+	}
+}
+
+
+
+
+
+

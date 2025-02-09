@@ -1,0 +1,50 @@
+{
+	"diane" :
+	{
+		"class" : "ntMentor",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/diane/spec-small.bmp",
+			"specialtyLarge" : "north/heroes/diane/spec-large.bmp",
+			"large" : "north/heroes/diane/portrait-large.bmp",
+			"small" : "north/heroes/diane/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "diplomacy", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Diane",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "{Frost Ring}\r\n\r\nCasts Frost Ring with increased effect, based on hero level compared to the level of the target unit.",
+				"tooltip" : "Spell Bonus: Frost Ring",
+				"name" : "Frost Ring"
+			}
+		},
+		"spellbook" :
+		[
+			"frostRing"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"frostRing" : {
+					"subtype" : "spell.frostRing",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

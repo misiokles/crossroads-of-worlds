@@ -1,0 +1,50 @@
+{
+	"vilgaks" :
+	{
+		"class" : "backslider",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/vilgaks/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/vilgaks/spec-large.bmp",
+			"large" : "scourge/heroes/vilgaks/portrait-large.bmp",
+			"small" : "scourge/heroes/vilgaks/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "offence", "level": "basic" },
+			{ "skill" : "leadership", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Vilgaks",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage.",
+				"tooltip" : "Secondary skill bonus: Offence",
+				"name" : "Offence"
+			}
+		},
+        "specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "damageTypeMelee",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}
+
+

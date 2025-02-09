@@ -1,0 +1,56 @@
+{
+	"turesh" :
+	{
+		"class" : "unPrelate",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/turesh/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/turesh/spec-large.bmp",
+			"large" : "underworld/heroes/turesh/portrait-large.bmp",
+			"small" : "underworld/heroes/turesh/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Turesh",
+			"biography" : "",
+			"specialty" :
+			{
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"name" : "Logistics",
+				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to movement points at land."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}				
+	}
+}

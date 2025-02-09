@@ -1,0 +1,80 @@
+{
+	"ntlv1up3":
+	{
+		"name" :
+		{
+			"plural" : "Guardsmen",
+			"singular" : "Guardsman"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 30
+		},
+		"faction" : "north",
+		"level" : 1,
+		"attack" : 5,
+		"defense" : 6,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 3
+		},
+		"growth" : 15,
+		"hitPoints" : 13,
+		"speed" : 6,
+		"fightValue" : 136,
+		"aiValue" : 144,
+		"cost" :
+		{
+			"gold" : 90
+		},
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/lv1up3.def",
+			"map" : "north/creatures/map/lv1up3map.def",
+			"iconSmall" : "north/creatures/iconsSmall/lv1up3s.bmp",
+			"iconLarge" : "north/creatures/iconsBig/lv1up3b.bmp",
+            "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		
+		"sound" :
+		{
+			"attack": "HALBATTK.wav",
+			"defend": "HALBDFND.wav",
+			"killed": "HALBKILL.wav",
+			"move": "HALBMOVE.wav",
+			"wince": "HALBWNCE.wav"
+               },
+		"abilities":
+		{
+			"immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			},
+			"cavalryChargeImmunity":
+			{
+				 "type": "CHARGE_IMMUNITY"
+			},
+		   "fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+            "RECEPTIVE" :
+			{
+				"type" : "RECEPTIVE"
+			}
+		}
+	}
+}
+
+
+

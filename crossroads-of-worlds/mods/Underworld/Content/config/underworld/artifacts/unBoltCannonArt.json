@@ -1,0 +1,23 @@
+{
+	"unBoltCannon":
+        {
+	"type" : ["HERO"],
+	"warMachine":"unBoltCannon",
+        "class": "SPECIAL",
+        "value": 3000,
+        "slot":"MACH1",
+        "text":
+		{
+			"name": "Bolt Cannon",
+			"description": "{Bolt Cannon}\r\n\r\nThe latest development of scientists for the destruction of enemy units.",
+			"event": "The universal war machine mortira allows you to attack the walls of fortified enemy units."
+		},
+		"graphics":
+		{
+			"image": "underworld/creatures/iconsSmall/artifacts/cross.bmp",
+			"map"  :   "underworld/creatures/map/artifacts/avcnbksm.def"
+		}
+	}
+}
+
+

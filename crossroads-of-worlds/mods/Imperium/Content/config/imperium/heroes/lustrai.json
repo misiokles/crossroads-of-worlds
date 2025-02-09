@@ -1,0 +1,40 @@
+{
+	"lustrai" :
+	{
+		"class" : "baron",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "imperium/heroes/lustrai/spec-small.bmp",
+			"specialtyLarge" : "imperium/heroes/lustrai/spec-large.bmp",
+			"large" : "imperium/heroes/lustrai/portrait-large.bmp",
+			"small" : "imperium/heroes/lustrai/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "itlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "itlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "itlv3", "min" :  3, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "tactics", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Lustrai",
+			"biography" : "Lustrai is one of the daughters of the great mother of Demons, but by a strange coincidence, she did not inherit a single useful skill from her ancestors, only knowledge of the language of animals, so they wanted to betray her to the abyss, but she managed to escape, and she joined people",
+			"specialty" :
+			{
+				"description" : "{Fire Horses and Flame Horses}\r\n\r\nIncreases the Attack and Defence of any Fire Horses for Flame Horses each level attained after 6th level.",
+				"tooltip" : "Creature Bonus: Fire Horses",
+				"name" : "Fire Horses"
+			}
+		
+		},
+		"specialty" : {
+			"creature" : "itlv6"
+		}
+	}
+}

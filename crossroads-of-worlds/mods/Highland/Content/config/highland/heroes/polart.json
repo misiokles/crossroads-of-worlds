@@ -1,0 +1,54 @@
+{
+	"polart" :
+	{
+		"class" : "hiClansman",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "highland/heroes/polart/spec-small.bmp",
+			"specialtyLarge" : "highland/heroes/polart/spec-large.bmp",
+			"large" : "highland/heroes/polart/portrait-large.bmp",
+			"small" : "highland/heroes/polart/portrait-small.bmp"
+		},
+         "army" :
+		[
+			{ "creature" : "hilv1", "min" : 9, "max" : 15 },
+			{ "creature" : "hilv2", "min" :  6, "max" :  9 },
+			{ "creature" : "hilv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Polart",
+			"biography" : "undetermined.",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"geryk" :
+	{
+		"class" : "duke",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/geryk/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/geryk/spec-large.bmp",
+			"large" : "nightwatch/heroes/geryk/portrait-large.bmp",
+			"small" : "nightwatch/heroes/geryk/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "nwlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "nwlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "nwlv3", "min" :  3, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Geryk",
+			"biography" : "undetermined.",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

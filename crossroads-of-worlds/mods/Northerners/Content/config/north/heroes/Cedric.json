@@ -1,0 +1,48 @@
+{
+	"cedric" :
+	{
+		"class" : "ntPaladin",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Cedric",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Icet Knights}\r\n\r\nCan upgrade Royal Knights or Golden Knights to Icet Knighs.",
+				"tooltip" : "Creature Bonus: Icet Knights",
+				"name" : "Icet Knights"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/Cedric/spec-small.bmp",
+			"specialtyLarge" : "north/heroes/Cedric/spec-large.bmp",
+			"large" : "north/heroes/Cedric/portrait-large.bmp",
+			"small" : "north/heroes/Cedric/portrait-small.bmp"
+		},
+          "army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "tactics", "level": "basic" }
+		],
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.ntlv6sp",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"ntRoyalKnightntIcetKnight" : { "subtype" : "creature.ntlv6up" },
+                "ntGoldenKnightntIcetKnight" : { "subtype" : "creature.ntlv6up2" }
+			}
+		}		
+	}
+}

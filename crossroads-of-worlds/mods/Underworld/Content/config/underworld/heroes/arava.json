@@ -1,0 +1,46 @@
+{
+	"arava" :
+	{
+		"class" : "unPrelate",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/arava/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/arava/spec-large.bmp",
+			"large" : "underworld/heroes/arava/portrait-large.bmp",
+			"small" : "underworld/heroes/arava/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Arava",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Sulfur + 1}\r\n\r\nIncreases kingdom's income by 1 mercury per day",
+				"tooltip" : "+1 Sulfur each day",
+				"name" : "+1 Sulfur"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"sulfur" : {
+					"subtype" : "resource.sulfur",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

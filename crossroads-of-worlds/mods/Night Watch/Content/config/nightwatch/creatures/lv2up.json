@@ -1,0 +1,99 @@
+{
+	"nwlv2up":
+	{
+		"name" :
+		{
+			"plural" : "Night Marksmans",
+			"singular" : "Night Marksman"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 9,
+			 "min" : 9
+		},
+		"faction" : "nightwatch",
+		"upgrades": ["nwlv2up2"],
+		"level" : 2,
+		"attack" : 9,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 5
+		},
+		"growth" : 9,
+		"hitPoints" : 10,
+		"speed" : 5,
+		"shots" : 24,
+		"fightValue" : 220,
+		"aiValue" : 242,
+		"cost" :
+		{
+			"gold" : 150
+		},
+		"graphics" :
+		{
+			"animation" : "nightwatch/creatures/battle/lv2up.def",
+			"map" : "nightwatch/creatures/map/lv2up.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv2up.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv2up.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+              },
+		"abilities" :
+		{
+			"eextraAttack" :
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			},
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			  },
+			"spellPoison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 25,
+				"addInfo" : [0,2]				
+			}
+		}	
+	}
+}
+
+
+
+
+
+

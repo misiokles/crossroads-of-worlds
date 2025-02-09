@@ -1,0 +1,77 @@
+{
+	"name" : "Outpost",
+	"description" : "Outpost town",
+	"author": "Zeryss, acidchalk",
+	"version" : "0.2",
+	"contact": "https://vk.com/public184999722",
+	"modType" : "Town",
+	"depends" :
+	[
+		"newtown-terrains.plateaulandterrain"
+	],
+	"factions" :
+	[
+	"config/outpost/town/buildings.json",
+	"config/outpost/town/faction.json",
+	"config/outpost/town/puzzle.json",
+	"config/outpost/town/siege.json",
+	"config/outpost/town/structures.json"
+	],
+        "creatures" :
+    [
+	"config/outpost/creatures/lv1.json",
+	"config/outpost/creatures/lv1up.json",
+	"config/outpost/creatures/lv1up2.json",
+	"config/outpost/creatures/lv2.json",
+	"config/outpost/creatures/lv2up.json",
+	"config/outpost/creatures/lv2up2.json",
+	"config/outpost/creatures/lv3.json",
+	"config/outpost/creatures/lv3up.json",
+	"config/outpost/creatures/lv4.json",
+	"config/outpost/creatures/lv4sn.json",
+	"config/outpost/creatures/lv4up.json",
+	"config/outpost/creatures/lv5.json",
+	"config/outpost/creatures/lv5up.json",
+	"config/outpost/creatures/lv6.json",
+	"config/outpost/creatures/lv6up.json",
+	"config/outpost/creatures/lv6up2.json",
+	"config/outpost/creatures/lv7.json",
+	"config/outpost/creatures/lv7up.json",
+	"config/outpost/creatures/opHeavyCrossbow.json",
+	"config/outpost/creatures/commander.json"
+    ],
+	"heroClasses" :
+	[
+	"config/outpost/classes/Vicar.json",
+	"config/outpost/classes/Regent.json"
+	],
+    "artifacts":
+    [              
+    "config/outpost/artifacts/opHeavyCrossbowArt.json"        
+    ],
+        "heroes" :
+    [
+	"config/outpost/heroes/alexaksdam.json",
+	"config/outpost/heroes/arax.json",
+	"config/outpost/heroes/degda.json",
+	"config/outpost/heroes/galina.json",
+	"config/outpost/heroes/hound.json",
+	"config/outpost/heroes/korza.json",
+	"config/outpost/heroes/limnitra.json",
+	"config/outpost/heroes/neodot.json",
+	"config/outpost/heroes/olorhaya.json",
+	"config/outpost/heroes/retrak.json",
+	"config/outpost/heroes/rusha.json",
+	"config/outpost/heroes/sabalsis.json",
+	"config/outpost/heroes/talabuira.json",
+	"config/outpost/heroes/ulsolil.json",
+	"config/outpost/heroes/verra.json",
+	"config/outpost/heroes/wrusale.json",
+	"config/outpost/heroes/zole.json",
+	"config/outpost/heroes/zoleksil.json"
+    ],
+    "objects" :
+        [
+        "config/outpost/dwellings.json"
+        ]
+}

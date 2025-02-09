@@ -1,0 +1,50 @@
+{
+	"hiposet" :
+	{
+		"class" : "backslider",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/hiposet/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/hiposet/spec-large.bmp",
+			"large" : "scourge/heroes/hiposet/portrait-large.bmp",
+			"small" : "scourge/heroes/hiposet/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Hiposet",
+			"biography" : "It is said that Hiposet was human before she heard strange whispers that promised strength and power..",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+			    }
+			}
+		}
+	}
+}
+
+

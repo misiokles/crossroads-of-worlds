@@ -1,0 +1,78 @@
+{
+	"felv3":
+	{
+		"name" :
+		{
+			"plural" : "Cockatrices",
+			"singular" : "Cockatrice"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 18,
+			 "min" : 18
+		},
+		"faction" : "fen",
+		"upgrades": ["felv3up"],
+		"hasDoubleWeek": true,
+		"level" : 3,
+		"horde" : 3,
+		"attack" : 8,
+		"defense" : 8,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		},
+		"growth" : 7,
+		"hitPoints" : 25,
+		"speed" : 6,
+		"fightValue" : 533,
+		"aiValue" : 483,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"graphics" :
+		{
+			"animation" : "fen/creatures/battle/lv3.def",
+			"map" : "fen/creatures/map/lv3map.def",
+			"iconSmall" : "fen/creatures/iconsSmall/lv3s.bmp",
+			"iconLarge" : "fen/creatures/iconsBig/lv3b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"abilities":
+		{
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 15,
+				"addInfo" : [0, 2]
+			},
+		       "immunity" :
+                {
+               "type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 100
+				}
+		},
+		"sound" :
+		{
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "GRIFMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+		}
+	}
+}
+
+
+

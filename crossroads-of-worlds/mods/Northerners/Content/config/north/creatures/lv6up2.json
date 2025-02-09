@@ -1,0 +1,83 @@
+{
+	"ntlv6up2":
+	{
+		"name" :
+		{
+			"plural" : "Golden Knights",
+			"singular" : "Golden Knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "north",
+		"level" : 6,
+		"attack" : 17,
+		"defense" : 17,
+		"damage" :
+		{
+			 "min" : 25,
+			 "max" : 25
+		},
+		"growth" : 2,
+		"hitPoints" : 90,
+		"speed" : 9,
+		"fightValue" : 2604,
+		"aiValue" : 2990,
+		"cost" :
+		{
+			"gold" : 1100
+		},
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/lv6up2.def",
+			"map" : "north/creatures/map/lv6up2map.def",
+            "iconSmall" : "north/creatures/iconsSmall/lv6up2s.bmp",
+			"iconLarge" : "north/creatures/iconsBig/lv6up2b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		
+		"sound" :
+		{
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+               },
+		"abilities":
+		{
+			
+			"enemyDefenceReduction" : 
+			{ 
+			    "type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 25
+            },
+            "immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			},
+			"doubleDamage" :
+			{
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 10
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+		}
+	}
+}
+
+
+

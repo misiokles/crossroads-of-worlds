@@ -1,0 +1,50 @@
+{
+	"naina" :
+	{
+		"class" : "ntMentor",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/naina/spec-small.bmp",
+			"specialtyLarge" : "north/heroes/naina/spec-large.bmp",
+			"large" : "north/heroes/naina/portrait-large.bmp",
+			"small" : "north/heroes/naina/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "firstAid", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Naina",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Prayer}\r\n\r\nCasts Prayer with increased effect, based on hero level compared to the level of the target unit.",
+				"tooltip" : "Spell Bonus: Prayer",
+				"name" : "Prayer"
+			}
+		},
+
+		"spellbook" :
+		[
+			"prayer"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"prayer" : {
+					"addInfo" : 0,
+					"subtype" : "spell.prayer",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

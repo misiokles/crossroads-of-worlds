@@ -1,0 +1,89 @@
+{
+	"aplv5":
+	{
+		"name" :
+		{
+			"plural" : "Adherents",
+			"singular" : "Adherent"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"faction" : "vanguard",
+		"upgrades":
+		[
+			"aplv5up"
+		],
+                "level" : 5,
+		"attack" : 12,
+		"defense" : 7,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 12
+		},
+		"growth" : 3,
+		"hitPoints" : 30,
+		"speed" : 6,
+		"shots" : 12,
+		"fightValue" : 924,
+		"aiValue" : 1009,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"graphics" :
+		{
+			"animation" : "vanguard/creatures/battle/lv5.def",
+			"map" : "vanguard/creatures/map/lv5map.def",
+			"iconSmall" : "vanguard/creatures/iconsSmall/lv5s.bmp",
+			"iconLarge" : "vanguard/creatures/iconsBig/lv5b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+         },
+		"abilities" :
+		{
+			
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+                        }
+		}	
+	}
+}
+

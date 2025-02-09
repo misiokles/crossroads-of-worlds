@@ -1,0 +1,43 @@
+{
+	"antya" :
+	{
+		"class" : "preceptors",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/antya/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/antya/spec-large.bmp",
+			"large" : "tenebrae/heroes/antya/portrait-large.bmp",
+			"small" : "tenebrae/heroes/antya/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Antya",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Crossbowmans and Royal Crossbowmans}\r\n\r\nIncreases Speed of any Crossbowmans or Royal Crossbowmans by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Crossbowmans",
+				"name" : "Crossbowmans"
+			}
+		},
+		"spellbook" :
+		[
+			"chainLightning"		
+         ],
+		"specialty" : {
+			"creature" : "tenlv2"
+		}		
+	}
+}

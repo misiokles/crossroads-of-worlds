@@ -1,0 +1,50 @@
+{
+	"mreksh" :
+	{
+		"class" : "unPrelate",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/mreksh/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/mreksh/spec-large.bmp",
+			"large" : "underworld/heroes/mreksh/portrait-large.bmp",
+			"small" : "underworld/heroes/mreksh/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		],
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"texts" :
+		{
+			"name" : "Mreksh",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

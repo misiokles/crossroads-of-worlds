@@ -1,0 +1,91 @@
+{
+	"tenlv4sn":
+	{
+		"name" :
+		{
+			"plural" : "Grays Snipers",
+			"singular" : "Gray Sniper"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "tenebrae",
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 8
+		},
+		"growth" : 4,
+		"hitPoints" : 25,
+		"speed" : 5,
+		"shots" : 32,
+		"fightValue" : 469,
+		"aiValue" : 479,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"graphics" :
+		{
+			"animation" : "tenebrae/creatures/battle/lv4sn.def",
+			"map" : "tenebrae/creatures/map/lv4sn.def",
+			"iconSmall" : "tenebrae/creatures/iconsSmall/lv4sn.bmp",
+			"iconLarge" : "tenebrae/creatures/iconsBig/lv4sn.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PELFX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+              },
+		"abilities":
+		{
+			"noPenalty" : 
+			{
+				"type" : "NO_WALL_PENALTY"
+			},
+		  "rangedRetaliation" :
+			{
+				"type" : "RANGED_RETALIATION"
+			},
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			 },
+		"noDistancePenalty" :	
+			{
+				"type" : "NO_DISTANCE_PENALTY"
+			 }
+		}	
+	}
+}

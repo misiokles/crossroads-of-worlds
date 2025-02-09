@@ -1,0 +1,39 @@
+{
+	"frisill" :
+	{
+		"class" : "ntPaladin",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/frisill/spec-small.png",
+			"specialtyLarge" : "north/heroes/frisill/spec-large.png",
+			"large" : "north/heroes/frisill/portrait-large.png",
+			"small" : "north/heroes/frisill/portrait-small.png"
+		},
+        "army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],  
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Frisill",
+			"biography" : "undetermined.",
+			"specialty" :
+			{
+				"description" : "{Snow Cat and Ice Cats}\r\n\r\nIncreases the Attack and Defence of any Snow Cat or Ice Cats for each level attained after 3th level.",
+				"tooltip" : "Creature Bonus: Snow Cat",
+				"name" : "Snow Cats"
+			}
+		},
+		"specialty" : {
+			"creature" : "ntlv3"
+		}		
+	}
+}

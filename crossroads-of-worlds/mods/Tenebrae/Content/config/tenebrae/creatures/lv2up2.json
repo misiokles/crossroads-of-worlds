@@ -1,0 +1,100 @@
+{
+	"tenlv2up2":
+	{
+		"name" :
+		{
+			"plural" : "Royal Crossbowmans",
+			"singular" : "Royal Crossbowman"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+
+		},
+		"faction" : "tenebrae",
+		"level" : 2,
+		"attack" : 7,
+		"defense" : 3,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 4
+		},
+		"growth" : 9,
+		"hitPoints" : 13,
+		"speed" : 6,
+		"shots" : 32,
+		"fightValue" : 293,
+		"aiValue" :296,
+		"cost" :
+		{
+			"gold" : 175
+		},
+		"abilities" :
+		{
+			
+		  "canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+          "noPenalty":
+            {
+                "type" : "NO_WALL_PENALTY"
+
+		    },
+			"enemyDefenceReduction" : 
+			{ 
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 5
+                        },
+			"extraAttack" :
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			}
+		},
+		"graphics" :
+		{
+			"animation" : "tenebrae/creatures/battle/lv2up2.def",
+			"map" : "tenebrae/creatures/map/lv2up2map.def",
+			"iconSmall" : "tenebrae/creatures/iconsSmall/lv2up2s.bmp",
+			"iconLarge" : "tenebrae/creatures/iconsBig/lv2up2b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+		}
+	}
+}
+
+
+

@@ -1,0 +1,103 @@
+{
+	"feKnight":
+	{
+		"name" :
+		{
+			"plural" : "Knights",
+			"singular" : "Knight"
+		},
+		"faction" : "fen",
+		"level" : 0,
+		"special" : true,
+		"attack" : 7,
+		"defense" : 7,
+		"damage" :
+		{
+			 "min" : 14,
+			 "max" : 17
+		},
+		"growth" : 1,
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+		"hitPoints" : 50,
+		"speed" : 5,
+		"aiValue" : 5931,
+		"fightValue" : 5272,
+		"shots" : 24,
+		"cost" :
+		{
+			"gold" : 140
+		},	
+		"graphics" :
+		{
+			"animation" : "fen/creatures/battle/commander.def",
+			"map" : "fen/creatures/map/commap.def",
+			"iconSmall" : "fen/creatures/iconsSmall/coms.bmp",
+			"iconLarge" : "fen/creatures/iconsBig/comb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PELFX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+				"attack": "PLDNATTK.wav",
+			"defend": "PLDNDFND.wav",
+			"killed": "PLDNKILL.wav",
+			"move": "PLDNMOVE.wav",
+            "shoot" : "PLDNSHOT.wav",
+			"wince": "PLDNWNCE.wav"
+		},
+		"abilities" :
+		{
+        	"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+            "magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.prayer",
+				"val" : 2
+			}
+		}
+	}
+}

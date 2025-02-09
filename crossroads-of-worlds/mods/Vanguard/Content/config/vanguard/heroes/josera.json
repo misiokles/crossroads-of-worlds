@@ -1,0 +1,48 @@
+{
+	"josera" :
+	{
+		"class" : "apTrainman",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "vanguard/heroes/josera/spec-small.bmp",
+			"specialtyLarge" : "vanguard/heroes/josera/spec-large.bmp",
+			"large" : "vanguard/heroes/josera/portrait-large.bmp",
+			"small" : "vanguard/heroes/josera/portrait-small.bmp"
+		},
+             "army" :
+		[
+			{ "creature" : "aplv1", "min" : 9, "max" : 15 },
+			{ "creature" : "aplv2", "min" :  6, "max" :  9 },
+			{ "creature" : "aplv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "navigation", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Josera",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Navigation}\r\n\r\nReceives a 5% per level bonus to Navigation skill.",
+				"tooltip" : "Secondary Skill Bonus: Navigation",
+				"name" : "Navigation"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"navigation" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementSea",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

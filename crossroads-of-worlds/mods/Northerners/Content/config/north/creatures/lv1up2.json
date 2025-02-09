@@ -1,0 +1,79 @@
+{
+	"ntlv1up2":
+	{
+		"name" :
+		{
+			"plural" : "Pikemen",
+			"singular" : "Pikeman"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 30
+		},
+		"faction" : "north",
+		"upgrades": ["ntlv1up3"],
+		"level" : 1,
+		"attack" : 5,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 15,
+		"hitPoints" : 10,
+		"speed" : 6,
+		"fightValue" : 122,
+		"aiValue" : 130,
+		"cost" :
+		{
+			"gold" : 70
+		},
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/lv1up2.def",
+			"map" : "north/creatures/map/lv1up2map.def",
+			"iconSmall" : "north/creatures/iconsSmall/lv1up2s.bmp",
+			"iconLarge" : "north/creatures/iconsBig/lv1up2b.bmp",
+            "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+               },
+		"abilities":
+		{
+			"immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			},
+			"cavalryChargeImmunity":
+			{
+				 "type": "CHARGE_IMMUNITY"
+			},
+            "RECEPTIVE" :
+			{
+				"type" : "RECEPTIVE"
+			}
+		}
+	}
+}
+
+
+
+
+
+

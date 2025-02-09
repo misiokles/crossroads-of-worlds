@@ -1,0 +1,72 @@
+{
+	"nwlv3up":
+	{
+		"name" :
+		{
+			"plural" : "Royal Griffins",
+			"singular" : "Royal Griffin"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 30,
+			 "min" : 25
+		},
+		"faction" : "nightwatch",
+		"hasDoubleWeek": true,
+		"aiValue" : 347,
+		"attack" : 10,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 3
+		},
+		"defense" : 10,
+		"fightValue" : 369,
+		"horde" : 3,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "nightwatch/creatures/battle/lv3up.def",
+			"map" : "nightwatch/creatures/map/lv3up.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv3up.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv3up.bmp",
+			
+			"timeBetweenFidgets" : 1
+        },
+
+		"growth" : 7,
+		"hitPoints" : 25,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "RGRFATTK.wav",
+			"defend": "RGRFDFND.wav",
+			"killed": "RGRFKILL.wav",
+			"move": "RGRFMOVE.wav",
+			"wince": "RGRFWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+		       "flying" :
+			{
+				"type" : "FLYING"
+			
+			},
+                     "noRetaliation" :
+			{
+				"type" : "BLOCKS_RETALIATION",
+			}
+               }
+	}
+}

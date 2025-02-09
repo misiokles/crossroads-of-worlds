@@ -1,0 +1,50 @@
+{
+	"fabrok" :
+	{
+		"class" : "feCastellan",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "fen/heroes/fabrok/spec-small.bmp",
+			"specialtyLarge" : "fen/heroes/fabrok/spec-large.bmp",
+			"large" : "fen/heroes/fabrok/portrait-large.bmp",
+			"small" : "fen/heroes/fabrok/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "felv1", "min" : 9, "max" : 15 },
+			{ "creature" : "felv2", "min" :  6, "max" :  9 },
+			{ "creature" : "felv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[       
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Fabrok",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Tarmans and Saints  Tarmans}\r\n\r\nIncreases the Attack and Defense skills of any Tarmans and Saints  Tarmans for each level attained after 7rd level. Additionally, Tarmans and Saints  Tarmans get a permanent +1 Speed bonus.",
+                "tooltip" : "{Tarmans and Saints  Tarmans}\r\n\r\nIncreases the Attack and Defense skills of any Tarmans and Saints  Tarmans for each level attained after 7rd level. Additionally, Tarmans and Saints  Tarmans get a permanent +1 Speed bonus.",
+                "name" : "Tarmans"
+			}
+		},
+		"spellbook" :
+		[
+			"meteorShower"
+		],
+		"specialty" : {
+		"creature" : "felv7"
+	}
+  }
+}

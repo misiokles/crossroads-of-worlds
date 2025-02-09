@@ -1,0 +1,46 @@
+{
+	"phobak" :
+	{
+		"class" : "apTrainman",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "vanguard/heroes/phobak/spec-small.bmp",
+			"specialtyLarge" : "vanguard/heroes/phobak/spec-large.bmp",
+			"large" : "vanguard/heroes/phobak/portrait-large.bmp",
+			"small" : "vanguard/heroes/phobak/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "aplv1", "min" : 9, "max" : 15 },
+			{ "creature" : "aplv2", "min" :  6, "max" :  9 },
+			{ "creature" : "aplv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{ 
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Phobak",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Sandworms and Shamirs}\r\n\r\nIncreases the Attack and Defence of any Sandworms for Shamirs each level attained after 7th level.",
+				"tooltip" : "Creature Bonus: Sandworms",
+				"name" : "Sandworms"
+			}
+		
+		},
+		"specialty" : {
+			"creature" : "aplv7"
+		}
+	}
+}

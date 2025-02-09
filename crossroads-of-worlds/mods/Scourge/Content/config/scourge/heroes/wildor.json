@@ -1,0 +1,51 @@
+{
+	"wildor" :
+	{
+		"class" : "seducer",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/wildor/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/wildor/spec-large.bmp",
+			"large" : "scourge/heroes/wildor/portrait-large.bmp",
+			"small" : "scourge/heroes/wildor/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "learning", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Wildor",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: Hypnotize can cast the Inerno spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Hypnotize",
+				"name" : "Hypnotize"
+			}
+		},
+		"spellbook" :
+		[
+			"hypnotize"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"hypnotize" : {
+					"subtype" : "spell.hypnotize",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+					}
+			}
+		}
+	}
+}
+

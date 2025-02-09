@@ -1,0 +1,79 @@
+{
+	"ntlv4up":
+	{
+		"name" :
+		{
+			"plural" : "Men at Arms",
+			"singular" : "Man at Arms"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 12,
+			 "max" : 20
+		},
+		"faction" : "north",
+		"level" : 4,
+		"attack" : 12,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 7,
+			 "max" : 10
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+		"speed" : 6,
+		"fightValue" : 538,
+		"aiValue" : 563,
+		"cost" :
+		{
+			"gold" : 350
+		},
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/lv4up.def",
+			"map" : "north/creatures/map/lv4upmap.def",
+			"iconSmall" : "north/creatures/iconsSmall/lv4ups.bmp",
+			"iconLarge" : "north/creatures/iconsBig/lv4upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+               },
+		"abilities":
+		{
+			"suck" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 100,
+				"addInfo" : [1, 2]
+			},
+            "immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			},
+			"immuneToBlind":	
+			{	
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.blind"	
+			}
+		}
+	}
+}
+
+
+

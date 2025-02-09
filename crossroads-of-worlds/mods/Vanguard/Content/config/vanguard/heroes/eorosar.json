@@ -1,0 +1,40 @@
+{
+	"eorosar" :
+	{
+		"class" : "apTrainman",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "vanguard/heroes/eorosar/spec-small.bmp",
+			"specialtyLarge" : "vanguard/heroes/eorosar/spec-large.bmp",
+			"large" : "vanguard/heroes/eorosar/portrait-large.bmp",
+			"small" : "vanguard/heroes/eorosar/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "aplv1", "min" : 9, "max" : 15 },
+			{ "creature" : "aplv2", "min" :  6, "max" :  9 },
+			{ "creature" : "aplv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Eorosar",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Bowmans and Crossbowmans}\r\n\r\nIncreases the Attack and Defence of any Bowmans and Crossbowmans each level attained after 2th level.",
+				"tooltip" : "Creature Bonus: Bowmans",
+				"name" : "Bowmans"
+			}
+		
+		},
+		"specialty" : {
+			"creature" : "aplv2"
+		}
+	}
+}

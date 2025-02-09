@@ -1,0 +1,93 @@
+{
+	"relv2up2":
+	{
+		"name" :
+		{
+			"plural" : "Crossbowmans",
+			"singular" : "Crossbowman"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 18,
+			 "min" : 18
+		},
+		"faction" : "scourge",
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 3,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 3
+		},
+		"growth" : 7,
+		"hitPoints" : 15,
+		"speed" : 5,
+		"shots" : 32,
+		"fightValue" : 253,
+		"aiValue" : 300,
+		"cost" :
+		{
+			"gold" : 175
+		},
+		"graphics" :
+		{
+			"animation" : "scourge/creatures/battle/lv2up2.def",
+			"map" : "scourge/creatures/map/lv2up2map.def",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv2up2s.bmp",
+			"iconLarge" : "scourge/creatures/iconsBig/lv2up2b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PELFX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+              },
+		"abilities" :
+		{
+			
+		   "extraAttack" :
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			},
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			 },
+            "castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 25,
+				"addInfo" : [0,2]
+			}
+		}	
+	}
+}

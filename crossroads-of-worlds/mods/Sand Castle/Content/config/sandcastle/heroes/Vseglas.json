@@ -1,0 +1,50 @@
+{
+	"vseglas" :
+	{
+		"class" : "redcleric",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "sandcastle/heroes/vseglas/spec-small.bmp",
+			"specialtyLarge" : "sandcastle/heroes/vseglas/spec-large.bmp",
+			"large" : "sandcastle/heroes/vseglas/portrait-large.bmp",
+			"small" : "sandcastle/heroes/vseglas/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "salv1", "min" :  10, "max" : 15 },
+			{ "creature" : "salv2", "min" :  6, "max" :  9 },
+			{ "creature" : "salv3", "min" :  3, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "estates", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Vseglas",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"tooltip" : "Spell Bonus: Weakness",
+				"name" : "Weakness"
+			}
+		},
+		"spellbook" :
+		[
+			"weakness"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

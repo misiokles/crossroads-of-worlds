@@ -1,0 +1,53 @@
+{
+	"tenebrae" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"extraAnimation": { "animation" : "TBCSEXT2.def", "x" : 46,  "y" : 119 },
+				"mageGuild1":     { "animation" : "tenebrae/town-screen/buildings/TBCSMAGE.def",   "x" : 707, "y" : 166, "z" : 1,   "border" : "tenebrae/town-screen/buildings-border/TOCSMAG1.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSMAG1.bmp" },
+				"mageGuild2":     { "animation" : "tenebrae/town-screen/buildings/TBCSMAG2.def",   "x" : 706, "y" : 135, "z" : 1,   "border" : "tenebrae/town-screen/buildings-border/TOCSMAG2.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSMAG2.bmp" },
+				"mageGuild3":     { "animation" : "tenebrae/town-screen/buildings/TBCSMAG3.def",   "x" : 704, "y" : 107, "z" : 1,   "border" : "tenebrae/town-screen/buildings-border/TOCSM301.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSM301.bmp" },
+				"mageGuild4":     { "animation" : "tenebrae/town-screen/buildings/TBCSMAG4.def",   "x" : 704, "y" : 76,  "z" : 1,   "border" : "tenebrae/town-screen/buildings-border/TOCSM401.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSM401.bmp" },
+                                "mageGuild5":     { "animation" : "tenebrae/town-screen/buildings/TBCSMAG5.def",   "x" : 0,   "y" : 0,   "z" : 1,   "border" : "tenebrae/town-screen/buildings-border/TOCSM501.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSM501.bmp" },
+				"tavern":         { "animation" : "tenebrae/town-screen/buildings/TBCSTVRN.def",   "x" : 0,   "y" : 230, "z" : 1,   "border" : "tenebrae/town-screen/buildings-border/TOCSTAV1.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSTAV1.bmp" },
+				"shipyard":       { "animation" : "tenebrae/town-screen/buildings/TBCSDOCK.def",   "x" : 478, "y" : 134, "z" : -3,  "border" : "tenebrae/town-screen/buildings-border/TOCSDKMS.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSDKMS.bmp" },
+				"fort":           { "animation" : "tenebrae/town-screen/buildings/TBCSCSTL.def",   "x" : 595, "y" : 66,  "z" : -4,  "border" : "tenebrae/town-screen/buildings-border/TOCSCAS1.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSCAS1.bmp" },
+				"citadel":        { "animation" : "tenebrae/town-screen/buildings/TBCSCAS2.def",   "x" : 478, "y" : 66,  "z" : -4,  "border" : "tenebrae/town-screen/buildings-border/TOCSCAS2.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSCAS2.bmp" },
+				"castle":         { "animation" : "tenebrae/town-screen/buildings/TBCSCAS3.def",   "x" : 478, "y" : 37,  "z" : -4,  "border" : "tenebrae/town-screen/buildings-border/TOCSCAS3.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSCAS3.bmp" },
+				"villageHall":    { "animation" : "tenebrae/town-screen/buildings/TBCSHALL.def",   "x" : 0,   "y" : 209,            "border" : "tenebrae/town-screen/buildings-border/TOCSH101.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSH101.bmp" },
+				"townHall":       { "animation" : "tenebrae/town-screen/buildings/TBCSHAL2.def",   "x" : 0,   "y" : 176,            "border" : "tenebrae/town-screen/buildings-border/TOCSH201.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSH201.bmp" },
+				"cityHall":       { "animation" : "tenebrae/town-screen/buildings/TBCSHAL3.def",   "x" : 0,   "y" : 164,            "border" : "tenebrae/town-screen/buildings-border/TOCSH301.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSH301.bmp" },
+				"capitol":        { "animation" : "tenebrae/town-screen/buildings/TBCSHAL4.def",   "x" : 0,   "y" : 154,            "border" : "tenebrae/town-screen/buildings-border/TOCSH401.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSH401.bmp" },
+				"marketplace":    { "animation" : "tenebrae/town-screen/buildings/TBCSMARK.def",   "x" : 413, "y" : 264,            "border" : "tenebrae/town-screen/buildings-border/TOCSMRK1.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSMRK1.bmp" },
+				"resourceSilo":   { "animation" : "tenebrae/town-screen/buildings/TBCSSILO.def",   "x" : 488, "y" : 228,            "border" : "tenebrae/town-screen/buildings-border/TOCSMRK2.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSMRK2.bmp" },
+				"blacksmith":     { "animation" : "tenebrae/town-screen/buildings/TBCSBLAK.def",   "x" : 213, "y" : 251,            "border" : "tenebrae/town-screen/buildings-border/TOCSBLAK.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSBLAK.bmp" },
+				"special3":       { "animation" : "tenebrae/town-screen/buildings/TBCSSPEC.def",   "x" : 0, "y" : 0,                "border" : "tenebrae/town-screen/buildings-border/TOCSLT01.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSLT01.bmp" },
+				"horde1":         { "animation" : "tenebrae/town-screen/buildings/TBCSHRD1.def",   "x" : 76,  "y" : 53,  "z" : -1,  "border" : "tenebrae/town-screen/buildings-border/TOCSGR1H.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSGR1H.bmp", "hidden" : true },
+				"horde1Upgr":     { "animation" : "tenebrae/town-screen/buildings/TBCSHRD2.def",   "x" : 76,  "y" : 35,  "z" : -1,  "border" : "tenebrae/town-screen/buildings-border/TOCSGR2H.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSGR2H.bmp", "hidden" : true, "builds" : "horde1" },
+				"ship":           { "animation" : "tenebrae/town-screen/buildings/TBCSBOAT.def",   "x" : 478, "y" : 134, "z" : -2,  "border" : "tenebrae/town-screen/buildings-border/TOCSDKMN.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSDKMN.bmp", "hidden" : true },
+				"special2":       { "animation" : "tenebrae/town-screen/buildings/TBCSEXT0.def",   "x" : 384, "y" : 193, "z" : -2,  "border" : "tenebrae/town-screen/buildings-border/TOCSCAVM.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSCAVM.bmp" },
+				"special1":       { "animation" : "tenebrae/town-screen/buildings/TBCSEXT1.def",   "x" : 0,   "y" : 198, "z" :  2,  "border" : "tenebrae/town-screen/buildings-border/TOCSTAV2.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSTAV2.bmp" },
+				"grail":          { "animation" : "tenebrae/town-screen/buildings/TBCSHOLY.def",   "x" : 0,   "y" : 0,   "z" : -5,  "border" : "tenebrae/town-screen/buildings-border/TOCSHOLY.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSHOLY.bmp" },
+				"dwellingLvl1":   { "animation" : "tenebrae/town-screen/buildings/TBCSDW_0.def",   "x" : 304, "y" : 92,             "border" : "tenebrae/town-screen/buildings-border/TOCSPIK1.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSPIK1.bmp" },
+				"dwellingLvl2":   { "animation" : "tenebrae/town-screen/buildings/TBCSDW_1.def",   "x" : 360, "y" : 130,            "border" : "tenebrae/town-screen/buildings-border/TOCSCRS1.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSCRS1.bmp" },
+				"dwellingLvl3":   { "animation" : "tenebrae/town-screen/buildings/TBCSDW_2.def",   "x" : 76,  "y" : 57,  "z" : -1,  "border" : "tenebrae/town-screen/buildings-border/TOCSGR1N.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSGR1N.bmp" },
+				"dwellingLvl4":   { "animation" : "tenebrae/town-screen/buildings/TBCSDW_3.def",   "x" : 176, "y" : 101,            "border" : "tenebrae/town-screen/buildings-border/TOCSSWD1.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSSWD1.bmp" },
+				"dwellingLvl5":   { "animation" : "tenebrae/town-screen/buildings/TBCSDW_4.def",   "x" : 563, "y" : 211, "z" : 1,   "border" : "tenebrae/town-screen/buildings-border/TOCSMON1.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSMON1.bmp" },
+				"dwellingLvl6":   { "animation" : "tenebrae/town-screen/buildings/TBCSDW_5.def",   "x" : 174, "y" : 190, "z" : -1,  "border" : "tenebrae/town-screen/buildings-border/TOCSC101.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSCAV1.bmp" },
+				"dwellingLvl7":   { "animation" : "tenebrae/town-screen/buildings/TBCSDW_6.def",   "x" : 0,   "y" : 0,   "z" : -1,  "border" : "tenebrae/town-screen/buildings-border/TOCSANG1.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSANG1.bmp" },
+				"dwellingUpLvl1": { "animation" : "tenebrae/town-screen/buildings/TBCSUP_0.def",   "x" : 304, "y" : 65,             "border" : "tenebrae/town-screen/buildings-border/TOCSPIK2.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSPIK2.bmp" },
+                               "dwellingUp2Lvl1": { "animation" : "tenebrae/town-screen/buildings/TBCSUP2_0.def", "x" : 304, "y" : 60,   "z" : -1,  "border" : "tenebrae/town-screen/buildings-border/TOCSPIK3.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSPIK3.bmp" },
+			       "dwellingUp2Lvl2": { "animation" : "tenebrae/town-screen/buildings/TBCSUP2_1.def", "x" : 363, "y" : 111,             "border" : "tenebrae/town-screen/buildings-border/TOCSCRS3.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSCRS3.bmp" },
+				"dwellingUpLvl2": { "animation" : "tenebrae/town-screen/buildings/TBCSUP_1.def",   "x" : 360, "y" : 115,            "border" : "tenebrae/town-screen/buildings-border/TOCSCRS2.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSCRS2.bmp" },
+				"dwellingUpLvl3": { "animation" : "tenebrae/town-screen/buildings/TBCSUP_2.def",   "x" : 76,  "y" : 35,  "z" : -1,  "border" : "tenebrae/town-screen/buildings-border/TOCSGR2N.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSGR2N.bmp" },
+				"dwellingUpLvl4": { "animation" : "tenebrae/town-screen/buildings/TBCSUP_3.def",   "x" : 176, "y" : 85,             "border" : "tenebrae/town-screen/buildings-border/TOCSSWD2.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSSWD2.bmp" },
+				"dwellingUpLvl5": { "animation" : "tenebrae/town-screen/buildings/TBCSUP_4.def",   "x" : 563, "y" : 173, "z" : 1,   "border" : "tenebrae/town-screen/buildings-border/TOCSMON2.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSMON2.bmp" },
+				"dwellingUpLvl6": { "animation" : "tenebrae/town-screen/buildings/TBCSUP_5.def",   "x" : 160, "y" : 190, "z" : -1,  "border" : "tenebrae/town-screen/buildings-border/TOCSCAV2.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSCAV2.bmp" },
+			       "dwellingUp2Lvl6": { "animation" : "tenebrae/town-screen/buildings/TBCSUP2_5.def",  "x" : 159, "y" : 190, "z" : -1,  "border" : "tenebrae/town-screen/buildings-border/TOCSCAV3.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSCAV3.bmp" },
+			        "dwellingUpLvl7": { "animation" : "tenebrae/town-screen/buildings/TBCSUP_6.def",   "x" : 0,   "y" : 0,   "z" : -1,  "border" : "tenebrae/town-screen/buildings-border/TOCSANG2.bmp", "area" : "tenebrae/town-screen/buildings-area/TZCSANG2.bmp" }
+			}
+		}
+	}
+}

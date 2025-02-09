@@ -1,0 +1,44 @@
+{
+	"fakaza" :
+	{
+		"class" : "unDignitary",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/fakaza/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/fakaza/spec-large.bmp",
+			"large" : "underworld/heroes/fakaza/portrait-large.bmp",
+			"small" : "underworld/heroes/fakaza/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Fakaza",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Medusas Crusaders and Medusas Knights}\r\n\r\nIncreases Speed of any Medusas Crusaders or Medusas Knights by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Medusas Crusaders",
+				"name" : "Medusas Crusaders"
+			}
+		},
+		"spellbook" :
+		[
+			"meteorShower"
+		],
+		"specialty" : {
+			"creature" : "unMedusasCrusader"
+		}		
+	}
+}

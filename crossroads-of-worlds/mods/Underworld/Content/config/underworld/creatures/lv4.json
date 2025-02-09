@@ -1,0 +1,71 @@
+{
+	"unMedusasCrusader":
+	{
+		"name" :
+		{
+			"plural" : "Medusas Crusaders", 
+			"singular" : "Medusa Crusader"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "underworld",
+		"aiValue" : 510,
+		"attack" : 10,
+		"doubleWide" : true,
+        "cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 7
+		},
+		"defense" : 12,
+		"fightValue" : 640,
+		"graphics" :
+		{
+			"animation" : "underworld/creatures/battle/lv4.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "underworld/creatures/map/lv4map.def",
+			"iconSmall" : "underworld/creatures/iconsSmall/lv4s.bmp",
+			"iconLarge" : "underworld/creatures/iconsBig/lv4b.bmp",
+			"timeBetweenFidgets" : 1
+        },
+
+		"growth" : 4,
+		"hitPoints" : 35,
+		"level" : 4,
+		"upgrades":
+		[
+			"unMedusasKnight"
+		],
+		"sound" :
+		{
+			"attack": "SWRDATTK.wav",
+			"defend": "SWRDDFND.wav",
+			"killed": "SWRDKILL.wav",
+			"move": "NSENMOVE.wav",
+			"wince": "SWRDWNCE.wav"
+		},
+		"speed" : 5,
+                "abilities" :
+		{
+                        "petrification" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze", 
+                "val" : 20,
+				"addInfo" : [0, 1]
+			},
+			"earthImmunity" : 
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "earth"
+			}	
+		}	
+	}
+}

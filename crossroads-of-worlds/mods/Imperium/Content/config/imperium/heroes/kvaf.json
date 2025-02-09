@@ -1,0 +1,52 @@
+{
+	"kvaf" :
+	{
+		"class" : "advisor",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "imperium/heroes/kvaf/spec-small.bmp",
+			"specialtyLarge" : "imperium/heroes/kvaf/spec-large.bmp",
+			"large" : "imperium/heroes/kvaf/portrait-large.bmp",
+			"small" : "imperium/heroes/kvaf/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "itlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "itlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "itlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "learning", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Kvaf",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: Haste can cast the Inerno spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Inferno",
+				"name" : "Inferno"
+			}
+		},
+		"spellbook" :
+		[
+			"inferno"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"inferno" : {
+					"subtype" : "spell.inferno",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}
+
+

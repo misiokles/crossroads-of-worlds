@@ -1,0 +1,62 @@
+{
+	"relv3":
+	{
+		"name" :
+		{
+			"plural" : "Wolves",
+			"singular" : "Wolf"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "scourge",
+		"upgrades": ["relv3up"],
+		"aiValue" : 361,
+		"attack" : 8,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"min" : 3, 
+                        "max" : 6 
+		},
+		"defense" : 8,
+		"fightValue" : 333,
+		"graphics" :
+		{
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "scourge/creatures/battle/lv3.def",
+			"map" : "scourge/creatures/map/lv3map.def",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv3s.bmp",
+			"iconLarge" : "scourge/creatures/iconsBig/lv3b.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 7,
+		"hitPoints" : 25,
+		"level" : 3,
+                "horde" : 3,
+		"sound" :
+		{
+			"attack": "HHNDATTK.wav",
+			"defend": "HHNDDFND.wav",
+			"killed": "HHNDKILL.wav",
+			"move": "HHNDMOVE.wav",
+			"wince": "HHNDWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities":
+		{
+			
+			
+		    "firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+            }
+		}	
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"nariko" :
+	{
+		"class" : "redcleric",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "sandcastle/heroes/nariko/spec-small.bmp",
+			"specialtyLarge" : "sandcastle/heroes/nariko/spec-large.bmp",
+			"large" : "sandcastle/heroes/nariko/portrait-large.bmp",
+			"small" : "sandcastle/heroes/nariko/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "salv1", "min" :  10, "max" : 15 },
+			{ "creature" : "salv2", "min" :  6, "max" :  9 },
+			{ "creature" : "salv3", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"texts" :
+		{
+			"name" : "Nariko",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

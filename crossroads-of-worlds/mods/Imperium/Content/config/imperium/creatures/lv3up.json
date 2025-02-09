@@ -1,0 +1,82 @@
+{
+	"itlv3up":
+	{
+		"name" :
+		{
+			"plural" : "Fire Hounds",
+			"singular" : "Fire Hound"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "imperium",
+		"aiValue" : 368,
+		"attack" : 10,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 250
+		},
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		},
+		"defense" : 8,
+		"fightValue" : 383,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "imperium/creatures/battle/lv3up.def",
+			"map" : "imperium/creatures/map/lv3up.def",
+			"iconSmall" : "imperium/creatures/iconsSmall/lv3up.bmp",
+			"iconLarge" : "imperium/creatures/iconsBig/lv3up.bmp",
+                        "timeBetweenFidgets" : 1
+               },
+		"growth" : 7,
+		"hitPoints" : 30,
+		"level" : 3,
+                "horde" : 3,
+		"sound" :
+		{
+			"attack": "HGWRATTK.wav",
+			"defend": "HGWRDFND.wav",
+			"killed": "HHNDKILL.wav",
+			"move": "HHNDMOVE.wav",
+			"wince": "HHNDWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+			"enemyDefenceReduction" : 
+			{ 
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 15
+			},
+           "immuneToFire" :
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "fire"
+			},
+			"frostRingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.frostRing",
+				"val" : 100
+			},
+			"iceBoltVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.iceBolt",
+				"val" : 100
+			},
+			"jousting" :
+			{
+				"type" : "JOUSTING"
+			}
+		}
+	}
+}

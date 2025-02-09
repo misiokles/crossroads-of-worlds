@@ -1,0 +1,58 @@
+{
+	"galina" :
+	{
+		"class" : "ouVicar",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "lagoon/heroes/galina/spec-small.bmp",
+			"specialtyLarge" : "lagoon/heroes/galina/spec-large.bmp",
+			"large" : "lagoon/heroes/galina/portrait-large.bmp",
+			"small" : "lagoon/heroes/galina/portrait-small.bmp"
+		},
+               "army" :
+		[
+			{ "creature" : "lalv1", "min" : 9, "max" : 15 },
+			{ "creature" : "lalv2", "min" :  6, "max" :  9 },
+			{ "creature" : "lalv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Galina",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		},
+		"spellbook" :
+		[
+			"dispel"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.any",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

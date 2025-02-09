@@ -1,0 +1,67 @@
+{
+	"relv3up":
+	{
+		"name" :
+		{
+			"plural" : "Fierce Wolves",
+			"singular" : "Fierce Wolf"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "scourge",
+		"aiValue" : 368,
+		"attack" : 10,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		},
+		"defense" : 8,
+		"fightValue" : 383,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "scourge/creatures/battle/lv3up.def",
+			"map" : "scourge/creatures/map/lv3upmap.def",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv3ups.bmp",
+			"iconLarge" : "scourge/creatures/iconsBig/lv3upb.bmp",
+                        "timeBetweenFidgets" : 1
+               },
+		"growth" : 7,
+		"hitPoints" : 30,
+		"level" : 3,
+                "horde" : 3,
+		"sound" :
+		{
+			"attack": "HGWRATTK.wav",
+			"defend": "HGWRDFND.wav",
+			"killed": "HHNDKILL.wav",
+			"move": "HHNDMOVE.wav",
+			"wince": "HHNDWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 30,
+				"addInfo" : [0,2]
+			},
+		       "firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			}
+		}	
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"hiHeavyCrossbow":
+        {
+	    "type" : ["HERO"],
+	    "warMachine":"hiHeavyCrossbow",
+        "class": "SPECIAL",
+        "value": 3500,
+        "slot":"MACH1",
+        "text":
+		{
+			"name": "Heavy Crossbow",
+			"description": "{Heavy Crossbow}\r\n\r\nThe latest development of scientists for the destruction of enemy units.",
+			"event": "The universal war machine mortira allows you to attack the walls of fortified enemy units."
+		},
+		"graphics":
+		{
+			"image":   "highland/creatures/iconsSmall/artifacts/cross.bmp",
+			"map"  :   "highland/creatures/map/artifacts/avcnbksm.def"
+		}
+	}
+}
+
+

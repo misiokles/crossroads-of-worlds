@@ -1,0 +1,69 @@
+{
+	"salv6cr":
+	{
+		"name" :
+		{
+			"plural" : "Crusaders Riders",
+			"singular" : "Crusader Riders"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 3
+		},
+		"faction" : "sandcastle",
+		"aiValue" : 1261,
+		"attack" : 16,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1200
+		},
+		"damage" :
+		{
+			 "max" : 25,
+			 "min" : 18
+		},
+		"defense" : 16,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "sandcastle/creatures/battle/lv6cr.def",
+			"map" : "sandcastle/creatures/map/lv6crmap.def",
+			"iconSmall" : "sandcastle/creatures/iconsSmall/lv6crs.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/lv6crb.bmp",
+			
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 3,
+		"hitPoints" : 110,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"spellResistAura" :
+			{
+				"type" : "SPELL_RESISTANCE_AURA",
+				"val" : 20
+			},
+			"generalDamageReduction" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"val" : 25
+			}
+		}
+	}
+}
+

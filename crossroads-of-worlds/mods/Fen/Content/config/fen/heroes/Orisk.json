@@ -1,0 +1,44 @@
+{
+	"orisk" :
+	{
+		"class" : "feCastellan",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "fen/heroes/orisk/spec-small.bmp",
+			"specialtyLarge" : "fen/heroes/orisk/spec-large.bmp",
+			"large" : "fen/heroes/orisk/portrait-large.bmp",
+			"small" : "fen/heroes/orisk/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "ballista", "max" : 1, "min" : 1 },
+			{ "creature" : "felv1", "min" :  10, "max" :  15 },
+			{ "creature" : "felv2", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "artillery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Orisk",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Ballista}\r\n\r\nIncreases the Attack and Defense skills of any Ballista by 5% for every 6 levels (rounded up).",
+				"tooltip" : "Artillery Bonus: Ballista",
+				"name" : "Ballista",
+			}
+		},
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		"specialty" : {
+			"creature" : "ballista"
+		}		
+	}
+}

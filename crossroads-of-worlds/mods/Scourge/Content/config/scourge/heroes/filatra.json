@@ -1,0 +1,49 @@
+{
+	"filatra" :
+	{
+		"class" : "seducer",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/filatra/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/filatra/spec-large.bmp",
+			"large" : "scourge/heroes/filatra/portrait-large.bmp",
+			"small" : "scourge/heroes/filatra/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Filatra",
+			"biography" : "Filatra is one of the founders of the trade guild and will never miss its prof",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+			},
+		"spellbook" :
+		[
+		       "magicArrow"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

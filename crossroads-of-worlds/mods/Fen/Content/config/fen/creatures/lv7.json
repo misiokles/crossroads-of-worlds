@@ -1,0 +1,56 @@
+{
+	"felv7" : {
+		"advMapAmount" : {"max" : 10, "min" : 4},
+		"aiValue" : 3698,
+		"attack" : 19,
+		"cost" : { "gold" :  1800},
+		"damage" : {"max" : 45, "min" : 25},
+		"defense" : 20,
+		"faction" : "fen",
+		"fightValue" : 2946,
+		"graphics" : {
+                        "animation" : "fen/creatures/battle/lv7.def",
+			"map" : "fen/creatures/map/lv7map.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
+			"iconSmall" : "fen/creatures/iconsSmall/lv7s.bmp",
+			"iconLarge" : "fen/creatures/iconsBig/lv7b.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 180,
+		"speed" : 9,
+                "doubleWide" : false,
+		"level" : 7,
+		"upgrades": ["felv7up"],
+		"name" : { "plural" : "Tarmans", "singular" : "Tarman" },
+		"sound" : {
+			"attack" : "TempATTK.wav",
+			"defend" : "TempDFND.wav",
+			"killed" : "TempDEAD.wav",
+			"move" : "TempMOVE.wav",
+			"wince" : "TempWNCE.wav"
+		},
+		 "abilities":
+		{
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 40
+			},
+			"flamethrower" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			},
+		"immunity" :
+            {
+               "type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 100
+			}
+		}	
+	}
+}

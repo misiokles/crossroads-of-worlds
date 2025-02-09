@@ -1,0 +1,47 @@
+{
+	"frederik" :
+	{
+		"class" : "ntPaladin",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/frederik/spec-small.bmp",
+			"specialtyLarge" : "north/heroes/frederik/spec-large.bmp",
+			"large" : "north/heroes/frederik/portrait-large.bmp",
+			"small" : "north/heroes/frederik/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "resistance", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Frederik",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Resistance}\r\n\r\nReceives a 5% per level bonus to Resistance skill.",
+				"tooltip" : "Secondary Skill Bonus: Resistance",
+				"name" : "Resistance"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"type" : "MAGIC_RESISTANCE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

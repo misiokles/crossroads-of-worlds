@@ -1,0 +1,43 @@
+{
+	"sashira" :
+	{
+		"class" : "advisor",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "imperium/heroes/sashira/spec-small.bmp",
+			"specialtyLarge" : "imperium/heroes/sashira/spec-large.bmp",
+			"large" : "imperium/heroes/sashira/portrait-large.bmp",
+			"small" : "imperium/heroes/sashira/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "itlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "itlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "itlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Sashira",
+			"biography" : "Sashira is one of the daughters of the queen of the succubus, but with beauty in her mother, and the character of her father, she opposed inferno and therefore took away the part of the succubus that faithfully serves her and went over to the side of the imperium",
+			"specialty" :
+			{
+				"description" : "{Succubus and Succubus Seducer}\r\n\r\nIncreases Speed of any Succubus or Succubus Seducer by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Succubus",
+				"name" : "Succubus"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "itlv5"
+		}		
+	}
+}

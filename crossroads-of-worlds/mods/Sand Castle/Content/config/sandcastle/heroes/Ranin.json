@@ -1,0 +1,58 @@
+{
+	"ranin" :
+	{
+		"class" : "redcleric",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "sandcastle/heroes/ranin/spec-small.bmp",
+			"specialtyLarge" : "sandcastle/heroes/ranin/spec-large.bmp",
+			"large" : "sandcastle/heroes/ranin/portrait-large.bmp",
+			"small" : "sandcastle/heroes/ranin/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "salv1", "min" :  10, "max" : 15 },
+			{ "creature" : "salv2", "min" :  6, "max" :  9 },
+			{ "creature" : "salv3", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Ranin",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: Resurrection can cast the Resurrection spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Resurrection",
+				"name" : "Resurrection"
+			}
+		},
+		"spellbook" :
+		[
+			"resurrection"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

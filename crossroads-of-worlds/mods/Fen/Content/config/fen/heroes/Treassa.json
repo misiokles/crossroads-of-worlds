@@ -1,0 +1,50 @@
+{
+	"treassa" :
+	{
+		"class" : "feCastellan",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "fen/heroes/treassa/spec-small.bmp",
+			"specialtyLarge" : "fen/heroes/treassa/spec-large.bmp",
+			"large" : "fen/heroes/treassa/portrait-large.bmp",
+			"small" : "fen/heroes/treassa/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "felv1", "min" : 9, "max" : 15 },
+			{ "creature" : "felv2", "min" :  6, "max" :  9 },
+			{ "creature" : "felv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "eagleEye", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Treassa",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"tooltip" : "Weakness",
+				"name" : "Weakness"
+			}
+		},
+		"spellbook" :
+		[
+			"weakness"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

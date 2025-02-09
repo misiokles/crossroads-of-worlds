@@ -1,0 +1,39 @@
+{
+	"korza" :
+	{
+		"class" : "ouRegent",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "lagoon/heroes/korza/spec-small.bmp",
+			"specialtyLarge" : "lagoon/heroes/korza/spec-large.bmp",
+			"large" : "lagoon/heroes/korza/portrait-large.bmp",
+			"small" : "lagoon/heroes/korza/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "lalv1", "min" : 9, "max" : 15 },
+			{ "creature" : "lalv2", "min" :  6, "max" :  9 },
+			{ "creature" : "lalv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Korza",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Adherents and Mentors}\r\n\r\nIncreases Speed of any Adherents or Mentors by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Adherents",
+				"name" : "Adherents"
+			}
+		},
+		"specialty" : {
+			"creature" : "lalv5"
+		}		
+	}
+}

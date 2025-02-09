@@ -1,0 +1,40 @@
+{
+	"satriks" :
+	{
+		"class" : "backslider",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/satriks/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/satriks/spec-large.bmp",
+			"large" : "scourge/heroes/satriks/portrait-large.bmp",
+			"small" : "scourge/heroes/satriks/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Satriks",
+			"biography" : "",
+			"specialty" :
+			{
+				
+				"description" : "{Rookies and Guards}\r\n\r\nIncreases Speed of any Rookies or Guards by 1 and their Attack and Defense skills by 5% for every 1 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Rookies",
+				"name" : "Rookies"
+			}
+		},
+		"specialty" : {
+			"creature" : "relv1"
+		}		
+	}
+}

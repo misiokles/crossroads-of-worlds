@@ -1,0 +1,91 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"quGuardHouse" : {
+				"name" : "Guard House",
+				"creatures" : [[ "qulv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "outpost/creatures/dwellings/dw1.def",
+						"mask" : [ "VBB", "VBB", "VBA" ]
+					}
+				}
+			},
+			"quCrossbowmansTower" : {
+				"name" : "Crossbowmans Tower",
+				"creatures" : [[ "qulv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "outpost/creatures/dwellings/dw2.def",
+						"mask" : [ "VBB", "VBB", "VAB" ]
+					}
+				}
+			},
+			"quAncientTower" : {
+				"name" : "Ancient Tower",
+				"creatures" : [[ "qulv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "outpost/creatures/dwellings/dw3.def",
+						"mask" : [ "VBB", "VBB", "VBA" ]
+					}
+				}
+			},
+			"quBarracks" : {
+				"name" : "Barracks",
+				"creatures" : [[ "qulv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "outpost/creatures/dwellings/dw4.def",
+						"mask" : [ "VBB", "VBB", "VBA" ]
+					}
+				}
+			},
+			"quMonastery" : {
+				"name" : "Monastery",
+				"creatures" : [[ "qulv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "outpost/creatures/dwellings/dw5.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"quTrainingGrounds" : {
+				"name" : "Training Grounds",
+				"creatures" : [[ "qulv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "outpost/creatures/dwellings/dw6.def",
+						"mask" : [ "VVB", "VBB", "VBA" ]
+					}
+				}
+			},
+			"quMountainLairs" : {
+				"name" : "Mountain Lairs",
+				"creatures" : [[ "qulv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "outpost/creatures/dwellings/dw7.def",
+						"mask" : [ "VVVV", "VBBB", "VBBB", "VBAB" ]
+					}
+				}
+			},
+			"quSniperOutpost" : {
+				"name" : "Sniper Tower",
+				"creatures" : [[ "qulv4sn" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "outpost/creatures/dwellings/dw8.def",
+						"mask" : [ "VBB", "VBB", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

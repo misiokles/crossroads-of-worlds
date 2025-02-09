@@ -1,0 +1,49 @@
+{
+	"eroria" :
+	{
+		"class" : "seducer",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/eroria/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/eroria/spec-large.bmp",
+			"large" : "scourge/heroes/eroria/portrait-large.bmp",
+			"small" : "scourge/heroes/eroria/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Eroria",
+			"biography" : "They say that Eroria is possessed by the spirits of the void and thanks to this it is able to find deposits of mercury.",
+			"specialty" :
+			{
+				"description" : "{Mercury + 1}\r\n\r\nIncreases kingdom's income by 1 mercury per day",
+				"tooltip" : "+1 Mercury each day",
+				"name" : "+1 Mercury"
+			}
+			},
+		"spellbook" :
+		[
+		       "magicArrow"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"mercury" : {
+					"subtype" : "resource.mercury",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

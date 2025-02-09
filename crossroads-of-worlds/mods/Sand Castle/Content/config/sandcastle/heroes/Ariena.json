@@ -1,0 +1,49 @@
+{
+	"ariena" :
+	{
+		"class" : "redknight",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "sandcastle/heroes/ariena/spec-small.bmp",
+			"specialtyLarge" : "sandcastle/heroes/ariena/spec-large.bmp",
+			"large" : "sandcastle/heroes/ariena/portrait-large.bmp",
+			"small" : "sandcastle/heroes/ariena/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "salv1", "min" :  10, "max" : 15 },
+			{ "creature" : "salv2", "min" :  6, "max" :  9 },
+			{ "creature" : "salv3", "min" :  3, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Ariena",
+			"biography" : "",
+				"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

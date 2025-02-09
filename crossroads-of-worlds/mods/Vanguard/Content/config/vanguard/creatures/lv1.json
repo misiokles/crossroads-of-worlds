@@ -1,0 +1,71 @@
+{
+	"aplv1":
+	{
+		"name" :
+		{
+			"plural" : "Sentinels",
+			"singular" : "Sentinel"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "vanguard",
+		"upgrades": ["aplv1up"],
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 3
+		},
+		"growth" : 15,
+		"hitPoints" : 8,
+		"speed" : 4,
+		"fightValue" : 118,
+		"aiValue" : 116,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"graphics" :
+		{
+			"animation" : "vanguard/creatures/battle/lv1.def",
+			"map" : "vanguard/creatures/map/lv1map.def",
+			"iconSmall" : "vanguard/creatures/iconsSmall/lv1s.bmp",
+			"iconLarge" : "vanguard/creatures/iconsBig/lv1b.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+               },
+		"abilities":
+		{
+			"immuneToArrow" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeRanged",
+				"val" : 5
+            }
+		}	
+	}
+}
+
+
+
+
+
+

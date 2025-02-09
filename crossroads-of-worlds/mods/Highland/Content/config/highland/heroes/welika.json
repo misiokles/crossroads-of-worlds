@@ -1,0 +1,51 @@
+{
+	"welika" :
+	{
+		"class" : "hiClansman",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "highland/heroes/welika/spec-small.bmp",
+			"specialtyLarge" : "highland/heroes/welika/spec-large.bmp",
+			"large" : "highland/heroes/welika/portrait-large.bmp",
+			"small" : "highland/heroes/welika/portrait-small.bmp"
+		},
+         "army" :
+		[
+			{ "creature" : "hilv1", "min" : 9, "max" : 15 },
+			{ "creature" : "hilv2", "min" :  6, "max" :  9 },
+			{ "creature" : "hilv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "resistance", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Welika",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill.",
+				"tooltip" : "Secondary Skill Bonus: Resistance",
+				"name" : "Resistance"
+			}
+		},
+		"spellbook" :
+		[
+			"meteorShower"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"type" : "MAGIC_RESISTANCE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

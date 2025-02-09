@@ -1,0 +1,78 @@
+{
+	"hilv7up":
+	{
+		"name" :
+		{
+			"plural" : "Gvelasaps",
+			"singular" : "Gvelasap"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "highland",
+		"aiValue" : 4000,
+		"attack" : 27,
+		"cost" :
+		{
+			"gold" : 4000,
+			"gems" : 2
+		},
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 40
+		},
+		"defense" : 27,
+		"fightValue" : 4635,
+		"graphics" :
+		{
+			"animation" : "highland/creatures/battle/lv7up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "highland/creatures/map/lv7Upmap.def",
+			"iconSmall" : "highland/creatures/iconsSmall/lv7upSmall.bmp",
+			"iconLarge" : "highland/creatures/iconsBig/lv7upLarge.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 250,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "GODRATTK.wav",
+			"defend": "GODRDFND.wav",
+			"killed": "GODRKILL.wav",
+			"move": "GODRMOVE.wav",
+			"wince": "GODRWNCE.wav"
+		},
+		"speed" : 16,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 4
+			}
+		},
+		"stackExperience" :
+		[
+		
+		]
+	}
+}
+
+

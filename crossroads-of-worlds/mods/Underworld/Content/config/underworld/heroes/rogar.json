@@ -1,0 +1,58 @@
+{
+	"rogar" :
+	{
+		"class" : "unPrelate",
+		"female" : true,
+		"spellbook": [ "resurrection" ],
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/rogar/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/rogar/spec-large.bmp",
+			"large" : "underworld/heroes/rogar/portrait-large.bmp",
+			"small" : "underworld/heroes/rogar/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Rogar",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Resurrection}\r\n\r\nCan cast Resurrection spell with increased effectiveness.",
+				"tooltip" : "Spell Bonus: Resurrection",
+				"name" : "Resurrection"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"subtype" : "spell.resurrection",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}				
+	}
+}
+
+
+
+

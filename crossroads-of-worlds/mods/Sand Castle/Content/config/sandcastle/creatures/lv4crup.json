@@ -1,0 +1,71 @@
+{
+	"salv4crup":
+	{
+		"name" :
+		{
+			"plural" : "Crusaders Knights",
+			"singular" : "Crusader Knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 15,
+			 "min" : 5
+		},
+		"faction" : "sandcastle",
+		"level" : 4,
+		"attack" : 12,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 7,
+			 "max" : 10
+		},
+		"growth" : 4,
+		"hitPoints" : 40,
+		"speed" : 6,
+		"fightValue" : 160,
+		"aiValue" : 164,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"graphics" :
+		{
+			"animation" : "sandcastle/creatures/battle/lv4crup.def",
+			"map" : "sandcastle/creatures/map/lv4crupmap.def",
+			"iconSmall" : "sandcastle/creatures/iconsSmall/lv4crups.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/lv4crupb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"abilities" :
+		{
+			"airShield":
+			{
+				"type":"GENERAL_DAMAGE_REDUCTION",
+				"subtype": "damageTypeRanged",
+				"val" : 30
+			},	
+			"firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			}
+		},
+		"sound" :
+		{
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+		}
+	}
+}
+
+
+

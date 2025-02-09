@@ -1,0 +1,84 @@
+{
+	"ntlv6sp":
+	{
+		"name" :
+		{
+			"plural" : "Ice Knights",
+			"singular" : "Ice Knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "north",
+		"special" : true,
+		"level" : 6,
+		"attack" : 18,
+		"defense" : 24,
+		"damage" :
+		{
+			 "min" : 25,
+			 "max" : 30
+		},
+		"growth" : 2,
+		"hitPoints" : 90,
+		"speed" : 7,
+		"fightValue" : 2304,
+		"aiValue" : 2690,
+		"cost" :
+		{
+			"gold" : 1300
+		},
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/lv6sp.def",
+			"map" : "north/creatures/map/lv6sp.def",
+            "iconSmall" : "north/creatures/iconsSmall/lv6sp.bmp",
+			"iconLarge" : "north/creatures/iconsBig/lv6sp.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		
+		"sound" :
+		{
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+               },
+		"abilities" :
+		{
+			"enemyDefenceReduction" : 
+			{ 
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 40
+			},
+                      "immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			},
+			"special" : {
+				"addInfo" : [0, 2],
+				"subtype" : "spell.ntDeepFreeze",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 25
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+		}
+	}
+}
+
+
+

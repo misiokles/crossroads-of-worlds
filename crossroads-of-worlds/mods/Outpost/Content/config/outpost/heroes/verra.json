@@ -1,0 +1,56 @@
+{
+	"quverra" :
+	{
+		"class" : "opVicar",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "outpost/heroes/verra/spec-small.bmp",
+			"specialtyLarge" : "outpost/heroes/verra/spec-large.bmp",
+			"large" : "outpost/heroes/verra/portrait-large.bmp",
+			"small" : "outpost/heroes/verra/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "qulv1", "min" : 9, "max" : 15 },
+			{ "creature" : "qulv2", "min" :  6, "max" :  9 },
+			{ "creature" : "qulv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Verra",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to Logistics skill.",
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"name" : "Logistics"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+
+

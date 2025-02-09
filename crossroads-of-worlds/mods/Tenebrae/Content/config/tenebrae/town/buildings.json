@@ -1,0 +1,559 @@
+{
+	"tenebrae" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"mageGuild1" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					},
+					"id" : 0
+				},
+				"mageGuild2" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					},
+					"id" : 1,
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					},
+					"id" : 2,
+					"upgrades" : "mageGuild2"
+				},
+				"mageGuild4" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000
+					},
+					"id" : 3,
+					"upgrades" : "mageGuild3"
+				},
+				"mageGuild5" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000
+					},
+					"id" : 4,
+					"upgrades" : "mageGuild4"
+				},	
+				"tavern" :
+				{
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 5
+				},
+				"shipyard" :
+				{
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"cost" :
+					{
+						"wood" : 20,
+						"gold" : 2000
+					},
+					"id" : 6
+				},
+				"fort" :
+				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" :
+					{
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					},
+					"id" : 7
+				},
+				"citadel" :
+				{
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"id" : 8,
+					"upgrades" : "fort"
+				},
+				"castle" :
+				{
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :
+					{
+						"gold" : 5000,
+						"wood" : 10,
+						"ore" : 10
+					},
+					"id" : 9,
+					"upgrades" : "citadel"
+				},
+				"villageHall" :
+				{
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"id" : 10,
+					"mode" : "auto"
+				},
+				"townHall" :
+				{
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :
+					{
+						"gold" : 2500
+					},
+					"id" : 11,
+					"requires" : [ "allOf",["tavern"] ],
+					"upgrades" : "villageHall"
+				},
+				"cityHall" :
+				{
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :
+					{
+						"gold" : 5000
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
+					"id" : 12,
+					"upgrades" : "townHall"
+				},
+				"capitol" :
+				{
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :
+					{
+						"gold" : 10000
+					},
+					"id" : 13,
+					"requires" : ["castle"] ,
+					"upgrades" : "cityHall"
+				},
+				"marketplace" :
+				{
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"marketModes" : ["resource-resource", "resource-player"],
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 14
+				},
+				"resourceSilo" :
+				{
+					"name" : "Resource Silo",
+					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"produce": { "crystal": 1 },
+					"requires" : ["marketplace"],
+					"id" : 15
+				},
+				"blacksmith" :
+				{
+					"description" : "The Blacksmith provides your armies with Military Crossbows.",
+					"name" : "Blacksmith",
+					"warMachine" : "tenMilitaryCrossbow",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"id" : 16
+				},
+				"horde1" :
+				{
+					"description" : "The Dragon Bastion increases Young Dragons production by 3 per week.",
+					"name" : "Dragon Bastion",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"id" : 18,
+					"upgrades" : "dwellingLvl3"	
+				},
+				"horde1Upgr" :
+				{
+					"description" : "The Dragon Bastion increases Alpha Dragons production by 3 per week.",
+					"name" : "Dragon Bastion",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"requires" : ["horde1"],
+					"id" : 19,
+					"upgrades" : "dwellingUpLvl3",
+					"mode" : "auto"
+				},
+				"ship" :
+				{
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"id" : 20
+				},
+				"special1" : 
+				{
+					"description" : "During siege, the Brotherhood of the Sword increases troop morale +2.",
+					"name" : "Brotherhood of the Sword",
+					"cost" : 
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+                    "requires" : [ "tavern" ],
+                    "upgradeReplacesBonuses" : true,
+					"bonuses": [
+						{
+							"type": "MORALE",
+							"val": 2
+						}
+					],
+					"id" : 17,
+					"upgrades" : "tavern"						
+				},	
+				"special2" :
+				{
+					"description" : "The Stables increase the power reserve until the end of the week of each hero visiting the city.",
+					"name" : "Stables",
+					"cost" :
+					{
+						"wood" : 10,
+						"gold" : 2000
+					},
+					"configuration" : {
+						"visitMode" : "bonus",
+						"rewards" : [
+							{
+								"message" : "@core.genrltxt.580",
+								"movePoints" : 400,
+								"bonuses" : [ { "type" : "MOVEMENT", "subtype" : "heroMovementLand",  "val" : 400, "stacking" : "stables", "valueType" : "ADDITIVE_VALUE", "duration" : "ONE_WEEK"} ]
+							}
+						]
+					},
+					"requires" : ["dwellingLvl4"],
+					"id" : 21
+				},
+				"special3" : 
+				{
+					"description" : "The Magic Boulder increase knowledge of visiting hero by +1.",
+					"name" : "Magic Boulder",
+					"cost" : 
+					{
+                        "wood" : 5,
+						"gold" : 1000
+					},
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "The Magic Boulder teach you new ways to focus your magical powers (+1 spellpower)",
+								"primary" : { "spellpower" : 1 }
+							}
+						]
+					},
+					"requires" : ["mageGuild1"],
+					"id" : 22
+				},
+				"grail" :
+				{
+                     "description" : "The presence of the Sun increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, and increases the morale of all allied heroes by +2.",	
+					"name" : "Sun",
+					"produce": { "gold": 5000 },
+					"id" : 26,
+					"bonuses": [ { "type": "MORALE", "val": 2, "propagator": "PLAYER_PROPAGATOR" } ],
+					"mode" : "grail"
+				},
+				"dwellingLvl1" :
+				{
+					"description" : "The Guard House allows you to recruit Spearmans.",
+					"name" : "Guard House",
+					"cost" : 
+					{
+						"gold" : 500,
+						"ore" : 10
+					},
+					"requires" : [ "fort" ],
+					"id" : 30
+				},
+				"dwellingLvl2" :
+				{
+					"description" : "The Archer's Tower allows you to recruit Crossbowmans.",
+					"name" : "Archer's Tower",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"ore" : 5,
+                        "wood" : 5
+					},
+					"requires" :["dwellingLvl1"] ,
+					"id" : 31
+				},
+				"dwellingLvl3" :
+				{
+					"description" : "The Dragon Tower allows you to recruit Young Dragons.",
+					"name" : "Dragon Tower",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"requires" :["allOf", ["dwellingLvl4"], ["fort"] ],
+					"id" : 32
+				},
+				"dwellingLvl4" :
+				{
+					"description" : "The Barracks allow you to recruit Cuirassiers.",
+					"name" : "Barracks",
+					"cost" : 
+					{
+						"gold" : 2000,
+						"ore" : 5
+					},
+					"requires" : [ "allOf", ["dwellingLvl1"], ["blacksmith"] ],
+					"id" : 33
+				},
+				"dwellingLvl5" :
+				{
+					"description" : "The Monastery allows you to recruite Adherents.",
+					"name" : "Monastery",
+					
+					"cost" : 
+					{
+						"gold" : 3000,
+						"wood" : 5,
+						"ore" : 5,
+						"gems" : 2,
+						"sulfur" : 2,
+						"mercury" : 2,
+						"crystal" : 2
+					},
+					"requires" : [ "allOf",["dwellingLvl4"], ["mageGuild1"] ],
+					"id" : 34
+				},
+				"dwellingLvl6" :
+				{
+					"description" : "The Training Grounds allows you to recruite Knights.",
+					"name" : "Training Grounds",
+					"cost" : 
+					{
+						"gold" : 5000,
+						"wood" : 20
+					},
+					"requires" : [ "special2"],
+					"id" : 35
+				},
+				"dwellingLvl7" :
+				{
+					"description" : "The Dragon Peak allows you to recruite Gray Dragons.",
+					"name" : "Dragon Peak",
+					"cost" : 
+					{
+						"gold" : 15000,
+						"ore"  : 15,
+						"wood" : 15,
+						"crystal" : 20
+					},
+					"requires" : [ "dwellingLvl5"],
+					"id" : 36
+				},
+				"dwellingUpLvl1" :
+				{
+					"description" : "The Upg. Guard House allows you to recruite Elite Spearmans.",
+					"name" : "Upg. Guard House",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"ore"  : 5
+					},
+					"id" : 37,
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUp2Lvl1" :
+				{
+					"description" : "The Guard House allows you to recruite Royal Spearmans.",
+					"name" : "Upg. Guard House",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"ore"  : 5
+					},
+					"id" : 44,
+					"requires" :   ["citadel"],
+					"upgrades" : "dwellingUpLvl1"
+				},
+				"dwellingUpLvl2" :
+				{
+					"description" : "The Archer's Tower allows you to recruite Elite Crossbowmans.",
+					"name" : "Upg. Archer's Tower",
+					"cost" :
+					{
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"id" : 38,
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUp2Lvl2" :
+				{
+					"description" : "The Archer's Tower allows you to recruite Royal Crossbowmans.",
+					"name" : "Upg. Archer's Tower",
+					"cost" :
+					{
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"id" : 45,
+					"requires" :  [ "allOf", ["dwellingUp2Lvl1"],["castle"] ],
+					"upgrades" : "dwellingUpLvl2"
+				},
+				"dwellingUpLvl3" :
+				{
+					"description" : "The Griffin Tower allows you to recruite Alpha Dragons.",
+					"name" : "Upg. Griffin Tower",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"id" : 39,		
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" :
+				{
+					"description" : "The Barracks allows you to recruite Gold Cuirassiers.",
+					"name" : "Upg. Barracks",
+					"cost" : 
+					{
+						"gold" : 2000,
+						"sulfur" : 5,
+						"ore" : 5
+					},
+					"id" : 40,
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl5" :
+				{
+					
+					"description" : "The Monastery allows you to recruite Mentors.",
+					"name" : "Upg. Monastery",
+					"cost" : 
+					{
+						"wood" : 2,
+						"gold" : 1000,
+						"ore" : 2,
+						"gems" : 2,
+						"sulfur" : 2,
+						"mercury" : 2,
+						"crystal" : 2
+					},
+					"id" : 41,
+					"upgrades" : "dwellingLvl5"
+				},
+				"dwellingUpLvl6" :
+				{
+					"description" : "The Training Grounds allows you to recruite Heavy Knights.",
+					"name" : "Upg. Training Grounds",
+					"cost" : 
+					{	
+						"gold" : 3000,
+						"wood" : 10
+					},
+					"id" : 42,
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUp2Lvl6" :
+				{
+					"description" : "The Upg. Training Grounds allow you to recruite  Grand Knights.",
+					"name" : "Upg. Training Grounds",
+					"cost" : 
+					{	
+						"gold" : 4000,
+						"wood" : 15
+					},
+					"id" : 49,
+					"requires" :  [ "allOf", ["dwellingUpLvl5"],["dwellingUp2Lvl1"], ["dwellingUp2Lvl2"], ["castle"]  ],
+					"upgrades" : "dwellingUpLvl6"
+				},
+				"dwellingUpLvl7" :
+				{
+					"description" : "The Dragon Peak allows you to recruite Ancient Dragons.",
+					"name" :  "Upg. Dragon Peak",
+					"cost" : 
+					{
+						"gold" : 15000,
+						"ore"  : 15,
+						"wood" : 15,
+						"crystal" : 20
+					},
+					"id" : 43,
+					"upgrades" : "dwellingLvl7"
+				}
+			}
+		}
+	}
+}

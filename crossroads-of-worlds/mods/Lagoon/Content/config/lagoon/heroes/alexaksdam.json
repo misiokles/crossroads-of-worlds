@@ -1,0 +1,55 @@
+{
+	"alexaksdam" :
+	{
+		"class" : "ouVicar",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "lagoon/heroes/alexaksdam/spec-small.bmp",
+			"specialtyLarge" : "lagoon/heroes/alexaksdam/spec-large.bmp",
+			"large" : "lagoon/heroes/alexaksdam/portrait-large.bmp",
+			"small" : "lagoon/heroes/alexaksdam/portrait-small.bmp"
+		},
+              "army" :
+		[
+			{ "creature" : "lalv1", "min" : 9, "max" : 15 },
+			{ "creature" : "lalv2", "min" :  6, "max" :  9 },
+			{ "creature" : "lalv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Alexaksdam",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: Haste can cast the Prayer spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Prayer",
+				"name" : "Prayer"
+			}
+		},
+		"spellbook" :
+		[
+			"prayer"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"prayer" : {
+					"addInfo" : 0,
+					"subtype" : "spell.prayer",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

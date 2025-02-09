@@ -1,0 +1,91 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"tenPikemanOutpost" : {
+				"name" : "Pikeman Outpost",
+				"creatures" : [[ "tenlv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "tenebrae/creatures/dwellings/dwellings-1.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"tenArcherOutpost" : {
+				"name" : "Archer Outpost",
+				"creatures" : [[ "tenlv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "tenebrae/creatures/dwellings/dwellings-2.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"tenGriffinOutpost" : {
+				"name" : "Griffin Outpost",
+				"creatures" : [[ "tenlv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "tenebrae/creatures/dwellings/dwellings-3.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"tenSwordsmanOutpost" : {
+				"name" : "Swordsman Outpost",
+				"creatures" : [[ "tenlv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "tenebrae/creatures/dwellings/dwellings-4.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"tenMonkOutpost" : {
+				"name" : "Monk Outpost",
+				"creatures" : [[ "tenlv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "tenebrae/creatures/dwellings/dwellings-5.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"tenCavalierOutpost" : {
+				"name" : "Cavalier Outpost",
+				"creatures" : [[ "tenlv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "tenebrae/creatures/dwellings/dwellings-6.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"tenAngelOutpost" : {
+				"name" : "Angel Outpost",
+				"creatures" : [[ "tenlv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "tenebrae/creatures/dwellings/dwellings-7.def",
+						"mask" : [ "VVV", "VBV", "VBA" ]
+					}
+				}
+			},
+			"tenSniperOutpost" : {
+				"name" : "Sniper Outpost",
+				"creatures" : [[ "tenlv4sn" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "tenebrae/creatures/dwellings/dwellings-4.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"anrin" :
+	{
+		"class" : "chaplain",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/anrin/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/anrin/spec-large.bmp",
+			"large" : "nightwatch/heroes/anrin/portrait-large.bmp",
+			"small" : "nightwatch/heroes/anrin/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "nwlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "nwlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "nwlv3", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Anrin",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: Stone Skin can cast the Stone Skin spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Stone Skin",
+				"name" : "Stone Skin"
+			}
+		},
+		"spellbook" :
+		[
+			"stoneSkin"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+
+

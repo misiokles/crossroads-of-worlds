@@ -1,0 +1,75 @@
+{
+	"unMedusasKnight":
+	{
+		"name" :
+		{
+			"plural" : "Medusas Knights",
+			"singular" : "Medusa Knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 8
+		},
+		"faction" : "underworld",
+		"aiValue" : 710,
+		"attack" : 10,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 350
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 7
+		},
+		"defense" : 12,
+		"fightValue" : 680,
+		"graphics" :
+		{
+			"animation" : "underworld/creatures/battle/lv4up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "underworld/creatures/map/lv4upmap.def",
+			"iconSmall" : "underworld/creatures/iconsSmall/lv4ups.bmp",
+			"iconLarge" : "underworld/creatures/iconsBig/lv4upb.bmp",
+			"timeBetweenFidgets" : 1
+        },
+
+		"growth" : 4,
+		"hitPoints" : 35,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "SWRDATTK.wav",
+			"defend": "SWRDDFND.wav",
+			"killed": "SWRDKILL.wav",
+			"move": "NSENMOVE.wav",
+			"wince": "SWRDWNCE.wav"
+		},
+		"speed" : 5,
+        "abilities" :
+		{
+			
+            "petrification" :
+			{
+                "type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze", 
+                "val" : 20,
+				"addInfo" : [0, 1]
+
+			},
+			"airShield":
+			{
+				"type":"GENERAL_DAMAGE_REDUCTION",
+				"subtype": "damageTypeRanged",
+				"val" : 20
+			  },  
+			"earthImmunity" : 
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "earth"
+			}	
+		}	
+	}
+}

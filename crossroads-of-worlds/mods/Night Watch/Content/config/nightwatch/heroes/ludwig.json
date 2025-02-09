@@ -1,0 +1,44 @@
+{
+	"ludwig" :
+	{
+		"class" : "duke",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/ludwig/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/ludwig/spec-large.bmp",
+			"large" : "nightwatch/heroes/ludwig/portrait-large.bmp",
+			"small" : "nightwatch/heroes/ludwig/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "nwlv3alt", "min" : 3, "max" : 6 },
+			{ "creature" : "nwlv3alt", "min" : 3, "max" : 6 },
+			{ "creature" : "nwlv3alt", "min" : 3, "max" : 6 }
+		],
+       "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Ludwig",
+			"biography" : "it's hard to say whether he is a man or a wolf after a bite of a werewolf all wolves are listening without a word",
+			"specialty" :
+			{
+			   "description" : "{Wolfs and Fierce Wolfs}\r\n\r\nIncreases Speed of any Mystics or                                Twilight Mystics by 1 and their Attack and Defense skills by 5% for every 1 levels (rounded up)",
+			   "tooltip" : "Creature Bonus: Wolfs",
+			   "name" : "Wolfs"
+			}
+		},
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		"specialty" : {
+			"creature" : "nwlv3alt"
+		}		
+	}
+}

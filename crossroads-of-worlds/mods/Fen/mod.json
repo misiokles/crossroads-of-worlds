@@ -1,0 +1,72 @@
+{
+	"name" : "Fen",
+	"description" : "Fen town",
+	"author": "",
+	"version" : "0.2",
+	"contact": "https://vk.com/public184999722",
+	"modType" : "Town",
+	"factions" :
+	[
+	"config/fen/town/buildings.json",
+	"config/fen/town/faction.json",
+	"config/fen/town/puzzle.json",
+	"config/fen/town/siege.json",
+	"config/fen/town/structures.json"
+	],
+    "creatures" :
+    [
+    "config/fen/creatures/lv1.json",
+	"config/fen/creatures/lv1up.json",
+	"config/fen/creatures/lv1up2.json",
+	"config/fen/creatures/lv2.json",
+	"config/fen/creatures/lv2up.json",
+	"config/fen/creatures/lv2up2.json",
+	"config/fen/creatures/lv3.json",
+	"config/fen/creatures/lv3up.json",
+	"config/fen/creatures/lv4.json",
+	"config/fen/creatures/lv4sn.json",
+	"config/fen/creatures/lv4up.json",
+	"config/fen/creatures/lv5.json",
+	"config/fen/creatures/lv5up.json",
+	"config/fen/creatures/lv6.json",
+	"config/fen/creatures/lv6up.json",
+	"config/fen/creatures/lv7.json",
+	"config/fen/creatures/lv7up.json",
+	"config/fen/creatures/fenCrossbow.json",
+	"config/fen/creatures/commander.json"
+    ],
+	"heroClasses" :
+	[
+	"config/fen/classes/Chaplain.json",
+	"config/fen/classes/Castellan.json"
+	 ],
+    "artifacts":
+    [              
+    "config/fen/artifacts/fenCrossbowArt.json"        
+    ],
+        "heroes" :
+    [
+	"config/fen/heroes/Agreilla.json",
+	"config/fen/heroes/Aludia.json",
+	"config/fen/heroes/Aoebwy.json",
+	"config/fen/heroes/Chiatrem.json",
+	"config/fen/heroes/Fabrok.json",
+	"config/fen/heroes/Galiema.json",
+	"config/fen/heroes/Glirari.json",
+	"config/fen/heroes/Haauldan.json",
+	"config/fen/heroes/Ibelasien.json",
+	"config/fen/heroes/Kairia.json",
+	"config/fen/heroes/Niv.json",
+	"config/fen/heroes/Ocerien.json",
+	"config/fen/heroes/Orisk.json",
+	"config/fen/heroes/Skyla.json",
+	"config/fen/heroes/Treassa.json",
+	"config/fen/heroes/Triam.json",
+	"config/fen/heroes/Umira.json",
+	"config/fen/heroes/Yoidith.json"
+    ],
+    "objects" :
+    [
+    "config/fen/dwellings.json"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+	"salv7":
+	{
+		"name" :
+		{
+			"plural" : "Angels",
+			"singular" : "Angel"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 2,
+			 "min" : 2
+		},
+		"faction" : "sandcastle",
+		"upgrades": ["salv7up"],
+		"level" : 7,
+		"attack" : 20,
+		"defense" : 20,
+		"damage" :
+		{
+			 "min" : 50,
+			 "max" : 50
+		},
+		"growth" : 1,
+		"hitPoints" : 250,
+		"speed" : 12,
+		"fightValue" : 1133,
+		"aiValue" : 1260,
+		"cost" :
+		{
+			"gold" : 3000,
+			"gems" : 1
+		},
+		"graphics" :
+		{
+			"animation" : "sandcastle/creatures/battle/lv7.def",
+			"map" : "sandcastle/creatures/map/lv7map.def",
+			"iconSmall" : "sandcastle/creatures/iconsSmall/lv7s.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/lv7b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "ANGLATTK.wav",
+			"defend": "ANGLDFND.wav",
+			"killed": "ANGLKILL.wav",
+			"move": "ANGLMOVE.wav",
+			"wince": "ANGLWNCE.wav"
+		},
+				"abilities" :
+		{
+                    "MORALE" :
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"propagator" : "HERO"
+			},
+		
+		   "flying" :
+			{
+				"type" : "FLYING"
+			},
+			"hateDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.devil",
+				"val" : 50
+			},
+			"hateArchDevils" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.archDevil",
+				"val" : 50
+			},
+			"advSlayer":
+			{
+				"type" : "KING",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		}
+	}
+}

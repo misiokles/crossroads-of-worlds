@@ -1,0 +1,100 @@
+{
+	"nwlv2up2":
+	{
+		"name" :
+		{
+			"plural" : "Night Crossbowmans",
+			"singular" : "Night Crossbowman"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 18,
+			 "min" : 18
+		},
+		"faction" : "nightwatch",
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 4,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 4
+		},
+		"growth" : 9,
+		"hitPoints" : 30,
+		"speed" : 6,
+		"shots" : 32,
+		"fightValue" : 253,
+		"aiValue" : 273,
+		"cost" :
+		{
+			"gold" : 175
+		},
+		"abilities" :
+		{
+			
+		  "canShoot" :
+			{
+				"type" : "SHOOTER"
+			  },
+			"noMeleePenalty" :
+			  {
+				"type" : "NO_MELEE_PENALTY"
+                          },
+			"spellPoison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 50,
+				"addInfo" : [0,2]				
+			},
+			"extraAttack" :
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			}
+		},
+		"graphics" :
+		{
+			"animation" : "nightwatch/creatures/battle/lv2up2.def",
+			"map" : "nightwatch/creatures/map/lv2up2.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv2up2.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv2up2.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PLCBOWX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "HCRSATTK.wav",
+			"defend": "HCRSDFND.wav",
+			"killed": "HCRSKILL.wav",
+			"move": "HCRSMOVE.wav",
+			"shoot": "HCRSSHOT.wav",
+			"wince": "HCRSWNCE.wav"
+		}
+	}
+}
+
+
+

@@ -1,0 +1,64 @@
+{
+	"nwlv6":
+	{
+		"name" :
+		{
+			"plural" : "Lancieres",
+			"singular" : "Lanciere"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "nightwatch",
+		"upgrades": ["nwlv6up"],
+		"aiValue" : 1161,
+		"attack" : 15,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			 "min" : 15,
+			 "max" : 25
+		},
+		"defense" : 15,
+		"fightValue" : 1233,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "nightwatch/creatures/battle/lv6.def",
+			"map" : "nightwatch/creatures/map/lv6.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv6.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv6.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "CAVAATTK.wav",
+			"defend": "CAVADFND.wav",
+			"killed": "CAVAKILL.wav",
+			"move": "CAVAMOVE.wav",
+			"wince": "CAVAWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			
+                     "JOUSTING":
+			{
+				"type" : "JOUSTING",
+				
+			}
+		}
+	}
+}
+

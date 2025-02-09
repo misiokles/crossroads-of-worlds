@@ -1,0 +1,50 @@
+{
+	"rof" :
+	{
+		"class" : "unPrelate",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/rof/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/rof/spec-large.bmp",
+			"large" : "underworld/heroes/rof/portrait-large.bmp",
+			"small" : "underworld/heroes/rof/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "diplomacy", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Rof",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: Haste can cast the Haste spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Haste",
+				"name" : "Haste"
+			}
+		},
+		"spellbook" :
+		[
+			"haste"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"kalhida" :
+	{
+		"class" : "hiForecaster",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "highland/heroes/kalhida/spec-small.bmp",
+			"specialtyLarge" : "highland/heroes/kalhida/spec-large.bmp",
+			"large" : "highland/heroes/kalhida/portrait-large.bmp",
+			"small" : "highland/heroes/kalhida/portrait-small.bmp"
+		},
+         "army" :
+		[
+			{ "creature" : "hilv1", "min" : 9, "max" : 15 },
+			{ "creature" : "hilv2", "min" :  6, "max" :  9 },
+			{ "creature" : "hilv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Kalhida",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{logistics}\r\n\r\nReceives a 5% per level bonus to logistics skill.",
+				"tooltip" : "Secondary Skill Bonus: logistics",
+				"name" : "logistics"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+
+

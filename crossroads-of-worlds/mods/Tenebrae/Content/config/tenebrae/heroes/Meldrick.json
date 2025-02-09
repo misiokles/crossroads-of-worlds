@@ -1,0 +1,56 @@
+{
+	"meldrick" :
+	{
+		"class" : "archduke",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/meldrick/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/meldrick/spec-large.bmp",
+			"large" : "tenebrae/heroes/meldrick/portrait-large.bmp",
+			"small" : "tenebrae/heroes/meldrick/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Meldrick",
+			"biography" : "Meldrick is a very mysterious man who is Navigationy in all his affairs, as if blessed by the goddess of fortune",
+			"specialty" :
+			{
+				"description" : "{Navigation}\r\n\r\nReceives a 5% per level bonus to Navigation skill.",
+				"tooltip" : "Secondary Skill Bonus: Navigation",
+				"name" : "Navigation"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"navigation" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementSea",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+
+

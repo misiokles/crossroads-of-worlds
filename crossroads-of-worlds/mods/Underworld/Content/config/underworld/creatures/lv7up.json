@@ -1,0 +1,88 @@
+{
+	"unDragon2":
+	{
+		"name" :
+		{
+			"plural" : "Underground Dragons",
+			"singular" : "Underground Dragon"
+		},
+		"faction" : "underworld",
+		"level" : 7,
+		"attack" : 25,
+		"doubleWide" : true,		
+		"defense" : 25,
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"damage" :
+		{
+			 "min" : 50,
+			 "max" : 50
+		},
+		"growth" : 1,
+		"hitPoints" : 300,
+		"speed" : 15,
+		"fightValue" : 1133,
+		"aiValue" : 1260,
+		"cost" :
+		{
+			"gold" : 4000,
+			"sulfur" : 2
+		},
+		"graphics" :
+		{
+			"animation" : "underworld/creatures/battle/lv7up.def",
+			"map" : "underworld/creatures/map/lv7upmap.def",
+			"iconSmall" : "underworld/creatures/iconsSmall/lv7ups.bmp",
+			"iconLarge" : "underworld/creatures/iconsBig/lv7upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+				 
+			}
+		},
+		"sound" :
+		{
+			"attack": "BKDRATTK.wav",
+			"defend": "BKDRDFND.wav",
+			"killed": "BKDRKILL.wav",
+			"move": "BKDRMOVE.wav",
+			"wince": "BKDRWNCE.wav"
+		},
+		"abilities":
+		{
+			"dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+		   "flying" :
+			{
+				"type" : "FLYING"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+			"fear" :
+			{
+				"type" : "FEAR"
+			}
+		}
+	}
+}
+
+

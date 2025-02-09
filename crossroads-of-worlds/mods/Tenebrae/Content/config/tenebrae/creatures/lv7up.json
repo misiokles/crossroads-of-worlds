@@ -1,0 +1,78 @@
+{
+	"tenlv7up":
+	{
+		"name" :
+		{
+			"plural" : "Ancient Dragons",
+			"singular" : "Ancient Dragon"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		},
+		"faction" : "tenebrae",
+		"level" : 7,
+		"attack" : 26,
+		"doubleWide" : true,		
+		"defense" : 26,
+		"damage" :
+		{
+			 "min" : 40,
+			 "max" : 50
+		},
+		"growth" : 1,
+		"hitPoints" : 250,
+		"speed" : 15,
+		"fightValue" : 1133,
+		"aiValue" : 1260,
+		"cost" :
+		{
+			"gold" : 4000,
+			"crystal" : 2
+		},
+		"graphics" :
+		{
+			"animation" : "tenebrae/creatures/battle/lv7up.def",
+			"map" : "tenebrae/creatures/map/lv7upmap.def",
+			"iconSmall" : "tenebrae/creatures/iconsSmall/lv7ups.bmp",
+			"iconLarge" : "tenebrae/creatures/iconsBig/lv7upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "RUSTATTK.wav",
+			"defend": "RUSTDFND.wav",
+			"killed": "RUSTKILL.wav",
+			"move": "RUSTMOVE.wav",
+			"wince": "RUSTWNCE.wav"
+		},
+		"abilities":
+		{
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 4
+			}
+		}
+	}
+}
+

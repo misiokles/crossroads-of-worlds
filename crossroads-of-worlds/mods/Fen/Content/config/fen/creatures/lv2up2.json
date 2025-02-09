@@ -1,0 +1,104 @@
+{
+	"felv2up2":
+	{
+		"name" :
+		{
+			"plural" : "Royal Archers",
+			"singular" : "Royal Archer"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 9,
+			 "min" : 9
+		},
+		"faction" : "fen",
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 3,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 3
+		},
+		"growth" : 9,
+		"hitPoints" : 10,
+		"speed" : 5,
+		"shots" : 32,
+		"fightValue" : 433,
+		"aiValue" : 4260,
+		"cost" :
+		{
+			"gold" : 175
+		},
+		"graphics" :
+		{
+			"animation" : "fen/creatures/battle/lv2up2.def",
+			"map" : "fen/creatures/map/lv2up2map.def",
+			"iconSmall" : "fen/creatures/iconsSmall/lv2up2s.bmp",
+			"iconLarge" : "fen/creatures/iconsBig/lv2up2b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PLCBOWX",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "LCRSATTK.wav",
+			"defend": "LCRSDFND.wav",
+			"killed": "LCRSKILL.wav",
+			"move": "LCRSMOVE.wav",
+			"shoot": "LCRSSHOT.wav",
+			"wince": "LCRSWNCE.wav"
+         },
+		"abilities" :
+		{
+			
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"extraAttack" :
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT",
+            },
+            "RECEPTIVE" :
+			{
+				"type" : "RECEPTIVE"
+			},
+		"immunity" :
+            {
+               "type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 100
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+

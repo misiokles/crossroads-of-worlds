@@ -1,0 +1,84 @@
+{
+	"itlv7up":
+	{
+		"name" :
+		{
+			"plural" : "Fiery Overlords",
+			"singular" : "Fiery Overlord"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 1,
+			 "max" : 5
+		},
+		"faction" : "imperium",
+		"aiValue" : 7878,
+		"attack" : 26,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 4500,
+			"mercury" : 2
+		},
+		"damage" :
+		{
+			  "min" : 40,
+			  "max" : 50
+		},
+		"defense" : 26,
+		"fightValue" : 6139,
+		"graphics" :
+		{
+			"animation" : "imperium/creatures/battle/lv7up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "imperium/creatures/map/lv7up.def",
+			"iconSmall" : "imperium/creatures/iconsSmall/lv7up.bmp",
+			"iconLarge" : "imperium/creatures/iconsBig/lv7up.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 1,
+		"hitPoints" : 220,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "ADVLATTK.wav",
+			"defend": "ADVLDFND.wav",
+			"killed": "ADVLKILL.wav",
+			"move": "ADVLMOVE.wav",
+			"wince": "ADVLWNCE.wav",
+			"startMoving": "ADVLEXT1.wav",
+			"endMoving": "ADVLEXT2.wav"
+		},
+		"speed" : 17,
+		"abilities":
+		{
+			"RECEPTIVE" :
+			{
+				"type" : "RECEPTIVE"
+			},
+			"teleports" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+			"descreaseLuck" :
+			{
+				"type" : "LUCK",
+				"val" : -1,
+				"stacking" : "Devils",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+			},
+	"immuneToFire" :
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "fire"
+			},
+	        "FEAR" :
+			{
+				"type" : "FEAR"
+			}
+		}	
+	}
+}

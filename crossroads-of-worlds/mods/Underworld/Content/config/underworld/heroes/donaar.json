@@ -1,0 +1,44 @@
+{
+	"donaar" :
+	{
+		"class" : "unDignitary",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/donaar/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/donaar/spec-large.bmp",
+			"large" : "underworld/heroes/donaar/portrait-large.bmp",
+			"small" : "underworld/heroes/donaar/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "tactics", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Donaar",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Spearmans and Red Halberdiers}\r\n\r\nIncreases Speed of any Red Pikemans or Red Halberdiers by 1 and their Attack and Defense skills by 5% for every 1 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Spearmans",
+				"name" : "Spearmans"
+			}
+		},
+		"spellbook" :
+		[
+			"fly"
+		],
+		"specialty" : {
+			"creature" : "unSpearman"
+		}		
+	}
+}

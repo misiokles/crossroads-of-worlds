@@ -1,0 +1,44 @@
+{
+	"triam" :
+	{
+		"class" : "feCastellan",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "fen/heroes/triam/spec-small.bmp",
+			"specialtyLarge" : "fen/heroes/triam/spec-large.bmp",
+			"large" : "fen/heroes/triam/portrait-large.bmp",
+			"small" : "fen/heroes/triam/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "felv1", "min" : 9, "max" : 15 },
+			{ "creature" : "felv2", "min" :  6, "max" :  9 },
+			{ "creature" : "felv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Triam",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Archers and Royal Archers}\r\n\r\nIncreases Speed of any Archers or Royal Archers by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Archers",
+				"name" : "Archers"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "felv2"
+		}		
+	}
+}

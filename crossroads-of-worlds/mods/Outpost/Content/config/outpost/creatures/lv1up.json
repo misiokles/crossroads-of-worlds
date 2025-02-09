@@ -1,0 +1,71 @@
+{
+	"qulv1up":
+	{
+		"name" :
+		{
+			"plural" : "Sentinels",
+			"singular" : "Sentinel"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "outpost",
+		"upgrades": ["qulv1up2"],
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 5,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 15,
+		"hitPoints" : 8,
+		"speed" : 5,
+		"fightValue" : 118,
+		"aiValue" : 116,
+		"cost" :
+		{
+			"gold" : 70
+		},
+		"graphics" :
+		{
+			"animation" : "outpost/creatures/battle/lv1up.def",
+			"map"       : "outpost/creatures/map/lv1upmap.def",
+			"iconSmall" : "outpost/creatures/iconsSmall/lv1ups.bmp",
+			"iconLarge" : "outpost/creatures/iconsBig/lv1upb.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+               },
+		"abilities":
+		{
+			
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 10
+                        }
+		}	
+	}
+}
+
+
+
+
+
+

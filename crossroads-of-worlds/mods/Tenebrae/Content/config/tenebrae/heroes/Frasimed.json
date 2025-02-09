@@ -1,0 +1,50 @@
+{
+	"frasimed" :
+	{
+		"class" : "archduke",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/frasimed/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/frasimed/spec-large.bmp",
+			"large" : "tenebrae/heroes/frasimed/portrait-large.bmp",
+			"small" : "tenebrae/heroes/frasimed/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "learning", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Frasimed",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: ResurrectionHero can cast the Frost Ring spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Frost Ring",
+				"name" : "Frost Ring"
+			}
+		},
+		"spellbook" :
+		[
+			"frostRing"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"frostRing" : {
+					"subtype" : "spell.frostRing",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

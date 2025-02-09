@@ -1,0 +1,76 @@
+{
+	"felv3up":
+	{
+		"name" :
+		{
+			"plural" : "Royal Cockatrices",
+			"singular" : "Royal Cockatrice"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 30,
+			 "min" : 25
+		},
+		"faction" : "fen",
+		"hasDoubleWeek": true,
+		"aiValue" : 697,
+		"attack" : 9,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 3
+		},
+		"defense" : 9,
+		"fightValue" : 661,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "fen/creatures/battle/lv3up.def",
+			"map" : "fen/creatures/map/lv3upmap.def",
+			"iconSmall" : "fen/creatures/iconsSmall/lv3ups.bmp",
+			"iconLarge" : "fen/creatures/iconsBig/lv3upb.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 7,
+		"hitPoints" : 30,
+		"horde" : 3,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "RGRFATTK.wav",
+			"defend": "RGRFDFND.wav",
+			"killed": "RGRFKILL.wav",
+			"move": "RGRFMOVE.wav",
+			"wince": "RGRFWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"petrify" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 15,
+				"addInfo" : [0, 2]
+			},
+
+		       "flying" :
+			{
+				"type" : "FLYING"
+			
+			},
+		"immunity" :
+                       {
+               "type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 100
+			}
+		}
+	}
+}

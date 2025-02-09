@@ -1,0 +1,44 @@
+{
+	"avednik" :
+	{
+		"class" : "unDignitary",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/avednik/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/avednik/spec-large.bmp",
+			"large" : "underworld/heroes/avednik/portrait-large.bmp",
+			"small" : "underworld/heroes/avednik/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unBoltCannon", "min" : 1, "max" : 1 },
+			{ "creature" : "unSpearman", "min" :  10, "max" :  15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "artillery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Avednik",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Siege Crossbows}\r\n\r\nIncreases the Attack and Defence of  Siege Crossbows for each level attained after 1th level.",
+				"tooltip" : "Creature Bonus: Siege Crossbows",
+				"name" : "Siege Crossbows"
+			}
+		},
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		"specialty" : {
+			"creature" : "unBoltCannon"
+		}		
+	}
+}

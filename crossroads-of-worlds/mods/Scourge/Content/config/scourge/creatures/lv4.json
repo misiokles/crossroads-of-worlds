@@ -1,0 +1,48 @@
+{
+	"relv4" : {
+		"abilities" : {
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+            },
+			"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 30,
+				"addInfo" : [0,2]
+			}
+		},
+		"upgrades": ["relv4up"],		
+		"advMapAmount" : {"max" : 16, "min" : 8},
+		"aiValue" : 445,
+		"attack" : 10,
+		"cost" : { "gold" : 300 },
+		"damage" : {"max" : 10, "min" : 7},
+		"defense" : 12,
+		"faction" : "scourge",
+		"fightValue" : 480,
+		"graphics" : {
+			"animation" : "scourge/creatures/battle/lv4.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "scourge/creatures/iconsBig/lv4b.png",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv4s.png",
+			"map" : "scourge/creatures/map/lv4map.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+                "doubleWide" : false,
+		"level" : 4,
+		"name" : { "plural" : "Spies", "singular" : "Spy" },
+		"sound" : {
+			"attack": "ROGUATTK.wav",
+			"defend": "ROGUDFND.wav",
+			"killed": "ROGUKILL.wav",
+			"move": "ROGUMOVE.wav",
+			"wince": "ROGUWNCE.wav"
+		},
+		"speed" : 5
+	}
+}

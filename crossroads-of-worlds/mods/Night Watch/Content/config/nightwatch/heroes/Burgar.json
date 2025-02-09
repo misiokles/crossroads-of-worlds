@@ -1,0 +1,47 @@
+{
+	"burgar" :
+	{
+		"class" : "duke",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/burgar/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/burgar/spec-large.bmp",
+			"large" : "nightwatch/heroes/burgar/portrait-large.bmp",
+			"small" : "nightwatch/heroes/burgar/portrait-small.bmp"
+		},
+               "army" :
+		[
+			{ "creature" : "nwlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "nwlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "nwlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Burgar",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Mysticism}\r\n\r\nReceives a 5% per level bonus to Mysticism skill percentage.",
+				"tooltip" : "Bonus: secondary skill",
+				"name" : "Mysticism"
+			}
+		},
+			"specialty": {
+			"bonuses": {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

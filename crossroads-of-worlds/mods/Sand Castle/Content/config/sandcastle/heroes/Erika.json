@@ -1,0 +1,44 @@
+{
+	"erika" :
+	{
+		"class" : "redcleric",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "sandcastle/heroes/erika/spec-small.bmp",
+			"specialtyLarge" : "sandcastle/heroes/erika/spec-large.bmp",
+			"large" : "sandcastle/heroes/erika/portrait-large.bmp",
+			"small" : "sandcastle/heroes/erika/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "salv1", "min" :  10, "max" : 15 },
+			{ "creature" : "salv2", "min" :  6, "max" :  9 },
+			{ "creature" : "salv3", "min" :  3, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Erika",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Adepts and Inquisitors}\r\n\r\nIncreases Speed of any Adepts or Inquisitors by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Adepts",
+				"name" : "Adepts"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "salv5"
+		}		
+	}
+}

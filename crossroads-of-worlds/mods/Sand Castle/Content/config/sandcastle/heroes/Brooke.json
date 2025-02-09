@@ -1,0 +1,52 @@
+{
+	"brooke" :
+	{
+		"class" : "redcleric",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "sandcastle/heroes/brooke/spec-small.bmp",
+			"specialtyLarge" : "sandcastle/heroes/brooke/spec-large.bmp",
+			"large" : "sandcastle/heroes/brooke/portrait-large.bmp",
+			"small" : "sandcastle/heroes/brooke/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "salv1", "min" : 10, "max" : 15 },
+			{ "creature" : "salv2", "min" :  6, "max" :  9 },
+			{ "creature" : "salv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "diplomacy", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Brooke",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "{Stone Skin}\r\n\r\nCan cast Stone Skin spell with increased effectiveness.",
+				"tooltip" : "Spell Bonus: Stone skin",
+				"name" : "Stone Skin"
+			}
+		},
+		"spellbook" :
+		[
+			"stoneSkin"		
+                ],
+		"specialty" : {
+			"bonuses" : {
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+
+

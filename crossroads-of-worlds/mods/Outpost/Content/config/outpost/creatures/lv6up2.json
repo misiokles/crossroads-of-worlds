@@ -1,0 +1,69 @@
+{
+	"qulv6up2":
+	{
+		"name" :
+		{
+			"plural" : "Ancient Bisons",
+			"singular" : "Ancient Bison"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "outpost",
+		"aiValue" : 1261,
+		"attack" : 17,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1350
+		},
+		"damage" :
+		{
+			 "max" : 25,
+			 "min" : 25
+		},
+		"defense" : 16,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "outpost/creatures/battle/lv6up2.def",
+			"map" : "outpost/creatures/map/lv6up2map.def",
+			"iconSmall" : "outpost/creatures/iconsSmall/lv6up2s.bmp",
+			"iconLarge" : "outpost/creatures/iconsBig/lv6up2b.bmp",
+			
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 110,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"fearless" :
+                        {
+				"type" : "FEARLESS",
+			},
+                        "JOUSTING" :
+			{
+				"type" : "JOUSTING"
+			}
+		}
+	}
+}

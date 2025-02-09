@@ -1,0 +1,84 @@
+{
+	"ntNephilim":
+	{
+		"name" :
+		{
+			"plural" : "Nephilims",
+			"singular" : "Nephilim"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "north",
+                "level" : 4,
+		"attack" : 12,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 11,
+			 "max" : 15
+		},
+		"growth" : 5,
+		"hitPoints" : 40,
+		"speed" : 6,
+		"fightValue" : 740,
+		"aiValue" : 791,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"graphics" :
+		{
+			
+			"animation" : "north/creatures/battle/Nephilim.def",
+			"map" : "north/creatures/map/Nephilim.def",
+			"iconSmall" : "north/creatures/iconsSmall/Nephilim.bmp",
+			"iconLarge" : "north/creatures/iconsBig/Nephilim.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+         },
+		"abilities" :
+		{	
+		  "Healer":
+			{
+				"type" : "HEALER"
+                        },
+		      "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			}
+		}	
+	}
+}
+

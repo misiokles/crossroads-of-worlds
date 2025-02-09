@@ -1,0 +1,52 @@
+{
+	"alter" :
+	{
+		"class" : "apTrainman",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "vanguard/heroes/alter/spec-small.bmp",
+			"specialtyLarge" : "vanguard/heroes/alter/spec-large.bmp",
+			"large" : "vanguard/heroes/alter/portrait-large.bmp",
+			"small" : "vanguard/heroes/alter/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "aplv1", "min" : 9, "max" : 15 },
+			{ "creature" : "aplv2", "min" :  6, "max" :  9 },
+			{ "creature" : "aplv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Alter",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Weakness}\r\n\r\nCasts Weakness with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Weakness",
+				"name" : "Weakness"
+			}
+		},
+		"spellbook" :
+		[
+			"weakness"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+			    }
+			}
+		}
+	}
+}
+
+
+

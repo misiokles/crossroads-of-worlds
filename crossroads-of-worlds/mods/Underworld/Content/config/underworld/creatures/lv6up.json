@@ -1,0 +1,73 @@
+{
+	"unRoyalCavalry":
+	{
+		"name" :
+		{
+			"plural" : "Royal Cavaliers",
+			"singular" : "Royal Cavalry"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "underworld",
+		"upgrades": ["unGoldenCavalry"],
+		"aiValue" : 1261,
+		"attack" : 16,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1200
+		},
+		"damage" :
+		{
+			 "max" : 25,
+			 "min" : 20
+		},
+		"defense" : 16,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "underworld/creatures/battle/lv6up.def",
+			"map" : "underworld/creatures/map/lv6upmap.def",
+			"iconSmall" : "underworld/creatures/iconsSmall/lv6ups.bmp",
+			"iconLarge" : "underworld/creatures/iconsBig/lv6upb.bmp",
+			
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		},
+		"speed" :9,
+		"abilities" :
+		{
+			"generalDamageReduction" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"val" : 25
+			},
+		      "JOUSTING" : 
+			{
+				"type": "JOUSTING"
+			},
+		   "earthImmunity" : 
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "earth"
+			}
+		}
+	}
+}

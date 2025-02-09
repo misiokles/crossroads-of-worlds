@@ -1,0 +1,80 @@
+{
+	"tenlv3up":
+	{
+		"name" :
+		{
+			"plural" : "Alpha Dragons",
+			"singular" : "Alpha Dragon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 10
+		},
+		"faction" : "tenebrae",
+		"level" : 3,
+		"attack" : 9,
+		"defense" : 9,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		},
+		"growth" : 7,
+		"hitPoints" : 25,
+		"speed" : 9,
+		"fightValue" : 333,
+		"horde" : 3,
+		"aiValue" : 360,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"graphics" :
+		{
+			"animation" : "tenebrae/creatures/battle/lv3up.def",
+			"map" : "tenebrae/creatures/map/lv3upmap.def",
+			"iconSmall" : "tenebrae/creatures/iconsSmall/lv3ups.bmp",
+			"iconLarge" : "tenebrae/creatures/iconsBig/lv3upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "GRIFMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+                },
+		"abilities":
+		{
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"strikeAndReturn" : 
+			{
+				"type" : "RETURN_AFTER_STRIKE"
+			},
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+		       "flying" :
+			{
+				"type" : "FLYING"
+			
+			}
+		}
+	}
+}
+
+
+
+

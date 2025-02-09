@@ -1,0 +1,44 @@
+{
+	"haret" :
+	{
+		"class" : "duke",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/haret/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/haret/spec-large.bmp",
+			"large" : "nightwatch/heroes/haret/portrait-large.bmp",
+			"small" : "nightwatch/heroes/haret/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "nwlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "nwlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "nwlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Haret",
+			"biography" : "",
+			"specialty" :
+			{
+			    "description" : "{Griffins and Royal Griffins}\r\n\r\nIncreases Speed of any Griffins or Royal Griffins by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Griffins",
+				"name" : "Griffins"
+			}
+		},
+		"spellbook" :
+		[
+				
+                ],
+		"specialty" : {
+			"creature" : "nwlv3"
+		}		
+	}
+}

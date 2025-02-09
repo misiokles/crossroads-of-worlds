@@ -1,0 +1,44 @@
+{
+	"kasumi" :
+	{
+		"class" : "redknight",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "sandcastle/heroes/kasumi/spec-small.bmp",
+			"specialtyLarge" : "sandcastle/heroes/kasumi/spec-large.bmp",
+			"large" : "sandcastle/heroes/kasumi/portrait-large.bmp",
+			"small" : "sandcastle/heroes/kasumi/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "saSiegeCrossbow", "min" : 1, "max" : 1 },
+			{ "creature" : "salv1", "min" :  10, "max" :  15 },
+			{ "creature" : "salv2", "min" :  6, "max" :  9 }
+		],
+        "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "artillery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Kasumi",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Siege Crossbows}\r\n\r\nIncreases the Attack and Defence of  Siege Crossbows for each level attained after 1th level.",
+				"tooltip" : "Creature Bonus: Siege Crossbows",
+				"name" : "Siege Crossbows"
+			}
+		},
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		"specialty" : {
+			"creature" : "saSiegeCrossbow"
+		}		
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"outpost" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+			    "extraAnimation": { "animation" : "outpost/town-screen/buildings/TBCSEXT2.def",   "x" : 46,  "y" : 119 },
+				"mageGuild1":     { "animation" : "outpost/town-screen/buildings/TBCSMAGE.def",   "x" : 707, "y" : 166, "z" : 1,   "border" : "outpost/town-screen/buildings-border/TOCSMAG1.bmp", "area" : "outpost/town-screen/buildings-area/TZCSMAG1.bmp" },
+				"mageGuild2":     { "animation" : "outpost/town-screen/buildings/TBCSMAG2.def",   "x" : 706, "y" : 135, "z" : 1,   "border" : "outpost/town-screen/buildings-border/TOCSMAG2.bmp", "area" : "outpost/town-screen/buildings-area/TZCSMAG2.bmp" },
+				"mageGuild3":     { "animation" : "outpost/town-screen/buildings/TBCSMAG3.def",   "x" : 704, "y" : 107, "z" : 1,   "border" : "outpost/town-screen/buildings-border/TOCSM301.bmp", "area" : "outpost/town-screen/buildings-area/TZCSM301.bmp" },
+				"mageGuild4":     { "animation" : "outpost/town-screen/buildings/TBCSMAG4.def",   "x" : 704, "y" : 76,  "z" : 1,   "border" : "outpost/town-screen/buildings-border/TOCSM401.bmp", "area" : "outpost/town-screen/buildings-area/TZCSM401.bmp" },
+				"mageGuild5":     { "animation" : "outpost/town-screen/buildings/TBCSMAG5.def",	  "x" : 0,   "y" : 0,   "z" : 1,   "border" : "outpost/town-screen/buildings-border/mg5b.bmp",     "area" : "outpost/town-screen/buildings-area/mg5a.bmp" },
+				"tavern":         { "animation" : "outpost/town-screen/buildings/TBCSTVRN.def",   "x" : 0,   "y" : 230, "z" : 1,   "border" : "outpost/town-screen/buildings-border/TOCSTAV1.bmp", "area" : "outpost/town-screen/buildings-area/TZCSTAV1.bmp" },
+				"fort":           { "animation" : "outpost/town-screen/buildings/TBCSCSTL.def",   "x" : 595, "y" : 66,             "border" : "outpost/town-screen/buildings-border/TOCSCAS1.bmp", "area" : "outpost/town-screen/buildings-area/TZCSCAS1.bmp" },
+				"citadel":        { "animation" : "outpost/town-screen/buildings/TBCSCAS2.def",   "x" : 478, "y" : 66,  "z" : -3,  "border" : "outpost/town-screen/buildings-border/TOCSCAS2.bmp", "area" : "outpost/town-screen/buildings-area/TZCSCAS2.bmp" },
+				"castle":         { "animation" : "outpost/town-screen/buildings/TBCSCAS3.def",   "x" : 478, "y" : 37,  "z" : -3,  "border" : "outpost/town-screen/buildings-border/TOCSCAS3.bmp", "area" : "outpost/town-screen/buildings-area/TZCSCAS3.bmp" },
+				"villageHall":    { "animation" : "outpost/town-screen/buildings/TBCSHALL.def",   "x" : 0,   "y" : 209,            "border" : "outpost/town-screen/buildings-border/TOCSH101.bmp", "area" : "outpost/town-screen/buildings-area/TZCSH101.bmp" },
+				"townHall":       { "animation" : "outpost/town-screen/buildings/TBCSHAL2.def",   "x" : 0,   "y" : 176,            "border" : "outpost/town-screen/buildings-border/TOCSH201.bmp", "area" : "outpost/town-screen/buildings-area/TZCSH201.bmp" },
+				"cityHall":       { "animation" : "outpost/town-screen/buildings/TBCSHAL3.def",   "x" : 0,   "y" : 164,            "border" : "outpost/town-screen/buildings-border/TOCSH301.bmp", "area" : "outpost/town-screen/buildings-area/TZCSH301.bmp" },
+				"capitol":        { "animation" : "outpost/town-screen/buildings/TBCSHAL4.def",   "x" : 0,   "y" : 154,            "border" : "outpost/town-screen/buildings-border/TOCSH401.bmp", "area" : "outpost/town-screen/buildings-area/TZCSH401.bmp" },
+				"marketplace":    { "animation" : "outpost/town-screen/buildings/TBCSMARK.def",   "x" : 413, "y" : 264,            "border" : "outpost/town-screen/buildings-border/TOCSMRK1.bmp", "area" : "outpost/town-screen/buildings-area/TZCSMRK1.bmp" },
+				"resourceSilo":   { "animation" : "outpost/town-screen/buildings/TBCSSILO.def",   "x" : 488, "y" : 228,            "border" : "outpost/town-screen/buildings-border/TOCSMRK2.bmp", "area" : "outpost/town-screen/buildings-area/TZCSMRK2.bmp" },
+				"blacksmith":     { "animation" : "outpost/town-screen/buildings/TBCSBLAK.def",   "x" : 213, "y" : 251,            "border" : "outpost/town-screen/buildings-border/TOCSBLAK.bmp", "area" : "outpost/town-screen/buildings-area/TZCSBLAK.bmp" },
+				"special3":       { "animation" : "outpost/town-screen/buildings/TBCSSPEC.def",   "x" : 0,   "y" : 0,              "border" : "outpost/town-screen/buildings-border/TOCSLT01.bmp", "area" : "outpost/town-screen/buildings-area/TZCSLT01.bmp" },
+				"horde1":         { "animation" : "outpost/town-screen/buildings/TBCSHRD1.def",   "x" : 76,  "y" : 53,  "z" : -2,  "border" : "outpost/town-screen/buildings-border/TOCSGR1H.bmp", "area" : "outpost/town-screen/buildings-area/TZCSGR1H.bmp", "hidden" : true },
+				"horde1Upgr":     { "animation" : "outpost/town-screen/buildings/TBCSHRD2.def",   "x" : 76,  "y" : 35,  "z" : -2,  "border" : "outpost/town-screen/buildings-border/TOCSGR2H.bmp", "area" : "outpost/town-screen/buildings-area/TZCSGR2H.bmp", "hidden" : true, "builds" : "horde1" },
+				"special2":       { "animation" : "outpost/town-screen/buildings/TBCSEXT0.def",   "x" : 384, "y" : 193, "z" : -2,  "border" : "outpost/town-screen/buildings-border/TOCSCAVM.bmp", "area" : "outpost/town-screen/buildings-area/TZCSCAVM.bmp" },
+				"special1":       { "animation" : "outpost/town-screen/buildings/TBCSEXT1.def",   "x" : 0,   "y" : 198, "z" :  2,  "border" : "outpost/town-screen/buildings-border/TOCSTAV2.bmp", "area" : "outpost/town-screen/buildings-area/TZCSTAV2.bmp" },
+				"grail":          { "animation" : "outpost/town-screen/buildings/TBCSHOLY.def",   "x" : 0,   "y" : 0,   "z" : -4,  "border" : "outpost/town-screen/buildings-border/TOCSHOLY.bmp", "area" : "outpost/town-screen/buildings-area/TZCSHOLY.bmp" },
+				"dwellingLvl1":   { "animation" : "outpost/town-screen/buildings/TBCSDW_0.def",   "x" : 304, "y" : 92,  "z" : -2,  "border" : "outpost/town-screen/buildings-border/TOCSPIK1.bmp", "area" : "outpost/town-screen/buildings-area/TZCSPIK1.bmp" },
+				"dwellingLvl2":   { "animation" : "outpost/town-screen/buildings/TBCSDW_1.def",   "x" : 360, "y" : 130, "z" : -2, "border" : "outpost/town-screen/buildings-border/TOCSCRS1.bmp", "area" : "outpost/town-screen/buildings-area/TZCSCRS1.bmp" },
+				"dwellingLvl3":   { "animation" : "outpost/town-screen/buildings/TBCSDW_2.def",   "x" : 76,  "y" : 57,  "z" : -1,  "border" : "outpost/town-screen/buildings-border/TOCSGR1N.bmp", "area" : "outpost/town-screen/buildings-area/TZCSGR1N.bmp" },
+			    "dwellingLvl4":   { "animation" : "outpost/town-screen/buildings/TBCSUP_3.def",   "x" : 176, "y" : 85,             "border" : "outpost/town-screen/buildings-border/TOCSSWD2.bmp", "area" : "outpost/town-screen/buildings-area/TZCSSWD2.bmp" },
+			    "dwellingLvl5":   { "animation" : "outpost/town-screen/buildings/TBCSDW_4.def",   "x" : 563, "y" : 211, "z" : 1,   "border" : "outpost/town-screen/buildings-border/TOCSMON1.bmp", "area" : "outpost/town-screen/buildings-area/TZCSMON1.bmp" },
+				"dwellingLvl6":   { "animation" : "outpost/town-screen/buildings/TBCSDW_5.def",   "x" : 174, "y" : 190, "z" : -1,  "border" : "outpost/town-screen/buildings-border/TOCSC101.bmp", "area" : "outpost/town-screen/buildings-area/TZCSCAV1.bmp" },
+				"dwellingLvl7":   { "animation" : "outpost/town-screen/buildings/TBCSDW_6.def",   "x" : 502, "y" : 125, "z" : -1,  "border" : "outpost/town-screen/buildings-border/TOCSANG1.bmp", "area" : "outpost/town-screen/buildings-area/TZCSANG1.bmp" },
+				"dwellingUpLvl1": { "animation" : "outpost/town-screen/buildings/TBCSUP_0.def",   "x" : 304, "y" : 65,  "z" : -2,  "border" : "outpost/town-screen/buildings-border/TOCSPIK2.bmp", "area" : "outpost/town-screen/buildings-area/TZCSPIK2.bmp" },
+				"dwellingUpLvl2": { "animation" : "outpost/town-screen/buildings/TBCSUP_1.def",   "x" : 360, "y" : 115, "z" : -2, "border" : "outpost/town-screen/buildings-border/TOCSCRS2.bmp", "area" : "outpost/town-screen/buildings-area/TZCSCRS2.bmp" },
+			   "dwellingUp2Lvl2": { "animation" : "outpost/town-screen/buildings/TBCSUP2_1.def",  "x" : 363, "y" : 111,             "border" : "outpost/town-screen/buildings-border/TOCSCRS3.bmp", "area" : "outpost/town-screen/buildings-area/TZCSCRS3.bmp" },
+				"dwellingUpLvl3": { "animation" : "outpost/town-screen/buildings/TBCSUP_2.def",   "x" : 76,  "y" : 35,  "z" : -1,  "border" : "outpost/town-screen/buildings-border/TOCSGR2N.bmp", "area" : "outpost/town-screen/buildings-area/TZCSGR2N.bmp" },
+			     "dwellingUpLvl4": { "animation" : "outpost/town-screen/buildings/TBCSUP_3.def",  "x" : 176, "y" : 85,  "border" : "TOCSSWD2.bmp", "area" : "TZCSSWD2.bmp" },
+				"dwellingUpLvl5":  { "animation" : "outpost/town-screen/buildings/TBCSUP_4.def",  "x" : 563, "y" : 173, "z" : 1,    "border" : "outpost/town-screen/buildings-border/TOCSMON2.bmp", "area" : "outpost/town-screen/buildings-area/TZCSMON2.bmp" },
+			    "dwellingUp2Lvl6": { "animation" : "outpost/town-screen/buildings/TBCSUP2_5.def", "x" : 159, "y" : 190, "z" : -1,   "border" : "outpost/town-screen/buildings-border/TOCSCAV3.bmp", "area" : "outpost/town-screen/buildings-area/TZCSCAV3.bmp" },
+				"dwellingUpLvl6": { "animation" : "outpost/town-screen/buildings/TBCSUP_5.def",   "x" : 160, "y" : 190, "z" : -1,  "border" : "outpost/town-screen/buildings-border/TOCSCAV2.bmp", "area" : "outpost/town-screen/buildings-area/TZCSCAV2.bmp" },
+				"dwellingUpLvl7": { "animation" : "outpost/town-screen/buildings/TBCSUP_6.def",   "x" : 502, "y" : 125, "z" : -1,   "border" : "outpost/town-screen/buildings-border/TOCSANG2.bmp", "area" : "outpost/town-screen/buildings-area/TZCSANG2.bmp" },
+			    "dwellingUp2Lvl1": { "animation" : "outpost/town-screen/buildings/TBCSUP2_0.def", "x" : 304, "y" : 60,  "z" : -1,    "border" : "outpost/town-screen/buildings-border/TOCSPIK3.bmp", "area" : "outpost/town-screen/buildings-area/TZCSPIK3.bmp" }
+			}
+		}
+	}
+}

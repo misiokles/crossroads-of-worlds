@@ -1,0 +1,89 @@
+{
+    "salv6up2":
+    {
+        "name" :
+        {
+        "plural"   : "Grand Champions",
+	    "singular" : "Grand Champion"
+        },
+        "advMapAmount" : 
+        {
+            "max" : 10,
+            "min" : 5
+        },
+        "faction" : "sandcastle",
+        "aiValue" : 2327,
+        "attack" : 16,
+        "cost" :
+        {
+            "gold" : 1350,
+        },
+        "damage" :
+        {
+            "max" : 25,
+            "min" : 25
+        },
+        "defense" : 16,
+        "fightValue" : 2168,
+        "graphics" :
+        {
+            "animation" :  "sandcastle/creatures/battle/lv6up2.def",
+            "map" : "sandcastle/creatures/map/lv6up2map.def",
+            "iconSmall" : "sandcastle/creatures/iconsSmall/lv6up2s.bmp",
+            "iconLarge" : "sandcastle/creatures/iconsBig/lv6up2b.bmp",
+            "timeBetweenFidgets" : 1,
+            "animationTime" :
+            {
+                "walk" : 1.00,
+                "idle" : 10.00,
+                "attack" : 1.00
+            }
+        },
+        "growth" : 2,
+        "hitPoints" : 100,
+        "level" : 6,
+        "doubleWide" : true,
+        "sound" :
+        {
+            "attack": "CHMPATTK.wav",
+            "defend": "CHMPDFND.wav",
+            "killed": "CHMPKILL.wav",
+            "move": "CHMPMOVE.wav",
+            "wince": "CHMPWNCE.wav"
+        },
+        "speed" : 10,
+        "abilities" :
+        {
+            "justing" :
+            {
+                "type" : "JOUSTING"
+            },
+            "charge" :
+            {
+                "type" : "CHARGE_IMMUNITY"
+            },
+            "fearless" :
+            {
+                "type" : "FEARLESS"
+            }
+        },
+        "stackExperience" :
+        [
+            {
+                "bonus" :
+                {
+                    "type" : "SPELL_IMMUNITY",
+                    "subtype" : "spell.frenzy"
+                },
+                "values" : [ false, false, false, false, true, true, true, true, true, true]
+            },
+            {
+                "bonus" :
+                {
+                    "type" : "STACKS_SPEED"
+                },
+                "values" : [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+            }
+        ]
+    }
+}

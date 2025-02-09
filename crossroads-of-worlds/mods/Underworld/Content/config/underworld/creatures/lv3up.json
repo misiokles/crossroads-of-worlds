@@ -1,0 +1,78 @@
+{
+	"unScorpohand2":
+	{
+		"name" :
+		{
+			"plural" : "Royal Cabronides",
+			"singular" : "Royal Cabronide"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 12
+		},
+		"faction" : "underworld",
+		"hasDoubleWeek": true,
+		"aiValue" : 497,
+		"attack" : 9,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 3
+		},
+		"defense" : 9,
+		"fightValue" : 541,
+		"horde" : 3,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "underworld/creatures/battle/lv3up.def",
+			"map" : "underworld/creatures/map/lv3upmap.def",
+			"iconSmall" : "underworld/creatures/iconsSmall/lv3ups.bmp",
+			"iconLarge" : "underworld/creatures/iconsBig/lv3upb.bmp",
+			
+			"timeBetweenFidgets" : 1
+                },
+
+		"growth" : 7,
+		"hitPoints" : 30,
+		"level" : 3,
+		"sound" :
+		{
+			"attack" : "underworld/scorpattack.wav",
+			"defend" : "underworld/scorpdefend.wav",
+			"killed" : "underworld/scorpkill.wav",
+			"move"   : "underworld/scorpmove.wav",
+			"wince"  : "underworld/scorpwince.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"dispellHelpful" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"val" : 100,
+				"addInfo" : [0, 2]
+			},
+			"earthImmunity" : 
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "earth"
+			},
+			"castWeakness" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"val" : 100,
+				"addInfo" : [0,2]
+			}
+               }
+	}
+}

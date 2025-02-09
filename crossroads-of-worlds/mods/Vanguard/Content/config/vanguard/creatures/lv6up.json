@@ -1,0 +1,71 @@
+{
+	"aplv6up":
+	{
+		"name" :
+		{
+			"plural" : "Battle Rhinos",
+			"singular" : "Battle Rhino"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "vanguard",
+		"aiValue" : 1261,
+		"attack" : 16,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1200
+		},
+		"damage" :
+		{
+			 "max" : 25,
+			 "min" : 20
+		},
+		"defense" : 16,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "vanguard/creatures/battle/lv6up.def",
+			"map" : "vanguard/creatures/map/lv6upmap.def",
+			"iconSmall" : "vanguard/creatures/iconsSmall/lv6ups.bmp",
+			"iconLarge" : "vanguard/creatures/iconsBig/lv6upb.bmp",
+			
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "GBASATTK.wav",
+			"defend": "GBASDFND.wav",
+			"killed": "GBASKILL.wav",
+			"move": "CHYDMOVE.wav",
+			"wince": "GBASWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"immuneToArrow" :
+                        {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeRanged",
+				"val" : 25
+			},
+			"fearless" :
+                        {
+				"type" : "FEARLESS",
+			},
+                        "JOUSTING" :
+			{
+				"type" : "JOUSTING"
+			}
+		}
+	}
+}

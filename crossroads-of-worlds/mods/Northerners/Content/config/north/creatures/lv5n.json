@@ -1,0 +1,99 @@
+{
+	"ntlv5n":
+	{
+		"name" :
+		{
+			"plural" : "Hermits",
+			"singular" : "Hermit"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 12
+		},
+		"faction" : "north",
+		"level" : 5,
+		"attack" : 12,
+		"defense" : 7,
+		"damage" :
+		{
+			 "min" : 8,
+			 "max" : 10
+		},
+		"growth" : 3,
+		"hitPoints" : 30,
+		"speed" : 5,
+		"shots" : 24,
+		"fightValue" : 814,
+		"aiValue" : 839,
+		"cost" :
+		{
+			"gold" : 425
+		},
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/lv5n.def",
+			"map" : "north/creatures/map/lv5n.def",
+			"iconSmall" : "north/creatures/iconsSmall/lv5n.bmp",
+			"iconLarge" : "north/creatures/iconsBig/lv5n.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "north/creatures/projectile/CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"sound" :
+		{
+			"attack": "MONKATTK.wav",
+			"defend": "MONKDFND.wav",
+			"killed": "MONKKILL.wav",
+			"move": "MONKMOVE.wav",
+			"shoot": "MONKSHOT.wav",
+			"wince": "MONKWNCE.wav"
+		 },
+		"abilities" :
+		{
+			
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			
+			 },
+		"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+                        },
+			"castsAirShield" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.airShield",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsStoneSkin" :
+			{
+				"type" : "ENCHANTER",
+				"subtype" : "spell.stoneSkin",
+				"val" : 3,
+				"addInfo" : 3
+			}	
+		}	
+	}
+}

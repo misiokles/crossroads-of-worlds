@@ -1,0 +1,49 @@
+{
+	"berock" :
+	{
+		"class" : "backslider",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/berock/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/berock/spec-large.bmp",
+			"large" : "scourge/heroes/berock/portrait-large.bmp",
+			"small" : "scourge/heroes/berock/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "logistics", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Berock",
+			"biography" : "Nothing is known about him except his favorite saying: sometimes travel can lead to strange places.",
+				"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"name" : "Logistics",
+				"description" : "{Logistics}\r\n\r\nReceives a 5% per level bonus to movement points at land."
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"subtype" : "heroMovementLand",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MOVEMENT",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,80 @@
+{
+	"summonDemon":
+	{
+		"type": "combat", 
+		"name": "Demon",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level": 4,
+		"power": 20,
+		"defaultGainChance": 4, 
+		"gainChance":
+		{
+			"inferno": 10
+		},
+		"flags" : 
+		{
+			"indifferent": true
+        }, 
+        
+		"graphics":
+		{
+			"iconBook": "imperium/spells/demon_iconBook",
+			"iconScroll": "imperium/spells/demon_iconScroll",
+			"iconScenarioBonus": "imperium/spells/demon_iconScenario",
+			"iconEffect": "imperium/spells/demon_iconEffect"
+		},
+		"animation":
+		{
+			"cast": ["imperium/spells/C12SPF0.def"]
+		},
+		"sounds":
+		{
+			"cast": "SUMNELM"
+		},
+		"targetType": "NO_TARGET",
+		"levels":
+		{
+			"base":
+			{
+				"description": "{Summon Demon}\r\n\r\nAllows you to summon Demons. Once cast, any other creature can be summoned.",
+				"power": 2,
+				"cost": 20,
+				"aiValue": 10,
+				"range": "X",
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":false, //so it means that other creature can be summoned?
+						"id":"demon",
+						"permanent":false,
+						"type":"core:summon"
+					}
+				}				
+			},
+			"none":
+			{
+			},
+			"basic":
+			{
+				"cost": 20,
+				"power": 2
+			},
+			"advanced":
+			{
+				"cost": 16,
+				"power": 3
+			},
+			"expert":
+			{
+				"cost": 12,
+				"power": 4
+			}
+		}
+	}
+}

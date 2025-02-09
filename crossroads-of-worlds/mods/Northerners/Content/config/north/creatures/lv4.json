@@ -1,0 +1,74 @@
+{
+	"ntlv4":
+	{
+		"name" :
+		{
+			"plural" : "Squires",
+			"singular" : "Squire"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 12,
+			 "max" : 25
+		},
+		"faction" : "north",
+		"upgrades": ["ntlv4up"],
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 7,
+			 "max" : 10
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+		"speed" : 5,
+		"fightValue" : 460,
+		"aiValue" : 474,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/lv4.def",
+			"map" : "north/creatures/map/lv4map.def",
+			"iconSmall" : "north/creatures/iconsSmall/lv4s.bmp",
+			"iconLarge" : "north/creatures/iconsBig/lv4b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "SWRDATTK.wav",
+			"defend": "SWRDDFND.wav",
+			"killed": "SWRDKILL.wav",
+			"move": "SWRDMOVE.wav",
+			"wince": "SWRDWNCE.wav"
+		},
+		"abilities":
+		{
+			"suck" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 100,
+				"addInfo" : [1, 2]
+			},
+		      "immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			}
+		}
+	}
+}
+
+

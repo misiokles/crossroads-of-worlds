@@ -1,0 +1,74 @@
+{
+	"name" : "Underworld",
+	"description" : "",
+	"author": "ROFL team",
+	"version" : "0.3",
+	"contact": "https://vk.com/club161023181",
+	"modType" : "Town",
+	"factions" :
+	[
+	"config/underworld/town/buildings.json",
+	"config/underworld/town/faction.json",
+	"config/underworld/town/puzzle.json",
+	"config/underworld/town/siege.json",
+	"config/underworld/town/structures.json"
+	],
+        "creatures" :
+        [
+	"config/underworld/creatures/lv1.json",
+	"config/underworld/creatures/lv1up.json",
+	"config/underworld/creatures/lv1up2.json",
+	"config/underworld/creatures/lv2.json",
+	"config/underworld/creatures/lv2up.json",
+	"config/underworld/creatures/lv2up2.json",
+	"config/underworld/creatures/lv3.json",
+	"config/underworld/creatures/lv3up.json",
+	"config/underworld/creatures/lv4.json",
+	"config/underworld/creatures/lv4sn.json",
+	"config/underworld/creatures/lv4up.json",
+	"config/underworld/creatures/lv5.json",
+	"config/underworld/creatures/lv5up.json",
+	"config/underworld/creatures/lv6.json",
+	"config/underworld/creatures/lv6up.json",
+	"config/underworld/creatures/lv6up2.json",
+	"config/underworld/creatures/lv7.json",
+	"config/underworld/creatures/lv7up.json",
+	"config/underworld/creatures/commander.json",
+	"config/underworld/creatures/unBoltCannon.json"
+
+        ],
+	"heroClasses" :
+	[
+	"config/underworld/classes/Prelate.json",
+	"config/underworld/classes/Dignitary.json"
+	],
+    "artifacts":
+        [              
+               "config/underworld/artifacts/unBoltCannonArt.json"        
+        ],
+        "heroes" :
+        [
+	"config/underworld/heroes/arava.json",
+	"config/underworld/heroes/ardzhkhan.json",
+	"config/underworld/heroes/avednik.json",
+	"config/underworld/heroes/donaar.json",
+	"config/underworld/heroes/fakaza.json",
+	"config/underworld/heroes/findayet.json",
+	"config/underworld/heroes/keskur.json",
+	"config/underworld/heroes/mrek.json",
+	"config/underworld/heroes/mreksh.json",
+	"config/underworld/heroes/noriksius.json",
+	"config/underworld/heroes/olaz.json",
+	"config/underworld/heroes/retrelek.json",
+	"config/underworld/heroes/rof.json",
+	"config/underworld/heroes/rogar.json",
+	"config/underworld/heroes/tatian.json",
+	"config/underworld/heroes/turesh.json"
+        ],
+        "objects" :
+        [
+        "config/underworld/dwellings.json" 
+
+    ]
+}
+

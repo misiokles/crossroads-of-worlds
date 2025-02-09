@@ -1,0 +1,97 @@
+{
+	"nwlv5":
+	{
+		"name" :
+		{
+			"plural" : "Mystics",
+			"singular" : "Mystic"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+		"faction" : "nightwatch",
+		"upgrades":
+		[
+			"nwlv5up"
+		],
+                "level" : 5,
+		"attack" : 10,
+		"defense" : 10,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 12
+		},
+		"growth" : 3,
+		"hitPoints" : 30,
+		"speed" : 5,
+		"shots" : 12,
+		"fightValue" : 624,
+		"aiValue" : 690,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"graphics" :
+		{
+			"animation" : "nightwatch/creatures/battle/lv5.def",
+			"map" : "nightwatch/creatures/map/lv5.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv5.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv5.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+         },
+		"abilities" :
+		{
+			
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+                        },
+			"spellCurse" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+                                "subtype" : "spell.curse",
+                                "val" : 50,
+				"addInfo" : [0,2]
+
+			}
+		}	
+	}
+}
+

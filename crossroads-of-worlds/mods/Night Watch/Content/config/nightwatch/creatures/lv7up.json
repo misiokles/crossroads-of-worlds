@@ -1,0 +1,103 @@
+{
+	"nwlv7up":
+	{
+		"name" :
+		{
+			"plural" : "Avatar Deaths",
+			"singular" : "Avatar Death"
+		},
+		"faction" : "nightwatch",
+		"level" : 7,
+		"cost" :
+		{
+			"gold" : 3200,
+			"mercury": 2
+		},
+		"speed" : 14,
+		"hitPoints" : 200,
+		"attack" : 21,
+		"defense" : 20,
+		"damage" :
+		{
+			 "min" : 35,
+			 "max" : 45
+		},
+		"doubleWide" : false,
+		"hasDoubleWeek" : true,
+		"growth" : 1,
+		"fightValue" : 6139,
+		"aiValue" : 7878,
+		"advMapAmount" : 
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"abilities" : {
+			"fear" : {
+				"type" : "FEAR"
+			},
+			"flies" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"no morale" :
+			{
+				"type" : "NO_MORALE"
+			},
+			"curse" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 100,
+				"addInfo" : [2, 2]
+			},
+			"advSlayer":
+			{
+				"type" : "KING",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"immuneToMind" :
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 5
+			},
+			"descreaseMorale" :
+			{
+				"type" : "MORALE",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
+					"val": -1
+			},
+            "attacksAllAdjacent" :
+            {
+               "type":"ATTACKS_ALL_ADJACENT"
+            }
+		},
+		"graphics" : {
+			"animation" : "nightwatch/creatures/battle/lv7up.def",
+			"map" : "nightwatch/creatures/map/lv7up.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv7up.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv7up.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		 "sound" : {
+			"attack" : "nightwatch/reaperatk.wav",
+			"defend" : "nightwatch/reaperdfnd.wav",
+			"killed" : "nightwatch/reaperdie.wav",
+			"move" : "nightwatch/reapermove.wav",
+			"wince" : "nightwatch/reaperhurt.wav"
+		}
+	}
+}

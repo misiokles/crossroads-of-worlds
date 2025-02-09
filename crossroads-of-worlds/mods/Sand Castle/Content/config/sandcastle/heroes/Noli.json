@@ -1,0 +1,53 @@
+{
+	"noli" :
+	{
+		"class" : "redcleric",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "sandcastle/heroes/noli/spec-small.bmp",
+			"specialtyLarge" : "sandcastle/heroes/noli/spec-large.bmp",
+			"large" : "sandcastle/heroes/noli/portrait-large.bmp",
+			"small" : "sandcastle/heroes/noli/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "salv1", "min" :  10, "max" : 15 },
+			{ "creature" : "salv2", "min" :  6, "max" :  9 },
+			{ "creature" : "salv3", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Noli",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Mercury + 1}\r\n\r\nIncreases kingdom's income by 1 mercury per day",
+				"tooltip" : "+1 Mercury each day",
+				"name" : "+1 Mercury"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"mercury" : {
+					"subtype" : "resource.mercury",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

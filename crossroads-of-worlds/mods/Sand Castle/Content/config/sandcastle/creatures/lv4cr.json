@@ -1,0 +1,69 @@
+{
+	"salv4cr":
+	{
+		"name" :
+		{
+			"plural" : "Crusaders", 
+			"singular" : "Crusader"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 15,
+			 "min" : 5
+		},
+		"faction" : "sandcastle",
+		"upgrades": ["salv4crup"],
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 7,
+			 "max" : 10
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+		"speed" : 5,
+		"fightValue" : 1180,
+		"aiValue" : 1268,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"graphics" :
+		{
+			"animation" : "sandcastle/creatures/battle/lv4cr.def",
+			"map" : "sandcastle/creatures/map/lv4crmap.def",
+			"iconSmall" : "sandcastle/creatures/iconsSmall/lv4crs.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/lv4crb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "SWRDATTK.wav",
+			"defend": "SWRDDFND.wav",
+			"killed": "SWRDKILL.wav",
+			"move": "SWRDMOVE.wav",
+			"wince": "SWRDWNCE.wav"
+		},
+		"abilities" :
+		{
+			"airShield":
+			{
+				"type":"GENERAL_DAMAGE_REDUCTION",
+				"subtype": "damageTypeRanged",
+				"val" : 30
+			}	
+		}
+	}
+}
+
+
+
+

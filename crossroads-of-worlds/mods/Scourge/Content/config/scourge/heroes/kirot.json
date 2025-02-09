@@ -1,0 +1,49 @@
+{
+	"kirot" :
+	{
+		"class" : "seducer",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/kirot/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/kirot/spec-large.bmp",
+			"large" : "scourge/heroes/kirot/portrait-large.bmp",
+			"small" : "scourge/heroes/kirot/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "estates", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Kirot",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "Casts Slayer with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"tooltip" : "Spell Bonus: Slayer",
+				"name" : "Slayer"
+			}
+		},
+		"spellbook" :
+		[
+			"slayer"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"slayer" : {
+					"addInfo" : 1,
+					"subtype" : "spell.slayer",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

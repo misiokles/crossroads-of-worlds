@@ -1,0 +1,70 @@
+{
+	"hilv3up":
+	{
+		"name" :
+		{
+			"plural" : "Grizzly Bears",
+			"singular" : "Grizzly Bear"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "highland",
+		"aiValue" : 366,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 3
+		},
+		"defense" : 9,
+		"fightValue" : 373,
+		"horde" : 3,
+		"graphics" :
+		{
+			"animation" : "highland/creatures/battle/lv3up.def",
+			"iconLarge" : "highland/creatures/iconsBig/lv3upb.bmp",
+			"iconSmall" : "highland/creatures/iconsSmall/lv3ups.bmp",
+			"map" : "highland/creatures/map/lv3upmap.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 7,
+		"hitPoints" : 30,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "BOARATTK.wav",
+			"defend": "BOARDFND.wav",
+			"killed": "BOARKILL.wav",
+			"move": "BOARMOVE.wav",
+			"wince": "BOARWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"shield effect" :
+			{
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"val" : 20
+			},
+		       "JOUSTING" : 
+			{
+				"type": "JOUSTING"
+			}
+		}
+	}
+}

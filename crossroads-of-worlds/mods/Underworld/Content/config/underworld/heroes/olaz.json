@@ -1,0 +1,44 @@
+{
+	"olaz" :
+	{
+		"class" : "unDignitary",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "underworld/heroes/olaz/spec-small.bmp",
+			"specialtyLarge" : "underworld/heroes/olaz/spec-large.bmp",
+			"large" : "underworld/heroes/olaz/portrait-large.bmp",
+			"small" : "underworld/heroes/olaz/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "unSpearman", "min" : 10, "max" : 15 },
+			{ "creature" : "unCrossbowman", "min" :  6, "max" :  9 },
+			{ "creature" : "unScorpohand1", "min" :  4, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "mysticism", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Olaz",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Adepts and Inquisitors}\r\n\r\nIncreases Speed of any Enoch or Inquisitors by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Enochs",
+				"name" : "Enoch"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "unEnoch"
+		}		
+	}
+}

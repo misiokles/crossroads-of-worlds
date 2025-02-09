@@ -1,0 +1,43 @@
+{
+	"diran" :
+	{
+		"class" : "backslider",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/diran/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/diran/spec-large.bmp",
+			"large" : "scourge/heroes/diran/portrait-large.bmp",
+			"small" : "scourge/heroes/diran/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Diran",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Shooters and Crossbowmans}\r\n\r\nIncreases the Attack and Defence of any Crossbowmans and Crossbowmans each level attained after 2th level.",
+				"tooltip" : "Creature Bonus: Shooters",
+				"name" : "Shooters"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "relv2"
+		}		
+	}
+}

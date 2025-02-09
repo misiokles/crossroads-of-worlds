@@ -1,0 +1,79 @@
+{
+	"ntlv6up":
+	{
+		"name" :
+		{
+			"plural" : "Royal Knights",
+			"singular" : "Royal Knight"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"faction" : "north",
+		"upgrades": ["ntlv6up2"],
+		"level" : 6,
+		"attack" : 16,
+		"defense" : 16,
+		"damage" :
+		{
+			 "min" : 20,
+			 "max" : 25
+		},
+		"growth" : 2,
+		"hitPoints" : 80,
+		"speed" : 9,
+		"fightValue" : 2004,
+		"aiValue" : 2390,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"graphics" :
+		{
+			"animation" : "north/creatures/battle/lv6up.def",
+			"map" : "north/creatures/map/lv6upmap.def",
+            "iconSmall" : "north/creatures/iconsSmall/lv6ups.bmp",
+			"iconLarge" : "north/creatures/iconsBig/lv6upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		
+		"sound" :
+		{
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+               },
+		"abilities" :
+		{
+                     
+			"enemyDefenceReduction" : 
+			{ 
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 25
+            },
+            "immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+		}
+	}
+}
+
+
+

@@ -1,0 +1,71 @@
+{
+	"nwlv6up":
+	{
+		"name" :
+		{
+			"plural" : "Heavy Lancieres",
+			"singular" : "Heavy Lanciere"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "nightwatch",
+		"aiValue" : 1361,
+		"attack" : 16,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1200
+		},
+		"damage" :
+		{
+			 "min" : 20,
+			 "max" : 25
+		},
+		"defense" : 16,
+		"fightValue" : 1433,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "nightwatch/creatures/battle/lv6up.def",
+			"map" : "nightwatch/creatures/map/lv6up.def",
+			"iconSmall" : "nightwatch/creatures/iconsSmall/lv6up.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/lv6up.bmp",
+			
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+			
+			"spellPoison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 50,
+				"addInfo" : [0,2]	
+			},
+                      "JOUSTING":
+			{
+				"type" : "JOUSTING",
+				
+			}
+		}
+	}
+}
+

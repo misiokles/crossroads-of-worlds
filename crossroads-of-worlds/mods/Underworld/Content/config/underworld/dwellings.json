@@ -1,0 +1,94 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"unSpearmanOutpost" : {
+				"name" : "Spearman Outpost",
+				"creatures" : [[ "unSpearman" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "underworld/creatures/dwellings/dwellings-1.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"unCrossbowmanOutpost" : {
+				"name" : "Crossbowman Outpost",
+				"creatures" : [[ "unCrossbowman" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "underworld/creatures/dwellings/dwellings-2.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+
+					}
+				}
+			},
+			"unScorpohandOutpost" : {
+				"name" : "Scorpohand Outpost",
+				"creatures" : [[ "unScorpohand1" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "underworld/creatures/dwellings/dwellings-3.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"unMedusasCrusaderOutpost" : {
+				"name" : "Medusas Crusader Outpost",
+				"creatures" : [[ "unMedusasCrusader" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "underworld/creatures/dwellings/dwellings-4.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+
+					}
+				}
+			},
+			"unMonkOutpost" : {
+				"name" : "Monk Outpost",
+				"creatures" : [[ "unEnoch" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "underworld/creatures/dwellings/dwellings-5.def",
+						"mask" : [ "VV", "VV", "VVVV", "VVV", "BA" ]
+					}
+				}
+			},
+			"unCavalierOutpost" : {
+				"name" : "Cavalier Outpost",
+				"creatures" : [[ "unCavalry" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "underworld/creatures/dwellings/dwellings-6.def",
+						"mask" : [ "VVV", "VAB" ]
+					}
+				}
+			},
+			"unCaveDragons" : {
+				"name" : "Cave of Dragons",
+				"creatures" : [[ "unDragon1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "underworld/creatures/dwellings/dwellings-7.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"unSnipersOutpost" : {
+				"name" : "Snipers Outpost",
+				"creatures" : [[ "unlv4sn" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "underworld/creatures/dwellings/dwellings-8.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					
+					}
+				}
+			}
+		}		
+	}
+}

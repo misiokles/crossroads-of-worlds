@@ -1,0 +1,91 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"fePikemanOutpost" : {
+				"name" : "Pikeman Outpost",
+				"creatures" : [[ "felv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "fen/creatures/dwellings/dw1.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"feArcherOutpost" : {
+				"name" : "Archer Outpost",
+				"creatures" : [[ "felv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "fen/creatures/dwellings/dw2.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"feCockatriceTower" : {
+				"name" : "Cockatrice Tower",
+				"creatures" : [[ "felv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "fen/creatures/dwellings/dw3.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"feSwordsmanOutpost" : {
+				"name" : "Swordsman Outpost",
+				"creatures" : [[ "felv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "fen/creatures/dwellings/dw4.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"feMonkOutpost" : {
+				"name" : "Monk Outpost",
+				"creatures" : [[ "felv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "fen/creatures/dwellings/dw5.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"feCavalierOutpost" : {
+				"name" : "Cavalier Outpost",
+				"creatures" : [[ "felv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "fen/creatures/dwellings/dw6.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"feCitadel" : {
+				"name" : "Citadel",
+				"creatures" : [[ "felv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+			 "animation" : "fen/creatures/dwellings/dw7.def",
+		       "mask" : [ "VVVV", "VVVV", "VVBB", "VVBA" ]
+					}
+				}
+			},
+			"feSniperOutpost" : {
+				"name" : "Snipern Outpost",
+				"creatures" : [[ "felv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "fen/creatures/dwellings/dw8.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			}
+		}
+	}	
+}

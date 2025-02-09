@@ -1,0 +1,77 @@
+{
+	"name" : "Sand Castle",
+	"description" : "Sand Castle",
+	"author": "Planetavril + ROFL team",
+	"version" : "1.0",
+	"contact": "https://vk.com/club161023181",
+	"modType" : "Town",
+	"factions" :
+	[
+	"config/sandcastle/town/buildings.json",
+	"config/sandcastle/town/faction.json",
+	"config/sandcastle/town/puzzle.json",
+	"config/sandcastle/town/siege.json",
+	"config/sandcastle/town/structures.json"
+	],
+        "creatures" :
+    [
+	"config/sandcastle/creatures/lv1n.json",
+	"config/sandcastle/creatures/lv1.json",
+	"config/sandcastle/creatures/lv1up.json",
+	"config/sandcastle/creatures/lv1up2.json",
+	"config/sandcastle/creatures/lv2cr.json",
+    "config/sandcastle/creatures/lv2.json",
+	"config/sandcastle/creatures/lv2up.json",
+	"config/sandcastle/creatures/lv2up2.json",
+	"config/sandcastle/creatures/lv3.json",
+	"config/sandcastle/creatures/lv3up.json",
+	"config/sandcastle/creatures/lv4cr.json",
+	"config/sandcastle/creatures/lv4crup.json",
+    "config/sandcastle/creatures/lv4sn.json",
+	"config/sandcastle/creatures/lv5.json",
+	"config/sandcastle/creatures/lv5up.json",
+	"config/sandcastle/creatures/lv6.json",
+    "config/sandcastle/creatures/lv6cr.json",
+	"config/sandcastle/creatures/lv6up.json",
+	"config/sandcastle/creatures/lv6up2.json",
+	"config/sandcastle/creatures/lv7.json",
+	"config/sandcastle/creatures/lv7up.json",
+	"config/sandcastle/creatures/lv0.json",
+	"config/sandcastle/creatures/saSiegeCrossbow.json"
+    ],
+	"heroClasses" :
+	[
+	"config/sandcastle/classes/redcleric.json",
+	"config/sandcastle/classes/redknight.json"
+	],
+    "artifacts":
+    [              
+    "config/sandcastle/artifacts/saSiegeCrossbowArt.json"        
+    ],
+        "heroes" :
+    [
+	"config/sandcastle/heroes/Ariena.json",
+	"config/sandcastle/heroes/Brooke.json",
+	"config/sandcastle/heroes/Erika.json",
+	"config/sandcastle/heroes/Helena.json",
+	"config/sandcastle/heroes/Kasumi.json",
+	"config/sandcastle/heroes/Nariko.json",
+	"config/sandcastle/heroes/Noli.json",
+	"config/sandcastle/heroes/Patricia.json",
+	"config/sandcastle/heroes/Ranin.json",
+	"config/sandcastle/heroes/Salvirana.json",
+	"config/sandcastle/heroes/Stefan.json",
+	"config/sandcastle/heroes/Sveneld.json",
+	"config/sandcastle/heroes/Svetlana.json",
+	"config/sandcastle/heroes/Susan.json",
+	"config/sandcastle/heroes/Tarinus.json",
+	"config/sandcastle/heroes/Volh.json",
+	"config/sandcastle/heroes/Vseglas.json"
+    ],
+        "objects" :
+    [
+    "config/sandcastle/dwellings.json" 
+
+    ]
+}
+

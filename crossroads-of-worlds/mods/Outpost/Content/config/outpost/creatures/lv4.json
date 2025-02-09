@@ -1,0 +1,41 @@
+{
+	"qulv4" : {
+		"abilities" : {
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+                        }
+		},
+		"upgrades": ["qulv4up"],		
+		"advMapAmount" : {"max" : 16, "min" : 8},
+		"aiValue" : 445,
+		"attack" : 10,
+		"cost" : { "gold" : 300 },
+		"damage" : {"max" : 10, "min" : 7},
+		"defense" : 12,
+		"faction" : "outpost",
+		"fightValue" : 480,
+		"graphics" : {
+			"animation" : "outpost/creatures/battle/lv4.def",
+			"animationTime" : { "attack" : 0.6, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "outpost/creatures/iconsBig/lv4b.png",
+			"iconSmall" : "outpost/creatures/iconsSmall/lv4s.png",
+			"map" : "outpost/creatures/map/lv4map.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+                "doubleWide" : false,
+		"level" : 4,
+		"name" : { "plural" : "Soldiers", "singular" : "Soldier" },
+		"sound" : {
+			"attack": "CRUSATTK.wav",
+			"defend": "CRUSDFND.wav",
+			"killed": "CRUSKILL.wav",
+			"move": "CRUSMOVE.wav",
+			"wince": "CRUSWNCE.wav"
+		},
+		"speed" : 4
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"korgyn" :
+	{
+		"class" : "ntPaladin",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "north/heroes/korgyn/spec-small.bmp",
+			"specialtyLarge" : "north/heroes/korgyn/spec-large.bmp",
+			"large" : "north/heroes/korgyn/portrait-large.bmp",
+			"small" : "north/heroes/korgyn/portrait-small.bmp"
+		},
+         "army" :
+		[
+			{ "creature" : "ntlv1", "min" : 10, "max" : 15 },
+			{ "creature" : "ntlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "ntlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Korgyn",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Marksmen and Snipers}\r\n\r\nIncreases the Attack and Defence of Marksmen or Snipers for each level attained after 4th level.",
+				"tooltip" : "Creature Bonus: Archers",
+				"name" : "Archers"
+			}
+		},
+		"specialty" : {
+			"creature" : "ntlv4sn"
+		}		
+	}
+}

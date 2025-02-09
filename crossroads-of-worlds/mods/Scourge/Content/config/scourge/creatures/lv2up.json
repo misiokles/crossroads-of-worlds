@@ -1,0 +1,94 @@
+{
+	"relv2up":
+	{
+		"name" :
+		{
+			"plural" : "Marksmans",
+			"singular" : "Marksman"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 9,
+			 "min" : 9
+		},
+		"faction" : "scourge",
+		"upgrades": ["relv2up2"],
+		"level" : 2,
+		"attack" : 6,
+		"defense" : 3,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 9,
+		"hitPoints" : 10,
+		"speed" : 6,
+		"fightValue" : 243,
+		"aiValue" : 270,
+		"shots" : 24,
+		"cost" :
+		{
+			"gold" : 150
+		},
+		"graphics" :
+		{
+			"animation" : "scourge/creatures/battle/lv2up.def",
+			"map" : "scourge/creatures/map/lv2upmap.def",
+			"iconSmall" : "scourge/creatures/iconsSmall/lv2ups.bmp",
+			"iconLarge" : "scourge/creatures/iconsBig/lv2upb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile": "PELFX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"sound" :
+		{
+			"attack": "LCRSATTK.wav",
+			"defend": "LCRSDFND.wav",
+			"killed": "LCRSKILL.wav",
+			"move": "LCRSMOVE.wav",
+			"shoot": "LCRSSHOT.wav",
+			"wince": "LCRSWNCE.wav"
+		},
+		"abilities" :
+		{
+			
+		   "extraAttack" :
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT"
+			},
+		   "canShoot" :
+			{
+				"type" : "SHOOTER"
+			 },
+		"castDisease" : 
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 20,
+				"addInfo" : [0,2]
+			}
+		}	
+	}
+}

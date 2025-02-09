@@ -1,0 +1,54 @@
+{
+	"dionea" :
+	{
+		"class" : "archduke",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/dionea/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/dionea/spec-large.bmp",
+			"large" : "tenebrae/heroes/dionea/portrait-large.bmp",
+			"small" : "tenebrae/heroes/dionea/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "firstAidTent", "max" : 1, "min" : 1 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "firstAid", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Dionea",
+			"biography" : "they say that she is a former mercenary and knows how to communicate with property while bringing income to the treasury",
+			"specialty" :
+			{
+				"description" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill percentage.",
+				"name" : "First Aid",
+				"tooltip" : "Secondary Skill Bonus: First Aid"
+			}
+		},
+		"spellbook" :
+		[
+			"haste"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "spell.firstAid",
+					"type" : "SPECIFIC_SPELL_POWER",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+					}
+			}
+		}
+	}
+}
+
+

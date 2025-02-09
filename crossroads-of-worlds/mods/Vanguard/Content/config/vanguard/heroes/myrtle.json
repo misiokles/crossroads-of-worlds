@@ -1,0 +1,53 @@
+{
+	"myrtle" :
+	{
+		"class" : "apPontiff",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "vanguard/heroes/myrtle/spec-small.bmp",
+			"specialtyLarge" : "vanguard/heroes/myrtle/spec-large.bmp",
+			"large" : "vanguard/heroes/myrtle/portrait-large.bmp",
+			"small" : "vanguard/heroes/myrtle/portrait-small.bmp"
+		},
+               "army" :
+		[
+			{ "creature" : "aplv1", "min" : 9, "max" : 15 },
+			{ "creature" : "aplv2", "min" :  6, "max" :  9 },
+			{ "creature" : "aplv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Myrtle",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"name" : "Sorcery"
+			}
+		},
+		"spellbook" :
+		[
+			"dispel"
+		],
+		"specialty": {
+			"bonuses": {
+				"scouting" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SIGHT_RADIUS",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

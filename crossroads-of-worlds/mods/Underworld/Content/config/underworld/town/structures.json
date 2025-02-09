@@ -1,0 +1,51 @@
+{
+	"underworld" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"extraAnimation":  { "animation" : "underworld/town-screen/buildings/TBCSEXT2.def",  "x" : 0,   "y" : 0 },
+				"mageGuild1":      { "animation" : "underworld/town-screen/buildings/TBCSMAGE.def",  "x" : 0,   "y" : 0, "z" : 1,   "border" : "underworld/town-screen/buildings-border/TOCSMAG1.bmp", "area" : "underworld/town-screen/buildings-area/TZCSMAG1.bmp" },
+				"mageGuild2":      { "animation" : "underworld/town-screen/buildings/TBCSMAG2.def",  "x" : 0,   "y" : 0, "z" : 1,   "border" : "underworld/town-screen/buildings-border/TOCSMAG2.bmp", "area" : "underworld/town-screen/buildings-area/TZCSMAG2.bmp" },
+				"mageGuild3":      { "animation" : "underworld/town-screen/buildings/TBCSMAG3.def",  "x" : 0,   "y" : 0, "z" : 1,   "border" : "underworld/town-screen/buildings-border/TOCSM301.bmp", "area" : "underworld/town-screen/buildings-area/TZCSM301.bmp" },
+				"mageGuild4":      { "animation" : "underworld/town-screen/buildings/TBCSMAG4.def",  "x" : 0,   "y" : 0, "z" : 1,   "border" : "underworld/town-screen/buildings-border/TOCSM401.bmp", "area" : "underworld/town-screen/buildings-area/TZCSM401.bmp" },
+				"mageGuild5":      { "animation" : "underworld/town-screen/buildings/TBCSMAG5.def",  "x" : 0,   "y" : 0, "z" : 1,   "border" : "underworld/town-screen/buildings-border/TOCSM501.bmp", "area" : "underworld/town-screen/buildings-area/TZCSM501.bmp" },
+				"tavern":          { "animation" : "underworld/town-screen/buildings/TBCSTVRN.def",  "x" : 0,   "y" : 230, "z" : 1, "border" : "TOCSTAV1.bmp", "area" : "TZCSTAV1.bmp" },
+				"fort":            { "animation" : "underworld/town-screen/buildings/TBCSCSTL.def",	 "x" : 0,   "y" : 0,            "border" : "underworld/town-screen/buildings-border/TOCSCAS1.bmp", "area" : "underworld/town-screen/buildings-area/TZCSCAS1.bmp" },
+				"citadel":         { "animation" : "underworld/town-screen/buildings/TBCSCAS2.def",	 "x" : 0,   "y" : 0, "z" : -2,  "border" : "underworld/town-screen/buildings-border/TOCSCAS2.bmp", "area" : "underworld/town-screen/buildings-area/TZCSCAS2.bmp" },
+				"castle":          { "animation" : "underworld/town-screen/buildings/TBCSCAS3.def",	 "x" : 0,   "y" : 0, "z" : -2,  "border" : "underworld/town-screen/buildings-border/TOCSCAS3.bmp", "area" : "underworld/town-screen/buildings-area/TZCSCAS3.bmp" },
+				"villageHall":     { "animation" : "underworld/town-screen/buildings/TBCSHALL.def",	 "x" : 0,   "y" : 0,            "border" : "underworld/town-screen/buildings-border/TOCSH101.bmp", "area" : "underworld/town-screen/buildings-area/TZCSH101.bmp" },
+				"townHall":        { "animation" : "underworld/town-screen/buildings/TBCSHAL2.def",	 "x" : 0,   "y" : 0,            "border" : "underworld/town-screen/buildings-border/TOCSH201.bmp", "area" : "underworld/town-screen/buildings-area/TZCSH201.bmp" },
+				"cityHall":        { "animation" : "underworld/town-screen/buildings/TBCSHAL3.def",  "x" : 0,   "y" : 0,            "border" : "underworld/town-screen/buildings-border/TOCSH301.bmp", "area" : "underworld/town-screen/buildings-area/TZCSH301.bmp" },
+				"capitol":         { "animation" : "underworld/town-screen/buildings/TBCSHAL4.def",  "x" : 0,   "y" : 0,            "border" : "underworld/town-screen/buildings-border/TOCSH401.bmp", "area" : "underworld/town-screen/buildings-area/TZCSH401.bmp" },
+				"marketplace":     { "animation" : "underworld/town-screen/buildings/TBCSMARK.def",  "x" : 0,   "y" : 0,            "border" : "underworld/town-screen/buildings-border/TOCSMRK1.bmp", "area" : "underworld/town-screen/buildings-area/TZCSMRK1.bmp" },
+				"resourceSilo":    { "animation" : "underworld/town-screen/buildings/TBCSSILO.def",  "x" : 0,   "y" : 0,            "border" : "underworld/town-screen/buildings-border/TOCSMRK2.bmp", "area" : "underworld/town-screen/buildings-area/TZCSMRK2.bmp" },
+				"blacksmith":      { "animation" : "underworld/town-screen/buildings/TBCSBLAK.def",  "x" : 0,   "y" : 0,            "border" : "underworld/town-screen/buildings-border/TOCSBLAK.bmp", "area" : "underworld/town-screen/buildings-area/TZCSBLAK.bmp" },
+				"special1":        { "animation" : "underworld/town-screen/buildings/TBCSSPEC.def",  "x" : 0,   "y" : 0,            "border" : "underworld/town-screen/buildings-border/TOCSLT01.bmp", "area" : "underworld/town-screen/buildings-area/TZCSLT01.bmp" },
+				"horde1":          { "animation" : "underworld/town-screen/buildings/TBCSHRD1.def",  "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSGR1H.bmp", "area" : "underworld/town-screen/buildings-area/TZCSGR1H.bmp", "hidden" : true, "builds" : "horde1" },
+				"horde1Upgr":      { "animation" : "underworld/town-screen/buildings/TBCSHRD2.def",  "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSGR2H.bmp", "area" : "underworld/town-screen/buildings-area/TZCSGR2H.bmp", "hidden" : true, "builds" : "horde1" },
+				"special2":        { "animation" : "underworld/town-screen/buildings/TBCSEXT0.def",  "x" : 0,   "y" : 0, "z" : -2,  "border" : "underworld/town-screen/buildings-border/TOCSCAVM.bmp", "area" : "underworld/town-screen/buildings-area/TZCSCAVM.bmp" },
+				"special3":        { "animation" : "underworld/town-screen/buildings/TBCSEXT1.def", "x" : 0,   "y" : 198, "z" :  1, "border" : "TOCSTAV2.bmp", "area" : "TZCSTAV2.bmp" },
+				"grail":           { "animation" : "underworld/town-screen/buildings/TBCSHOLY.def",	 "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSHOLY.bmp", "area" : "underworld/town-screen/buildings-area/TZCSHOLY.bmp" },
+				"dwellingLvl1":    { "animation" : "underworld/town-screen/buildings/TBCSDW_0.def",  "x" : 0,   "y" : 0, "z" : 0,   "border" : "underworld/town-screen/buildings-border/TOCSPIK1.bmp", "area" : "underworld/town-screen/buildings-area/TZCSPIK1.bmp" },
+				"dwellingLvl2":    { "animation" : "underworld/town-screen/buildings/TBCSDW_1.def",  "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSCRS1.bmp", "area" : "underworld/town-screen/buildings-area/TZCSCRS1.bmp" },
+				"dwellingLvl3":    { "animation" : "underworld/town-screen/buildings/TBCSDW_2.def",  "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSGR1N.bmp", "area" : "underworld/town-screen/buildings-area/TZCSGR1N.bmp" },
+				"dwellingLvl4":    { "animation" : "underworld/town-screen/buildings/TBCSDW_3.def",  "x" : 0,   "y" : 0, "z" : 1,   "border" : "underworld/town-screen/buildings-border/TOCSSWD1.bmp", "area" : "underworld/town-screen/buildings-area/TZCSSWD1.bmp" },
+				"dwellingLvl5":    { "animation" : "underworld/town-screen/buildings/TBCSDW_4.def",  "x" : 0,   "y" : 0, "z" : 1,   "border" : "underworld/town-screen/buildings-border/TOCSMON1.bmp", "area" : "underworld/town-screen/buildings-area/TZCSMON1.bmp" },
+				"dwellingLvl6":    { "animation" : "underworld/town-screen/buildings/TBCSDW_5.def",	 "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSCAV1.bmp", "area" : "underworld/town-screen/buildings-area/TZCSCAV1.bmp" },
+				"dwellingLvl7":    { "animation" : "underworld/town-screen/buildings/TBCSDW_6.def",  "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSANG1.bmp", "area" : "underworld/town-screen/buildings-area/TZCSANG1.bmp" },
+				"dwellingUpLvl1":  { "animation" : "underworld/town-screen/buildings/TBCSUP_0.def",  "x" : 0,   "y" : 0, "z" : 0,   "border" : "underworld/town-screen/buildings-border/TOCSPIK2.bmp", "area" : "underworld/town-screen/buildings-area/TZCSPIK2.bmp" },
+			        "dwellingUp2Lvl1": { "animation" : "underworld/town-screen/buildings/TBCSUP2_0.def", "x" : 0,   "y" : 0, "z" : 0,   "border" : "underworld/town-screen/buildings-border/TOCSPIK3.bmp", "area" : "underworld/town-screen/buildings-area/TZCSPIK3.bmp" },
+				"dwellingUpLvl2":  { "animation" : "underworld/town-screen/buildings/TBCSUP_1.def",  "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSCRS2.bmp", "area" : "underworld/town-screen/buildings-area/TZCSCRS2.bmp" },
+			        "dwellingUp2Lvl2": { "animation" : "underworld/town-screen/buildings/TBCSUP2_1.def", "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSCRS3.bmp", "area" : "underworld/town-screen/buildings-area/TZCSCRS3.bmp" },
+				"dwellingUpLvl3":  { "animation" : "underworld/town-screen/buildings/TBCSUP_2.def",  "x" : 0,   "y" : 0, "z" : -2,  "border" : "underworld/town-screen/buildings-border/TOCSGR2N.bmp", "area" : "underworld/town-screen/buildings-area/TZCSGR2N.bmp" },
+				"dwellingUpLvl4":  { "animation" : "underworld/town-screen/buildings/TBCSUP_3.def",  "x" : 0,   "y" : 0, "z" : 1,   "border" : "underworld/town-screen/buildings-border/TOCSSWD2.bmp", "area" : "underworld/town-screen/buildings-area/TZCSSWD2.bmp" },
+				"dwellingUpLvl5":  { "animation" : "underworld/town-screen/buildings/TBCSUP_4.def",  "x" : 0,   "y" : 0, "z" : 1,   "border" : "underworld/town-screen/buildings-border/TOCSMON2.bmp", "area" : "underworld/town-screen/buildings-area/TZCSMON2.bmp" },
+				"dwellingUpLvl6":  { "animation" : "underworld/town-screen/buildings/TBCSUP_5.def",  "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSCAV2.bmp", "area" : "underworld/town-screen/buildings-area/TZCSCAV2.bmp" },
+			        "dwellingUp2Lvl6": { "animation" : "underworld/town-screen/buildings/TBCSUP2_5.def", "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSCAV3.bmp", "area" : "underworld/town-screen/buildings-area/TZCSCAV3.bmp" },
+				"dwellingUpLvl7":  { "animation" : "underworld/town-screen/buildings/TBCSUP_6.def",  "x" : 0,   "y" : 0, "z" : -1,  "border" : "underworld/town-screen/buildings-border/TOCSANG2.bmp", "area" : "underworld/town-screen/buildings-area/TZCSANG2.bmp" }
+			}
+		}
+	}
+}

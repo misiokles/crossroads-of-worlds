@@ -1,0 +1,76 @@
+{
+	"aplv7":
+	{
+		"name" :
+		{
+			"plural" : "Sandworms",
+			"singular" : "Sandworm"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 4,
+			 "max" : 8
+		},
+		"faction" : "vanguard",
+		"upgrades": ["aplv7up"],
+		"level" : 7,
+		"attack" : 22,
+		"defense" : 16,
+		"damage" :
+		{
+			 "min" : 35,
+			 "max" : 55
+		},
+		"growth" : 1,
+		"hitPoints" : 250,
+		"speed" : 8,
+		"fightValue" : 2118,
+		"aiValue" : 2116,
+		"cost" :
+		{
+			"gold" : 3000,
+            "mercury" : 1
+		},
+		"graphics" :
+		{
+			"animation" : "vanguard/creatures/battle/lv7.def",
+			"map" : "vanguard/creatures/map/lv7map.def",
+			"iconSmall" : "vanguard/creatures/iconsSmall/lv7Small.bmp",
+			"iconLarge" : "vanguard/creatures/iconsBig/lv7Large.bmp",
+            "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+                },
+		"abilities":
+		{
+		    "teleports" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+            "immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"king":
+			{
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+				
+			}
+		}
+	}
+}

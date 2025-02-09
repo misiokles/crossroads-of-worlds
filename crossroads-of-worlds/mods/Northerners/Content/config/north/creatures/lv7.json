@@ -1,0 +1,81 @@
+{
+	"ntlv7" : {
+		"abilities" : {
+			"morale" : { 	"type" : "MORALE", "val" : 1, "valueType" : "INDEPENDENT_MAX" },
+			"infernoVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.inferno",
+				"val" : 35
+			},
+			"fireballVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireball",
+				"val" : 35
+			},
+			"fireWallVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireWall",
+				"val" : 35
+			},
+			"immuneToWater" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "water"
+			},
+			"frostRingspellcaster" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.stoneGaze",
+				"val" : 2,
+				"addInfo" : 60
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"descreaseLuck" :
+			{
+				"type" : "LUCK",
+				"val" : -1,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+			}
+		},
+		"advMapAmount" : {"max" : 10, "min" : 4},
+		"aiValue" : 4200,
+		"attack" : 21,
+		"cost" : { "gold" : 1800, "crystal" : 1 },
+		"damage" : {"max" : 40, "min" : 30},
+		"defense" : 19,
+		"faction" : "north",
+		"upgrades": ["ntlv7up"],
+		"fightValue" : 3383,
+		"graphics" : {
+			"animation" : "north/creatures/battle/lv7.def",
+			"animationTime" : { "attack" : 1.0, "idle" : 4, "walk" : 1.5 },
+			"iconLarge" : "north/creatures/iconsBig/lv7b.bmp",
+			"iconSmall" : "north/creatures/iconsSmall/lv7s.bmp",
+			"map" : "north/creatures/map/lv7map.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 180,
+                "doubleWide" : false,
+		"level" : 7,
+		"name" : { "plural" : "Bigfoots", "singular" : "Bigfoot" },
+		"sound" : {
+			"attack" : "yetiattk.wav",
+			"defend" : "yetidfnd.wav",
+			"killed" : "yetikill.wav",
+			"move" : "yetimove.wav",
+			"wince" : "yetiwnce.wav"
+		},
+		"speed" : 8,
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"tenlv4n":
+	{
+		"name" :
+		{
+			"plural" : "Cavaliers",
+			"singular" : "Cavalier"
+		},
+		"advMapAmount" : {"max" : 20, "min" : 10},
+		"faction" : "tenebrae",
+		"level" : 6,
+		"attack" : 15,
+		"doubleWide" : true,		
+		"defense" : 15,
+		"damage" :
+		{
+			 "min" : 15,
+			 "max" : 25
+		},
+		"growth" : 2,
+		"hitPoints" : 35,
+		"speed" : 7,
+		"fightValue" : 1133,
+		"aiValue" : 1260,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"graphics" :
+		{
+			"animation" : "tenebrae/creatures/battle/lv4n.def",
+			"map" : "tenebrae/creatures/map/lv4nmap.def",
+			"iconSmall" : "tenebrae/creatures/iconsSmall/lv4ns.bmp",
+			"iconLarge" : "tenebrae/creatures/iconsBig/lv4nb.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "CAVAATTK.wav",
+			"defend": "CAVADFND.wav",
+			"killed": "CAVAKILL.wav",
+			"move": "CAVAMOVE.wav",
+			"wince": "CAVAWNCE.wav"
+		},
+		"abilities" :
+		{
+			
+		     "justing" :
+			{
+                               "type" : "JOUSTING",
+			},
+                    "fearless" : 
+			{
+				"type" : "FEARLESS"
+			}
+		}
+	}
+}
+
+

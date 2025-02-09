@@ -1,0 +1,46 @@
+{
+	"zoleksil" :
+	{
+		"class" : "ouRegent",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "lagoon/heroes/zoleksil/spec-small.bmp",
+			"specialtyLarge" : "lagoon/heroes/zoleksil/spec-large.bmp",
+			"large" : "lagoon/heroes/zoleksil/portrait-large.bmp",
+			"small" : "lagoon/heroes/zoleksil/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "lalv1", "min" : 9, "max" : 15 },
+			{ "creature" : "lalv2", "min" :  6, "max" :  9 },
+			{ "creature" : "lalv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{ 
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Zoleksil",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Gorynyches and Ancient Gorynyches}\r\n\r\nIncreases the Attack and Defence of any Gorynyches for Ancient Gorynyches each level attained after 7th level.",
+				"tooltip" : "Creature Bonus: Gorynyches",
+				"name" : "Gorynyches"
+			}
+		
+		},
+		"specialty" : {
+			"creature" : "lalv7"
+		}
+	}
+}

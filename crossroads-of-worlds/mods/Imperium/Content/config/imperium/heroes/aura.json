@@ -1,0 +1,46 @@
+{
+	"aura" :
+	{
+		"class" : "advisor",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "imperium/heroes/aura/spec-small.bmp",
+			"specialtyLarge" : "imperium/heroes/aura/spec-large.bmp",
+			"large" : "imperium/heroes/aura/portrait-large.bmp",
+			"small" : "imperium/heroes/aura/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "itlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "itlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "itlv3", "min" :  3, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		],
+		"spellbook": [ "cure" ],
+		"texts" :
+		{
+			"name" : "Aura",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

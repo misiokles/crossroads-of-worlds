@@ -1,0 +1,46 @@
+{
+	"zardak" :
+	{
+		"class" : "hiClansman",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "highland/heroes/zardak/spec-small.bmp",
+			"specialtyLarge" : "highland/heroes/zardak/spec-large.bmp",
+			"large" : "highland/heroes/zardak/portrait-large.bmp",
+			"small" : "highland/heroes/zardak/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "hilv1", "min" : 9, "max" : 15 },
+			{ "creature" : "hilv2", "min" :  6, "max" :  9 },
+			{ "creature" : "hilv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{ 
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Zardak",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Bears and Grizzly Bears}\r\n\r\nIncreases the Attack and Defence of any Gorynyches for Grizzly Bears each level attained after 3th level.",
+				"tooltip" : "Creature Bonus: Bears",
+				"name" : "Bears"
+			}
+		
+		},
+		"specialty" : {
+			"creature" : "hilv3"
+		}
+	}
+}

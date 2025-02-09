@@ -1,0 +1,83 @@
+{
+	"aplv3up":
+	{
+		"name" :
+		{
+			"plural" : "Royal Scorpions",
+			"singular" : "Royal Scorpion"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "vanguard",
+		"aiValue" : 366,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 240
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 3
+		},
+		"defense" : 9,
+		"fightValue" : 373,
+		"horde" : 3,
+		"graphics" :
+		{
+			"animation" : "vanguard/creatures/battle/lv3up.def",
+			"iconLarge" : "vanguard/creatures/iconsBig/lv3upb.bmp",
+			"iconSmall" : "vanguard/creatures/iconsSmall/lv3ups.bmp",
+			"map" : "vanguard/creatures/map/lv3upmap.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 7,
+		"hitPoints" : 30,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "FDFLATTK.wav",
+			"defend": "FDFLDFND.wav",
+			"killed": "FDFLKILL.wav",
+			"move": "BOARMOVE.wav",
+			"wince": "FDFLWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			
+		  "dispellHelpful" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"val" : 50,
+				"addInfo" : [1, 2]
+			},
+			"spellPoison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 50,
+				"addInfo" : [1, 2]				
+			},
+			"castWeakness" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.weakness",
+				"val" : 50,
+				"addInfo" : [1, 2]
+			}
+		}
+	}
+}
+

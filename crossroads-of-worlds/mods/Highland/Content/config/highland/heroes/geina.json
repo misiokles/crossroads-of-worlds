@@ -1,0 +1,55 @@
+{
+	"geina" :
+	{
+		"class" : "hiForecaster",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "highland/heroes/geina/spec-small.bmp",
+			"specialtyLarge" : "highland/heroes/geina/spec-large.bmp",
+			"large" : "highland/heroes/geina/portrait-large.bmp",
+			"small" : "highland/heroes/geina/portrait-small.bmp"
+		},
+         "army" :
+		[
+			{ "creature" : "hilv1", "min" : 9, "max" : 15 },
+			{ "creature" : "hilv2", "min" :  6, "max" :  9 },
+			{ "creature" : "hilv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Geina",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Crystal + 1}\r\n\r\nIncreases kingdom's income by 1 Crystal per day",
+				"tooltip" : "+1 Crystal each day",
+				"name" : "+1 Crystal"
+			}
+		},
+		"spellbook" :
+		[
+			
+		],
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

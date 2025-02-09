@@ -1,0 +1,145 @@
+{
+	"ntDeepFreeze":
+	{
+		"type": "combat", 
+		"name": "Deep Freeze",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level": 5,
+		"power": 30,
+		"defaultGainChance": 10, 
+		"gainChance":
+		{
+			"rampart": 5,
+			"tower": 15,
+			"necropolis": 15,
+			"inferno" : 0,
+			"conflux" : 15
+		},
+ 
+		"flags" :
+		{
+			"damage": true,
+			"offensive": true,
+			"negative": true
+		},
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},			
+			"noneOf" : {
+				"core:bonus.DIRECT_DAMAGE_IMMUNITY": "normal"
+
+			}
+	}, 
+ 
+		"graphics":
+		{
+			"iconBook": "north/spells/dFreezeBook.bmp",
+			"iconScroll": "north/spells/dFreezeScroll.bmp",
+			"iconScenarioBonus": "north/spells/dFreezeScenario.bmp",
+			"iconEffect": "north/spells/dFreezeEffect.bmp",
+			"iconImmune": "north/spells/dFreezeImmune.bmp"
+		},
+		
+		"animation":
+		{
+			"affect":["north/spells/dFreezeSpell"]
+		},
+
+		"sounds":
+		{
+			"cast":"sound.spell.freeze.wav"
+		},
+		"targetType": "CREATURE",
+ 
+		"levels":
+		{
+			"base":
+			{
+				"aiValue": 15,
+				"range": "0",
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Deep Freeze}\n\nFreezes target which takes 33% more physical damage until it gets turn.\n",
+	 
+				"cost": 25,
+				"power": 90,
+	 
+				"effects":
+				{
+					"melee" :
+					{
+						"subtype" : "damageTypeAll",
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : -33,
+						"duration" : "STACK_GETS_TURN"
+					}
+				}
+			},
+			"basic":
+			{
+				"description": "{Basic Deep Freeze}\n\nFreezes target which takes 33% more physical damage until it gets turn.\n",
+	 
+				"cost": 20,
+				"power": 75,
+	 
+				"effects":
+				{
+					"melee" :
+					{
+						"subtype" : "damageTypeAll",
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : -33,
+						"duration" : "STACK_GETS_TURN"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "{Advanced Deep Freeze}\n\nFreezes target which takes 67% more physical damage until it gets turn.\n",
+	 
+				"cost": 20,
+				"power": 150,
+	 
+				"effects":
+				{
+					"melee" :
+					{
+						"subtype" : "damageTypeAll",
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : -67,
+						"duration" : "STACK_GETS_TURN"
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Deep Freeze}\n\nFreezes target which takes 100% more physical damage until it gets turn.\n",
+	 
+				"cost": 20,
+				"power": 300,
+	 
+				"effects":
+				{
+					"melee" :
+					{
+						"subtype" : "damageTypeAll",
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"val" : -100,
+						"duration" : "STACK_GETS_TURN"
+					}
+				}
+			}
+		}
+	}
+}

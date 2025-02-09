@@ -1,0 +1,39 @@
+{
+	"ludwig" :
+	{
+		"class" : "backslider",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/ludwig/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/ludwig/spec-large.bmp",
+			"large" : "scourge/heroes/ludwig/portrait-large.bmp",
+			"small" : "scourge/heroes/ludwig/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "ludwig",
+			"biography" : "Ludwig was once human until his uncle disliked him and turned to black magic and turned him into a wolf, but he never lost hope of regaining his human form.",
+			"specialty" :
+			{
+				"description" : "{Wolves and Fierce Wolves}\r\n\r\nIncreases the Attack and Defence of any Fierce Wolves and Fierce Wolves each level attained after 2th level.",
+				"tooltip" : "Creature Bonus: Wolves",
+				"name" : "Wolves"
+			}
+		},
+		"specialty" : {
+			"creature" : "relv3"
+		}		
+	}
+}

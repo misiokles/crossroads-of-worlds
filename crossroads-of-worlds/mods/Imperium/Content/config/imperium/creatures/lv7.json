@@ -1,0 +1,78 @@
+{
+	"itlv7":
+	{
+		"name" :
+		{
+			"plural" : "Fiery Barons",
+			"singular" : "Fiery Baron"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "imperium",
+                "upgrades": ["itlv7up"],
+		"aiValue" : 4143,
+		"fightValue" : 3337,
+		"attack" : 19,
+		"defense" : 21,
+		"cost" :
+		{
+			"gold" : 2700,
+			"mercury" : 1
+		},
+		"damage" :
+		{
+			 "min" : 35,
+			 "max" : 45
+		},
+		"speed" : 11,
+		"graphics" :
+		{
+			"animation" : "imperium/creatures/battle/lv7.def",
+			"map" : "imperium/creatures/map/lv7.def",
+			"iconSmall" : "imperium/creatures/iconsSmall/lv7.bmp",
+			"iconLarge" : "imperium/creatures/iconsBig/lv7.bmp",
+			"timeBetweenFidgets" : 3,
+			"animationTime" :
+			{
+				"walk" : 1.23,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"hitPoints" : 180,
+		"doubleWide" : true,
+		"growth" : 1,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "DEVLATTK.wav",
+			"defend": "DEVLDFND.wav",
+			"killed": "DEVLKILL.wav",
+			"move": "DEVLMOVE.wav",
+			"wince": "DEVLWNCE.wav",
+			"startMoving": "DEVLEXT1.wav",
+			"endMoving": "DEVLEXT2.wav"
+		},
+		"abilities":
+		{
+			"RECEPTIVE" :
+			{
+				"type" : "RECEPTIVE"
+			},
+			"teleports" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+	     	"immuneToFire" :
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "fire"
+			}
+		}	
+	}
+}
+

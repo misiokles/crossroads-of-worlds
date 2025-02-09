@@ -1,0 +1,74 @@
+{
+	"salv1up2":
+	{
+		"name" :
+		{
+			"plural" : "Halberdier",
+			"singular" : "Halberdier"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "sandcastle",
+		"level" : 1,
+		"attack" : 6,
+		"defense" : 6,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 3
+		},
+		"growth" : 15,
+		"hitPoints" : 10,
+		"speed" : 6,
+		"fightValue" : 128,
+		"aiValue" : 126,
+		"cost" :
+		{
+			"gold" : 90
+		},
+		"graphics" :
+		{
+			"animation" : "sandcastle/creatures/battle/lv1up2.def",
+			"map" : "sandcastle/creatures/map/lv1up2map.def",
+			"iconSmall" : "sandcastle/creatures/iconsSmall/lv1up2s.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/lv1up2b.bmp",
+            "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+               },
+		"abilities":
+		{
+	
+			"cavalryChargeImmunity" :
+			{
+				"type" : "CHARGE_IMMUNITY"
+			},
+			"fearless" :
+                        {
+				"type" : "FEARLESS",
+			},
+                     "noRetaliation" :
+			{
+				"type" : "BLOCKS_RETALIATION",
+			}
+		}
+	}
+}
+
+
+

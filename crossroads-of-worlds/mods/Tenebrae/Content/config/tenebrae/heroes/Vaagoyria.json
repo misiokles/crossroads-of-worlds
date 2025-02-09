@@ -1,0 +1,68 @@
+{
+	"vaagoyria" :
+	{
+		"class" : "preceptors",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/vaagoyria/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/vaagoyria/spec-large.bmp",
+			"large" : "tenebrae/heroes/vaagoyria/portrait-large.bmp",
+			"small" : "tenebrae/heroes/vaagoyria/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Vaagoyria",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Casts Bless with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"tooltip" : "Spell Bonus: Bless",
+				"name" : "Bless"
+			}
+		},
+		"spellbook" :
+		[
+			"bless"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"bless" : {
+					"type" : "GENERAL_DAMAGE_PREMY",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"parameters" : [
+								"GENERAL_DAMAGE_PREMY",
+								null,
+								{
+									"type" : "SPELL_EFFECT",
+									"id" : "spell.bless"
+								}
+							]
+						}
+					],
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+			    }
+			}
+		}
+	}
+}

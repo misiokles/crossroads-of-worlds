@@ -1,0 +1,83 @@
+{
+	"name" : "Northerners",
+	"description" : "Northerner",
+	"author": "Zeryss, Planet Avril, acidchalk, avatar",
+	"version" : "1.1",
+	"contact": "https://vk.com/club161023181",
+	"modType" : "Town",
+	"factions" :
+	[
+	"config/north/town/buildings.json",
+	"config/north/town/faction.json",
+	"config/north/town/puzzle.json",
+	"config/north/town/siege.json",
+	"config/north/town/structures.json"
+	],
+    "creatures" :
+    [
+	"config/north/creatures/lv1.json",
+	"config/north/creatures/lv1up.json",
+	"config/north/creatures/lv1up2.json",
+	"config/north/creatures/lv1up3.json",
+	"config/north/creatures/lv2.json",
+	"config/north/creatures/lv2up.json",
+	"config/north/creatures/lv2up2.json",
+	"config/north/creatures/lv3.json",
+	"config/north/creatures/lv3up.json",
+	"config/north/creatures/lv4.json",
+	"config/north/creatures/lv4up.json",
+    "config/north/creatures/lv4sn.json",
+	"config/north/creatures/lv5.json",
+	"config/north/creatures/lv5n.json",
+	"config/north/creatures/lv5up.json",
+	"config/north/creatures/lv6.json",
+	"config/north/creatures/lv6sp.json",
+	"config/north/creatures/lv6up.json",
+    "config/north/creatures/lv6up2.json",
+	"config/north/creatures/lv7.json",
+    "config/north/creatures/lv7up.json",
+    "config/north/creatures/commander.json",
+    "config/north/creatures/Nephilim.json",
+    "config/north/creatures/ntSnowyTent.json"
+    ],
+	"heroClasses" :
+	[
+	"config/north/classes/Mentor.json",
+	"config/north/classes/Paladin.json"
+	],
+    "artifacts":
+    [              
+    "config/north/artifacts/ntSnowyTentArt.json"        
+    ],
+    "spells" :
+	[              
+    "config/north/spells/DeepFreeze.json"        
+    ],
+    "heroes" :
+    [
+	"config/north/heroes/Aeiki.json",
+	"config/north/heroes/Allyson.json",
+	"config/north/heroes/Ardula.json",
+	"config/north/heroes/Caleb.json",
+	"config/north/heroes/Candice.json",
+	"config/north/heroes/Cedric.json",
+	"config/north/heroes/Celestia.json",
+	"config/north/heroes/Diane.json",
+	"config/north/heroes/Edda.json",
+	"config/north/heroes/Eldrick.json",
+	"config/north/heroes/Erika.json",
+	"config/north/heroes/Frederik.json",
+	"config/north/heroes/Frisill.json",
+	"config/north/heroes/Gloria.json",
+	"config/north/heroes/Korgyn.json",
+	"config/north/heroes/Meriappi.json",
+	"config/north/heroes/Naina.json",
+	"config/north/heroes/Nullrina.json"
+    ],
+    "objects" :
+    [
+    "config/north/dwellings.json",
+	"config/north/banks/Chapel.json"
+    ]
+}
+

@@ -1,0 +1,68 @@
+{
+	"tenlv1up2":
+	{
+		"name" :
+		{
+			"plural" : "Royal Spearmans",
+			"singular" : "Royal Spearman"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "tenebrae",
+		"level" : 1,
+		"attack" : 6,
+		"defense" : 6,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 15,
+		"hitPoints" : 12,
+		"speed" : 6,
+		"fightValue" : 138,
+		"aiValue" : 126,
+		"cost" :
+		{
+			"gold" : 85
+		},
+		"graphics" :
+		{
+			"animation" : "tenebrae/creatures/battle/lv1up2.def",
+			"map" : "tenebrae/creatures/map/lv1up2map.def",
+			"iconSmall" : "tenebrae/creatures/iconsSmall/lv1up2s.bmp",
+			"iconLarge" : "tenebrae/creatures/iconsBig/lv1up2b.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+               },
+		"abilities":
+		{
+	
+			"cavalryChargeImmunity" :
+			{
+				"type" : "CHARGE_IMMUNITY"
+			},
+			"firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,24 @@
+{
+	"core:warMachineFactory" : {
+		"types" : {
+			"warFactory" : {
+//                "object1" : {              
+				"name" : "War Factory",
+				"creatures" : [[ "unBoltCannon" ]],
+				"templates" : {
+					"base" : {
+						"animation" : "underworld/creatures/dwellings/factory.def",
+                        "visitableFrom" : [ "+++", "+++", "+++" ], 
+						"mask" : [ "VVVV", "VBBV", "BBBB", "VBAB" ]
+					}
+				},
+					"rmg" : {
+						"zoneLimit"    : 5,
+						"value"        : 497,
+						"rarity"    : 97
+					}
+//				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"quwrusale" :
+	{
+		"class" : "opRegent",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "outpost/heroes/wrusale/spec-small.bmp",
+			"specialtyLarge" : "outpost/heroes/wrusale/spec-large.bmp",
+			"large" : "outpost/heroes/wrusale/portrait-large.bmp",
+			"small" : "outpost/heroes/wrusale/portrait-small.bmp"
+		},
+               "army" :
+		[
+			{ "creature" : "qulv1", "min" : 9, "max" : 15 },
+			{ "creature" : "qulv2", "min" :  6, "max" :  9 },
+			{ "creature" : "qulv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "resistance", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Wrusale",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill.",
+				"tooltip" : "Secondary Skill Bonus: Resistance",
+				"name" : "Resistance"
+			}
+		},
+		"spellbook" :
+		[
+			"meteorShower"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"resistance" : {
+					"type" : "MAGIC_RESISTANCE",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

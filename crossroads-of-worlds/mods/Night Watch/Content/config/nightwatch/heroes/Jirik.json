@@ -1,0 +1,62 @@
+{
+	"jirik" :
+	{
+		"class" : "chaplain",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/jirik/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/jirik/spec-large.bmp",
+			"large" : "nightwatch/heroes/jirik/portrait-large.bmp",
+			"small" : "nightwatch/heroes/jirik/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "nwlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "nwlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "nwlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "diplomacy", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Jirik",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Sorrow}\r\n\r\nCasts Sorrow with expert effects but not expert range.",
+				"tooltip" : "Spell bonus: Sorrow",
+				"name" : "Sorrow"
+			}
+		},
+		"spellbook" :
+		[
+			"sorrow"
+		],
+		"specialty": 
+		{
+			"bonuses":
+			{
+				"choir":
+				{
+					"type": "OPENING_BATTLE_SPELL",
+					"subtype": "spell.sorrow",
+					"val" : 3,
+					"valueType" : "BASE_NUMBER"
+				},
+				"bind" : 
+				{
+				"subtype" : "spell.sorrow",
+				"type" : "SPELL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+				}
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,73 @@
+{
+	"salv1n":
+	{
+		"name" :
+		{
+			"plural" : "Red Militias",
+			"singular" : "Red Militia"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "sandcastle",
+		"upgrades":
+		[
+			"salv1"
+		],
+		"level" : 1,
+		"attack" : 4,
+		"defense" : 3,
+		"damage" :
+		{
+			 "min" : 1,
+			 "max" : 2
+		},
+		"growth" : 20,
+		"hitPoints" : 6,
+		"speed" : 3,
+		"fightValue" : 84,
+		"aiValue" : 96,
+		"cost" :
+		{
+			"gold" : 30
+		},
+		"graphics" :
+		{
+			"animation" : "sandcastle/creatures/battle/lv1n.def",
+			"map" : "sandcastle/creatures/map/lv1nmap.def",
+			"iconSmall" : "sandcastle/creatures/iconsSmall/lv1ns.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/lv1nb.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PSNTATTK.wav",
+			"defend": "PSNTDFND.wav",
+			"killed": "PSNTKILL.wav",
+			"move": "PSNTMOVE.wav",
+			"wince": "PSNTWNCE.wav"
+               },
+		"abilities":
+		{
+	
+			"fearless" :
+                        {
+				"type" : "FEARLESS",
+			}
+		}
+	}
+}
+
+
+
+
+
+

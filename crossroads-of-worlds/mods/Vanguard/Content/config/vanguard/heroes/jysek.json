@@ -1,0 +1,49 @@
+{
+	"jysek" :
+	{
+		"class" : "apPontiff",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "vanguard/heroes/jysek/spec-small.bmp",
+			"specialtyLarge" : "vanguard/heroes/jysek/spec-large.bmp",
+			"large" : "vanguard/heroes/jysek/portrait-large.bmp",
+			"small" : "vanguard/heroes/jysek/portrait-small.bmp"
+		},
+               "army" :
+		[
+			{ "creature" : "aplv1", "min" : 9, "max" : 15 },
+			{ "creature" : "aplv2", "min" :  6, "max" :  9 },
+			{ "creature" : "aplv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "offence", "level": "advanced" }
+		],
+		"texts" :
+		{
+			"name" : "Jysek",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill.",
+				"tooltip" : "Secondary Skill Bonus: Offence",
+				"name" : "Offence"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "damageTypeMelee",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+                }
+			}
+		}
+	}
+}
+
+

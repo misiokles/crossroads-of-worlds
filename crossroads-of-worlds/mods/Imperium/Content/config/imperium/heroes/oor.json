@@ -1,0 +1,40 @@
+{
+	"oor" :
+	{
+		"class" : "baron",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "imperium/heroes/oor/spec-small.bmp",
+			"specialtyLarge" : "imperium/heroes/oor/spec-large.bmp",
+			"large" : "imperium/heroes/oor/portrait-large.bmp",
+			"small" : "imperium/heroes/oor/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "itlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "itlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "itlv3", "min" :  3, "max" :  6 }
+		],
+       "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "offence", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Oor",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Soldiers and Sergeants}\r\n\r\nIncreases the Attack and Defence of any Soldiers for Sergeants each level attained after 7th level.",
+				"tooltip" : "Creature Bonus: Soldiers",
+				"name" : "Soldiers"
+			}
+		
+		},
+		"specialty" : {
+			"creature" : "itlv4"
+		}
+	}
+}

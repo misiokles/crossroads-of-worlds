@@ -1,0 +1,48 @@
+{
+	"diranisa" :
+	{
+		"class" : "backslider",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "scourge/heroes/diranisa/spec-small.bmp",
+			"specialtyLarge" : "scourge/heroes/diranisa/spec-large.bmp",
+			"large" : "scourge/heroes/diranisa/portrait-large.bmp",
+			"small" : "scourge/heroes/diranisa/portrait-small.bmp"
+		},
+        "army" :
+		[
+			{ "creature" : "relv1", "min" : 9, "max" : 15 },
+			{ "creature" : "relv2", "min" :  6, "max" :  9 },
+			{ "creature" : "relv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "navigation", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Diranisa",
+			"biography" : "Diranisa was the captain of the royal frigate, but this is in the past but the Navaki are not forgotten",
+			"specialty" :
+			{
+				"description" : "{Navigation}\r\n\r\nReceives a 5% per level bonus to Navigation skill.",
+				"tooltip" : "Secondary Skill Bonus: Navigation",
+				"name" : "Navigation"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"navigation" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementSea",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

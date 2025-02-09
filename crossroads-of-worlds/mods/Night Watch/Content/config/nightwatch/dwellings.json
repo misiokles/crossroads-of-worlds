@@ -1,0 +1,102 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"nwOutpost" : {
+				"name" : "Outpost",
+				"creatures" : [[ "nwlv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "nightwatch/creatures/dwellings/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"nwArcherOutpost" : {
+				"name" : "Archer Outpost",
+				"creatures" : [[ "nwlv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "nightwatch/creatures/dwellings/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"nwGriffinOutpost" : {
+				"name" : "Griffin Outpost",
+				"creatures" : [[ "nwlv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "nightwatch/creatures/dwellings/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"nwSwordsmanOutpost" : {
+				"name" : "Swordsman Outpost",
+				"creatures" : [[ "nwlv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "nightwatch/creatures/dwellings/dwelling-4.def",
+						"mask" : [ "VVVV", "VVVV", "VVBA" ]
+					}
+				}
+			},
+			"nwMonkOutpost" : {
+				"name" : "Monk Outpost",
+				"creatures" : [[ "nwlv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "nightwatch/creatures/dwellings/dwelling-5.def",
+						"mask" : [ "VVVV", "VVVV", "VVBA" ]
+					}
+				}
+			},
+			"nwCavalierOutpost" : {
+				"name" : "Cavalier Outpost",
+				"creatures" : [[ "nwlv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "nightwatch/creatures/dwellings/dwelling-6.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"nwAngelOutpost" : {
+				"name" : "Angel Outpost",
+				"creatures" : [[ "nwlv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "nightwatch/creatures/dwellings/dwelling-7.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"nwDarkPortal" : {
+				"name" : "Dark Portal",
+				"creatures" : [[ "nwlv7alt" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "nightwatch/creatures/dwellings/dwelling-8.def",
+						"mask" : [ "VVVV", "VBBB", "VVAV" ]
+					}
+				}
+			},
+			"nwSniperOutpost" : {
+				"name" : "Sniper Outpost",
+				"creatures" : [[ "nwlv4sn" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "nightwatch/creatures/dwellings/dwelling-9.def",
+						"mask" : [ "VVVV", "VVVV", "VVBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,25 @@
+[Data]
+Type=2
+Shadow Type=0
+Group0=0027.bmp|0028.bmp|0029.bmp|0030.bmp|0031.bmp|0032.bmp|0033.bmp|0034.bmp|
+Group1=0004.bmp|0005.bmp|0006.bmp|0007.bmp|0008.bmp|0009.bmp|0010.bmp|0011.bmp|0012.bmp|0013.bmp|0014.bmp|0015.bmp|0016.bmp|0017.bmp|0018.bmp|0019.bmp|0020.bmp|
+Group2=0006.bmp|0005.bmp|0004.bmp|0003.bmp|0002.bmp|0003.bmp|0004.bmp|0005.bmp|0006.bmp|
+Group3=0037.bmp|0038.bmp|0039.bmp|0039.bmp|0039.bmp|0040.bmp|0041.bmp|0042.bmp|
+Group4=0022.bmp|0023.bmp|0024.bmp|0024.bmp|0024.bmp|0023.bmp|0022.bmp|0021.bmp|
+Group5=0037.bmp|0045.bmp|0046.bmp|0047.bmp|0048.bmp|
+Group6=0037.bmp|0046.bmp|0047.bmp|0048.bmp|
+Group7=0049.bmp|0050.bmp|0051.bmp|
+Group8=0051.bmp|0050.bmp|0049.bmp|
+Group9=0049.bmp|0050.bmp|0051.bmp|
+Group10=0051.bmp|0050.bmp|0049.bmp|
+Group11=0069.bmp|0070.bmp|0071.bmp|0072.bmp|0073.bmp|0074.bmp|0075.bmp|
+Group12=0053.bmp|0054.bmp|0055.bmp|0056.bmp|0057.bmp|0058.bmp|0059.bmp|
+Group13=0061.bmp|0062.bmp|0063.bmp|0064.bmp|0065.bmp|0066.bmp|0067.bmp|
+Group20=0026.bmp|0027.bmp|
+Group21=0034.bmp|0035.bmp|
+Groups Number=22
+Generate Selection=0
+ColorsBox.Colors=$FFFF00|$FF96FF|$080707|$110C0A|$FF00FF|$00FFFF|$FF00B4|$00FF00|
+ShadowColorsBox.Colors=$FFFF00|$FF96FF|$080707|$110C0A|$FF00FF|$00FFFF|$FF00B4|$00FF00|
+ColorsBox.ColorChecks=1|1|1|1|1|1|1|1|0|
+ShadowColorsBox.ColorChecks=1|1|1|1|1|1|1|1|

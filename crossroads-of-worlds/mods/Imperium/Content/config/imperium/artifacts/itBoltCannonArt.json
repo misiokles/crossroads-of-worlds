@@ -1,0 +1,23 @@
+{
+	"itBoltCannon":
+        {
+	"type" : ["HERO"],
+	"warMachine":"itBoltCannon",
+        "class": "SPECIAL",
+        "value": 3500,
+        "slot":"MACH1",
+        "text":
+		{
+			"name": "Flaming crossbow",
+			"description": "{Flaming crossbow}\r\n\r\nThe latest development of scientists for the destruction of enemy units.",
+			"event": "The universal war machine mortira allows you to attack the walls of fortified enemy units."
+		},
+		"graphics":
+		{
+			"image": "imperium/creatures/iconsSmall/artifacts/bow.bmp",
+			"map"  :   "imperium/creatures/map/artifacts/avcnbksm.def"
+		}
+	}
+}
+
+

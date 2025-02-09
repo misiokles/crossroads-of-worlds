@@ -1,0 +1,64 @@
+{
+	"hilv6up":
+	{
+		"name" :
+		{
+			"plural" : "Royal Cavaliers",
+			"singular" : "Royal Cavalier"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "highland",
+		"aiValue" : 1261,
+		"attack" : 16,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1200
+		},
+		"damage" :
+		{
+			 "min" : 20,
+			 "max" : 25
+		},
+		"defense" : 16,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "highland/creatures/battle/lv6up.def",
+			"map" : "highland/creatures/map/lv6upmap.def",
+			"iconSmall" : "highland/creatures/iconsSmall/lv6ups.bmp",
+			"iconLarge" : "highland/creatures/iconsBig/lv6upb.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 100,
+		"level" : 6,
+		
+		"sound" :
+		{
+			"attack": "CHMPATTK.wav",
+			"defend": "CHMPDFND.wav",
+			"killed": "CHMPKILL.wav",
+			"move": "CHMPMOVE.wav",
+			"wince": "CHMPWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+            "JOUSTING" :
+			{
+				"type" : "JOUSTING"
+			}
+		}
+	}
+}

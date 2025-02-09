@@ -1,0 +1,49 @@
+{
+	"qudegda" :
+	{
+		"class" : "opVicar",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "outpost/heroes/degda/spec-small.bmp",
+			"specialtyLarge" : "outpost/heroes/degda/spec-large.bmp",
+			"large" : "outpost/heroes/degda/portrait-large.bmp",
+			"small" : "outpost/heroes/degda/portrait-small.bmp"
+		},
+               "army" :
+		[
+			{ "creature" : "qulv1", "min" : 9, "max" : 15 },
+			{ "creature" : "qulv2", "min" :  6, "max" :  9 },
+			{ "creature" : "qulv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		],
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"texts" :
+		{
+			"name" : "Degda",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"hina" :
+	{
+		"class" : "hiForecaster",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "highland/heroes/hina/spec-small.bmp",
+			"specialtyLarge" : "highland/heroes/hina/spec-large.bmp",
+			"large" : "highland/heroes/hina/portrait-large.bmp",
+			"small" : "highland/heroes/hina/portrait-small.bmp"
+		},
+		"army" :
+		[
+			{ "creature" : "hilv1", "min" : 9, "max" : 15 },
+			{ "creature" : "hilv2", "min" :  6, "max" :  9 },
+			{ "creature" : "hilv3", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Hina",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill.",
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"name" : "Scouting"
+			}
+		},
+		"spellbook" :
+		[
+			
+		],
+		"specialty": {
+			"bonuses": {
+				"scouting" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SIGHT_RADIUS",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

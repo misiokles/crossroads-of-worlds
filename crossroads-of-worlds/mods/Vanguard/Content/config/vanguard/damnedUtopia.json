@@ -1,0 +1,131 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"damnedUtopia" : 
+			{
+				"name" : "Damned Utopia",
+				"templates" : {
+					"base" : { 
+					"animation" : "damnedUtopia", 
+					"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVV", "VVVV", "VBAB"],							
+						"allowedTerrains":[ "sand" ] 
+					}
+				},
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"levels": [
+				{
+					"chance": 5,
+					"guards": [
+							{ "amount": 8, "type" : "boneDragon" },
+							{ "amount": 8, "type" : "boneDragon" },
+							{ "amount": 8, "type" : "boneDragon" },
+							{ "amount": 8, "type" : "boneDragon" },	
+							{ "amount": 1, "type" : "damnedDracolich" }				
+					],
+				"combat_value": 2000,
+						"reward" : {
+							"value": 3000,
+							"resources": 
+							{
+								"gold" : 30000
+							},
+							"creatures" : [ {"amount": 4, "type": "damnedBloodDragon" } ],
+							"artifacts": ["armorOfTheDamned"]			
+
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+								{ "amount": 7, "type" : "boneDragon" },
+								{ "amount": 7, "type" : "boneDragon" },
+								{ "amount": 7, "type" : "boneDragon" },
+								{ "amount": 7, "type" : "boneDragon" },
+								{ "amount": 25, "type" : "powerLich" }			
+						],
+					"combat_value": 2000,
+						"reward" : {
+							"value": 3000,
+								"resources": 
+								{
+									"gold" : 25000
+								},
+								"creatures" : [ {"amount": 4, "type": "ghostDragon" } ],
+								"artifacts": ["armorOfTheDamned"]			
+	
+							}
+						},
+					{
+						"chance": 25,
+						"guards": [
+							{ "amount": 6, "type" : "boneDragon" },
+							{ "amount": 6, "type" : "boneDragon" },
+							{ "amount": 6, "type" : "boneDragon" },	
+							{ "amount": 6, "type" : "boneDragon" },
+							{ "amount": 20, "type" : "lich" }								
+						],
+					"combat_value": 2000,
+						"reward" : {
+							"value": 3000,
+								"resources": 
+								{
+									"gold" : 20000
+								},
+								"creatures" : [ { "amount": 3, "type": "ghostDragon" } ],
+								"artifacts": ["armorOfTheDamned"]			
+	
+							}
+						},
+						{
+							"chance": 30,
+							"guards": [
+								{ "amount": 5, "type" : "boneDragon" },
+								{ "amount": 5, "type" : "boneDragon" },
+								{ "amount": 5, "type" : "boneDragon" },	
+								{ "amount": 5, "type" : "boneDragon" },
+								{ "amount": 15, "type" : "lich" }					
+							],
+						"combat_value": 2000,
+						"reward" : {
+							"value": 3000,
+									"resources": 
+									{
+										"gold" : 15000
+									},
+									"creatures" : [ { "amount": 2, "type": "ghostDragon" } ],							
+									"artifacts": ["armorOfTheDamned"]			
+		
+								}
+							},
+							{
+								"chance": 30,
+								"guards": [
+									{ "amount": 4, "type" : "boneDragon" },
+									{ "amount": 4, "type" : "boneDragon" },
+									{ "amount": 4, "type" : "boneDragon" },
+									{ "amount": 4, "type" : "boneDragon" },
+									{ "amount": 10, "type" : "lich" }							
+								],
+							"combat_value": 2000,
+						"reward" : {
+							"value": 3000,
+										"resources": 
+										{
+											"gold" : 10000
+										},
+										"creatures" : [ { "amount": 1, "type": "ghostDragon" } ],
+										"artifacts": ["armorOfTheDamned"]			
+			
+									}
+								}																		
+				]
+			}
+		}
+	}
+}

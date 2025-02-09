@@ -1,0 +1,74 @@
+{
+	"name" : "Vanguard",
+	"description" : "Vanguard town",
+	"author": "Zeryss",
+	"version" : "0.2",
+	"contact": "https://vk.com/public184999722",
+	"modType" : "Town",	
+	"depends" : ["hota.wastelandterrain"],
+	"factions" :
+	[
+	"config/vanguard/town/buildings.json",
+	"config/vanguard/town/faction.json",
+	"config/vanguard/town/puzzle.json",
+	"config/vanguard/town/siege.json",
+	"config/vanguard/town/structures.json"
+	],
+        "creatures" :
+    [
+	"config/vanguard/creatures/lv1.json",
+	"config/vanguard/creatures/lv1up.json",
+	"config/vanguard/creatures/lv1up2.json",
+	"config/vanguard/creatures/lv2.json",
+	"config/vanguard/creatures/lv2up.json",
+	"config/vanguard/creatures/lv2up2.json",
+	"config/vanguard/creatures/lv3.json",
+	"config/vanguard/creatures/lv3up.json",
+	"config/vanguard/creatures/lv4.json",
+	"config/vanguard/creatures/lv4sn.json",
+	"config/vanguard/creatures/lv4up.json",
+	"config/vanguard/creatures/lv5.json",
+	"config/vanguard/creatures/lv5up.json",
+	"config/vanguard/creatures/lv6.json",
+	"config/vanguard/creatures/lv6up.json",
+	"config/vanguard/creatures/lv7.json",
+	"config/vanguard/creatures/lv7up.json",
+	"config/vanguard/creatures/apHeavyCrossbow.json",
+	"config/vanguard/creatures/commander.json"
+    ],
+	"heroClasses" :
+	[
+	"config/vanguard/classes/Trainman.json",
+	"config/vanguard/classes/Pontiff.json"
+	],
+    "artifacts":
+    [              
+    "config/vanguard/artifacts/apHeavyCrossbowArt.json"        
+    ],
+        "heroes" :
+    [
+	"config/vanguard/heroes/alter.json",
+	"config/vanguard/heroes/beistorno.json",
+	"config/vanguard/heroes/darket.json",
+	"config/vanguard/heroes/eorosar.json",
+	"config/vanguard/heroes/erina.json",
+	"config/vanguard/heroes/erlita.json",
+	"config/vanguard/heroes/gerhard.json",
+	"config/vanguard/heroes/josera.json",
+	"config/vanguard/heroes/jysek.json",
+	"config/vanguard/heroes/kalekh.json",
+	"config/vanguard/heroes/lorthan.json",
+	"config/vanguard/heroes/melty.json",
+	"config/vanguard/heroes/myrtle.json",
+	"config/vanguard/heroes/olteria.json",
+	"config/vanguard/heroes/phiron.json",
+	"config/vanguard/heroes/phobak.json",
+	"config/vanguard/heroes/sarti.json",
+	"config/vanguard/heroes/terina.json"
+    ],
+    "objects" :
+        [
+        "config/vanguard/dwellings.json",
+	"config/vanguard/banks/sandUtopia.json"
+        ]
+}

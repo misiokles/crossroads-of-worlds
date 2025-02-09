@@ -1,0 +1,66 @@
+{
+	"felv4":
+	{
+		"name" :
+		{
+			"plural" : "Triarius",
+			"singular" : "Triarius"
+		},
+		"faction" : "fen",
+		"upgrades": ["felv4up"],
+		"level" : 4,
+		"attack" : 10,
+		"defense" : 12,
+		"damage" :
+		{
+			 "min" : 6,
+			 "max" : 9
+		},
+		"growth" : 5,
+		"hitPoints" : 35,
+		"speed" : 7,
+		"fightValue" : 1180,
+		"aiValue" : 1268,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"graphics" :
+		{
+			"animation" : "fen/creatures/battle/lv4.def",
+			"map" : "fen/creatures/map/lv4map.def",
+			"iconSmall" : "fen/creatures/iconsSmall/lv4s.bmp",
+			"iconLarge" : "fen/creatures/iconsBig/lv4b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "SWRDATTK.wav",
+			"defend": "SWRDDFND.wav",
+			"killed": "SWRDKILL.wav",
+			"move": "SWRDMOVE.wav",
+			"wince": "SWRDWNCE.wav"
+		},
+		"abilities":
+		{
+			"extraAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			},
+		"immunity" :
+            {
+               "type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 100
+			}
+		}	
+	}
+}
+

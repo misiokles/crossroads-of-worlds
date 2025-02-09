@@ -1,0 +1,65 @@
+{
+	"felv7up" : {
+		"advMapAmount" : {"max" : 8, "min" : 3},
+		"aiValue" : 6925,
+		"attack" : 20,
+		"cost" : { "gold" : 3000, "gems" : 2 },
+		"damage" : {"max" : 45, "min" : 25},
+		"defense" : 25,
+		"faction" : "fen",
+		"fightValue" : 5454,
+		"graphics" : {
+			"animation" : "fen/creatures/battle/lv7up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.8 },
+			"map" : "fen/creatures/map/lv7upmap.def",
+			"iconSmall" : "fen/creatures/iconsSmall/lv7ups.bmp",
+			"iconLarge" : "fen/creatures/iconsBig/lv7upb.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 225,
+		"speed" : 11,
+                "doubleWide" : false,
+		"level" : 7,
+		"name" : { "plural" : "Saints Tarmanys", "singular" : "Saints Tarmany" },
+		"sound" :
+		{
+			"attack" : "TempATTK.wav",
+			"defend" : "TempDFND.wav",
+			"killed" : "TempDEAD.wav",
+			"move" : "TempMOVE.wav",
+			"wince" : "TempWNCE.wav"
+		} ,
+		"abilities":
+		{
+			
+                        "reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 50
+			},
+			"flamethrower" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+            "RECEPTIVE" :
+			{
+				"type" : "RECEPTIVE"
+			},
+			"firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			},
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+		      "immunity" :
+                       {
+               "type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "air",
+				"val" : 100
+			}
+		}	
+	}
+}

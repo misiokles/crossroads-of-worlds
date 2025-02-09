@@ -1,0 +1,24 @@
+{
+	"core:warMachineFactory" : {
+		"types" : {
+			"mlitaryShop" : {
+//                "object1" : {              
+				"name" : "Mlitary Shop",
+				"creatures" : [[ "itBoltCannon" ]],
+				"templates" : {
+					"base" : {
+						"animation" : "imperium/creatures/dwellings/mlitaryShop.def",
+                        "visitableFrom" : [ "+++", "+++", "+++" ], 
+						"mask" : [ "VVVV", "VBBV", "BBBB", "VBAB" ]
+					}
+				},
+					"rmg" : {
+						"zoneLimit"    : 5,
+						"value"        : 496,
+						"rarity"    : 96
+					}
+//				}
+			}
+		}		
+	}
+}

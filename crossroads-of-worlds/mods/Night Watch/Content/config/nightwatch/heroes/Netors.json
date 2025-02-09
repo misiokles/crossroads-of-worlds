@@ -1,0 +1,47 @@
+{
+	"netors" :
+	{
+		"class" : "chaplain",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "nightwatch/heroes/netors/spec-small.bmp",
+			"specialtyLarge" : "nightwatch/heroes/netors/spec-large.bmp",
+			"large" : "nightwatch/heroes/netors/portrait-large.bmp",
+			"small" : "nightwatch/heroes/netors/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "nwlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "nwlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "nwlv3", "min" :  3, "max" :  6 }
+		],
+        "skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "diplomacy", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Netors",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "Spell Bonus: Haste can cast the Haste spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Haste",
+				"name" : "Haste"
+			}
+		},
+		"spellbook": [ "haste" ],
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

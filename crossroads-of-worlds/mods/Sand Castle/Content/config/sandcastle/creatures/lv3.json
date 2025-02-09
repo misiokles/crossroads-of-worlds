@@ -1,0 +1,70 @@
+{
+	"salv3":
+	{
+		"name" :
+		{
+			"plural" : "Nerubians",
+			"singular" : "Nerubian"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 15
+		},
+		"faction" : "sandcastle",
+		"upgrades": ["salv3up"],
+		"hasDoubleWeek": true,
+		"level" : 3,
+		"attack" : 8,
+		"defense" : 8,
+		"damage" :
+		{
+			 "min" : 3,
+			 "max" : 6
+		},
+		"growth" : 7,
+		"hitPoints" : 30,
+		"speed" : 6,
+		"fightValue" : 533,
+		"aiValue" : 483,
+		"horde" : 3,
+		"doubleWide" : true,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"graphics" :
+		{
+			"animation" : "sandcastle/creatures/battle/lv3.def",
+			"map" : "sandcastle/creatures/map/lv3map.def",
+			"iconSmall" : "sandcastle/creatures/iconsSmall/lv3s.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/lv3b.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"abilities":
+		{
+			
+			"immunity" : { 
+				"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+				"subtype": "earth"
+			}
+		},
+		"sound" :
+		{
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "PLIZMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+		}
+	}
+}
+
+
+

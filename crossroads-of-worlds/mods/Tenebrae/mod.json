@@ -1,0 +1,75 @@
+{
+	"name" : "Tenebrae",
+	"description" : "Tenebrae",
+	"author": "zeryss",
+	"version" : "0.2",
+	"contact": "https://vk.com/public184999722",
+	"modType" : "Town",	
+	"depends" : ["hota.highlandsterrain"], 
+	"factions" :
+	[
+	"config/tenebrae/town/buildings.json",
+	"config/tenebrae/town/faction.json",
+	"config/tenebrae/town/puzzle.json",
+	"config/tenebrae/town/siege.json",
+	"config/tenebrae/town/structures.json"
+	],
+        "creatures" :
+        [
+	"config/tenebrae/creatures/lv1.json",
+	"config/tenebrae/creatures/lv1up.json",
+	"config/tenebrae/creatures/lv1up2.json",
+	"config/tenebrae/creatures/lv2.json",
+	"config/tenebrae/creatures/lv2up.json",
+	"config/tenebrae/creatures/lv2up2.json",
+	"config/tenebrae/creatures/lv3.json",
+	"config/tenebrae/creatures/lv3up.json",
+	"config/tenebrae/creatures/lv4.json",
+    "config/tenebrae/creatures/lv4sn.json",
+	"config/tenebrae/creatures/lv4n.json",
+	"config/tenebrae/creatures/lv4up.json",
+	"config/tenebrae/creatures/lv5.json",
+	"config/tenebrae/creatures/lv5up.json",
+	"config/tenebrae/creatures/lv6.json",
+	"config/tenebrae/creatures/lv6up.json",
+	"config/tenebrae/creatures/lv6up2.json",
+	"config/tenebrae/creatures/lv7.json",
+	"config/tenebrae/creatures/lv7up.json",
+	"config/tenebrae/creatures/tenMilitaryCrossbow.json",
+	"config/tenebrae/creatures/commander.json"
+     ],
+	"heroClasses" :
+	[
+	"config/tenebrae/classes/Archduke.json",
+	"config/tenebrae/classes/Preceptors.json"
+	],
+    "artifacts":
+    [              
+    "config/tenebrae/artifacts/tenMilitaryCrossbowArt.json"        
+    ],
+    "heroes" :
+    [
+	"config/tenebrae/heroes/Antya.json",
+	"config/tenebrae/heroes/Astarta.json",
+	"config/tenebrae/heroes/Burlara.json",
+	"config/tenebrae/heroes/Daenerys.json",
+	"config/tenebrae/heroes/Derrida.json",
+	"config/tenebrae/heroes/Dionea.json",
+	"config/tenebrae/heroes/Daenerys.json",
+	"config/tenebrae/heroes/Frasimed.json",
+	"config/tenebrae/heroes/Levk.json",
+	"config/tenebrae/heroes/Lycfan.json",
+	"config/tenebrae/heroes/Meldrick.json",
+	"config/tenebrae/heroes/Protant.json",
+	"config/tenebrae/heroes/Rauvvaya.json",
+	"config/tenebrae/heroes/Talagoya.json",
+	"config/tenebrae/heroes/Teros.json",
+	"config/tenebrae/heroes/Uldrich.json",
+	"config/tenebrae/heroes/Urmia.json",
+	"config/tenebrae/heroes/Vaagoyria.json"
+    ],
+    "objects" :
+    [
+    "config/tenebrae/dwellings.json"
+    ]
+}

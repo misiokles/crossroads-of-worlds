@@ -1,0 +1,50 @@
+{
+	"karinus" :
+	{
+		"class" : "advisor",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "imperium/heroes/karinus/spec-small.bmp",
+			"specialtyLarge" : "imperium/heroes/karinus/spec-large.bmp",
+			"large" : "imperium/heroes/karinus/portrait-large.bmp",
+			"small" : "imperium/heroes/karinus/portrait-small.bmp"
+		},
+                "army" :
+		[
+			{ "creature" : "itlv1", "min" : 9, "max" : 15 },
+			{ "creature" : "itlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "itlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "estates", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Karinus",
+			"biography" : "",
+			"specialty" : 
+			{
+				"description" : "Spell Bonus: ResurrectionHero can cast the Resurrection spell with increased effectiveness",
+				"tooltip" : "Spell Bonus: Meteor Shower",
+				"name" : "Meteor Shower"
+			}
+		},
+		"spellbook" :
+		[
+			"meteorShower"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"meteorShower" : {
+					"subtype" : "spell.meteorShower",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,87 @@
+{
+	"qulv7up":
+	{
+		"name" :
+		{
+			"plural" : "Ancient Gorynyches",
+			"singular" : "Ancient Gorynych"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "outpost",
+		"aiValue" : 4000,
+		"attack" : 23,
+		"cost" :
+		{
+			"gold" : 4000,
+			"crystal" : 2
+		},
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 30
+		},
+		"defense" : 24,
+		"fightValue" : 4635,
+		"graphics" :
+		{
+			"animation" : "outpost/creatures/battle/lv7up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "outpost/creatures/map/lv7Upmap.def",
+			"iconSmall" : "outpost/creatures/iconsSmall/lv7upSmall.bmp",
+			"iconLarge" : "outpost/creatures/iconsBig/lv7upLarge.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 250,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "outpost/GORYATTK.wav",
+             "defend": "outpost/GORYDFND.wav",
+             "killed": "outpost/GORYKILL.wav",
+              "move": "outpost/GORYMOVE.wav",
+             "wince": "outpost/GORYWNCE.wav"
+                     
+		},
+		"speed" : 13,
+		"abilities":
+		{
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"attackAll": 
+			{
+				 "type": "ATTACKS_ALL_ADJACENT"
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+		       "dragon": 
+                        {
+                        "type": "DRAGON_NATURE"
+                        },
+		       "fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"fear" :
+			{
+				"type" : "FEAR"
+			}
+		}
+	}
+}
+
+

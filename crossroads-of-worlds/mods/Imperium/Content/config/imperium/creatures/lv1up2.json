@@ -1,0 +1,83 @@
+{
+	"itlv1up2":
+	{
+		"name" :
+		{
+			"plural" :   "Imperial Guards",
+			"singular" : "Imperial Guard"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 20,
+			 "max" : 50
+		},
+		"faction" : "imperium",
+		"level" : 1,
+		"attack" : 5,
+		"defense" : 6,
+		"damage" :
+		{
+			 "min" : 2,
+			 "max" : 3
+		},
+		"growth" : 15,
+		"hitPoints" : 12,
+		"speed" : 6,
+		"fightValue" : 148,
+		"aiValue" : 156,
+		"cost" :
+		{
+			"gold" : 90
+		},
+		"graphics" :
+		{
+			"animation" : "imperium/creatures/battle/lv1up2.def",
+			"map" : "imperium/creatures/map/lv1up2.def",
+			"iconSmall" : "imperium/creatures/iconsSmall/lv1up2.bmp",
+			"iconLarge" : "imperium/creatures/iconsBig/lv1up2.bmp",
+                        "timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"defend": "PIKEDFND.wav",
+			"killed": "PIKEKILL.wav",
+			"move": "PIKEMOVE.wav",
+			"wince": "PIKEWNCE.wav"
+               },
+		"abilities":
+		{
+			"RECEPTIVE" :
+			{
+				"type" : "RECEPTIVE"
+			},
+			"cavalryChargeImmunity" :
+			{
+				"type" : "CHARGE_IMMUNITY"
+			},
+          "immuneToFire" :
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "fire"
+			},
+			"frostRingVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.frostRing",
+				"val" : 100
+			},
+			"iceBoltVulnerablity" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.iceBolt",
+				"val" : 100
+			}
+		}	
+	}
+}

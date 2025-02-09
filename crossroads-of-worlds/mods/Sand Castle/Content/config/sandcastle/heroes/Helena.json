@@ -1,0 +1,52 @@
+{
+	"helena" :
+	{
+		"class" : "redknight",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "sandcastle/heroes/helena/spec-small.bmp",
+			"specialtyLarge" : "sandcastle/heroes/helena/spec-large.bmp",
+			"large" : "sandcastle/heroes/helena/portrait-large.bmp",
+			"small" : "sandcastle/heroes/helena/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "salv1", "min" :  10, "max" : 15 },
+			{ "creature" : "salv2", "min" :  6, "max" :  9 },
+			{ "creature" : "salv3", "min" :  3, "max" :  6 }
+		],
+
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Helena",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Red Pikemans and Red Halberdiers}\r\n\r\nIncreases Speed of any Red Pikemans or Red Halberdiers by 1 and their Attack and Defense skills by 5% for every 1 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Red Rookie",
+				"name" : "Red Rookie"
+			}
+		},
+		"spellbook" :
+		[
+			"fly"
+		],
+		"specialty" : {
+			"creature" : "salv1"
+		}		
+	}
+}

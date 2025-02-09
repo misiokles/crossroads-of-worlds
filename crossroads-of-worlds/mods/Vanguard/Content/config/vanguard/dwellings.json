@@ -1,0 +1,91 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"apPikemanvanguard" : {
+				"name" : "Pikeman vanguard",
+				"creatures" : [[ "aplv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "vanguard/creatures/dwellings/dw1.def",
+						"mask" : [ "VVV", "VVV", "VAA" ]
+					}
+				}
+			},
+			"apArchervanguard" : {
+				"name" : "Archer vanguard",
+				"creatures" : [[ "aplv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "vanguard/creatures/dwellings/dw2.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"apAncientTower" : {
+				"name" : "Ancient Tower",
+				"creatures" : [[ "aplv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "vanguard/creatures/dwellings/dw3.def",
+						"mask" : [ "VVV", "VVV", "VAA" ]
+					}
+				}
+			},
+			"apBarracks" : {
+				"name" : "Barracks",
+				"creatures" : [[ "aplv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "vanguard/creatures/dwellings/dw4.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"apMonkvanguard" : {
+				"name" : "Monk vanguard",
+				"creatures" : [[ "aplv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "vanguard/creatures/dwellings/dw5.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"apCavaliervanguard" : {
+				"name" : "Cavalier vanguard",
+				"creatures" : [[ "aplv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "vanguard/creatures/dwellings/dw6.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"apBurrows" : {
+				"name" : "Burrows of Worms",
+				"creatures" : [[ "aplv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "vanguard/creatures/dwellings/dw7.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"apSnipersBarracks" : {
+				"name" : "Snipers Barracks",
+				"creatures" : [[ "aplv4sn" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "vanguard/creatures/dwellings/dw8.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

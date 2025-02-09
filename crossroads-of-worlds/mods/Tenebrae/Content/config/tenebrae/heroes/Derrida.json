@@ -1,0 +1,46 @@
+{
+	"derrida" :
+	{
+		"class" : "archduke",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "tenebrae/heroes/derrida/spec-small.bmp",
+			"specialtyLarge" : "tenebrae/heroes/derrida/spec-large.bmp",
+			"large" : "tenebrae/heroes/derrida/portrait-large.bmp",
+			"small" : "tenebrae/heroes/derrida/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "tenlv1", "min" :  9, "max" : 15 },
+			{ "creature" : "tenlv2", "min" :  6, "max" :  9 },
+			{ "creature" : "tenlv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "intelligence", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Derrida",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "{Crystal + 1}\r\n\r\nIncreases kingdom's income by 1 Crystal per day",
+				"tooltip" : "+1 Crystal each day",
+				"name" : "+1 Crystal"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

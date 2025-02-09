@@ -1,0 +1,91 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"laPikemanOutpost" : {
+				"name" : "Pikeman Outpost",
+				"creatures" : [[ "lalv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "lagoon/creatures/dwellings/dw1.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"laArcherOutpost" : {
+				"name" : "Archer Outpost",
+				"creatures" : [[ "lalv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "lagoon/creatures/dwellings/dw2.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"laHoundOutpost" : {
+				"name" : "Hound Outpost",
+				"creatures" : [[ "lalv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "lagoon/creatures/dwellings/dw3.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"laSwordsmanOutpost" : {
+				"name" : "Swordsman Outpost",
+				"creatures" : [[ "lalv4" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "lagoon/creatures/dwellings/dw4.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"laMonkOutpost" : {
+				"name" : "Monk Outpost",
+				"creatures" : [[ "lalv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "lagoon/creatures/dwellings/dw5.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"laCavalierOutpost" : {
+				"name" : "Cavalier Outpost",
+				"creatures" : [[ "lalv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "lagoon/creatures/dwellings/dw6.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"laAngelOutpost" : {
+				"name" : "Angel Outpost",
+				"creatures" : [[ "lalv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "lagoon/creatures/dwellings/dw7.def",
+						"mask" : [ "VVV", "VBV", "VBA" ]
+					}
+				}
+			},
+			"laSniperOutpost" : {
+				"name" : "Sniper Outpost",
+				"creatures" : [[ "lalv4sn" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "lagoon/creatures/dwellings/dw8.def",
+						"mask" : [ "VBV", "VBB", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

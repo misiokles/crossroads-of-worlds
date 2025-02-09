@@ -1,0 +1,40 @@
+{
+	"rilata" :
+	{
+		"class" : "hiClansman",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "highland/heroes/rilata/spec-small.bmp",
+			"specialtyLarge" : "highland/heroes/rilata/spec-large.bmp",
+			"large" : "highland/heroes/rilata/portrait-large.bmp",
+			"small" : "highland/heroes/rilata/portrait-small.bmp"
+		},
+		 "army" :
+		[
+			{ "creature" : "hilv1", "min" : 9, "max" : 15 },
+			{ "creature" : "hilv2", "min" :  6, "max" :  9 },
+			{ "creature" : "hilv3", "min" :  3, "max" :  6 }
+		],
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Rilata",
+			"biography" : "",
+			"specialty" :
+			{
+				
+				"description" : "{Cavaliers and Royal Cavaliers}\r\n\r\nIncreases Speed of any Cavaliers or Royal Cavaliers by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Cavaliers",
+				"name" : "Cavaliers"
+			}
+		},
+		"specialty" : {
+			"creature" : "hilv6"
+		}		
+	}
+}

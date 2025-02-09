@@ -1,0 +1,68 @@
+{
+	"aplv6":
+	{
+		"name" :
+		{
+			"plural" : "Rhinos",
+			"singular" : "Rhino"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "vanguard",
+		"upgrades": ["aplv6up"],
+		"aiValue" : 1261,
+		"attack" : 15,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 1000
+		},
+		"damage" :
+		{
+			 "max" : 20,
+			 "min" : 18
+		},
+		"defense" : 15,
+		"fightValue" : 1133,
+		"graphics" :
+		{
+			
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" : "vanguard/creatures/battle/lv6.def",
+			"map" : "vanguard/creatures/map/lv6map.def",
+			"iconSmall" : "vanguard/creatures/iconsSmall/lv6s.bmp",
+			"iconLarge" : "vanguard/creatures/iconsBig/lv6b.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,
+		
+		"sound" :
+		{       
+                        "attack": "BASLATTK.wav",
+			"defend": "BASLDFND.wav",
+			"killed": "BASLKILL.wav",
+			"move": "HYDRMOVE.wav",
+			"wince": "BASLWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities":
+		{
+			"immuneToArrow" :
+                        {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeRanged",
+				"val" : 20
+			},
+			
+            "JOUSTING" :
+			{
+				"type" : "JOUSTING"
+			}
+		}
+	}
+}

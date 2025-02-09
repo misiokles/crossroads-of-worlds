@@ -1,0 +1,44 @@
+{
+	"sveneld" :
+	{
+		"class" : "redknight",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "sandcastle/heroes/sveneld/spec-small.bmp",
+			"specialtyLarge" : "sandcastle/heroes/sveneld/spec-large.bmp",
+			"large" : "sandcastle/heroes/sveneld/portrait-large.bmp",
+			"small" : "sandcastle/heroes/sveneld/portrait-small.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "salv1", "min" :  10, "max" : 15 },
+			{ "creature" : "salv2", "min" :  6, "max" :  9 },
+			{ "creature" : "salv3", "min" :  3, "max" :  6 }
+		],
+       "skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
+		],
+		"texts" :
+		{
+			"name" : "Sveneld",
+			"biography" : "",
+			"specialty" :
+			{
+				"description" : "{Nerubians and Royal Nerubians}\r\n\r\nIncreases Speed of any Nerubians or Royal Nerubians by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Nerubians",
+				"name" : "Nerubians"
+			}
+		},
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+		"specialty" : {
+			"creature" : "salv3"
+		}		
+	}
+}
