@@ -50,9 +50,10 @@
 			{
 				"type" : "SIEGE_WEAPON"
 			},
-            "Healer":
+            "healer":
 			{
-				"type" : "HEALER"
+				"type" : "HEALER",
+				"subtype" : "spell.firstAid"
 			}
 		}
 	}

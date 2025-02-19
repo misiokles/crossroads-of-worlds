@@ -26,6 +26,7 @@
 		{
 			"animation" : "sandcastle/creatures/battle/Siege Crossbow.def",
 			"iconSmall" : "sandcastle/creatures/iconsSmall/cross.bmp",
+			"iconLarge" : "sandcastle/creatures/iconsBig/crossBig.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

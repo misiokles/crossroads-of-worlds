@@ -26,6 +26,7 @@
 		{
 			"animation" : "outpost/creatures/battle/heavy crossbow.def",
 			"iconSmall" : "outpost/creatures/iconsSmall/cross.bmp",
+			"iconLarge" : "outpost/creatures/iconsBig/crossBig.bmp"
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

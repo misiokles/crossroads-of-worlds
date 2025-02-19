@@ -26,6 +26,7 @@
 		{
 			"animation" : "lagoon/creatures/battle/heavy crossbow.def",
 			"iconSmall" : "lagoon/creatures/iconsSmall/cross.bmp",
+			"iconLarge" : "lagoon/creatures/iconsBig/crossBig.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

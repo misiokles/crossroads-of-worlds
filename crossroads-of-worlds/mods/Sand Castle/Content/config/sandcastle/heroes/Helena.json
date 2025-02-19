@@ -43,7 +43,7 @@
 		},
 		"spellbook" :
 		[
-			"fly"
+			"lightningBolt"
 		],
 		"specialty" : {
 			"creature" : "salv1"

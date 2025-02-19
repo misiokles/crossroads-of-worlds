@@ -33,6 +33,7 @@
 	"config/fen/creatures/lv7.json",
 	"config/fen/creatures/lv7up.json",
 	"config/fen/creatures/fenCrossbow.json",
+	"config/fen/creatures/stack_exp.json",
 	"config/fen/creatures/commander.json"
     ],
 	"heroClasses" :

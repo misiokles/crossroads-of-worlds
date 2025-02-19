@@ -25,6 +25,7 @@
 		"graphics" :
 		{
 			"animation" : "vanguard/creatures/battle/heavy crossbow.def",
+			"iconLarge" : "vanguard/creatures/iconsBig/crossBig.png",
 			"iconSmall" : "vanguard/creatures/iconsSmall/cross.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :

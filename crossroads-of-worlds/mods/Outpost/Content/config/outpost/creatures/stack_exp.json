@@ -1,0 +1,986 @@
+{
+    "outpost:qulv1": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [0, 1, 1, 1, 1, 2, 2, 2, 2, 3]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [1, 1, 1, 1, 2, 2, 2, 2, 3, 3]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 2, 2, 2]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 0, 1, 1, 1, 1, 2, 2, 2, 2]
+            },
+            {
+                "bonus": {
+                    "type": "TWO_HEX_ATTACK_BREATH"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "FEARLESS"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "HATE",
+                    "subtype": "creature.blackKnight"
+                },
+                "values": [0, 0, 20, 20, 30, 30, 40, 40, 50, 60]
+            },
+            {
+                "bonus": {
+                    "type": "HATE",
+                    "subtype": "creature.dreadKnight"
+                },
+                "values": [0, 0, 20, 20, 30, 30, 40, 40, 50, 60]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+            }
+        ]
+    },
+    "outpost:qulv1up": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [0, 1, 1, 1, 1, 2, 2, 2, 2, 3]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [1, 1, 1, 1, 2, 2, 2, 2, 3, 3]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 2, 2, 2]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 0, 1, 1, 1, 1, 2, 2, 2, 2]
+            },
+            {
+                "bonus": {
+                    "type": "GENERAL_DAMAGE_REDUCTION",
+                    "subtype": "damageTypeMelee"
+                },
+                "values": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+            },
+            {
+                "bonus": {
+                    "type": "GENERAL_DAMAGE_REDUCTION",
+                    "subtype": "damageTypeRanged"
+                },
+                "values": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+            },
+            {
+                "bonus": {
+                    "type": "FEARLESS"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "HATE",
+                    "subtype": "creature.blackKnight"
+                },
+                "values": [0, 0, 20, 20, 30, 30, 40, 40, 50, 60]
+            },
+            {
+                "bonus": {
+                    "type": "HATE",
+                    "subtype": "creature.dreadKnight"
+                },
+                "values": [0, 0, 20, 20, 30, 30, 40, 40, 50, 60]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+            }
+        ]
+    },
+    "outpost:qulv1up2": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [0, 1, 1, 1, 1, 2, 2, 2, 2, 3]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL",
+                    "valueType": "BASE_NUMBER"
+                },
+                "values": [1, 1, 1, 1, 2, 2, 2, 2, 3, 3]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 2, 2, 2]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 0, 1, 1, 1, 1, 2, 2, 2, 2]
+            },
+            {
+                "bonus": {
+                    "type": "GENERAL_DAMAGE_REDUCTION",
+                    "subtype": "damageTypeMelee"
+                },
+                "values": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+            },
+            {
+                "bonus": {
+                    "type": "GENERAL_DAMAGE_REDUCTION",
+                    "subtype": "damageTypeRanged"
+                },
+                "values": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+            },
+            {
+                "bonus": {
+                    "type": "FEARLESS"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "HATE",
+                    "subtype": "creature.blackKnight"
+                },
+                "values": [0, 0, 20, 20, 30, 30, 40, 40, 50, 60]
+            },
+            {
+                "bonus": {
+                    "type": "HATE",
+                    "subtype": "creature.dreadKnight"
+                },
+                "values": [0, 0, 20, 20, 30, 30, 40, 40, 50, 60]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+            }
+        ]
+    },
+    "outpost:qulv2": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [0, 1, 1, 2, 2, 2, 3, 3, 3, 4]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 1, 1, 2, 2, 3, 3, 3, 4, 4]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 4]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 0, 1, 1, 1, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+            },
+            {
+                "bonus": {
+                    "type": "NO_WALL_PENALTY"
+                },
+                "values": [false, false, true, true, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "ENEMY_DEFENCE_REDUCTION"
+                },
+                "values": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40]
+            }
+        ]
+    },
+    "outpost:qulv2up": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [0, 1, 1, 2, 2, 2, 3, 3, 3, 4]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 1, 1, 2, 2, 3, 3, 3, 4, 4]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 4]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 0, 1, 1, 1, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+            },
+            {
+                "bonus": {
+                    "type": "NO_WALL_PENALTY"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "ENEMY_DEFENCE_REDUCTION"
+                },
+                "values": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+            }
+        ]
+    },
+    "outpost:qulv2up2": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [0, 1, 1, 2, 2, 2, 3, 3, 3, 4]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 1, 1, 2, 2, 3, 3, 3, 4, 4]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 1, 1, 2, 2, 2, 3, 3, 4]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 0, 1, 1, 1, 2, 2, 3, 3, 3]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+            },
+            {
+                "bonus": {
+                    "type": "NO_WALL_PENALTY"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "ENEMY_DEFENCE_REDUCTION"
+                },
+                "values": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+            }
+        ]
+    },
+    "outpost:qulv3": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
+            },
+            {
+                "bonus": {
+                    "type": "DOUBLE_DAMAGE_CHANCE"
+                },
+                "values": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+            }
+        ]
+    },
+    "outpost:qulv3up": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
+            },
+            {
+                "bonus": {
+                    "type": "DOUBLE_DAMAGE_CHANCE"
+                },
+                "values": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+            }
+        ]
+    },
+    "outpost:qulv4": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 2, 3, 4, 5, 6, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 2, 3, 4, 4, 5, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 4]
+            },
+            {
+                "bonus": {
+                    "type": "DOUBLE_DAMAGE_CHANCE"
+                },
+                "values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+            },
+            {
+                "bonus": {
+                    "type": "FEARLESS"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+            }
+        ]
+    },
+    "outpost:qulv4up": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 2, 3, 4, 5, 6, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 2, 3, 4, 4, 5, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 1, 2, 2, 3, 3, 4, 4, 4]
+            },
+            {
+                "bonus": {
+                    "type": "DOUBLE_DAMAGE_CHANCE"
+                },
+                "values": [2, 5, 7, 10, 12, 15, 17, 20, 22, 25]
+            },
+            {
+                "bonus": {
+                    "type": "HATE",
+                    "subtype": "creature.vampire"
+                },
+                "values": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+            },
+            {
+                "bonus": {
+                    "type": "HATE",
+                    "subtype": "creature.vampireLord"
+                },
+                "values": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+            }
+        ]
+    },
+    "outpost:qulv5": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 1, 2, 3, 4, 5, 5, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 3, 3, 4, 4, 6, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [1, 2, 2, 3, 4, 4, 5, 6, 7, 7]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 2, 3, 3, 4, 5, 6, 6, 7]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+            },
+            {
+                "bonus": {
+                    "type": "MIND_IMMUNITY"
+                },
+                "values": [false, false, true, true, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "RECEPTIVE"
+                },
+                "values": [false, false, true, true, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "HP_REGENERATION"
+                },
+                "values": [0, 0, 0, 0, 50, 50, 50, 50, 50, 50]
+            },
+            {
+                "bonus": {
+                    "type": "SPELL_DAMAGE_REDUCTION"
+                },
+                "values": [3, 6, 9, 12, 15, 21, 24, 27, 30, 33]
+            }
+        ]
+    },
+    "outpost:qulv5up": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 1, 2, 3, 4, 5, 5, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 3, 3, 4, 4, 6, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [1, 2, 2, 3, 4, 4, 5, 6, 7, 7]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 2, 3, 3, 4, 5, 6, 6, 7]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+            },
+            {
+                "bonus": {
+                    "type": "MIND_IMMUNITY"
+                },
+                "values": [false, false, true, true, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "RECEPTIVE"
+                },
+                "values": [false, false, true, true, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "HP_REGENERATION"
+                },
+                "values": [0, 0, 0, 0, 50, 50, 50, 50, 50, 50]
+            },
+            {
+                "bonus": {
+                    "type": "SPELL_DAMAGE_REDUCTION"
+                },
+                "values": [3, 6, 9, 12, 15, 21, 24, 27, 30, 33]
+            }
+        ]
+    },
+    "outpost:qulv6": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 2, 3, 4, 5, 5, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            },
+            {
+                "bonus": {
+                    "type": "RETURN_AFTER_STRIKE"
+                },
+                "values": [false, false, true, true, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "ENCHANTED",
+                    "subtype": "spell.slayer",
+                    "addInfo": 3
+                },
+                "values": [0, 0, 0, 0, 0, 0, 1, 2, 3, 3]
+            }
+        ]
+    },
+    "outpost:qulv6up": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 2, 3, 4, 5, 5, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            },
+            {
+                "bonus": {
+                    "type": "RETURN_AFTER_STRIKE"
+                },
+                "values": [false, false, true, true, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "ENCHANTED",
+                    "subtype": "spell.slayer",
+                    "addInfo": 3
+                },
+                "values": [0, 0, 0, 0, 0, 0, 1, 2, 3, 3]
+            }
+        ]
+    },
+    "outpost:qulv6up2": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 2, 3, 4, 5, 6, 7, 8, 9]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 2, 3, 4, 5, 5, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 2, 2, 2, 3]
+            },
+            {
+                "bonus": {
+                    "type": "BLOCKS_RETALIATION"
+                },
+                "values": [false, false, true, true, true, true, true, true, true, true]
+            },
+            {
+                "bonus": {
+                    "type": "ENCHANTED",
+                    "subtype": "spell.slayer",
+                    "addInfo": 3
+                },
+                "values": [0, 0, 0, 0, 0, 0, 1, 2, 3, 3]
+            }
+        ]
+    },
+    "outpost:qulv7": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+            },
+            {
+                "bonus": {
+                    "type": "HP_REGENERATION"
+                },
+                "values": [0, 0, 0, 0, 50, 50, 50, 50, 50, 50]
+            },
+            {
+                "bonus": {
+                    "type": "ADDITIONAL_ATTACK"
+                },
+                "values": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+            },
+            {
+                "bonus": {
+                    "type": "FEAR"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
+            }
+        ]
+    },
+    "outpost:qulv7up": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+            },
+            {
+                "bonus": {
+                    "type": "STACKS_SPEED"
+                },
+                "values": [0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+            },
+            {
+                "bonus": {
+                    "type": "HP_REGENERATION"
+                },
+                "values": [0, 0, 0, 0, 50, 50, 50, 50, 50, 50]
+            },
+            {
+                "bonus": {
+                    "type": "ADDITIONAL_ATTACK"
+                },
+                "values": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+            },
+            {
+                "bonus": {
+                    "type": "FEAR"
+                },
+                "values": [false, false, false, false, true, true, true, true, true, true]
+            }
+        ]
+    },
+    "outpost:opHeavyCrossbow": {
+        "stackExperience": [
+            {
+                "bonus": {
+                    "subtype": "primarySkill.attack",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 1, 2, 3, 4, 5, 5, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "subtype": "primarySkill.defence",
+                    "type": "PRIMARY_SKILL"
+                },
+                "values": [1, 2, 3, 3, 4, 5, 6, 6, 7, 8]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMax",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [1, 2, 2, 3, 4, 4, 5, 6, 7, 7]
+            },
+            {
+                "bonus": {
+                    "subtype": "creatureDamageMin",
+                    "type": "CREATURE_DAMAGE"
+                },
+                "values": [0, 1, 2, 3, 3, 4, 5, 6, 6, 7]
+            }
+        ]
+    }
+}

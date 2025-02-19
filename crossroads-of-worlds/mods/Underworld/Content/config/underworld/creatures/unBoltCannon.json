@@ -26,6 +26,7 @@
 		{
 			"animation" : "underworld/creatures/battle/Siege Crossbow.def",
 			"iconSmall" : "underworld/creatures/iconsSmall/cross.bmp",
+			"iconLarge" : "underworld/creatures/iconsBig/crossBig.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

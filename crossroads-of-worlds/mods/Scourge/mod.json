@@ -34,7 +34,8 @@
 	"config/scourge/creatures/lv7up.json",
 	"config/scourge/creatures/lv7up2.json",
 	"config/scourge/creatures/commander.json",
-	"config/scourge/creatures/reBoltCannon.json"
+	"config/scourge/creatures/reBoltCannon.json",
+	"config/scourge/creatures/stack_exp.json"
         ],
 	"heroClasses" :
 	[

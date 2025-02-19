@@ -25,7 +25,7 @@
 	"config/imperium/creatures/lv2.json",
 	"config/imperium/creatures/lv2up.json",
 	"config/imperium/creatures/lv2up2.json",
-	"config/imperium/creatures/lv3",
+	"config/imperium/creatures/lv3.json",
 	"config/imperium/creatures/lv3up.json",
 	"config/imperium/creatures/lv4.json",
 	"config/imperium/creatures/lv4sn.json",
@@ -38,7 +38,8 @@
 	"config/imperium/creatures/lv7up.json",
 	"config/imperium/creatures/lv3net.json",
 	"config/imperium/creatures/commander.json",
-	"config/imperium/creatures/itBoltCannon.json"
+	"config/imperium/creatures/itBoltCannon.json",
+	"config/imperium/creatures/stack_exp.json"
         ],
 	"heroClasses" :
 	[

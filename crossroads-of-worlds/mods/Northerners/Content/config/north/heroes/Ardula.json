@@ -3,6 +3,7 @@
 	{
 		"class" : "ntMentor",
 		"female" : true,
+		"spellbook": [ "iceBolt" ],
 		"images" :
 		{
 			"specialtySmall" : "north/heroes/ardula/spec-small.bmp",
