@@ -1009,7 +1009,7 @@
 			},
         ]
     },
-    "laHeavyCrossbow": {
+    "quHeavyCrossbow": {
         "stackExperience": [
             {
                 "bonus": {

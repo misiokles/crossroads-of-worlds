@@ -1,5 +1,5 @@
 {
-    "outpost:qulv1": {
+    "qulv1": {
         "stackExperience": [
             {
                 "bonus": {
@@ -65,7 +65,7 @@
             }
         ]
     },
-    "outpost:qulv1up": {
+    "qulv1up": {
         "stackExperience": [
             {
                 "bonus": {
@@ -139,7 +139,7 @@
             }
         ]
     },
-    "outpost:qulv1up2": {
+    "qulv1up2": {
         "stackExperience": [
             {
                 "bonus": {
@@ -213,7 +213,7 @@
             }
         ]
     },
-    "outpost:qulv2": {
+    "qulv2": {
         "stackExperience": [
             {
                 "bonus": {
@@ -263,7 +263,7 @@
             }
         ]
     },
-    "outpost:qulv2up": {
+    "qulv2up": {
         "stackExperience": [
             {
                 "bonus": {
@@ -313,7 +313,7 @@
             }
         ]
     },
-    "outpost:qulv2up2": {
+    "qulv2up2": {
         "stackExperience": [
             {
                 "bonus": {
@@ -363,7 +363,7 @@
             }
         ]
     },
-    "outpost:qulv3": {
+    "qulv3": {
         "stackExperience": [
             {
                 "bonus": {
@@ -407,7 +407,7 @@
             }
         ]
     },
-    "outpost:qulv3up": {
+    "qulv3up": {
         "stackExperience": [
             {
                 "bonus": {
@@ -451,7 +451,7 @@
             }
         ]
     },
-    "outpost:qulv4": {
+    "qulv4": {
         "stackExperience": [
             {
                 "bonus": {
@@ -501,7 +501,7 @@
             }
         ]
     },
-    "outpost:qulv4up": {
+    "qulv4up": {
         "stackExperience": [
             {
                 "bonus": {
@@ -559,7 +559,7 @@
             }
         ]
     },
-    "outpost:qulv5": {
+    "qulv5": {
         "stackExperience": [
             {
                 "bonus": {
@@ -621,7 +621,7 @@
             }
         ]
     },
-    "outpost:qulv5up": {
+    "qulv5up": {
         "stackExperience": [
             {
                 "bonus": {
@@ -683,7 +683,7 @@
             }
         ]
     },
-    "outpost:qulv6": {
+    "qulv6": {
         "stackExperience": [
             {
                 "bonus": {
@@ -735,7 +735,7 @@
             }
         ]
     },
-    "outpost:qulv6up": {
+    "qulv6up": {
         "stackExperience": [
             {
                 "bonus": {
@@ -787,7 +787,7 @@
             }
         ]
     },
-    "outpost:qulv6up2": {
+    "qulv6up2": {
         "stackExperience": [
             {
                 "bonus": {
@@ -839,7 +839,7 @@
             }
         ]
     },
-    "outpost:qulv7": {
+    "qulv7": {
         "stackExperience": [
             {
                 "bonus": {
@@ -895,7 +895,7 @@
             }
         ]
     },
-    "outpost:qulv7up": {
+    "qulv7up": {
         "stackExperience": [
             {
                 "bonus": {
@@ -951,7 +951,7 @@
             }
         ]
     },
-    "outpost:opHeavyCrossbow": {
+    "opHeavyCrossbow": {
         "stackExperience": [
             {
                 "bonus": {
