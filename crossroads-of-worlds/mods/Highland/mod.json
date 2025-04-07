@@ -33,8 +33,8 @@
 	"config/highland/creatures/lv7.json",
 	"config/highland/creatures/lv7up.json",
 	"config/highland/creatures/hiHeavyCrossbow.json",
-	"config/highland/creatures/commander.json",
-	"config/highland/creatures/stack_exp.json"
+	"config/highland/creatures/stack_exp.json",
+	"config/highland/creatures/commander.json"
     ],
 	"heroClasses" :
 	[

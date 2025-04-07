@@ -34,8 +34,8 @@
 	"config/underworld/creatures/lv7.json",
 	"config/underworld/creatures/lv7up.json",
 	"config/underworld/creatures/commander.json",
-	"config/underworld/creatures/unBoltCannon.json",
-	"config/underworld/creatures/stack_exp.json"
+	"config/underworld/creatures/stack_exp.json",
+	"config/underworld/creatures/unBoltCannon.json"
 
         ],
 	"heroClasses" :

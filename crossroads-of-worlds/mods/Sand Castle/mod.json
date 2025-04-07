@@ -37,8 +37,8 @@
 	"config/sandcastle/creatures/lv7.json",
 	"config/sandcastle/creatures/lv7up.json",
 	"config/sandcastle/creatures/lv0.json",
-	"config/sandcastle/creatures/saSiegeCrossbow.json",
-	"config/sandcastle/creatures/stack_exp.json"
+	"config/sandcastle/creatures/stack_exp.json",
+	"config/sandcastle/creatures/saSiegeCrossbow.json"
     ],
 	"heroClasses" :
 	[

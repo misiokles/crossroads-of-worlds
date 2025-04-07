@@ -26,7 +26,7 @@
 		{
 			"animation" : "tenebrae/creatures/battle/military crossbow.def",
 			"iconSmall" : "tenebrae/creatures/iconsSmall/cross.bmp",
-			"iconLarge" : "tenebrae/creatures/iconsBig/crossBig.png",
+			"iconLarge" : "tenebrae/creatures/iconsBig/cross.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

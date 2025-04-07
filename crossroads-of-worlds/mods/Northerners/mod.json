@@ -38,8 +38,8 @@
     "config/north/creatures/lv7up.json",
     "config/north/creatures/commander.json",
     "config/north/creatures/Nephilim.json",
-    "config/north/creatures/ntSnowyTent.json",
-	"config/north/creatures/stack_exp.json"
+	"config/north/creatures/stack_exp.json",
+    "config/north/creatures/ntSnowyTent.json"
     ],
 	"heroClasses" :
 	[

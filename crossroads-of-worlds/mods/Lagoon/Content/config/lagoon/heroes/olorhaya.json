@@ -20,12 +20,12 @@
 		[
 			{
 				"level" : "basic",
-				"skill" : "armorer"
+				"skill" : "logistics"
 			},
 			{
 				"level" : "basic",
 				"skill" : "leadership"
-			}
+			},
 		],
 		"texts" :
 		{

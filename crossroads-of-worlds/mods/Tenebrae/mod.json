@@ -36,8 +36,8 @@
 	"config/tenebrae/creatures/lv7.json",
 	"config/tenebrae/creatures/lv7up.json",
 	"config/tenebrae/creatures/tenMilitaryCrossbow.json",
-	"config/tenebrae/creatures/commander.json",
-	"config/tenebrae/creatures/stack_exp.json"
+	"config/tenebrae/creatures/stack_exp.json",
+	"config/tenebrae/creatures/commander.json"
      ],
 	"heroClasses" :
 	[

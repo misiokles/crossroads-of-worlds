@@ -34,8 +34,8 @@
 	"config/nightwatch/creatures/lv7up.json",
 	"config/nightwatch/creatures/lv7alt.json",
 	"config/nightwatch/creatures/nwPlagueCrossbow.json",
-	"config/nightwatch/creatures/commander.json",
-	"config/nightwatch/creatures/stack_exp.json"
+	"config/nightwatch/creatures/stack_exp.json",
+	"config/nightwatch/creatures/commander.json"
         ],
 	"heroClasses" :
 	[

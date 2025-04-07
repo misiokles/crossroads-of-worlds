@@ -6,7 +6,7 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.8",
+	"version" : "1.0.9",
 	"compatibility" :
 	{
 		"min" : "1.6.0"
@@ -21,7 +21,8 @@
 		"1.0.5"   : [ "Better submods compatibility system" ],
 		"1.0.6"   : [ "Fix Grails not to produce gold" ],
 		"1.0.7"   : [ "Update to vcmi-1.6 format" ],
-		"1.0.8"   : [ "Bug fixes" ]
+		"1.0.8"   : [ "Bug fixes" ],
+		"1.0.9"   : [ "Graphical fixes for heavy crossbows" ]
 	},
 	"chinese": {
 		"name": "世界汇合点",

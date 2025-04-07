@@ -26,7 +26,7 @@
 		{
 			"animation" : "highland/creatures/battle/heavy crossbow.def",
 			"iconSmall" : "highland/creatures/iconsSmall/cross.bmp",
-			"iconLarge" : "highland/creatures/iconsBig/crossBig.png",
+			"iconLarge" : "highland/creatures/iconsBig/cross.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

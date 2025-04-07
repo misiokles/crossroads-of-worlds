@@ -34,8 +34,8 @@
 	"config/vanguard/creatures/lv7.json",
 	"config/vanguard/creatures/lv7up.json",
 	"config/vanguard/creatures/apHeavyCrossbow.json",
-	"config/vanguard/creatures/commander.json",
-	"config/vanguard/creatures/stack_exp.json"
+	"config/vanguard/creatures/stack_exp.json",
+	"config/vanguard/creatures/commander.json"
     ],
 	"heroClasses" :
 	[

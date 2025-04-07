@@ -26,7 +26,7 @@
 		{
 			"animation" : "fen/creatures/battle/crossbow.def",
 			"iconSmall" : "fen/creatures/iconsSmall/cross.bmp",
-			"iconLarge" : "fen/creatures/iconsBig/crossBig.png",
+			"iconLarge" : "fen/creatures/iconsBig/cross.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

@@ -25,8 +25,8 @@
 		"graphics" :
 		{
 			"animation" : "nightwatch/creatures/battle/plague crossbow.def",
-			"iconLarge" : "nightwatch/creatures/iconsBig/crossBig.bmp",
 			"iconSmall" : "nightwatch/creatures/iconsSmall/cross.bmp",
+			"iconLarge" : "nightwatch/creatures/iconsBig/cross.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

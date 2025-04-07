@@ -26,7 +26,7 @@
 		{
 			"animation" : "scourge/creatures/battle/flaming crossbow.def",
 			"iconSmall" : "scourge/creatures/iconsSmall/bow.bmp",
-			"iconLarge" : "scourge/creatures/iconsBig/crossBig.png",
+			"iconLarge" : "scourge/creatures/iconsBig/cross.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

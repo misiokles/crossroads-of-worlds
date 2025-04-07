@@ -26,7 +26,7 @@
 		{
 			"animation" : "imperium/creatures/battle/flaming crossbow.def",
 			"iconSmall" : "imperium/creatures/iconsSmall/bow.bmp",
-			"iconLarge" : "imperium/creatures/iconsBig/crossBig.png",
+			"iconLarge" : "imperium/creatures/iconsBig/cross.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

@@ -38,8 +38,8 @@
 	"config/outpost/creatures/lv7.json",
 	"config/outpost/creatures/lv7up.json",
 	"config/outpost/creatures/opHeavyCrossbow.json",
-	"config/outpost/creatures/commander.json",
-	"config/outpost/creatures/stack_exp.json"
+	"config/outpost/creatures/stack_exp.json",
+	"config/outpost/creatures/commander.json"
     ],
 	"heroClasses" :
 	[
