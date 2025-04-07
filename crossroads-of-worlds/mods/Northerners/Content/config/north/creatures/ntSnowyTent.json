@@ -54,7 +54,6 @@
 			{
 				"type" : "HEALER",
 				"subtype" : "spell.firstAid"
-				"type" : "HEALER"
 			}
 		}
 	}
